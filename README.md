@@ -21,4 +21,3 @@ Create `.env` in the project root with `DATABASE_URL=...` and optionally `SERP_S
 
 ## Frontend
 From `frontend`: `npm install` then `npm run dev`.
-"# SERP_Monitor" 
