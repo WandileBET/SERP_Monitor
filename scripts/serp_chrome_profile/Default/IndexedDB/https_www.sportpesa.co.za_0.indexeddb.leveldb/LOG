@@ -1,0 +1,6 @@
+2026/10/05-15:38:28.229 3ea4 Creating DB C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile\Default\IndexedDB\https_www.sportpesa.co.za_0.indexeddb.leveldb since it was missing.
+2026/10/05-15:38:28.348 3ea4 Reusing MANIFEST C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile\Default\IndexedDB\https_www.sportpesa.co.za_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/05-15:38:28.364 7fa0 Level-0 table #5: started
+2026/10/05-15:38:28.370 7fa0 Level-0 table #5: 566 bytes OK
+2026/10/05-15:38:28.373 7fa0 Delete type=0 #3
+2026/10/05-15:38:28.375 88e8 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

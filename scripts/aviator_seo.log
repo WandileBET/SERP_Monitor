@@ -1,0 +1,193 @@
+2026-10-05 12:26:25,227 [INFO] ============================================================
+2026-10-05 12:26:25,227 [INFO] Run start: 2026-10-05T12:26:25.227328+02:00 | keyword=Aviator
+2026-10-05 12:26:25,231 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:26:25,232 [INFO] Headless mode: False
+2026-10-05 12:26:28,798 [INFO] Persistent Chrome context ready.
+2026-10-05 12:26:29,072 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:26:32,691 [INFO] SERP loaded.
+2026-10-05 12:26:32,706 [INFO] Visible h3 result titles: 9
+2026-10-05 12:26:35,067 [INFO] Rank 1 | betway.co.za | Betway
+2026-10-05 12:26:39,990 [INFO] Organic extracted: 1
+2026-10-05 12:26:39,990 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 12:26:40,146 [INFO] Updated 1 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:26:40,394 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+2026-10-05 12:26:44,736 [INFO] Browser closed.
+2026-10-05 12:31:29,757 [INFO] ============================================================
+2026-10-05 12:31:29,758 [INFO] Run start: 2026-10-05T12:31:29.757697+02:00 | keyword=Aviator
+2026-10-05 12:31:29,762 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:31:29,762 [INFO] Headless mode: False
+2026-10-05 12:31:33,096 [INFO] Persistent Chrome context ready.
+2026-10-05 12:31:33,309 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:31:35,180 [INFO] SERP loaded.
+2026-10-05 12:31:35,192 [INFO] Visible h3 result titles: 10
+2026-10-05 12:31:41,971 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 12:31:44,790 [INFO] Rank 2 | betway.co.za | Play Online Casino Games - Register ...
+2026-10-05 12:31:47,175 [INFO] Rank 3 | betway.co.za | Play Aviator and reach for the sky | Betway Sports betting
+2026-10-05 12:31:51,089 [INFO] Rank 4 | 10bet.co.za | Play Aviator Game Online | Crash Game by Spribe
+2026-10-05 12:31:54,763 [INFO] Rank 5 | livescore.com | How to Play Aviator on Betway 2026: Get 10 Free Flights
+2026-10-05 12:31:56,456 [INFO] Rank 6 | ajkksaedu.in | Aviator Game | Official Aviator app [Verified] ⭐️ Download ...
+2026-10-05 12:31:58,215 [INFO] Rank 7 | betway.co.za | Play Aviator | Register and Get 10 Free Flights
+2026-10-05 12:32:01,140 [INFO] Rank 8 | en.wikipedia.org | Aircraft pilot
+2026-10-05 12:32:03,231 [INFO] Rank 9 | spribe.co | Aviator
+2026-10-05 12:32:03,232 [INFO] Organic extracted: 9
+2026-10-05 12:32:03,232 [WARNING] Only 9 organic results were extracted; expected 10.
+2026-10-05 12:32:03,286 [INFO] Updated 9 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:32:03,349 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+2026-10-05 12:32:04,003 [INFO] Browser closed.
+2026-10-05 13:35:19,376 [INFO] ============================================================
+2026-10-05 13:35:19,377 [INFO] Run start: 2026-10-05T13:35:19.376864+02:00 | keyword=Aviator
+2026-10-05 13:35:19,379 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 13:35:19,380 [INFO] Headless mode: False
+2026-10-05 13:35:21,165 [INFO] Persistent Chrome context ready.
+2026-10-05 13:35:21,365 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 13:35:22,743 [INFO] SERP loaded.
+2026-10-05 13:35:22,750 [INFO] Visible h3 result titles: 9
+2026-10-05 13:35:23,848 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 13:35:25,653 [INFO] Organic extracted: 1
+2026-10-05 13:35:25,653 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 13:35:25,691 [INFO] Updated 1 SERP rows for 2026-10-05 at 13:00
+2026-10-05 13:35:25,761 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+2026-10-05 13:35:27,474 [INFO] Browser closed.
+2026-10-05 14:06:10,832 [INFO] ============================================================
+2026-10-05 14:06:10,834 [INFO] Run start: 2026-10-05T14:06:10.832905+02:00 | keyword=Aviator
+2026-10-05 14:06:10,838 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:06:10,838 [INFO] Headless mode: False
+2026-10-05 14:06:13,181 [INFO] Persistent Chrome context ready.
+2026-10-05 14:06:13,449 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:06:15,177 [INFO] SERP loaded.
+2026-10-05 14:06:15,234 [INFO] Visible h3 result titles: 9
+2026-10-05 14:06:16,961 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 14:06:20,908 [INFO] Organic extracted: 1
+2026-10-05 14:06:20,908 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 14:06:20,971 [INFO] Updated 1 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:06:21,066 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+2026-10-05 14:06:21,972 [INFO] Browser closed.
+2026-10-05 14:15:51,851 [INFO] ============================================================
+2026-10-05 14:15:51,852 [INFO] Run start: 2026-10-05T14:15:51.851443+02:00 | keyword=Aviator
+2026-10-05 14:15:51,854 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:15:51,856 [INFO] Headless mode: False
+2026-10-05 14:15:54,147 [INFO] Persistent Chrome context ready.
+2026-10-05 14:15:54,383 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:15:56,019 [INFO] SERP loaded.
+2026-10-05 14:15:56,037 [INFO] Visible h3 result titles: 10
+2026-10-05 14:15:57,646 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 14:15:59,910 [INFO] Rank 2 | betway.co.za | Play Online Casino Games - Register ...
+2026-10-05 14:16:02,105 [INFO] Rank 3 | betway.co.za | Play Aviator and reach for the sky | Betway Sports betting
+2026-10-05 14:16:03,953 [INFO] Rank 4 | 10bet.co.za | Play Aviator Game Online | Crash Game by Spribe
+2026-10-05 14:16:05,291 [INFO] Rank 5 | livescore.com | How to Play Aviator on Betway 2026: Get 10 Free Flights
+2026-10-05 14:16:06,497 [INFO] Rank 6 | betway.co.za | Play Aviator | Register and Get 10 Free Flights
+2026-10-05 14:16:07,563 [INFO] Rank 7 | ajkksaedu.in | Aviator Game | Official Aviator app [Verified] ⭐️ Download ...
+2026-10-05 14:16:08,886 [INFO] Rank 8 | spribe.co | Aviator
+2026-10-05 14:16:10,700 [INFO] Rank 9 | gbets.co.za | Play Aviator Slot by SPRIBE - Crash Games
+2026-10-05 14:16:10,701 [INFO] Organic extracted: 9
+2026-10-05 14:16:10,703 [WARNING] Only 9 organic results were extracted; expected 10.
+2026-10-05 14:16:10,744 [INFO] Updated 9 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:16:10,798 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+2026-10-05 14:16:11,278 [INFO] Browser closed.
+2026-10-05 15:35:43,979 [INFO] ============================================================
+2026-10-05 15:35:43,981 [INFO] Run start: 2026-10-05T15:35:43.979127+02:00 | keyword=Aviator
+2026-10-05 15:35:43,983 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 15:35:43,983 [INFO] Headless mode: False
+2026-10-05 15:35:50,997 [ERROR] Run failed: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile --remote-debugging-pipe about:blank
+<launched> pid=20968
+Call log:
+  - <launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile --remote-debugging-pipe about:blank
+  - <launched> pid=20968
+  - [pid=20968] <gracefully close start>
+  - [pid=20968] <kill>
+  - [pid=20968] <will force kill>
+  - [pid=20968] taskkill stderr: ERROR: The process "20968" not found.
+  - [pid=20968] <process did exit: exitCode=0, signal=null>
+  - [pid=20968] starting temporary directories cleanup
+  - [pid=20968] finished temporary directories cleanup
+  - [pid=20968] <gracefully close end>
+
+2026-10-05 15:35:51,004 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 1091, in run_once
+    page = search_google(KEYWORD)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 170, in search_google
+    context = BROWSER.start()
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 125, in start
+    self._context = self._pw.chromium.launch_persistent_context(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\sync_api\_generated.py", line 17120, in launch_persistent_context
+    self._sync(
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_browser_type.py", line 169, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_connection.py", line 103, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile --remote-debugging-pipe about:blank
+<launched> pid=20968
+Call log:
+  - <launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile --remote-debugging-pipe about:blank
+  - <launched> pid=20968
+  - [pid=20968] <gracefully close start>
+  - [pid=20968] <kill>
+  - [pid=20968] <will force kill>
+  - [pid=20968] taskkill stderr: ERROR: The process "20968" not found.
+  - [pid=20968] <process did exit: exitCode=0, signal=null>
+  - [pid=20968] starting temporary directories cleanup
+  - [pid=20968] finished temporary directories cleanup
+  - [pid=20968] <gracefully close end>
+
+
+2026-10-05 15:35:51,005 [INFO] Browser closed.
+2026-10-05 15:48:30,656 [INFO] ============================================================
+2026-10-05 15:48:30,656 [INFO] Run start: 2026-10-05T15:48:30.656854+02:00 | keyword=Aviator
+2026-10-05 15:48:30,658 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 15:48:30,661 [INFO] Headless mode: False
+2026-10-05 15:48:31,678 [INFO] Persistent Chrome context ready.
+2026-10-05 15:48:31,778 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:48:35,887 [INFO] SERP loaded.
+2026-10-05 15:48:35,897 [INFO] SERP candidates found (H3): 10
+2026-10-05 15:48:38,237 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 15:48:40,182 [INFO] Rank 2 | betway.co.za | Play Online Casino Games - Register ...
+2026-10-05 15:48:41,866 [INFO] Rank 3 | betway.co.za | Play Aviator and reach for the sky | Betway Sports betting
+2026-10-05 15:48:44,674 [INFO] Rank 4 | 10bet.co.za | Play Aviator Game Online | Crash Game by Spribe
+2026-10-05 15:48:47,567 [INFO] Rank 5 | livescore.com | How to Play Aviator on Betway 2026: Get 10 Free Flights
+2026-10-05 15:48:54,849 [INFO] Rank 6 | betway.co.za | Play Aviator | Register and Get 10 Free Flights
+2026-10-05 15:48:57,139 [INFO] Rank 7 | spribe.co | Aviator
+2026-10-05 15:48:59,660 [INFO] Rank 8 | en.wikipedia.org | Aircraft pilot
+2026-10-05 15:48:59,732 [INFO] Rank 9 | play.google.com | Aviator – Apps on Google Play
+2026-10-05 15:49:00,696 [INFO] Rank 10 | gbets.co.za | Play Aviator Slot by SPRIBE - Crash Games
+2026-10-05 15:49:00,696 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 15:49:00,733 [INFO] Updated 10 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:49:00,772 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+2026-10-05 15:49:01,280 [INFO] Browser closed.
+2026-10-05 16:12:55,247 [INFO] ============================================================
+2026-10-05 16:12:55,247 [INFO] Run start: 2026-10-05T16:12:55.247845+02:00 | keyword=Aviator
+2026-10-05 16:12:55,251 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 16:12:55,251 [INFO] Headless mode: False
+2026-10-05 16:12:56,741 [INFO] Persistent Chrome context ready.
+2026-10-05 16:12:56,880 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=20&pws=0
+2026-10-05 16:13:02,123 [INFO] SERP loaded.
+2026-10-05 16:13:02,130 [INFO] SERP candidates found (H3): 10
+2026-10-05 16:13:03,611 [INFO] Rank 1 | betway.co.za | Play Online Casino Games - Register ...
+2026-10-05 16:13:05,385 [INFO] Rank 2 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 16:13:12,536 [INFO] Rank 3 | 10bet.co.za | Play Aviator Game Online | Crash Game by Spribe
+2026-10-05 16:13:14,289 [INFO] Rank 4 | betway.co.za | Play Aviator and reach for the sky | Betway Sports betting
+2026-10-05 16:13:16,119 [INFO] Rank 5 | betway.co.za | Play Aviator | Register and Get 10 Free Flights
+2026-10-05 16:13:20,004 [INFO] Rank 6 | merriam-webster.com | AVIATOR Definition & Meaning
+2026-10-05 16:13:21,303 [INFO] Rank 7 | livescore.com | How to Play Aviator on Betway 2026: Get 10 Free Flights
+2026-10-05 16:13:23,006 [INFO] Rank 8 | spribe.co | Aviator
+2026-10-05 16:13:31,358 [INFO] Rank 9 | aviator.aero | AVIATOR | Airline Market Intelligence
+2026-10-05 16:13:34,182 [INFO] Rank 10 | youtube.com | Betway Aviator - Picking up a Quick Big Win
+2026-10-05 16:13:34,183 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 16:13:34,231 [INFO] Updated 10 SERP rows for 2026-10-05 at 16:00
+2026-10-05 16:13:34,298 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+2026-10-05 16:13:36,135 [INFO] Browser closed.

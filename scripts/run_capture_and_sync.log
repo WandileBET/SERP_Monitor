@@ -1,0 +1,2340 @@
+============================================================
+[2026/10/05 10:51:58,33] CAPTURE + SYNC START
+[2026/10/05 10:51:58,34] CAPTURE + SYNC COMPLETE
+============================================================
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+============================================================
+[2026/10/05 10:59:51,70] CAPTURE + SYNC START
+[2026/10/05 10:59:51,72] CAPTURE + SYNC COMPLETE
+============================================================
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+============================================================
+[2026/10/05 11:00:04,34] CAPTURE + SYNC START
+[2026/10/05 11:00:04,55] CAPTURE + SYNC COMPLETE
+============================================================
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 10:59:53,210 [INFO] Capture attempt 1/4 | keyword=Aviator | scheduled=2026-10-05T10:59:53.210332+02:00
+2026-10-05 10:59:53,210 [INFO] ============================================================
+2026-10-05 10:59:53,210 [INFO] Run start: 2026-10-05T10:59:53.210332+02:00 | keyword=Aviator
+2026-10-05 10:59:53,212 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 10:59:53,212 [INFO] Headless mode: False
+2026-10-05 10:59:55,000 [INFO] Persistent Chrome context ready.
+2026-10-05 10:59:55,163 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 10:59:58,606 [INFO] SERP loaded.
+2026-10-05 10:59:58,615 [INFO] Visible h3 result titles: 10
+2026-10-05 11:00:01,027 [INFO] Rank 1 | betway.co.za | Betway
+2026-10-05 11:00:02,846 [INFO] Rank 2 | takealot.com | The Aviator | Shop Today. Get it Tomorrow!
+2026-10-05 11:00:05,420 [INFO] Rank 3 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 10:59:53,210 [INFO] Capture attempt 1/4 | keyword=Aviator | scheduled=2026-10-05T10:59:53.210332+02:00
+2026-10-05 10:59:53,210 [INFO] ============================================================
+2026-10-05 10:59:53,210 [INFO] Run start: 2026-10-05T10:59:53.210332+02:00 | keyword=Aviator
+2026-10-05 10:59:53,212 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 10:59:53,212 [INFO] Headless mode: False
+2026-10-05 10:59:55,000 [INFO] Persistent Chrome context ready.
+2026-10-05 10:59:55,163 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 10:59:58,606 [INFO] SERP loaded.
+2026-10-05 10:59:58,615 [INFO] Visible h3 result titles: 10
+2026-10-05 11:00:01,027 [INFO] Rank 1 | betway.co.za | Betway
+2026-10-05 11:00:02,846 [INFO] Rank 2 | takealot.com | The Aviator | Shop Today. Get it Tomorrow!
+2026-10-05 11:00:05,420 [INFO] Rank 3 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 10:59:53,210 [INFO] Capture attempt 1/4 | keyword=Aviator | scheduled=2026-10-05T10:59:53.210332+02:00
+2026-10-05 10:59:53,210 [INFO] ============================================================
+2026-10-05 10:59:53,210 [INFO] Run start: 2026-10-05T10:59:53.210332+02:00 | keyword=Aviator
+2026-10-05 10:59:53,212 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 10:59:53,212 [INFO] Headless mode: False
+2026-10-05 10:59:55,000 [INFO] Persistent Chrome context ready.
+2026-10-05 10:59:55,163 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 10:59:58,606 [INFO] SERP loaded.
+2026-10-05 10:59:58,615 [INFO] Visible h3 result titles: 10
+2026-10-05 11:00:01,027 [INFO] Rank 1 | betway.co.za | Betway
+2026-10-05 11:00:02,846 [INFO] Rank 2 | takealot.com | The Aviator | Shop Today. Get it Tomorrow!
+2026-10-05 11:00:05,420 [INFO] Rank 3 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 10:59:53,210 [INFO] Capture attempt 1/4 | keyword=Aviator | scheduled=2026-10-05T10:59:53.210332+02:00
+2026-10-05 10:59:53,210 [INFO] ============================================================
+2026-10-05 10:59:53,210 [INFO] Run start: 2026-10-05T10:59:53.210332+02:00 | keyword=Aviator
+2026-10-05 10:59:53,212 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 10:59:53,212 [INFO] Headless mode: False
+2026-10-05 10:59:55,000 [INFO] Persistent Chrome context ready.
+2026-10-05 10:59:55,163 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 10:59:58,606 [INFO] SERP loaded.
+2026-10-05 10:59:58,615 [INFO] Visible h3 result titles: 10
+2026-10-05 11:00:01,027 [INFO] Rank 1 | betway.co.za | Betway
+2026-10-05 11:00:02,846 [INFO] Rank 2 | takealot.com | The Aviator | Shop Today. Get it Tomorrow!
+2026-10-05 11:00:05,420 [INFO] Rank 3 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync...
+Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\sync_excel.py", line 15, in <module>
+    from app.models import Capture, Keyword, SerpResult  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\backend\app\models.py", line 5, in <module>
+    from .db import Base
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\backend\app\db.py", line 11, in <module>
+    settings = get_settings()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\backend\app\config.py", line 24, in get_settings
+    return Settings()
+           ^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pydantic_settings\main.py", line 262, in __init__
+    super().__init__(**__pydantic_self__.__class__._settings_build_values(sources, init_kwargs))
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pydantic\main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Settings
+database_url
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+ERROR: Excel to PostgreSQL sync failed.
+============================================================
+[2026/10/05 11:00:21,17] CAPTURE + SYNC FINISHED WITH ERRORS
+============================================================
+============================================================
+[2026/10/05 11:01:58,81] CAPTURE + SYNC START
+[2026/10/05 11:01:58,83] CAPTURE + SYNC COMPLETE
+============================================================
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+============================================================
+[2026/10/05 11:02:41,64] CAPTURE + SYNC START
+[2026/10/05 11:02:41,67] CAPTURE + SYNC COMPLETE
+============================================================
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 11:02:00,730 [INFO] Capture attempt 1/4 | keyword=Aviator | scheduled=2026-10-05T11:02:00.730573+02:00
+2026-10-05 11:02:00,731 [INFO] ============================================================
+2026-10-05 11:02:00,731 [INFO] Run start: 2026-10-05T11:02:00.730573+02:00 | keyword=Aviator
+2026-10-05 11:02:00,732 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 11:02:00,732 [INFO] Headless mode: False
+2026-10-05 11:02:02,502 [INFO] Persistent Chrome context ready.
+2026-10-05 11:02:02,750 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:02:04,346 [INFO] SERP loaded.
+2026-10-05 11:02:04,356 [INFO] Visible h3 result titles: 8
+2026-10-05 11:02:07,558 [INFO] Rank 1 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+2026-10-05 11:02:10,510 [INFO] Organic extracted: 1
+2026-10-05 11:02:10,510 [WARNING] Only 1 organic results were extracted; minimum is 5.
+2026-10-05 11:02:10,510 [ERROR] Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:02:10,511 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 2128, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 1 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:02:11,258 [INFO] Browser closed.
+2026-10-05 11:02:11,263 [WARNING] Could not write capture status: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 11:02:11,266 [WARNING] Aviator capture not accepted. Retrying in 15 minutes at approximately 2026-10-05 11:17:11.
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 11:02:00,730 [INFO] Capture attempt 1/4 | keyword=Aviator | scheduled=2026-10-05T11:02:00.730573+02:00
+2026-10-05 11:02:00,731 [INFO] ============================================================
+2026-10-05 11:02:00,731 [INFO] Run start: 2026-10-05T11:02:00.730573+02:00 | keyword=Aviator
+2026-10-05 11:02:00,732 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 11:02:00,732 [INFO] Headless mode: False
+2026-10-05 11:02:02,502 [INFO] Persistent Chrome context ready.
+2026-10-05 11:02:02,750 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:02:04,346 [INFO] SERP loaded.
+2026-10-05 11:02:04,356 [INFO] Visible h3 result titles: 8
+2026-10-05 11:02:07,558 [INFO] Rank 1 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+2026-10-05 11:02:10,510 [INFO] Organic extracted: 1
+2026-10-05 11:02:10,510 [WARNING] Only 1 organic results were extracted; minimum is 5.
+2026-10-05 11:02:10,510 [ERROR] Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:02:10,511 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 2128, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 1 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:02:11,258 [INFO] Browser closed.
+2026-10-05 11:02:11,263 [WARNING] Could not write capture status: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 11:02:11,266 [WARNING] Aviator capture not accepted. Retrying in 15 minutes at approximately 2026-10-05 11:17:11.
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 11:02:00,730 [INFO] Capture attempt 1/4 | keyword=Aviator | scheduled=2026-10-05T11:02:00.730573+02:00
+2026-10-05 11:02:00,731 [INFO] ============================================================
+2026-10-05 11:02:00,731 [INFO] Run start: 2026-10-05T11:02:00.730573+02:00 | keyword=Aviator
+2026-10-05 11:02:00,732 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 11:02:00,732 [INFO] Headless mode: False
+2026-10-05 11:02:02,502 [INFO] Persistent Chrome context ready.
+2026-10-05 11:02:02,750 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:02:04,346 [INFO] SERP loaded.
+2026-10-05 11:02:04,356 [INFO] Visible h3 result titles: 8
+2026-10-05 11:02:07,558 [INFO] Rank 1 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+2026-10-05 11:02:10,510 [INFO] Organic extracted: 1
+2026-10-05 11:02:10,510 [WARNING] Only 1 organic results were extracted; minimum is 5.
+2026-10-05 11:02:10,510 [ERROR] Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:02:10,511 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 2128, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 1 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:02:11,258 [INFO] Browser closed.
+2026-10-05 11:02:11,263 [WARNING] Could not write capture status: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 11:02:11,266 [WARNING] Aviator capture not accepted. Retrying in 15 minutes at approximately 2026-10-05 11:17:11.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 11:02:00,730 [INFO] Capture attempt 1/4 | keyword=Aviator | scheduled=2026-10-05T11:02:00.730573+02:00
+2026-10-05 11:02:00,731 [INFO] ============================================================
+2026-10-05 11:02:00,731 [INFO] Run start: 2026-10-05T11:02:00.730573+02:00 | keyword=Aviator
+2026-10-05 11:02:00,732 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 11:02:00,732 [INFO] Headless mode: False
+2026-10-05 11:02:02,502 [INFO] Persistent Chrome context ready.
+2026-10-05 11:02:02,750 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:02:04,346 [INFO] SERP loaded.
+2026-10-05 11:02:04,356 [INFO] Visible h3 result titles: 8
+2026-10-05 11:02:07,558 [INFO] Rank 1 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+2026-10-05 11:02:10,510 [INFO] Organic extracted: 1
+2026-10-05 11:02:10,510 [WARNING] Only 1 organic results were extracted; minimum is 5.
+2026-10-05 11:02:10,510 [ERROR] Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:02:10,511 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 2128, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 1 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:02:11,258 [INFO] Browser closed.
+2026-10-05 11:02:11,263 [WARNING] Could not write capture status: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 11:02:11,266 [WARNING] Aviator capture not accepted. Retrying in 15 minutes at approximately 2026-10-05 11:17:11.
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync...
+Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\sync_excel.py", line 15, in <module>
+    from app.models import Capture, Keyword, SerpResult  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\backend\app\models.py", line 5, in <module>
+    from .db import Base
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\backend\app\db.py", line 11, in <module>
+    settings = get_settings()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\backend\app\config.py", line 24, in get_settings
+    return Settings()
+           ^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pydantic_settings\main.py", line 262, in __init__
+    super().__init__(**__pydantic_self__.__class__._settings_build_values(sources, init_kwargs))
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pydantic\main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Settings
+database_url
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+ERROR: Excel to PostgreSQL sync failed.
+============================================================
+[2026/10/05 11:02:44,19] CAPTURE + SYNC FINISHED WITH ERRORS
+============================================================
+============================================================
+[2026/10/05 11:13:38,81] CAPTURE + SYNC START
+============================================================
+ERROR: Neither python nor py was found on PATH.
+============================================================
+[2026/10/05 11:15:20,32] CAPTURE + SYNC START
+============================================================
+ERROR: Neither python nor py was found on PATH.
+============================================================
+[2026/10/05 11:17:03,02] CAPTURE + SYNC START
+============================================================
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 11:17:05,696 [INFO] Capture attempt 1/4 | keyword=Aviator | scheduled=2026-10-05T11:17:05.696083+02:00
+2026-10-05 11:17:05,696 [INFO] ============================================================
+2026-10-05 11:17:05,696 [INFO] Run start: 2026-10-05T11:17:05.696083+02:00 | keyword=Aviator
+2026-10-05 11:17:05,698 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 11:17:05,698 [INFO] Headless mode: False
+2026-10-05 11:17:07,818 [INFO] Persistent Chrome context ready.
+2026-10-05 11:17:07,950 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:17:10,412 [INFO] SERP loaded.
+2026-10-05 11:17:10,441 [INFO] Visible h3 result titles: 10
+2026-10-05 11:17:12,398 [INFO] Rank 1 | betway.co.za | Betway
+2026-10-05 11:17:14,525 [INFO] Rank 2 | takealot.com | The Aviator | Shop Today. Get it Tomorrow!
+2026-10-05 11:17:17,413 [INFO] Rank 3 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+2026-10-05 11:17:22,848 [INFO] Rank 4 | youtube.com | AVIATOR
+2026-10-05 11:17:25,895 [INFO] Rank 5 | truworths.co.za | Grey Square Aviator Sunglasses (3187845) | UZZI
+2026-10-05 11:17:25,895 [INFO] Organic extracted: 5
+2026-10-05 11:17:25,931 [INFO] Updated 5 SERP rows for 2026-10-05 at 11:00
+2026-10-05 11:17:25,996 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Aviator
+Date: 2026-10-05
+Capture hour: 11:00
+Organic results collected: 5
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Takealot | takealot.com
+3. Facebook | facebook.com
+4. Youtube | youtube.com
+5. Truworths | truworths.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+2026-10-05 11:17:26,783 [INFO] Browser closed.
+2026-10-05 11:17:26,842 [WARNING] Could not write capture status: Excel does not support timezones in datetimes. The tzinfo in the datetime/time object must be set to None.
+Exception ignored in atexit callback: <function _openpyxl_shutdown at 0x000001C2339F8FE0>
+Traceback (most recent call last):
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\worksheet\_writer.py", line 32, in _openpyxl_shutdown
+    os.remove(path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\WandileK\\AppData\\Local\\Temp\\openpyxl.6hewdn2f'
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+============================================================
+[2026/10/05 11:22:38,84] CAPTURE + SYNC START
+============================================================
+ERROR: Neither python nor py was found on PATH.
+============================================================
+[2026/10/05 11:25:28,44] CAPTURE + SYNC START
+============================================================
+ERROR: No Python launcher was found. Checked PATH and C:\Users\WandileK\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe.
+============================================================
+[2026/10/05 11:32:34,08] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 11:32:38,586 [INFO] Capture attempt 1/1 | keyword=Aviator | scheduled=2026-10-05T11:32:38.586140+02:00
+2026-10-05 11:32:38,586 [INFO] ============================================================
+2026-10-05 11:32:38,586 [INFO] Run start: 2026-10-05T11:32:38.586140+02:00 | keyword=Aviator
+2026-10-05 11:32:38,587 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 11:32:38,587 [INFO] Headless mode: False
+2026-10-05 11:32:39,948 [INFO] Persistent Chrome context ready.
+2026-10-05 11:32:40,066 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:32:42,218 [INFO] SERP loaded.
+2026-10-05 11:32:42,226 [INFO] Visible h3 result titles: 8
+2026-10-05 11:32:44,783 [INFO] Rank 1 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+2026-10-05 11:32:46,626 [INFO] Organic extracted: 1
+2026-10-05 11:32:46,626 [WARNING] Only 1 organic results were extracted; minimum is 5.
+2026-10-05 11:32:46,626 [ERROR] Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:32:46,627 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 2129, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 1 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:32:47,524 [INFO] Browser closed.
+2026-10-05 11:32:47,529 [WARNING] Could not write capture status: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 11:32:47,530 [ERROR] All 1 attempts failed for Aviator.
+WARNING: SEO_SERP_Monitor_aviator failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 11:32:49,625 [INFO] Capture attempt 1/1 | keyword=Lucky Numbers | scheduled=2026-10-05T11:32:49.625820+02:00
+2026-10-05 11:32:49,626 [INFO] ============================================================
+2026-10-05 11:32:49,626 [INFO] Run start: 2026-10-05T11:32:49.625820+02:00 | keyword=Lucky Numbers
+2026-10-05 11:32:49,628 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_lucky_numbers
+2026-10-05 11:32:49,629 [INFO] Headless mode: False
+2026-10-05 11:32:50,896 [INFO] Persistent Chrome context ready.
+2026-10-05 11:32:51,035 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:32:53,450 [INFO] SERP loaded.
+2026-10-05 11:32:53,460 [INFO] Visible h3 result titles: 9
+2026-10-05 11:32:55,501 [INFO] Organic extracted: 0
+2026-10-05 11:32:55,501 [WARNING] Only 0 organic results were extracted; minimum is 5.
+2026-10-05 11:32:55,501 [ERROR] Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:32:55,502 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Lucky_Numbers.py", line 2129, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 0 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:32:56,126 [INFO] Browser closed.
+2026-10-05 11:32:56,134 [WARNING] Could not write capture status: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 11:32:56,135 [ERROR] All 1 attempts failed for Lucky Numbers.
+WARNING: SEO_SERP_Monitor_lucky_numbers failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 11:32:58,169 [INFO] Capture attempt 1/1 | keyword=Online Slots | scheduled=2026-10-05T11:32:58.169566+02:00
+2026-10-05 11:32:58,170 [INFO] ============================================================
+2026-10-05 11:32:58,170 [INFO] Run start: 2026-10-05T11:32:58.169566+02:00 | keyword=Online Slots
+2026-10-05 11:32:58,171 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_online_slots
+2026-10-05 11:32:58,172 [INFO] Headless mode: False
+2026-10-05 11:32:59,294 [INFO] Persistent Chrome context ready.
+2026-10-05 11:32:59,403 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:33:03,376 [INFO] SERP loaded.
+2026-10-05 11:33:03,382 [INFO] Visible h3 result titles: 10
+2026-10-05 11:33:05,991 [INFO] Rank 1 | gbets.co.za | Play Online Slots For Real Money In South Africa
+2026-10-05 11:33:10,729 [INFO] Rank 2 | slotsrealmoney.co.za | Find the Best Online Slots Casino Bonuses @ Slots Real Money
+2026-10-05 11:33:13,866 [INFO] Rank 3 | slots-online.co.za | Take a look at the various types of Online Slots
+2026-10-05 11:33:15,986 [INFO] Rank 4 | betsafe.com | Top Online Slots Games Canada | Dare to Spin with Betsafe
+2026-10-05 11:33:20,049 [INFO] Rank 5 | heraldscotland.com | Best Slots to Play Online for Real Money
+2026-10-05 11:33:20,049 [INFO] Organic extracted: 5
+2026-10-05 11:33:20,076 [INFO] Updated 5 SERP rows for 2026-10-05 at 11:00
+2026-10-05 11:33:20,129 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 11:00
+Organic results collected: 5
+------------------------------------------------------------
+1. Gbets | gbets.co.za
+2. Slotsrealmoney | slotsrealmoney.co.za
+3. Slots online | slots-online.co.za
+4. Betsafe | betsafe.com
+5. Heraldscotland | heraldscotland.com
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 11:33:21,641 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 11:33:24,134 [INFO] Capture attempt 1/1 | keyword=Soccer Betting | scheduled=2026-10-05T11:33:24.134277+02:00
+2026-10-05 11:33:24,134 [INFO] ============================================================
+2026-10-05 11:33:24,135 [INFO] Run start: 2026-10-05T11:33:24.134277+02:00 | keyword=Soccer Betting
+2026-10-05 11:33:24,137 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting
+2026-10-05 11:33:24,137 [INFO] Headless mode: False
+2026-10-05 11:33:25,289 [INFO] Persistent Chrome context ready.
+2026-10-05 11:33:25,404 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:33:29,894 [INFO] SERP loaded.
+2026-10-05 11:33:29,902 [INFO] Visible h3 result titles: 9
+2026-10-05 11:33:31,951 [INFO] Organic extracted: 0
+2026-10-05 11:33:31,951 [WARNING] Only 0 organic results were extracted; minimum is 5.
+2026-10-05 11:33:31,951 [ERROR] Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:33:31,952 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Soccer_Betting.py", line 2129, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 0 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:33:32,260 [INFO] Browser closed.
+2026-10-05 11:33:32,276 [ERROR] All 1 attempts failed for Soccer Betting.
+WARNING: SEO_SERP_Monitor_soccer_betting failed with exit code 1. Continuing with remaining keywords.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: SYNC FAILED: "There is no item named '[Content_Types].xml' in the archive"
+ERROR: Excel to PostgreSQL sync failed (first pass).
+------------------------------------------------------------
+One or more scrapers failed. Waiting 15 minutes, then retrying only failed scrapers.
+============================================================
+[2026/10/05 11:44:52,82] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 11:45:01,249 [INFO] Capture attempt 1/1 | keyword=Aviator | scheduled=2026-10-05T11:45:01.249086+02:00
+2026-10-05 11:45:01,254 [INFO] ============================================================
+2026-10-05 11:45:01,255 [INFO] Run start: 2026-10-05T11:45:01.249086+02:00 | keyword=Aviator
+2026-10-05 11:45:01,259 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 11:45:01,259 [INFO] Headless mode: False
+2026-10-05 11:45:04,076 [INFO] Persistent Chrome context ready.
+2026-10-05 11:45:04,292 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:45:06,850 [INFO] SERP loaded.
+2026-10-05 11:45:06,861 [INFO] Visible h3 result titles: 8
+2026-10-05 11:45:10,910 [INFO] Organic extracted: 0
+2026-10-05 11:45:10,911 [WARNING] Only 0 organic results were extracted; minimum is 5.
+2026-10-05 11:45:10,912 [ERROR] Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:45:10,914 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 2138, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 0 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:45:11,724 [INFO] Browser closed.
+2026-10-05 11:45:11,733 [WARNING] Existing Excel could not be opened for capture status: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 11:45:11,735 [WARNING] Could not write capture status: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\WandileK\\OneDrive - HollywoodBets\\Desktop\\serp_monitor_app\\scripts\\aviator_rankings.xlsx' -> 'C:\\Users\\WandileK\\OneDrive - HollywoodBets\\Desktop\\serp_monitor_app\\scripts\\aviator_rankings.xlsx.corrupt_20261005_114511'
+2026-10-05 11:45:11,736 [ERROR] All 1 attempts failed for Aviator.
+WARNING: SEO_SERP_Monitor_aviator failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 11:45:15,815 [INFO] Capture attempt 1/1 | keyword=Lucky Numbers | scheduled=2026-10-05T11:45:15.815997+02:00
+2026-10-05 11:45:15,817 [INFO] ============================================================
+2026-10-05 11:45:15,817 [INFO] Run start: 2026-10-05T11:45:15.815997+02:00 | keyword=Lucky Numbers
+2026-10-05 11:45:15,827 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_lucky_numbers
+2026-10-05 11:45:15,827 [INFO] Headless mode: False
+2026-10-05 11:45:19,239 [INFO] Persistent Chrome context ready.
+2026-10-05 11:45:19,529 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:45:21,944 [INFO] SERP loaded.
+2026-10-05 11:45:21,958 [INFO] Visible h3 result titles: 9
+2026-10-05 11:45:24,842 [INFO] Organic extracted: 0
+2026-10-05 11:45:24,842 [WARNING] Only 0 organic results were extracted; minimum is 5.
+2026-10-05 11:45:24,843 [ERROR] Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:45:24,844 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Lucky_Numbers.py", line 2138, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 0 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:45:26,853 [INFO] Browser closed.
+2026-10-05 11:45:26,861 [WARNING] Existing Excel could not be opened for capture status: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 11:45:26,862 [WARNING] Could not write capture status: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\WandileK\\OneDrive - HollywoodBets\\Desktop\\serp_monitor_app\\scripts\\lucky_numbers_rankings.xlsx' -> 'C:\\Users\\WandileK\\OneDrive - HollywoodBets\\Desktop\\serp_monitor_app\\scripts\\lucky_numbers_rankings.xlsx.corrupt_20261005_114526'
+2026-10-05 11:45:26,862 [ERROR] All 1 attempts failed for Lucky Numbers.
+WARNING: SEO_SERP_Monitor_lucky_numbers failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 11:45:31,101 [INFO] Capture attempt 1/1 | keyword=Online Slots | scheduled=2026-10-05T11:45:31.101437+02:00
+2026-10-05 11:45:31,102 [INFO] ============================================================
+2026-10-05 11:45:31,102 [INFO] Run start: 2026-10-05T11:45:31.101437+02:00 | keyword=Online Slots
+2026-10-05 11:45:31,102 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_online_slots
+2026-10-05 11:45:31,102 [INFO] Headless mode: False
+2026-10-05 11:45:33,077 [INFO] Persistent Chrome context ready.
+2026-10-05 11:45:33,390 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:45:35,362 [INFO] SERP loaded.
+2026-10-05 11:45:35,371 [INFO] Visible h3 result titles: 10
+2026-10-05 11:45:36,765 [INFO] Rank 1 | gbets.co.za | Play Online Slots For Real Money In South Africa
+2026-10-05 11:45:37,687 [INFO] Rank 2 | slotsrealmoney.co.za | Find the Best Online Slots Casino Bonuses @ Slots Real Money
+2026-10-05 11:45:39,248 [INFO] Rank 3 | slots-online.co.za | Take a look at the various types of Online Slots
+2026-10-05 11:45:41,131 [INFO] Rank 4 | betsafe.com | Top Online Slots Games Canada | Dare to Spin with Betsafe
+2026-10-05 11:45:44,850 [INFO] Rank 5 | heraldscotland.com | Best Slots to Play Online for Real Money
+2026-10-05 11:45:44,850 [INFO] Organic extracted: 5
+2026-10-05 11:45:44,920 [INFO] Updated 5 SERP rows for 2026-10-05 at 11:00
+2026-10-05 11:45:45,018 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 11:00
+Organic results collected: 5
+------------------------------------------------------------
+1. Gbets | gbets.co.za
+2. Slotsrealmoney | slotsrealmoney.co.za
+3. Slots online | slots-online.co.za
+4. Betsafe | betsafe.com
+5. Heraldscotland | heraldscotland.com
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 11:45:48,105 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 11:45:52,668 [INFO] Capture attempt 1/1 | keyword=Soccer Betting | scheduled=2026-10-05T11:45:52.668740+02:00
+2026-10-05 11:45:52,669 [INFO] ============================================================
+2026-10-05 11:45:52,669 [INFO] Run start: 2026-10-05T11:45:52.668740+02:00 | keyword=Soccer Betting
+2026-10-05 11:45:52,673 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting
+2026-10-05 11:45:52,674 [INFO] Headless mode: False
+2026-10-05 11:45:56,062 [INFO] Persistent Chrome context ready.
+2026-10-05 11:45:56,527 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:45:59,400 [INFO] SERP loaded.
+2026-10-05 11:45:59,414 [INFO] Visible h3 result titles: 9
+2026-10-05 11:46:02,643 [INFO] Organic extracted: 0
+2026-10-05 11:46:02,644 [WARNING] Only 0 organic results were extracted; minimum is 5.
+2026-10-05 11:46:02,644 [ERROR] Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:46:02,645 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Soccer_Betting.py", line 2138, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 0 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:46:03,224 [INFO] Browser closed.
+2026-10-05 11:46:03,283 [ERROR] All 1 attempts failed for Soccer Betting.
+WARNING: SEO_SERP_Monitor_soccer_betting failed with exit code 1. Continuing with remaining keywords.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: SYNC SKIPPED: "There is no item named '[Content_Types].xml' in the archive"
+lucky_numbers_rankings.xlsx: SYNC SKIPPED: "There is no item named '[Content_Types].xml' in the archive"
+soccer_betting_rankings.xlsx: SYNC SKIPPED: soccer_betting_rankings.xlsx: missing SERP Rankings worksheet.
+online_slots_rankings.xlsx: captures created=1, existing captures refreshed=0.
+Imported all real Excel data: captures created=1, existing captures refreshed=0.
+Excel to PostgreSQL sync completed successfully (first pass).
+------------------------------------------------------------
+One or more scrapers failed. Waiting 15 minutes, then retrying only failed scrapers.
+============================================================
+[2026/10/05 11:57:45,73] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 11:57:58,608 [INFO] Capture attempt 1/1 | keyword=Aviator | scheduled=2026-10-05T11:57:58.608260+02:00
+2026-10-05 11:57:58,610 [INFO] ============================================================
+2026-10-05 11:57:58,611 [INFO] Run start: 2026-10-05T11:57:58.608260+02:00 | keyword=Aviator
+2026-10-05 11:57:58,622 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 11:57:58,624 [INFO] Headless mode: False
+2026-10-05 11:58:04,045 [INFO] Persistent Chrome context ready.
+2026-10-05 11:58:05,320 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:58:07,396 [INFO] SERP loaded.
+2026-10-05 11:58:07,409 [INFO] Visible h3 result titles: 8
+2026-10-05 11:58:12,012 [INFO] Rank 1 | facebook.com | Aviator: The Game That Took Everything | Zimbabwe's Hidden ...
+2026-10-05 11:58:15,377 [INFO] Organic extracted: 1
+2026-10-05 11:58:15,377 [WARNING] Only 1 organic results were extracted; minimum is 5.
+2026-10-05 11:58:15,377 [ERROR] Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:58:15,379 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 2138, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 1 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 1 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:58:21,823 [INFO] Browser closed.
+2026-10-05 11:58:21,832 [WARNING] Existing Excel could not be opened for capture status: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 11:58:21,832 [WARNING] Could not write capture status: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\WandileK\\OneDrive - HollywoodBets\\Desktop\\serp_monitor_app\\scripts\\aviator_rankings.xlsx' -> 'C:\\Users\\WandileK\\OneDrive - HollywoodBets\\Desktop\\serp_monitor_app\\scripts\\aviator_rankings.xlsx.corrupt_20261005_115821'
+2026-10-05 11:58:21,833 [ERROR] All 1 attempts failed for Aviator.
+WARNING: SEO_SERP_Monitor_aviator failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 11:58:27,112 [INFO] Capture attempt 1/1 | keyword=Lucky Numbers | scheduled=2026-10-05T11:58:27.112838+02:00
+2026-10-05 11:58:27,113 [INFO] ============================================================
+2026-10-05 11:58:27,115 [INFO] Run start: 2026-10-05T11:58:27.112838+02:00 | keyword=Lucky Numbers
+2026-10-05 11:58:27,122 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_lucky_numbers
+2026-10-05 11:58:27,123 [INFO] Headless mode: False
+2026-10-05 11:58:30,782 [INFO] Persistent Chrome context ready.
+2026-10-05 11:58:31,487 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:58:34,524 [INFO] SERP loaded.
+2026-10-05 11:58:34,540 [INFO] Visible h3 result titles: 9
+2026-10-05 11:58:37,467 [INFO] Organic extracted: 0
+2026-10-05 11:58:37,468 [WARNING] Only 0 organic results were extracted; minimum is 5.
+2026-10-05 11:58:37,469 [ERROR] Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:58:37,471 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Lucky_Numbers.py", line 2138, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 0 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:58:38,167 [INFO] Browser closed.
+2026-10-05 11:58:38,176 [WARNING] Existing Excel could not be opened for capture status: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 11:58:38,177 [WARNING] Could not write capture status: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\WandileK\\OneDrive - HollywoodBets\\Desktop\\serp_monitor_app\\scripts\\lucky_numbers_rankings.xlsx' -> 'C:\\Users\\WandileK\\OneDrive - HollywoodBets\\Desktop\\serp_monitor_app\\scripts\\lucky_numbers_rankings.xlsx.corrupt_20261005_115838'
+2026-10-05 11:58:38,178 [ERROR] All 1 attempts failed for Lucky Numbers.
+WARNING: SEO_SERP_Monitor_lucky_numbers failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 11:58:41,401 [INFO] Capture attempt 1/1 | keyword=Online Slots | scheduled=2026-10-05T11:58:41.401573+02:00
+2026-10-05 11:58:41,402 [INFO] ============================================================
+2026-10-05 11:58:41,402 [INFO] Run start: 2026-10-05T11:58:41.401573+02:00 | keyword=Online Slots
+2026-10-05 11:58:41,405 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_online_slots
+2026-10-05 11:58:41,406 [INFO] Headless mode: False
+2026-10-05 11:58:44,619 [INFO] Persistent Chrome context ready.
+2026-10-05 11:58:44,847 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:58:48,310 [INFO] SERP loaded.
+2026-10-05 11:58:48,321 [INFO] Visible h3 result titles: 9
+2026-10-05 11:58:51,446 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 11:58:56,639 [INFO] Rank 2 | blog.hollywoodbets.net | Top-rated Online Slots: Uncovering the Winning Criteria
+2026-10-05 11:59:03,786 [INFO] Rank 3 | casino.co.za | 2026's Top Roulette Slots Games Online
+2026-10-05 11:59:06,086 [INFO] Rank 4 | iol.co.za | 5 new online slots to play in South Africa in September 2025
+2026-10-05 11:59:10,698 [INFO] Rank 5 | unibet.co.uk | Online Slots | Play UK Slot Games with Unibet
+2026-10-05 11:59:10,698 [INFO] Organic extracted: 5
+2026-10-05 11:59:10,735 [INFO] Updated 5 SERP rows for 2026-10-05 at 11:00
+2026-10-05 11:59:10,792 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 11:00
+Organic results collected: 5
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Hollywoodbets | blog.hollywoodbets.net
+3. Casino | casino.co.za
+4. Iol | iol.co.za
+5. Unibet | unibet.co.uk
+------------------------------------------------------------
+Hollywoodbets rank: 2
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 11:59:11,542 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 11:59:14,013 [INFO] Capture attempt 1/1 | keyword=Soccer Betting | scheduled=2026-10-05T11:59:14.013302+02:00
+2026-10-05 11:59:14,013 [INFO] ============================================================
+2026-10-05 11:59:14,014 [INFO] Run start: 2026-10-05T11:59:14.013302+02:00 | keyword=Soccer Betting
+2026-10-05 11:59:14,015 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting
+2026-10-05 11:59:14,016 [INFO] Headless mode: False
+2026-10-05 11:59:16,176 [INFO] Persistent Chrome context ready.
+2026-10-05 11:59:16,385 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 11:59:18,448 [INFO] SERP loaded.
+2026-10-05 11:59:18,460 [INFO] Visible h3 result titles: 9
+2026-10-05 11:59:21,217 [INFO] Organic extracted: 0
+2026-10-05 11:59:21,218 [WARNING] Only 0 organic results were extracted; minimum is 5.
+2026-10-05 11:59:21,218 [ERROR] Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:59:21,219 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Soccer_Betting.py", line 2138, in _run_once_attempt
+    raise RuntimeError(
+RuntimeError: Only 0 valid organic results were extracted; minimum required is 5.
+
+Run failed: Only 0 valid organic results were extracted; minimum required is 5.
+2026-10-05 11:59:22,980 [INFO] Browser closed.
+2026-10-05 11:59:23,024 [ERROR] All 1 attempts failed for Soccer Betting.
+WARNING: SEO_SERP_Monitor_soccer_betting failed with exit code 1. Continuing with remaining keywords.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: SYNC SKIPPED: "There is no item named '[Content_Types].xml' in the archive"
+lucky_numbers_rankings.xlsx: SYNC SKIPPED: "There is no item named '[Content_Types].xml' in the archive"
+soccer_betting_rankings.xlsx: SYNC SKIPPED: soccer_betting_rankings.xlsx: missing SERP Rankings worksheet.
+online_slots_rankings.xlsx: captures created=0, existing captures refreshed=1.
+Imported all real Excel data: captures created=0, existing captures refreshed=1.
+Excel to PostgreSQL sync completed successfully (first pass).
+------------------------------------------------------------
+One or more scrapers failed. Waiting 15 minutes, then retrying only failed scrapers.
+============================================================
+[2026/10/05 12:11:38,21] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 12:11:52,884 [INFO] ============================================================
+2026-10-05 12:11:52,889 [INFO] Run start: 2026-10-05T12:11:52.884530+02:00 | keyword=Aviator
+2026-10-05 12:11:52,894 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 12:11:52,894 [INFO] Headless mode: True
+2026-10-05 12:11:55,589 [INFO] Persistent Chrome context ready.
+2026-10-05 12:11:55,797 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:11:58,598 [INFO] SERP loaded.
+2026-10-05 12:11:58,610 [INFO] Visible h3 result titles: 9
+2026-10-05 12:12:00,538 [INFO] Rank 1 | betway.co.za | Play Online Casino Games - Register ...
+2026-10-05 12:12:07,528 [INFO] Organic extracted: 1
+2026-10-05 12:12:07,531 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 12:12:07,542 [ERROR] Existing Excel could not be safely opened: "There is no item named '[Content_Types].xml' in the archive"
+2026-10-05 12:12:07,545 [ERROR] Run failed: Could not open C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx. If it is open in Excel, close it and try again.
+2026-10-05 12:12:07,560 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 911, in open_or_create_workbook
+    wb = load_workbook(EXCEL_FILE)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\reader\excel.py", line 348, in load_workbook
+    reader.read()
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\reader\excel.py", line 289, in read
+    self.read_manifest()
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\reader\excel.py", line 134, in read_manifest
+    src = self.archive.read(ARC_CONTENT_TYPES)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\zipfile\__init__.py", line 1571, in read
+    with self.open(name, "r", pwd) as fp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\zipfile\__init__.py", line 1608, in open
+    zinfo = self.getinfo(name)
+            ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\zipfile\__init__.py", line 1536, in getinfo
+    raise KeyError(
+KeyError: "There is no item named '[Content_Types].xml' in the archive"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 1054, in run_once
+    wb, ws, state_ws = open_or_create_workbook()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 941, in open_or_create_workbook
+    raise RuntimeError(
+RuntimeError: Could not open C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx. If it is open in Excel, close it and try again.
+
+Run failed: Could not open C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx. If it is open in Excel, close it and try again.
+2026-10-05 12:12:08,621 [INFO] Browser closed.
+WARNING: SEO_SERP_Monitor_aviator failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 12:12:13,968 [INFO] ============================================================
+2026-10-05 12:12:13,969 [INFO] Run start: 2026-10-05T12:12:13.968318+02:00 | keyword=Lucky Numbers
+2026-10-05 12:12:13,979 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_lucky_numbers
+2026-10-05 12:12:13,979 [INFO] Headless mode: True
+2026-10-05 12:12:17,269 [INFO] Persistent Chrome context ready.
+2026-10-05 12:12:17,624 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:12:20,761 [INFO] SERP loaded.
+2026-10-05 12:12:20,773 [INFO] Visible h3 result titles: 9
+2026-10-05 12:12:24,944 [INFO] Organic extracted: 0
+2026-10-05 12:12:24,945 [WARNING] Only 0 organic results were extracted; expected 10.
+2026-10-05 12:12:24,945 [ERROR] Run failed: No organic results were extracted from Google.
+2026-10-05 12:12:24,948 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Lucky_Numbers.py", line 1052, in run_once
+    raise RuntimeError("No organic results were extracted from Google.")
+RuntimeError: No organic results were extracted from Google.
+
+Run failed: No organic results were extracted from Google.
+2026-10-05 12:12:25,918 [INFO] Browser closed.
+WARNING: SEO_SERP_Monitor_lucky_numbers failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 12:12:29,937 [INFO] ============================================================
+2026-10-05 12:12:29,937 [INFO] Run start: 2026-10-05T12:12:29.937977+02:00 | keyword=Online Slots
+2026-10-05 12:12:29,946 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_online_slots
+2026-10-05 12:12:29,947 [INFO] Headless mode: True
+2026-10-05 12:12:33,444 [INFO] Persistent Chrome context ready.
+2026-10-05 12:12:34,447 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:12:36,759 [INFO] SERP loaded.
+2026-10-05 12:12:36,779 [INFO] Visible h3 result titles: 9
+2026-10-05 12:12:40,124 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 12:12:45,730 [INFO] Organic extracted: 1
+2026-10-05 12:12:45,732 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 12:12:46,002 [INFO] Updated 1 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:12:46,898 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 12:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Betway | betway.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 12:12:49,729 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 12:12:54,676 [INFO] ============================================================
+2026-10-05 12:12:54,678 [INFO] Run start: 2026-10-05T12:12:54.676990+02:00 | keyword=Soccer Betting
+2026-10-05 12:12:54,683 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting
+2026-10-05 12:12:54,684 [INFO] Headless mode: True
+2026-10-05 12:12:57,433 [INFO] Persistent Chrome context ready.
+2026-10-05 12:12:57,701 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:13:00,288 [INFO] SERP loaded.
+2026-10-05 12:13:00,312 [INFO] Visible h3 result titles: 9
+2026-10-05 12:13:06,915 [INFO] Organic extracted: 0
+2026-10-05 12:13:06,934 [WARNING] Only 0 organic results were extracted; expected 10.
+2026-10-05 12:13:06,939 [ERROR] Run failed: No organic results were extracted from Google.
+2026-10-05 12:13:06,955 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Soccer_Betting.py", line 1052, in run_once
+    raise RuntimeError("No organic results were extracted from Google.")
+RuntimeError: No organic results were extracted from Google.
+
+Run failed: No organic results were extracted from Google.
+2026-10-05 12:13:10,794 [INFO] Browser closed.
+WARNING: SEO_SERP_Monitor_soccer_betting failed with exit code 1. Continuing with remaining keywords.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: SYNC SKIPPED: "There is no item named '[Content_Types].xml' in the archive"
+lucky_numbers_rankings.xlsx: SYNC SKIPPED: "There is no item named '[Content_Types].xml' in the archive"
+soccer_betting_rankings.xlsx: SYNC SKIPPED: soccer_betting_rankings.xlsx: missing SERP Rankings worksheet.
+online_slots_rankings.xlsx: captures created=1, existing captures refreshed=1.
+Imported all real Excel data: captures created=1, existing captures refreshed=1.
+Excel to PostgreSQL sync completed successfully (first pass).
+------------------------------------------------------------
+One or more scrapers failed. Waiting 15 minutes, then retrying only failed scrapers.
+============================================================
+[2026/10/05 12:21:40,33] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 12:21:52,816 [INFO] ============================================================
+2026-10-05 12:21:52,817 [INFO] Run start: 2026-10-05T12:21:52.816175+02:00 | keyword=Aviator
+2026-10-05 12:21:52,820 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:21:52,821 [INFO] Headless mode: True
+2026-10-05 12:21:55,283 [INFO] Persistent Chrome context ready.
+2026-10-05 12:21:55,431 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:22:13,498 [WARNING] Google blocked this run: bot-detection page
+Google blocked this run: bot-detection page
+2026-10-05 12:22:15,681 [INFO] Browser closed.
+WARNING: SEO_SERP_Monitor_aviator failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 12:22:22,522 [INFO] ============================================================
+2026-10-05 12:22:22,523 [INFO] Run start: 2026-10-05T12:22:22.521347+02:00 | keyword=Lucky Numbers
+2026-10-05 12:22:22,536 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:22:22,538 [INFO] Headless mode: True
+2026-10-05 12:22:26,707 [INFO] Persistent Chrome context ready.
+2026-10-05 12:22:27,129 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:22:49,118 [WARNING] Google blocked this run: bot-detection page
+Google blocked this run: bot-detection page
+2026-10-05 12:22:52,787 [INFO] Browser closed.
+WARNING: SEO_SERP_Monitor_lucky_numbers failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 12:22:57,912 [INFO] ============================================================
+2026-10-05 12:22:57,914 [INFO] Run start: 2026-10-05T12:22:57.912622+02:00 | keyword=Online Slots
+2026-10-05 12:22:57,919 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:22:57,921 [INFO] Headless mode: True
+2026-10-05 12:23:05,135 [INFO] Persistent Chrome context ready.
+2026-10-05 12:23:05,620 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:23:25,682 [WARNING] Google blocked this run: bot-detection page
+Google blocked this run: bot-detection page
+2026-10-05 12:23:32,212 [INFO] Browser closed.
+WARNING: SEO_SERP_Monitor_online_slots failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 12:23:39,160 [INFO] ============================================================
+2026-10-05 12:23:39,162 [INFO] Run start: 2026-10-05T12:23:39.158902+02:00 | keyword=Soccer Betting
+2026-10-05 12:23:39,165 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:23:39,167 [INFO] Headless mode: True
+2026-10-05 12:23:42,948 [INFO] Persistent Chrome context ready.
+2026-10-05 12:23:43,285 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Soccer_Betting.py", line 1041, in run_once
+    page = search_google(KEYWORD)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Soccer_Betting.py", line 204, in search_google
+    page.wait_for_selector("#search h3, #rso h3", timeout=15_000)
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\sync_api\_generated.py", line 9061, in wait_for_selector
+    self._sync(
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\sync_api\_context_manager.py", line 55, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 678, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 645, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1961, in _run_once
+    event_list = self._selector.select(timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 445, in select
+    self._poll(timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 774, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+object address  : 0000022F45E77F40
+object refcount : 3
+object type     : 00007FF84F98E950
+object type name: KeyboardInterrupt
+object repr     : KeyboardInterrupt()
+lost sys.stderr
+Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<BrowserContext.close() running at C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_browser_context.py:582> cb=[SyncBase._sync.<locals>.<lambda>() at C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_sync_base.py:111]>
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py:716: RuntimeWarning: coroutine 'BrowserContext.close' was never awaited
+Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<Page.wait_for_selector() done, defined at C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_page.py:422> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[SyncBase._sync.<locals>.<lambda>() at C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_sync_base.py:111, ProtocolCallback.__init__.<locals>.cb() at C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_connection.py:264]>
+Exception ignored in: <function BaseSubprocessTransport.__del__ at 0x0000022F459885E0>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_subprocess.py", line 125, in __del__
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_subprocess.py", line 70, in __repr__
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 80, in __repr__
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_utils.py", line 102, in fileno
+ValueError: I/O operation on closed pipe
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022F45989DA0>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 80, in __repr__
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_utils.py", line 102, in fileno
+ValueError: I/O operation on closed pipe
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022F45989DA0>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 80, in __repr__
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_utils.py", line 102, in fileno
+ValueError: I/O operation on closed pipe
+^C============================================================
+[2026/10/05 12:26:06,20] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 12:26:25,227 [INFO] ============================================================
+2026-10-05 12:26:25,227 [INFO] Run start: 2026-10-05T12:26:25.227328+02:00 | keyword=Aviator
+2026-10-05 12:26:25,231 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:26:25,232 [INFO] Headless mode: False
+2026-10-05 12:26:28,798 [INFO] Persistent Chrome context ready.
+2026-10-05 12:26:29,072 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:26:32,691 [INFO] SERP loaded.
+2026-10-05 12:26:32,706 [INFO] Visible h3 result titles: 9
+2026-10-05 12:26:35,067 [INFO] Rank 1 | betway.co.za | Betway
+2026-10-05 12:26:39,990 [INFO] Organic extracted: 1
+2026-10-05 12:26:39,990 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 12:26:40,146 [INFO] Updated 1 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:26:40,394 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Aviator
+Date: 2026-10-05
+Capture hour: 12:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Betway | betway.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+2026-10-05 12:26:44,736 [INFO] Browser closed.
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 12:26:51,149 [INFO] ============================================================
+2026-10-05 12:26:51,149 [INFO] Run start: 2026-10-05T12:26:51.149064+02:00 | keyword=Lucky Numbers
+2026-10-05 12:26:51,156 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:26:51,156 [INFO] Headless mode: False
+2026-10-05 12:26:55,639 [INFO] Persistent Chrome context ready.
+2026-10-05 12:26:55,964 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:26:57,911 [INFO] SERP loaded.
+2026-10-05 12:26:57,922 [INFO] Visible h3 result titles: 9
+2026-10-05 12:27:00,610 [INFO] Rank 1 | takealot.com | Raven's Lucky Numbers Book of Places: USA Edition
+2026-10-05 12:27:04,713 [INFO] Organic extracted: 1
+2026-10-05 12:27:04,713 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 12:27:04,744 [INFO] Updated 1 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:27:04,844 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Lucky Numbers
+Date: 2026-10-05
+Capture hour: 12:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Takealot | takealot.com
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+2026-10-05 12:27:10,134 [INFO] Browser closed.
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 12:27:17,672 [INFO] ============================================================
+2026-10-05 12:27:17,674 [INFO] Run start: 2026-10-05T12:27:17.672384+02:00 | keyword=Online Slots
+2026-10-05 12:27:17,679 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:27:17,681 [INFO] Headless mode: False
+2026-10-05 12:27:20,993 [INFO] Persistent Chrome context ready.
+2026-10-05 12:27:21,304 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:27:25,372 [INFO] SERP loaded.
+2026-10-05 12:27:25,382 [INFO] Visible h3 result titles: 9
+2026-10-05 12:27:26,940 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 12:27:33,766 [INFO] Rank 2 | casino.co.za | 2026's Top Roulette Slots Games Online
+2026-10-05 12:27:35,608 [INFO] Rank 3 | thepost.co.za | Top five new online slot machines coming soon to the South ...
+2026-10-05 12:27:37,747 [INFO] Rank 4 | playcasino.co.za | Best Online Slots South Africa: Free Play & Real Money Slots
+2026-10-05 12:27:42,427 [INFO] Rank 5 | unibet.co.uk | Online Slots | Play UK Slot Games with Unibet
+2026-10-05 12:27:44,641 [INFO] Rank 6 | iol.co.za | 5 new online slots to play in South Africa in September 2025
+2026-10-05 12:27:51,277 [INFO] Rank 7 | youtube.com | ONLINE SLOTS Tips, How To, and what could cost you
+2026-10-05 12:27:54,142 [INFO] Rank 8 | bettingguide.co.za | How to Play Online Slots in South Africa
+2026-10-05 12:27:58,092 [INFO] Rank 9 | casinolife.co.za | Play in the Best Online Slots for Real Money in South Africa
+2026-10-05 12:27:58,092 [INFO] Organic extracted: 9
+2026-10-05 12:27:58,093 [WARNING] Only 9 organic results were extracted; expected 10.
+2026-10-05 12:27:58,118 [INFO] Updated 9 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:27:58,214 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 12:00
+Organic results collected: 9
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Casino | casino.co.za
+3. Thepost | thepost.co.za
+4. Playcasino | playcasino.co.za
+5. Unibet | unibet.co.uk
+6. Iol | iol.co.za
+7. Youtube | youtube.com
+8. Bettingguide | bettingguide.co.za
+9. Casinolife | casinolife.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 12:27:59,017 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 12:28:01,557 [INFO] ============================================================
+2026-10-05 12:28:01,558 [INFO] Run start: 2026-10-05T12:28:01.557110+02:00 | keyword=Soccer Betting
+2026-10-05 12:28:01,560 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:28:01,560 [INFO] Headless mode: False
+2026-10-05 12:28:03,092 [INFO] Persistent Chrome context ready.
+2026-10-05 12:28:03,309 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:28:05,488 [INFO] SERP loaded.
+2026-10-05 12:28:05,500 [INFO] Visible h3 result titles: 9
+2026-10-05 12:28:07,358 [INFO] Rank 1 | betway.co.za | Soccer Betting & Soccer Odds - Betway MW
+2026-10-05 12:28:11,240 [INFO] Organic extracted: 1
+2026-10-05 12:28:11,240 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 12:28:11,276 [INFO] Updated 1 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:28:11,409 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Soccer Betting
+Date: 2026-10-05
+Capture hour: 12:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Betway | betway.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+2026-10-05 12:28:23,608 [INFO] Browser closed.
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: captures created=1, existing captures refreshed=0.
+lucky_numbers_rankings.xlsx: captures created=1, existing captures refreshed=0.
+online_slots_rankings.xlsx: captures created=0, existing captures refreshed=1.
+soccer_betting_rankings.xlsx: captures created=1, existing captures refreshed=0.
+Imported all real Excel data: captures created=3, existing captures refreshed=1.
+Excel to PostgreSQL sync completed successfully (first pass).
+============================================================
+[2026/10/05 12:28:31,43] CAPTURE + SYNC COMPLETE
+============================================================
+============================================================
+[2026/10/05 12:31:18,72] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 12:31:29,757 [INFO] ============================================================
+2026-10-05 12:31:29,758 [INFO] Run start: 2026-10-05T12:31:29.757697+02:00 | keyword=Aviator
+2026-10-05 12:31:29,762 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:31:29,762 [INFO] Headless mode: False
+2026-10-05 12:31:33,096 [INFO] Persistent Chrome context ready.
+2026-10-05 12:31:33,309 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:31:35,180 [INFO] SERP loaded.
+2026-10-05 12:31:35,192 [INFO] Visible h3 result titles: 10
+2026-10-05 12:31:41,971 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 12:31:44,790 [INFO] Rank 2 | betway.co.za | Play Online Casino Games - Register ...
+2026-10-05 12:31:47,175 [INFO] Rank 3 | betway.co.za | Play Aviator and reach for the sky | Betway Sports betting
+2026-10-05 12:31:51,089 [INFO] Rank 4 | 10bet.co.za | Play Aviator Game Online | Crash Game by Spribe
+2026-10-05 12:31:54,763 [INFO] Rank 5 | livescore.com | How to Play Aviator on Betway 2026: Get 10 Free Flights
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 102-103: character maps to <undefined>
+Call stack:
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 1152, in <module>
+    result = run_once()
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 1042, in run_once
+    results = extract_organic_results(page)
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 490, in extract_organic_results
+    logger.info("Rank %d | %s | %s", rank, domain, title)
+Message: 'Rank %d | %s | %s'
+Arguments: (6, 'ajkksaedu.in', 'Aviator Game | Official Aviator app [Verified] \u2b50\ufe0f Download ...')
+2026-10-05 12:31:58,215 [INFO] Rank 7 | betway.co.za | Play Aviator | Register and Get 10 Free Flights
+2026-10-05 12:32:01,140 [INFO] Rank 8 | en.wikipedia.org | Aircraft pilot
+2026-10-05 12:32:03,231 [INFO] Rank 9 | spribe.co | Aviator
+2026-10-05 12:32:03,232 [INFO] Organic extracted: 9
+2026-10-05 12:32:03,232 [WARNING] Only 9 organic results were extracted; expected 10.
+2026-10-05 12:32:03,286 [INFO] Updated 9 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:32:03,349 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Aviator
+Date: 2026-10-05
+Capture hour: 12:00
+Organic results collected: 9
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+2. Betway | betway.co.za
+3. Betway | betway.co.za
+4. 10bet | 10bet.co.za
+5. LiveScore | livescore.com
+6. Ajkksaedu | ajkksaedu.in
+7. Betway | betway.co.za
+8. En | en.wikipedia.org
+9. SPRIBE | spribe.co
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+2026-10-05 12:32:04,003 [INFO] Browser closed.
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 12:32:07,074 [INFO] ============================================================
+2026-10-05 12:32:07,075 [INFO] Run start: 2026-10-05T12:32:07.074400+02:00 | keyword=Lucky Numbers
+2026-10-05 12:32:07,078 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:32:07,078 [INFO] Headless mode: False
+2026-10-05 12:32:11,329 [INFO] Persistent Chrome context ready.
+2026-10-05 12:32:12,221 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:32:15,194 [INFO] SERP loaded.
+2026-10-05 12:32:15,215 [INFO] Visible h3 result titles: 9
+2026-10-05 12:32:19,188 [INFO] Rank 1 | hollywoodbets.net | Lucky Numbers for today
+2026-10-05 12:32:24,001 [INFO] Organic extracted: 1
+2026-10-05 12:32:24,001 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 12:32:24,075 [INFO] Updated 1 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:32:24,167 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Lucky Numbers
+Date: 2026-10-05
+Capture hour: 12:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+2026-10-05 12:32:25,758 [INFO] Browser closed.
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 12:32:33,081 [INFO] ============================================================
+2026-10-05 12:32:33,081 [INFO] Run start: 2026-10-05T12:32:33.081638+02:00 | keyword=Online Slots
+2026-10-05 12:32:33,086 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:32:33,086 [INFO] Headless mode: False
+2026-10-05 12:32:38,648 [INFO] Persistent Chrome context ready.
+2026-10-05 12:32:38,983 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:32:41,375 [INFO] SERP loaded.
+2026-10-05 12:32:41,467 [INFO] Visible h3 result titles: 10
+2026-10-05 12:32:44,788 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 12:32:47,568 [INFO] Rank 2 | hollywoodbets.net | Online Slot Games
+2026-10-05 12:32:56,279 [INFO] Rank 3 | worldsportsbetting.co.za | Online Slot Games | Play Real Money ...
+2026-10-05 12:33:04,810 [INFO] Rank 4 | betolimp.co.za | Play Online Slots for Real Money in South Africa
+2026-10-05 12:33:07,093 [INFO] Rank 5 | foxybingo.com | Play Online Slots UK | Foxy Games
+2026-10-05 12:33:10,135 [INFO] Rank 6 | supersportbet.com | Online Casino Games | Slots, Crash & Live Dealer
+2026-10-05 12:33:14,682 [INFO] Rank 7 | fortunesultimateslots.com | Caesars Slots – Free Slots & Online Social Casino
+2026-10-05 12:33:18,069 [INFO] Rank 8 | betway.com | Play Slot Games Online
+2026-10-05 12:33:25,181 [INFO] Rank 9 | playojo.com | Online Slots - Play slot games in UK at PlayOJO
+2026-10-05 12:33:25,181 [INFO] Organic extracted: 9
+2026-10-05 12:33:25,181 [WARNING] Only 9 organic results were extracted; expected 10.
+2026-10-05 12:33:25,338 [INFO] Updated 9 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:33:25,622 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 12:00
+Organic results collected: 9
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Hollywoodbets | hollywoodbets.net
+3. Worldsportsbetting | worldsportsbetting.co.za
+4. Betolimp | betolimp.co.za
+5. Foxybingo | foxybingo.com
+6. Supersportbet | supersportbet.com
+7. Fortunesultimateslots | fortunesultimateslots.com
+8. Betway | betway.com
+9. Playojo | playojo.com
+------------------------------------------------------------
+Hollywoodbets rank: 2
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 12:35:29,753 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 12:35:32,424 [INFO] ============================================================
+2026-10-05 12:35:32,425 [INFO] Run start: 2026-10-05T12:35:32.424773+02:00 | keyword=Soccer Betting
+2026-10-05 12:35:32,429 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:35:32,429 [INFO] Headless mode: False
+2026-10-05 12:35:34,535 [INFO] Persistent Chrome context ready.
+2026-10-05 12:35:34,769 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:35:39,152 [INFO] SERP loaded.
+2026-10-05 12:35:39,173 [INFO] Visible h3 result titles: 9
+2026-10-05 12:35:43,410 [INFO] Rank 1 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-05 12:35:48,174 [INFO] Organic extracted: 1
+2026-10-05 12:35:48,174 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 12:35:48,276 [INFO] Updated 1 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:35:48,529 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Soccer Betting
+Date: 2026-10-05
+Capture hour: 12:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Worldsportsbetting | worldsportsbetting.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+2026-10-05 12:35:51,813 [INFO] Browser closed.
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: captures created=0, existing captures refreshed=1.
+lucky_numbers_rankings.xlsx: captures created=0, existing captures refreshed=1.
+online_slots_rankings.xlsx: captures created=0, existing captures refreshed=1.
+soccer_betting_rankings.xlsx: captures created=0, existing captures refreshed=1.
+Imported all real Excel data: captures created=0, existing captures refreshed=4.
+Excel to PostgreSQL sync completed successfully (first pass).
+============================================================
+[2026/10/05 12:35:59,69] CAPTURE + SYNC COMPLETE
+============================================================
+============================================================
+[2026/10/05 13:35:14,42] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 13:35:19,376 [INFO] ============================================================
+2026-10-05 13:35:19,377 [INFO] Run start: 2026-10-05T13:35:19.376864+02:00 | keyword=Aviator
+2026-10-05 13:35:19,379 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 13:35:19,380 [INFO] Headless mode: False
+2026-10-05 13:35:21,165 [INFO] Persistent Chrome context ready.
+2026-10-05 13:35:21,365 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 13:35:22,743 [INFO] SERP loaded.
+2026-10-05 13:35:22,750 [INFO] Visible h3 result titles: 9
+2026-10-05 13:35:23,848 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 13:35:25,653 [INFO] Organic extracted: 1
+2026-10-05 13:35:25,653 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 13:35:25,691 [INFO] Updated 1 SERP rows for 2026-10-05 at 13:00
+2026-10-05 13:35:25,761 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Aviator
+Date: 2026-10-05
+Capture hour: 13:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+2026-10-05 13:35:27,474 [INFO] Browser closed.
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 13:35:29,798 [INFO] ============================================================
+2026-10-05 13:35:29,798 [INFO] Run start: 2026-10-05T13:35:29.797816+02:00 | keyword=Lucky Numbers
+2026-10-05 13:35:29,800 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 13:35:29,800 [INFO] Headless mode: False
+2026-10-05 13:35:31,207 [INFO] Persistent Chrome context ready.
+2026-10-05 13:35:31,329 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=10&pws=0
+2026-10-05 13:35:33,198 [INFO] SERP loaded.
+2026-10-05 13:35:33,205 [INFO] Visible h3 result titles: 10
+2026-10-05 13:35:34,337 [INFO] Rank 1 | hollywoodbets.net | Lucky Numbers for today
+2026-10-05 13:35:36,907 [INFO] Rank 2 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-05 13:35:39,523 [INFO] Rank 3 | luckynumber.today | Today Lucky Number
+2026-10-05 13:35:41,816 [INFO] Rank 4 | sportybet.co.za | Lucky numbers
+2026-10-05 13:35:43,994 [INFO] Rank 5 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-05 13:35:46,773 [INFO] Rank 6 | en.wikipedia.org | Lucky number
+2026-10-05 13:35:48,825 [INFO] Rank 7 | interbet.co.za | Play Lucky Numbers Online at Interbet
+2026-10-05 13:35:48,825 [INFO] Organic extracted: 7
+2026-10-05 13:35:48,825 [WARNING] Only 7 organic results were extracted; expected 10.
+2026-10-05 13:35:48,859 [INFO] Updated 7 SERP rows for 2026-10-05 at 13:00
+2026-10-05 13:35:48,909 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Lucky Numbers
+Date: 2026-10-05
+Capture hour: 13:00
+Organic results collected: 7
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+2. Worldsportsbetting | worldsportsbetting.co.za
+3. Luckynumber | luckynumber.today
+4. Sportybet | sportybet.co.za
+5. Supersportbet | supersportbet.com
+6. En | en.wikipedia.org
+7. Interbet | interbet.co.za
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+2026-10-05 13:35:49,290 [INFO] Browser closed.
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 13:35:50,992 [INFO] ============================================================
+2026-10-05 13:35:50,995 [INFO] Run start: 2026-10-05T13:35:50.992984+02:00 | keyword=Online Slots
+2026-10-05 13:35:50,998 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 13:35:50,998 [INFO] Headless mode: False
+2026-10-05 13:35:52,306 [INFO] Persistent Chrome context ready.
+2026-10-05 13:35:52,444 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 13:35:53,840 [INFO] SERP loaded.
+2026-10-05 13:35:53,851 [INFO] Visible h3 result titles: 9
+2026-10-05 13:35:55,106 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 13:35:56,550 [INFO] Organic extracted: 1
+2026-10-05 13:35:56,551 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 13:35:56,589 [INFO] Updated 1 SERP rows for 2026-10-05 at 13:00
+2026-10-05 13:35:56,635 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 13:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Betway | betway.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 13:35:57,270 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 13:36:00,260 [INFO] ============================================================
+2026-10-05 13:36:00,260 [INFO] Run start: 2026-10-05T13:36:00.260323+02:00 | keyword=Soccer Betting
+2026-10-05 13:36:00,296 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 13:36:00,296 [INFO] Headless mode: False
+2026-10-05 13:36:02,437 [INFO] Persistent Chrome context ready.
+2026-10-05 13:36:02,668 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 13:36:03,997 [INFO] SERP loaded.
+2026-10-05 13:36:04,019 [INFO] Visible h3 result titles: 9
+2026-10-05 13:36:06,871 [INFO] Rank 1 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-05 13:36:10,233 [INFO] Organic extracted: 1
+2026-10-05 13:36:10,233 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 13:36:10,277 [INFO] Updated 1 SERP rows for 2026-10-05 at 13:00
+2026-10-05 13:36:10,334 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Soccer Betting
+Date: 2026-10-05
+Capture hour: 13:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Worldsportsbetting | worldsportsbetting.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+2026-10-05 13:36:12,591 [INFO] Browser closed.
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: captures created=1, existing captures refreshed=1.
+lucky_numbers_rankings.xlsx: captures created=1, existing captures refreshed=1.
+online_slots_rankings.xlsx: captures created=1, existing captures refreshed=1.
+soccer_betting_rankings.xlsx: captures created=1, existing captures refreshed=1.
+Imported all real Excel data: captures created=4, existing captures refreshed=4.
+Excel to PostgreSQL sync completed successfully (first pass).
+============================================================
+[2026/10/05 13:36:16,79] CAPTURE + SYNC COMPLETE
+============================================================
+============================================================
+[2026/10/05 14:06:00,56] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 14:06:10,832 [INFO] ============================================================
+2026-10-05 14:06:10,834 [INFO] Run start: 2026-10-05T14:06:10.832905+02:00 | keyword=Aviator
+2026-10-05 14:06:10,838 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:06:10,838 [INFO] Headless mode: False
+2026-10-05 14:06:13,181 [INFO] Persistent Chrome context ready.
+2026-10-05 14:06:13,449 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:06:15,177 [INFO] SERP loaded.
+2026-10-05 14:06:15,234 [INFO] Visible h3 result titles: 9
+2026-10-05 14:06:16,961 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 14:06:20,908 [INFO] Organic extracted: 1
+2026-10-05 14:06:20,908 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 14:06:20,971 [INFO] Updated 1 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:06:21,066 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Aviator
+Date: 2026-10-05
+Capture hour: 14:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+2026-10-05 14:06:21,972 [INFO] Browser closed.
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 14:06:24,729 [INFO] ============================================================
+2026-10-05 14:06:24,730 [INFO] Run start: 2026-10-05T14:06:24.729495+02:00 | keyword=Lucky Numbers
+2026-10-05 14:06:24,733 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:06:24,734 [INFO] Headless mode: False
+2026-10-05 14:06:27,035 [INFO] Persistent Chrome context ready.
+2026-10-05 14:06:27,221 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:06:29,441 [INFO] SERP loaded.
+2026-10-05 14:06:29,443 [INFO] Visible h3 result titles: 9
+2026-10-05 14:06:31,803 [INFO] Rank 1 | hollywoodbets.net | Lucky Numbers for today
+2026-10-05 14:06:35,836 [INFO] Organic extracted: 1
+2026-10-05 14:06:35,837 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 14:06:35,894 [INFO] Updated 1 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:06:35,977 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Lucky Numbers
+Date: 2026-10-05
+Capture hour: 14:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+2026-10-05 14:06:36,898 [INFO] Browser closed.
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 14:06:39,721 [INFO] ============================================================
+2026-10-05 14:06:39,723 [INFO] Run start: 2026-10-05T14:06:39.721715+02:00 | keyword=Online Slots
+2026-10-05 14:06:39,727 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:06:39,727 [INFO] Headless mode: False
+2026-10-05 14:06:41,876 [INFO] Persistent Chrome context ready.
+2026-10-05 14:06:42,257 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:06:43,854 [INFO] SERP loaded.
+2026-10-05 14:06:43,882 [INFO] Visible h3 result titles: 9
+2026-10-05 14:06:46,176 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 14:06:50,175 [INFO] Organic extracted: 1
+2026-10-05 14:06:50,176 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 14:06:50,242 [INFO] Updated 1 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:06:50,337 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 14:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Betway | betway.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 14:06:52,145 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 14:06:55,615 [INFO] ============================================================
+2026-10-05 14:06:55,620 [INFO] Run start: 2026-10-05T14:06:55.615302+02:00 | keyword=Soccer Betting
+2026-10-05 14:06:55,624 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:06:55,624 [INFO] Headless mode: False
+2026-10-05 14:06:57,821 [INFO] Persistent Chrome context ready.
+2026-10-05 14:06:58,145 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:07:00,121 [INFO] SERP loaded.
+2026-10-05 14:07:00,154 [INFO] Visible h3 result titles: 9
+2026-10-05 14:07:02,731 [INFO] Rank 1 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-05 14:07:06,697 [INFO] Organic extracted: 1
+2026-10-05 14:07:06,697 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 14:07:06,762 [INFO] Updated 1 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:07:06,852 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Soccer Betting
+Date: 2026-10-05
+Capture hour: 14:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Worldsportsbetting | worldsportsbetting.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+2026-10-05 14:07:07,850 [INFO] Browser closed.
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: captures created=1, existing captures refreshed=2.
+lucky_numbers_rankings.xlsx: captures created=1, existing captures refreshed=2.
+online_slots_rankings.xlsx: captures created=1, existing captures refreshed=2.
+soccer_betting_rankings.xlsx: captures created=1, existing captures refreshed=2.
+Imported all real Excel data: captures created=4, existing captures refreshed=8.
+Excel to PostgreSQL sync completed successfully (first pass).
+============================================================
+[2026/10/05 14:07:14,48] CAPTURE + SYNC COMPLETE
+============================================================
+============================================================
+[2026/10/05 14:15:44,38] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 14:15:51,851 [INFO] ============================================================
+2026-10-05 14:15:51,852 [INFO] Run start: 2026-10-05T14:15:51.851443+02:00 | keyword=Aviator
+2026-10-05 14:15:51,854 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:15:51,856 [INFO] Headless mode: False
+2026-10-05 14:15:54,147 [INFO] Persistent Chrome context ready.
+2026-10-05 14:15:54,383 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:15:56,019 [INFO] SERP loaded.
+2026-10-05 14:15:56,037 [INFO] Visible h3 result titles: 10
+2026-10-05 14:15:57,646 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 14:15:59,910 [INFO] Rank 2 | betway.co.za | Play Online Casino Games - Register ...
+2026-10-05 14:16:02,105 [INFO] Rank 3 | betway.co.za | Play Aviator and reach for the sky | Betway Sports betting
+2026-10-05 14:16:03,953 [INFO] Rank 4 | 10bet.co.za | Play Aviator Game Online | Crash Game by Spribe
+2026-10-05 14:16:05,291 [INFO] Rank 5 | livescore.com | How to Play Aviator on Betway 2026: Get 10 Free Flights
+2026-10-05 14:16:06,497 [INFO] Rank 6 | betway.co.za | Play Aviator | Register and Get 10 Free Flights
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 102-103: character maps to <undefined>
+Call stack:
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 1152, in <module>
+    result = run_once()
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 1042, in run_once
+    results = extract_organic_results(page)
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 490, in extract_organic_results
+    logger.info("Rank %d | %s | %s", rank, domain, title)
+Message: 'Rank %d | %s | %s'
+Arguments: (7, 'ajkksaedu.in', 'Aviator Game | Official Aviator app [Verified] \u2b50\ufe0f Download ...')
+2026-10-05 14:16:08,886 [INFO] Rank 8 | spribe.co | Aviator
+2026-10-05 14:16:10,700 [INFO] Rank 9 | gbets.co.za | Play Aviator Slot by SPRIBE - Crash Games
+2026-10-05 14:16:10,701 [INFO] Organic extracted: 9
+2026-10-05 14:16:10,703 [WARNING] Only 9 organic results were extracted; expected 10.
+2026-10-05 14:16:10,744 [INFO] Updated 9 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:16:10,798 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Aviator
+Date: 2026-10-05
+Capture hour: 14:00
+Organic results collected: 9
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+2. Betway | betway.co.za
+3. Betway | betway.co.za
+4. 10bet | 10bet.co.za
+5. LiveScore | livescore.com
+6. Betway | betway.co.za
+7. Ajkksaedu | ajkksaedu.in
+8. SPRIBE | spribe.co
+9. Gbets | gbets.co.za
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+2026-10-05 14:16:11,278 [INFO] Browser closed.
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 14:16:13,114 [INFO] ============================================================
+2026-10-05 14:16:13,115 [INFO] Run start: 2026-10-05T14:16:13.114443+02:00 | keyword=Lucky Numbers
+2026-10-05 14:16:13,118 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:16:13,119 [INFO] Headless mode: False
+2026-10-05 14:16:14,652 [INFO] Persistent Chrome context ready.
+2026-10-05 14:16:14,833 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:16:17,637 [INFO] SERP loaded.
+2026-10-05 14:16:17,650 [INFO] Visible h3 result titles: 10
+2026-10-05 14:16:19,250 [INFO] Rank 1 | hollywoodbets.net | Lucky Numbers for today
+2026-10-05 14:16:23,799 [INFO] Rank 2 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-05 14:16:25,464 [INFO] Rank 3 | luckynumber.today | Today Lucky Number
+2026-10-05 14:16:27,481 [INFO] Rank 4 | sportybet.co.za | Lucky numbers
+2026-10-05 14:16:29,591 [INFO] Rank 5 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-05 14:16:32,093 [INFO] Rank 6 | en.wikipedia.org | Lucky number
+2026-10-05 14:16:34,405 [INFO] Rank 7 | interbet.co.za | Play Lucky Numbers Online at Interbet
+2026-10-05 14:16:34,406 [INFO] Organic extracted: 7
+2026-10-05 14:16:34,408 [WARNING] Only 7 organic results were extracted; expected 10.
+2026-10-05 14:16:34,446 [INFO] Updated 7 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:16:34,487 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Lucky Numbers
+Date: 2026-10-05
+Capture hour: 14:00
+Organic results collected: 7
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+2. Worldsportsbetting | worldsportsbetting.co.za
+3. Luckynumber | luckynumber.today
+4. Sportybet | sportybet.co.za
+5. Supersportbet | supersportbet.com
+6. En | en.wikipedia.org
+7. Interbet | interbet.co.za
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+2026-10-05 14:16:35,204 [INFO] Browser closed.
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 14:16:37,189 [INFO] ============================================================
+2026-10-05 14:16:37,189 [INFO] Run start: 2026-10-05T14:16:37.189324+02:00 | keyword=Online Slots
+2026-10-05 14:16:37,189 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:16:37,189 [INFO] Headless mode: False
+2026-10-05 14:16:38,800 [INFO] Persistent Chrome context ready.
+2026-10-05 14:16:39,056 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:16:40,672 [INFO] SERP loaded.
+2026-10-05 14:16:40,695 [INFO] Visible h3 result titles: 10
+2026-10-05 14:16:41,842 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 14:16:42,693 [INFO] Rank 2 | hollywoodbets.net | Online Slot Games
+2026-10-05 14:16:44,432 [INFO] Rank 3 | worldsportsbetting.co.za | Online Slot Games | Play Real Money ...
+2026-10-05 14:16:45,353 [INFO] Rank 4 | smoothspins.co.uk | Play Online Slots
+2026-10-05 14:17:03,877 [INFO] Rank 5 | betolimp.co.za | Play Online Slots for Real Money in South Africa
+2026-10-05 14:17:04,539 [INFO] Rank 6 | foxybingo.com | Play Online Slots UK | Foxy Games
+2026-10-05 14:17:06,056 [INFO] Rank 7 | fortunesultimateslots.com | Caesars Slots – Free Slots & Online Social Casino
+2026-10-05 14:17:08,119 [INFO] Rank 8 | betway.com | Play Slot Games Online
+2026-10-05 14:17:12,769 [INFO] Rank 9 | playojo.com | Online Slots - Play slot games in UK at PlayOJO
+2026-10-05 14:17:12,770 [INFO] Organic extracted: 9
+2026-10-05 14:17:12,771 [WARNING] Only 9 organic results were extracted; expected 10.
+2026-10-05 14:17:12,836 [INFO] Updated 9 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:17:12,940 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 14:00
+Organic results collected: 9
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Hollywoodbets | hollywoodbets.net
+3. Worldsportsbetting | worldsportsbetting.co.za
+4. Smoothspins | smoothspins.co.uk
+5. Betolimp | betolimp.co.za
+6. Foxybingo | foxybingo.com
+7. Fortunesultimateslots | fortunesultimateslots.com
+8. Betway | betway.com
+9. Playojo | playojo.com
+------------------------------------------------------------
+Hollywoodbets rank: 2
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 14:17:16,513 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 14:17:19,879 [INFO] ============================================================
+2026-10-05 14:17:19,879 [INFO] Run start: 2026-10-05T14:17:19.879895+02:00 | keyword=Soccer Betting
+2026-10-05 14:17:19,883 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:17:19,883 [INFO] Headless mode: False
+2026-10-05 14:17:21,882 [INFO] Persistent Chrome context ready.
+2026-10-05 14:17:22,286 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:17:23,936 [INFO] SERP loaded.
+2026-10-05 14:17:23,946 [INFO] Visible h3 result titles: 9
+2026-10-05 14:17:26,182 [INFO] Rank 1 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-05 14:17:29,006 [INFO] Organic extracted: 1
+2026-10-05 14:17:29,006 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 14:17:29,082 [INFO] Updated 1 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:17:29,159 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Soccer Betting
+Date: 2026-10-05
+Capture hour: 14:00
+Organic results collected: 1
+------------------------------------------------------------
+1. Worldsportsbetting | worldsportsbetting.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+2026-10-05 14:17:29,859 [INFO] Browser closed.
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: captures created=0, existing captures refreshed=3.
+lucky_numbers_rankings.xlsx: captures created=0, existing captures refreshed=3.
+online_slots_rankings.xlsx: captures created=0, existing captures refreshed=3.
+soccer_betting_rankings.xlsx: captures created=0, existing captures refreshed=3.
+Imported all real Excel data: captures created=0, existing captures refreshed=12.
+Excel to PostgreSQL sync completed successfully (first pass).
+============================================================
+[2026/10/05 14:17:34,66] CAPTURE + SYNC COMPLETE
+============================================================
+============================================================
+[2026/10/05 15:35:38,82] CAPTURE + SYNC START
+Excel to PostgreSQL sync completed successfully ().
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 15:35:43,979 [INFO] ============================================================
+2026-10-05 15:35:43,981 [INFO] Run start: 2026-10-05T15:35:43.979127+02:00 | keyword=Aviator
+2026-10-05 15:35:43,983 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 15:35:43,983 [INFO] Headless mode: False
+2026-10-05 15:35:50,997 [ERROR] Run failed: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile --remote-debugging-pipe about:blank
+<launched> pid=20968
+Call log:
+  - <launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile --remote-debugging-pipe about:blank
+  - <launched> pid=20968
+  - [pid=20968] <gracefully close start>
+  - [pid=20968] <kill>
+  - [pid=20968] <will force kill>
+  - [pid=20968] taskkill stderr: ERROR: The process "20968" not found.
+  - [pid=20968] <process did exit: exitCode=0, signal=null>
+  - [pid=20968] starting temporary directories cleanup
+  - [pid=20968] finished temporary directories cleanup
+  - [pid=20968] <gracefully close end>
+
+2026-10-05 15:35:51,004 [ERROR] Traceback (most recent call last):
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 1091, in run_once
+    page = search_google(KEYWORD)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 170, in search_google
+    context = BROWSER.start()
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\SEO_SERP_Monitor_Aviator.py", line 125, in start
+    self._context = self._pw.chromium.launch_persistent_context(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\sync_api\_generated.py", line 17120, in launch_persistent_context
+    self._sync(
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_browser_type.py", line 169, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_connection.py", line 103, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WandileK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\playwright\_impl\_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile --remote-debugging-pipe about:blank
+<launched> pid=20968
+Call log:
+  - <launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile --remote-debugging-pipe about:blank
+  - <launched> pid=20968
+  - [pid=20968] <gracefully close start>
+  - [pid=20968] <kill>
+  - [pid=20968] <will force kill>
+  - [pid=20968] taskkill stderr: ERROR: The process "20968" not found.
+  - [pid=20968] <process did exit: exitCode=0, signal=null>
+  - [pid=20968] starting temporary directories cleanup
+  - [pid=20968] finished temporary directories cleanup
+  - [pid=20968] <gracefully close end>
+
+
+Run failed: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile --remote-debugging-pipe about:blank
+<launched> pid=20968
+Call log:
+  - <launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile --remote-debugging-pipe about:blank
+  - <launched> pid=20968
+  - [pid=20968] <gracefully close start>
+  - [pid=20968] <kill>
+  - [pid=20968] <will force kill>
+  - [pid=20968] taskkill stderr: ERROR: The process "20968" not found.
+  - [pid=20968] <process did exit: exitCode=0, signal=null>
+  - [pid=20968] starting temporary directories cleanup
+  - [pid=20968] finished temporary directories cleanup
+  - [pid=20968] <gracefully close end>
+
+2026-10-05 15:35:51,005 [INFO] Browser closed.
+WARNING: SEO_SERP_Monitor_aviator failed with exit code 1. Continuing with remaining keywords.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 15:35:55,755 [INFO] ============================================================
+2026-10-05 15:35:55,758 [INFO] Run start: 2026-10-05T15:35:55.755861+02:00 | keyword=Lucky Numbers
+2026-10-05 15:35:55,762 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 15:35:55,764 [INFO] Headless mode: False
+2026-10-05 15:35:58,326 [INFO] Persistent Chrome context ready.
+2026-10-05 15:35:58,547 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:36:03,607 [INFO] SERP loaded.
+2026-10-05 15:36:03,618 [INFO] SERP candidates found (H3): 11
+2026-10-05 15:36:03,776 [INFO] Rank 1 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-05 15:36:05,580 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-05 15:36:07,314 [INFO] Rank 3 | hollywoodbets.net | Lucky Numbers for today
+2026-10-05 15:36:11,360 [INFO] Rank 4 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-05 15:36:13,653 [INFO] Rank 5 | luckynumber.today | Today Lucky Number
+2026-10-05 15:36:16,449 [INFO] Rank 6 | sportybet.co.za | Lucky numbers
+2026-10-05 15:36:18,594 [INFO] Rank 7 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-05 15:36:21,704 [INFO] Rank 8 | en.wikipedia.org | Lucky number
+2026-10-05 15:36:28,337 [INFO] Rank 9 | interbet.co.za | Play Lucky Numbers Online at Interbet
+2026-10-05 15:36:30,150 [INFO] Rank 10 | za.pinterest.com | Lucky numbers for lottery
+2026-10-05 15:36:30,151 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 15:36:30,253 [INFO] Updated 10 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:36:30,307 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Lucky Numbers
+Date: 2026-10-05
+Capture hour: 15:00
+Organic results collected: 10
+------------------------------------------------------------
+1. Google Play | play.google.com
+2. Tiktok | tiktok.com
+3. Hollywoodbets | hollywoodbets.net
+4. Worldsportsbetting | worldsportsbetting.co.za
+5. Luckynumber | luckynumber.today
+6. Sportybet | sportybet.co.za
+7. Supersportbet | supersportbet.com
+8. En | en.wikipedia.org
+9. Interbet | interbet.co.za
+10. Za | za.pinterest.com
+------------------------------------------------------------
+Hollywoodbets rank: 3
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+2026-10-05 15:36:36,068 [INFO] Browser closed.
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 15:36:38,086 [INFO] ============================================================
+2026-10-05 15:36:38,088 [INFO] Run start: 2026-10-05T15:36:38.086369+02:00 | keyword=Online Slots
+2026-10-05 15:36:38,091 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 15:36:38,092 [INFO] Headless mode: False
+2026-10-05 15:36:39,780 [INFO] Persistent Chrome context ready.
+2026-10-05 15:36:40,006 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:36:48,777 [INFO] SERP loaded.
+2026-10-05 15:36:48,789 [INFO] SERP candidates found (H3): 10
+2026-10-05 15:36:50,801 [INFO] Rank 1 | betway.co.za | AI Mode reply for Online Slots
+2026-10-05 15:36:56,022 [INFO] Rank 2 | worldsportsbetting.co.za | Online Slot Games | Play Real Money ...
+2026-10-05 15:36:57,870 [INFO] Rank 3 | hollywoodbets.net | Online Slot Games
+2026-10-05 15:36:57,985 [INFO] Rank 4 | play.google.com | Slots online – Apps on Google Play
+2026-10-05 15:37:06,918 [INFO] Rank 5 | betolimp.co.za | Play Online Slots for Real Money in South Africa
+2026-10-05 15:37:08,089 [INFO] Rank 6 | smoothspins.co.uk | Play Online Slots
+2026-10-05 15:37:11,190 [INFO] Rank 7 | apps.apple.com | Cashman Casino Slots Games - App Store
+2026-10-05 15:37:13,139 [INFO] Rank 8 | foxybingo.com | Play Online Slots UK | Foxy Games
+2026-10-05 15:37:16,017 [INFO] Rank 9 | fortunesultimateslots.com | Caesars Slots – Free Slots & Online Social Casino
+2026-10-05 15:37:16,018 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-05 15:37:16,100 [INFO] Updated 9 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:37:16,211 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 15:00
+Organic results collected: 9
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Worldsportsbetting | worldsportsbetting.co.za
+3. Hollywoodbets | hollywoodbets.net
+4. Google Play | play.google.com
+5. Betolimp | betolimp.co.za
+6. Smoothspins | smoothspins.co.uk
+7. Apps | apps.apple.com
+8. Foxybingo | foxybingo.com
+9. Fortunesultimateslots | fortunesultimateslots.com
+------------------------------------------------------------
+Hollywoodbets rank: 3
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 15:37:58,984 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 15:38:02,002 [INFO] ============================================================
+2026-10-05 15:38:02,003 [INFO] Run start: 2026-10-05T15:38:02.002878+02:00 | keyword=Soccer Betting
+2026-10-05 15:38:02,006 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 15:38:02,007 [INFO] Headless mode: False
+2026-10-05 15:38:03,766 [INFO] Persistent Chrome context ready.
+2026-10-05 15:38:03,936 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:38:09,493 [INFO] SERP loaded.
+2026-10-05 15:38:09,503 [INFO] SERP candidates found (H3): 10
+2026-10-05 15:38:11,689 [INFO] Rank 1 | hollywoodbets.net | AI Mode reply for Soccer Betting
+2026-10-05 15:38:14,672 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-05 15:38:20,528 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-05 15:38:22,796 [INFO] Rank 4 | bet.co.za | Sports - Soccer - Competitions
+2026-10-05 15:38:26,081 [INFO] Rank 5 | 10bet.co.za | Bet on Soccer and Check 10bet Odds!
+2026-10-05 15:38:30,023 [INFO] Rank 6 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-05 15:38:31,654 [INFO] Rank 7 | playtsogo.co.za | Bet on Soccer Matches | Best Football Betting Odds
+2026-10-05 15:38:34,913 [INFO] Rank 8 | betolimp.co.za | Soccer Betting South Africa
+2026-10-05 15:38:37,025 [INFO] Rank 9 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-05 15:38:37,027 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-05 15:38:37,072 [INFO] Updated 9 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:38:37,123 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Soccer Betting
+Date: 2026-10-05
+Capture hour: 15:00
+Organic results collected: 9
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+2. Worldsportsbetting | worldsportsbetting.co.za
+3. Sportingbet | sportingbet.co.za
+4. Bet | bet.co.za
+5. 10bet | 10bet.co.za
+6. Sportpesa | sportpesa.co.za
+7. Playtsogo | playtsogo.co.za
+8. Betolimp | betolimp.co.za
+9. LiveScore | livescore.com
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+2026-10-05 15:38:55,743 [INFO] Browser closed.
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: captures created=0, existing captures refreshed=3.
+lucky_numbers_rankings.xlsx: captures created=1, existing captures refreshed=0.
+online_slots_rankings.xlsx: captures created=1, existing captures refreshed=3.
+soccer_betting_rankings.xlsx: captures created=1, existing captures refreshed=3.
+Imported all real Excel data: captures created=3, existing captures refreshed=9.
+Excel to PostgreSQL sync completed successfully (first pass).
+------------------------------------------------------------
+One or more scrapers failed. Waiting 15 minutes, then retrying only failed scrapers.
+============================================================
+[2026/10/05 15:48:29,17] CAPTURE + SYNC START
+============================================================
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 15:48:30,656 [INFO] ============================================================
+2026-10-05 15:48:30,656 [INFO] Run start: 2026-10-05T15:48:30.656854+02:00 | keyword=Aviator
+2026-10-05 15:48:30,658 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 15:48:30,661 [INFO] Headless mode: False
+2026-10-05 15:48:31,678 [INFO] Persistent Chrome context ready.
+2026-10-05 15:48:31,778 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:48:35,887 [INFO] SERP loaded.
+2026-10-05 15:48:35,897 [INFO] SERP candidates found (H3): 10
+2026-10-05 15:48:38,237 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 15:48:40,182 [INFO] Rank 2 | betway.co.za | Play Online Casino Games - Register ...
+2026-10-05 15:48:41,866 [INFO] Rank 3 | betway.co.za | Play Aviator and reach for the sky | Betway Sports betting
+2026-10-05 15:48:44,674 [INFO] Rank 4 | 10bet.co.za | Play Aviator Game Online | Crash Game by Spribe
+2026-10-05 15:48:47,567 [INFO] Rank 5 | livescore.com | How to Play Aviator on Betway 2026: Get 10 Free Flights
+2026-10-05 15:48:54,849 [INFO] Rank 6 | betway.co.za | Play Aviator | Register and Get 10 Free Flights
+2026-10-05 15:48:57,139 [INFO] Rank 7 | spribe.co | Aviator
+2026-10-05 15:48:59,660 [INFO] Rank 8 | en.wikipedia.org | Aircraft pilot
+2026-10-05 15:48:59,732 [INFO] Rank 9 | play.google.com | Aviator – Apps on Google Play
+2026-10-05 15:49:00,696 [INFO] Rank 10 | gbets.co.za | Play Aviator Slot by SPRIBE - Crash Games
+2026-10-05 15:49:00,696 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 15:49:00,733 [INFO] Updated 10 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:49:00,772 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Aviator
+Date: 2026-10-05
+Capture hour: 15:00
+Organic results collected: 10
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+2. Betway | betway.co.za
+3. Betway | betway.co.za
+4. 10bet | 10bet.co.za
+5. LiveScore | livescore.com
+6. Betway | betway.co.za
+7. SPRIBE | spribe.co
+8. En | en.wikipedia.org
+9. Google Play | play.google.com
+10. Gbets | gbets.co.za
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+2026-10-05 15:49:01,280 [INFO] Browser closed.
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 15:49:02,913 [INFO] ============================================================
+2026-10-05 15:49:02,914 [INFO] Run start: 2026-10-05T15:49:02.913272+02:00 | keyword=Lucky Numbers
+2026-10-05 15:49:02,915 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_lucky_numbers
+2026-10-05 15:49:02,916 [INFO] Headless mode: False
+2026-10-05 15:49:04,350 [INFO] Persistent Chrome context ready.
+2026-10-05 15:49:04,454 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:49:21,044 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-05 15:49:21,061 [INFO] SERP loaded.
+2026-10-05 15:49:21,076 [INFO] SERP candidates found (H3): 10
+2026-10-05 15:49:27,830 [INFO] Rank 1 | hollywoodbets.net | AI Mode replied:
+2026-10-05 15:49:30,010 [INFO] Rank 2 | takealot.com | Raven's Lucky Numbers Book of Places: USA Edition
+2026-10-05 15:49:31,690 [INFO] Rank 3 | bankservices.co.za | My lucky lottery numbers today Share via ... - Bank Services
+2026-10-05 15:49:35,311 [INFO] Rank 4 | blog.hollywoodbets.net | This Week's Featured Lucky Number Draws
+2026-10-05 15:49:39,901 [INFO] Rank 5 | salesianyouth.org | Roulette Lucky Numbers
+2026-10-05 15:49:42,142 [INFO] Rank 6 | bestsportsbetting.co.za | Lucky Numbers Betting South Africa
+2026-10-05 15:49:44,437 [INFO] Rank 7 | blog.hollywoodbets.net | This Week's Lucky Numbers
+2026-10-05 15:49:47,976 [INFO] Rank 8 | blog.hollywoodbets.net | Iceland 5/40 - Lucky Numbers
+2026-10-05 15:49:50,340 [INFO] Rank 9 | blog.hollywoodbets.net | This Week's Lucky Numbers (28/07/2020)
+2026-10-05 15:49:52,774 [INFO] Rank 10 | blog.hollywoodbets.net | A Massive Lucky Numbers Win!
+2026-10-05 15:49:52,777 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 15:49:52,921 [INFO] Updated 10 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:49:53,064 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Lucky Numbers
+Date: 2026-10-05
+Capture hour: 15:00
+Organic results collected: 10
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+2. Takealot | takealot.com
+3. Bankservices | bankservices.co.za
+4. Hollywoodbets | blog.hollywoodbets.net
+5. Salesianyouth | salesianyouth.org
+6. Bestsportsbetting | bestsportsbetting.co.za
+7. Hollywoodbets | blog.hollywoodbets.net
+8. Hollywoodbets | blog.hollywoodbets.net
+9. Hollywoodbets | blog.hollywoodbets.net
+10. Hollywoodbets | blog.hollywoodbets.net
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+2026-10-05 15:50:05,797 [INFO] Browser closed.
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 15:50:07,397 [INFO] ============================================================
+2026-10-05 15:50:07,398 [INFO] Run start: 2026-10-05T15:50:07.397299+02:00 | keyword=Online Slots
+2026-10-05 15:50:07,399 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_online_slots
+2026-10-05 15:50:07,399 [INFO] Headless mode: False
+2026-10-05 15:50:08,767 [INFO] Persistent Chrome context ready.
+2026-10-05 15:50:08,882 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:50:13,504 [INFO] SERP loaded.
+2026-10-05 15:50:13,514 [INFO] SERP candidates found (H3): 10
+2026-10-05 15:50:15,882 [INFO] Rank 1 | springbokcasino.co.za | Are you ready to play lots of slots?
+2026-10-05 15:50:19,210 [INFO] Rank 2 | slotsrealmoney.co.za | Find the Best Online Slots Casino Bonuses @ Slots Real Money
+2026-10-05 15:50:20,909 [INFO] Rank 3 | playcasino.co.za | Best Online Slots South Africa: Free Play & Real Money Slots
+2026-10-05 15:50:24,282 [INFO] Rank 4 | unibet.co.uk | Online Slots | Play UK Slot Games with Unibet
+2026-10-05 15:50:26,350 [INFO] Rank 5 | iol.co.za | 5 new online slots to play in South Africa in September 2025
+2026-10-05 15:50:31,334 [INFO] Rank 6 | youtube.com | ONLINE SLOTS Tips, How To, and what could cost you
+2026-10-05 15:50:35,428 [INFO] Rank 7 | whichcasino.co.za | Popular Online Slots at South African Casinos
+2026-10-05 15:50:40,592 [INFO] Rank 8 | saonlinecasinos.co.za | A Guide to Playing Slots at Online Casinos
+2026-10-05 15:50:44,848 [INFO] Rank 9 | onlinegambling.co.za | The Basics to Playing Real Money Online Slots
+2026-10-05 15:50:44,850 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-05 15:50:44,954 [INFO] Updated 9 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:50:45,160 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 15:00
+Organic results collected: 9
+------------------------------------------------------------
+1. Springbokcasino | springbokcasino.co.za
+2. Slotsrealmoney | slotsrealmoney.co.za
+3. Playcasino | playcasino.co.za
+4. Unibet | unibet.co.uk
+5. Iol | iol.co.za
+6. Youtube | youtube.com
+7. Whichcasino | whichcasino.co.za
+8. Saonlinecasinos | saonlinecasinos.co.za
+9. Onlinegambling | onlinegambling.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 15:51:01,726 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 15:51:03,343 [INFO] ============================================================
+2026-10-05 15:51:03,343 [INFO] Run start: 2026-10-05T15:51:03.342334+02:00 | keyword=Soccer Betting
+2026-10-05 15:51:03,344 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting
+2026-10-05 15:51:03,344 [INFO] Headless mode: False
+2026-10-05 15:51:04,477 [INFO] Persistent Chrome context ready.
+2026-10-05 15:51:04,608 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:51:21,750 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-05 15:51:21,764 [INFO] SERP loaded.
+2026-10-05 15:51:21,775 [INFO] SERP candidates found (H3): 11
+2026-10-05 15:51:23,732 [INFO] Rank 1 | betway.co.za | AI Mode replied:
+2026-10-05 15:51:30,306 [INFO] Rank 2 | rg.org | Soccer Betting Guides
+2026-10-05 15:51:34,234 [INFO] Rank 3 | visitblackhawk.org | Beginner's Guide to Soccer Betting in Black Hawk
+2026-10-05 15:51:36,838 [INFO] Rank 4 | livescore.com | How to Analyse Teams & Stats: Guide to Placing a Soccer ...
+2026-10-05 15:51:40,288 [INFO] Rank 5 | oddschecker.com | Soccer Betting Odds & Lines
+2026-10-05 15:51:42,017 [INFO] Rank 6 | sportsbook.draftkings.com | Soccer Odds, Lines, and Online Betting
+2026-10-05 15:51:43,679 [INFO] Rank 7 | soccer6.co.za | Soccer6.co.za
+2026-10-05 15:51:50,433 [INFO] Rank 8 | youtube.com | Soccer Betting Guide - How to Bet On Soccer for Beginners
+2026-10-05 15:51:53,670 [INFO] Rank 9 | quora.com | What is soccer betting?
+2026-10-05 15:52:00,767 [INFO] Rank 10 | soccerbase.com | Football Betting | Place Your Football Bet Today | Soccer Base
+2026-10-05 15:52:00,768 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 15:52:00,916 [INFO] Updated 10 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:52:01,117 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Soccer Betting
+Date: 2026-10-05
+Capture hour: 15:00
+Organic results collected: 10
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Rg | rg.org
+3. Visitblackhawk | visitblackhawk.org
+4. LiveScore | livescore.com
+5. Oddschecker | oddschecker.com
+6. Sportsbook | sportsbook.draftkings.com
+7. Soccer6 | soccer6.co.za
+8. Youtube | youtube.com
+9. Quora | quora.com
+10. Soccerbase | soccerbase.com
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+2026-10-05 15:52:06,964 [INFO] Browser closed.
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: captures created=1, existing captures refreshed=0.
+lucky_numbers_rankings.xlsx: captures created=0, existing captures refreshed=1.
+online_slots_rankings.xlsx: captures created=0, existing captures refreshed=4.
+soccer_betting_rankings.xlsx: captures created=0, existing captures refreshed=1.
+Imported all real Excel data: captures created=1, existing captures refreshed=6.
+Excel to PostgreSQL sync completed successfully (first pass).
+============================================================
+[2026/10/05 15:52:17,62] CAPTURE + SYNC COMPLETE
+============================================================
+============================================================
+[2026/10/05 16:12:53,89] CAPTURE + SYNC START
+============================================================
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-05 16:12:55,247 [INFO] ============================================================
+2026-10-05 16:12:55,247 [INFO] Run start: 2026-10-05T16:12:55.247845+02:00 | keyword=Aviator
+2026-10-05 16:12:55,251 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-05 16:12:55,251 [INFO] Headless mode: False
+2026-10-05 16:12:56,741 [INFO] Persistent Chrome context ready.
+2026-10-05 16:12:56,880 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=20&pws=0
+2026-10-05 16:13:02,123 [INFO] SERP loaded.
+2026-10-05 16:13:02,130 [INFO] SERP candidates found (H3): 10
+2026-10-05 16:13:03,611 [INFO] Rank 1 | betway.co.za | Play Online Casino Games - Register ...
+2026-10-05 16:13:05,385 [INFO] Rank 2 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-05 16:13:12,536 [INFO] Rank 3 | 10bet.co.za | Play Aviator Game Online | Crash Game by Spribe
+2026-10-05 16:13:14,289 [INFO] Rank 4 | betway.co.za | Play Aviator and reach for the sky | Betway Sports betting
+2026-10-05 16:13:16,119 [INFO] Rank 5 | betway.co.za | Play Aviator | Register and Get 10 Free Flights
+2026-10-05 16:13:20,004 [INFO] Rank 6 | merriam-webster.com | AVIATOR Definition & Meaning
+2026-10-05 16:13:21,303 [INFO] Rank 7 | livescore.com | How to Play Aviator on Betway 2026: Get 10 Free Flights
+2026-10-05 16:13:23,006 [INFO] Rank 8 | spribe.co | Aviator
+2026-10-05 16:13:31,358 [INFO] Rank 9 | aviator.aero | AVIATOR | Airline Market Intelligence
+2026-10-05 16:13:34,182 [INFO] Rank 10 | youtube.com | Betway Aviator - Picking up a Quick Big Win
+2026-10-05 16:13:34,183 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 16:13:34,231 [INFO] Updated 10 SERP rows for 2026-10-05 at 16:00
+2026-10-05 16:13:34,298 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Aviator
+Date: 2026-10-05
+Capture hour: 16:00
+Organic results collected: 10
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Hollywoodbets | hollywoodbets.net
+3. 10bet | 10bet.co.za
+4. Betway | betway.co.za
+5. Betway | betway.co.za
+6. Merriam webster | merriam-webster.com
+7. LiveScore | livescore.com
+8. SPRIBE | spribe.co
+9. Aviator | aviator.aero
+10. Youtube | youtube.com
+------------------------------------------------------------
+Hollywoodbets rank: 2
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+2026-10-05 16:13:36,135 [INFO] Browser closed.
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-05 16:13:37,616 [INFO] ============================================================
+2026-10-05 16:13:37,616 [INFO] Run start: 2026-10-05T16:13:37.615699+02:00 | keyword=Lucky Numbers
+2026-10-05 16:13:37,617 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_lucky_numbers
+2026-10-05 16:13:37,618 [INFO] Headless mode: False
+2026-10-05 16:13:38,924 [INFO] Persistent Chrome context ready.
+2026-10-05 16:13:39,083 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-05 16:13:43,767 [INFO] SERP loaded.
+2026-10-05 16:13:43,872 [INFO] SERP candidates found (H3): 11
+2026-10-05 16:13:45,617 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-05 16:13:46,966 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-05 16:13:47,099 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-05 16:13:48,631 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-05 16:13:51,994 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-05 16:13:54,761 [INFO] Rank 6 | en.wikipedia.org | Lucky number
+2026-10-05 16:13:57,151 [INFO] Rank 7 | luckynumber.today | Lucky Numbers
+2026-10-05 16:13:59,007 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-05 16:14:01,112 [INFO] Rank 9 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-05 16:14:04,181 [INFO] Rank 10 | facebook.com | Those are some great lucky numbers
+2026-10-05 16:14:04,181 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 16:14:04,261 [INFO] Updated 10 SERP rows for 2026-10-05 at 16:00
+2026-10-05 16:14:04,366 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Lucky Numbers
+Date: 2026-10-05
+Capture hour: 16:00
+Organic results collected: 10
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Tiktok | tiktok.com
+3. Google Play | play.google.com
+4. Hollywoodbets | hollywoodbets.net
+5. Worldsportsbetting | worldsportsbetting.co.za
+6. En | en.wikipedia.org
+7. Luckynumber | luckynumber.today
+8. Za | za.pinterest.com
+9. Aiminghigh | aiminghigh.aimssec.ac.za
+10. Facebook | facebook.com
+------------------------------------------------------------
+Hollywoodbets rank: 4
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+2026-10-05 16:14:09,786 [INFO] Browser closed.
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-05 16:14:13,439 [INFO] ============================================================
+2026-10-05 16:14:13,441 [INFO] Run start: 2026-10-05T16:14:13.439642+02:00 | keyword=Online Slots
+2026-10-05 16:14:13,456 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_online_slots
+2026-10-05 16:14:13,458 [INFO] Headless mode: False
+2026-10-05 16:14:16,087 [INFO] Persistent Chrome context ready.
+2026-10-05 16:14:16,441 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=20&pws=0
+2026-10-05 16:14:22,203 [INFO] SERP loaded.
+2026-10-05 16:14:22,213 [INFO] SERP candidates found (H3): 10
+2026-10-05 16:14:24,690 [INFO] Rank 1 | springbokcasino.co.za | Are you ready to play lots of slots?
+2026-10-05 16:14:26,720 [INFO] Rank 2 | slotsrealmoney.co.za | Find the Best Online Slots Casino Bonuses @ Slots Real Money
+2026-10-05 16:14:28,272 [INFO] Rank 3 | playcasino.co.za | Best Online Slots South Africa: Free Play & Real Money Slots
+2026-10-05 16:14:30,900 [INFO] Rank 4 | unibet.co.uk | Online Slots | Play UK Slot Games with Unibet
+2026-10-05 16:14:32,392 [INFO] Rank 5 | iol.co.za | 5 new online slots to play in South Africa in September 2025
+2026-10-05 16:14:35,950 [INFO] Rank 6 | youtube.com | ONLINE SLOTS Tips, How To, and what could cost you
+2026-10-05 16:14:37,488 [INFO] Rank 7 | whichcasino.co.za | Popular Online Slots at South African Casinos
+2026-10-05 16:14:42,755 [INFO] Rank 8 | saonlinecasinos.co.za | A Guide to Playing Slots at Online Casinos
+2026-10-05 16:14:44,405 [INFO] Rank 9 | onlinegambling.co.za | The Basics to Playing Real Money Online Slots
+2026-10-05 16:14:44,407 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-05 16:14:44,477 [INFO] Updated 9 SERP rows for 2026-10-05 at 16:00
+2026-10-05 16:14:44,576 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-05
+Capture hour: 16:00
+Organic results collected: 9
+------------------------------------------------------------
+1. Springbokcasino | springbokcasino.co.za
+2. Slotsrealmoney | slotsrealmoney.co.za
+3. Playcasino | playcasino.co.za
+4. Unibet | unibet.co.uk
+5. Iol | iol.co.za
+6. Youtube | youtube.com
+7. Whichcasino | whichcasino.co.za
+8. Saonlinecasinos | saonlinecasinos.co.za
+9. Onlinegambling | onlinegambling.co.za
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-05 16:14:49,012 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-05 16:14:52,222 [INFO] ============================================================
+2026-10-05 16:14:52,223 [INFO] Run start: 2026-10-05T16:14:52.222134+02:00 | keyword=Soccer Betting
+2026-10-05 16:14:52,226 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting
+2026-10-05 16:14:52,229 [INFO] Headless mode: False
+2026-10-05 16:14:54,587 [INFO] Persistent Chrome context ready.
+2026-10-05 16:14:54,870 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-05 16:15:12,714 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-05 16:15:12,726 [INFO] SERP loaded.
+2026-10-05 16:15:12,734 [INFO] SERP candidates found (H3): 10
+2026-10-05 16:15:14,032 [INFO] Rank 1 | betway.co.za | AI Mode replied:
+2026-10-05 16:15:18,640 [INFO] Rank 2 | rg.org | Soccer Betting Guides
+2026-10-05 16:15:19,766 [INFO] Rank 3 | livescore.com | How to Analyse Teams & Stats: Guide to Placing a Soccer ...
+2026-10-05 16:15:21,273 [INFO] Rank 4 | sportsbook.draftkings.com | Soccer Odds, Lines, and Online Betting
+2026-10-05 16:15:23,530 [INFO] Rank 5 | quora.com | What is soccer betting?
+2026-10-05 16:15:28,058 [INFO] Rank 6 | youtube.com | Soccer Betting Guide - How to Bet On Soccer for Beginners
+2026-10-05 16:15:32,621 [INFO] Rank 7 | betolimp.co.za | Soccer Betting South Africa
+2026-10-05 16:15:35,397 [INFO] Rank 8 | actionnetwork.com | How To Bet on Soccer: 9 Different Bet Types, Explained
+2026-10-05 16:15:39,130 [INFO] Rank 9 | soccerbase.com | Football Betting | Place Your Football Bet Today | Soccer Base
+2026-10-05 16:15:41,887 [INFO] Rank 10 | hardrock.bet | Soccer Betting: Live Odds, Available Markets, and FAQ ...
+2026-10-05 16:15:41,893 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 16:15:41,962 [INFO] Updated 10 SERP rows for 2026-10-05 at 16:00
+2026-10-05 16:15:42,045 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Soccer Betting
+Date: 2026-10-05
+Capture hour: 16:00
+Organic results collected: 10
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Rg | rg.org
+3. LiveScore | livescore.com
+4. Sportsbook | sportsbook.draftkings.com
+5. Quora | quora.com
+6. Youtube | youtube.com
+7. Betolimp | betolimp.co.za
+8. Actionnetwork | actionnetwork.com
+9. Soccerbase | soccerbase.com
+10. Hardrock | hardrock.bet
+------------------------------------------------------------
+Hollywoodbets rank: None
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+2026-10-05 16:15:47,889 [INFO] Browser closed.
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: captures created=1, existing captures refreshed=1.
+lucky_numbers_rankings.xlsx: captures created=1, existing captures refreshed=1.
+online_slots_rankings.xlsx: captures created=1, existing captures refreshed=4.
+soccer_betting_rankings.xlsx: captures created=1, existing captures refreshed=1.
+Imported all real Excel data: captures created=4, existing captures refreshed=7.
+Excel to PostgreSQL sync completed successfully (first pass).
+============================================================
+[2026/10/05 16:15:55,69] CAPTURE + SYNC COMPLETE
+============================================================

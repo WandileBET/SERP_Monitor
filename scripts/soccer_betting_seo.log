@@ -1,0 +1,137 @@
+2026-10-05 12:28:01,557 [INFO] ============================================================
+2026-10-05 12:28:01,558 [INFO] Run start: 2026-10-05T12:28:01.557110+02:00 | keyword=Soccer Betting
+2026-10-05 12:28:01,560 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:28:01,560 [INFO] Headless mode: False
+2026-10-05 12:28:03,092 [INFO] Persistent Chrome context ready.
+2026-10-05 12:28:03,309 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:28:05,488 [INFO] SERP loaded.
+2026-10-05 12:28:05,500 [INFO] Visible h3 result titles: 9
+2026-10-05 12:28:07,358 [INFO] Rank 1 | betway.co.za | Soccer Betting & Soccer Odds - Betway MW
+2026-10-05 12:28:11,240 [INFO] Organic extracted: 1
+2026-10-05 12:28:11,240 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 12:28:11,276 [INFO] Updated 1 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:28:11,409 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+2026-10-05 12:28:23,608 [INFO] Browser closed.
+2026-10-05 12:35:32,424 [INFO] ============================================================
+2026-10-05 12:35:32,425 [INFO] Run start: 2026-10-05T12:35:32.424773+02:00 | keyword=Soccer Betting
+2026-10-05 12:35:32,429 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:35:32,429 [INFO] Headless mode: False
+2026-10-05 12:35:34,535 [INFO] Persistent Chrome context ready.
+2026-10-05 12:35:34,769 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:35:39,152 [INFO] SERP loaded.
+2026-10-05 12:35:39,173 [INFO] Visible h3 result titles: 9
+2026-10-05 12:35:43,410 [INFO] Rank 1 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-05 12:35:48,174 [INFO] Organic extracted: 1
+2026-10-05 12:35:48,174 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 12:35:48,276 [INFO] Updated 1 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:35:48,529 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+2026-10-05 12:35:51,813 [INFO] Browser closed.
+2026-10-05 13:36:00,260 [INFO] ============================================================
+2026-10-05 13:36:00,260 [INFO] Run start: 2026-10-05T13:36:00.260323+02:00 | keyword=Soccer Betting
+2026-10-05 13:36:00,296 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 13:36:00,296 [INFO] Headless mode: False
+2026-10-05 13:36:02,437 [INFO] Persistent Chrome context ready.
+2026-10-05 13:36:02,668 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 13:36:03,997 [INFO] SERP loaded.
+2026-10-05 13:36:04,019 [INFO] Visible h3 result titles: 9
+2026-10-05 13:36:06,871 [INFO] Rank 1 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-05 13:36:10,233 [INFO] Organic extracted: 1
+2026-10-05 13:36:10,233 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 13:36:10,277 [INFO] Updated 1 SERP rows for 2026-10-05 at 13:00
+2026-10-05 13:36:10,334 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+2026-10-05 13:36:12,591 [INFO] Browser closed.
+2026-10-05 14:06:55,615 [INFO] ============================================================
+2026-10-05 14:06:55,620 [INFO] Run start: 2026-10-05T14:06:55.615302+02:00 | keyword=Soccer Betting
+2026-10-05 14:06:55,624 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:06:55,624 [INFO] Headless mode: False
+2026-10-05 14:06:57,821 [INFO] Persistent Chrome context ready.
+2026-10-05 14:06:58,145 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:07:00,121 [INFO] SERP loaded.
+2026-10-05 14:07:00,154 [INFO] Visible h3 result titles: 9
+2026-10-05 14:07:02,731 [INFO] Rank 1 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-05 14:07:06,697 [INFO] Organic extracted: 1
+2026-10-05 14:07:06,697 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 14:07:06,762 [INFO] Updated 1 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:07:06,852 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+2026-10-05 14:07:07,850 [INFO] Browser closed.
+2026-10-05 14:17:19,879 [INFO] ============================================================
+2026-10-05 14:17:19,879 [INFO] Run start: 2026-10-05T14:17:19.879895+02:00 | keyword=Soccer Betting
+2026-10-05 14:17:19,883 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:17:19,883 [INFO] Headless mode: False
+2026-10-05 14:17:21,882 [INFO] Persistent Chrome context ready.
+2026-10-05 14:17:22,286 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:17:23,936 [INFO] SERP loaded.
+2026-10-05 14:17:23,946 [INFO] Visible h3 result titles: 9
+2026-10-05 14:17:26,182 [INFO] Rank 1 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-05 14:17:29,006 [INFO] Organic extracted: 1
+2026-10-05 14:17:29,006 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 14:17:29,082 [INFO] Updated 1 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:17:29,159 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+2026-10-05 14:17:29,859 [INFO] Browser closed.
+2026-10-05 15:38:02,002 [INFO] ============================================================
+2026-10-05 15:38:02,003 [INFO] Run start: 2026-10-05T15:38:02.002878+02:00 | keyword=Soccer Betting
+2026-10-05 15:38:02,006 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 15:38:02,007 [INFO] Headless mode: False
+2026-10-05 15:38:03,766 [INFO] Persistent Chrome context ready.
+2026-10-05 15:38:03,936 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:38:09,493 [INFO] SERP loaded.
+2026-10-05 15:38:09,503 [INFO] SERP candidates found (H3): 10
+2026-10-05 15:38:11,689 [INFO] Rank 1 | hollywoodbets.net | AI Mode reply for Soccer Betting
+2026-10-05 15:38:14,672 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-05 15:38:20,528 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-05 15:38:22,796 [INFO] Rank 4 | bet.co.za | Sports - Soccer - Competitions
+2026-10-05 15:38:26,081 [INFO] Rank 5 | 10bet.co.za | Bet on Soccer and Check 10bet Odds!
+2026-10-05 15:38:30,023 [INFO] Rank 6 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-05 15:38:31,654 [INFO] Rank 7 | playtsogo.co.za | Bet on Soccer Matches | Best Football Betting Odds
+2026-10-05 15:38:34,913 [INFO] Rank 8 | betolimp.co.za | Soccer Betting South Africa
+2026-10-05 15:38:37,025 [INFO] Rank 9 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-05 15:38:37,027 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-05 15:38:37,072 [INFO] Updated 9 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:38:37,123 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+2026-10-05 15:38:55,743 [INFO] Browser closed.
+2026-10-05 15:51:03,343 [INFO] ============================================================
+2026-10-05 15:51:03,343 [INFO] Run start: 2026-10-05T15:51:03.342334+02:00 | keyword=Soccer Betting
+2026-10-05 15:51:03,344 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting
+2026-10-05 15:51:03,344 [INFO] Headless mode: False
+2026-10-05 15:51:04,477 [INFO] Persistent Chrome context ready.
+2026-10-05 15:51:04,608 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:51:21,750 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-05 15:51:21,764 [INFO] SERP loaded.
+2026-10-05 15:51:21,775 [INFO] SERP candidates found (H3): 11
+2026-10-05 15:51:23,732 [INFO] Rank 1 | betway.co.za | AI Mode replied:
+2026-10-05 15:51:30,306 [INFO] Rank 2 | rg.org | Soccer Betting Guides
+2026-10-05 15:51:34,234 [INFO] Rank 3 | visitblackhawk.org | Beginner's Guide to Soccer Betting in Black Hawk
+2026-10-05 15:51:36,838 [INFO] Rank 4 | livescore.com | How to Analyse Teams & Stats: Guide to Placing a Soccer ...
+2026-10-05 15:51:40,288 [INFO] Rank 5 | oddschecker.com | Soccer Betting Odds & Lines
+2026-10-05 15:51:42,017 [INFO] Rank 6 | sportsbook.draftkings.com | Soccer Odds, Lines, and Online Betting
+2026-10-05 15:51:43,679 [INFO] Rank 7 | soccer6.co.za | Soccer6.co.za
+2026-10-05 15:51:50,433 [INFO] Rank 8 | youtube.com | Soccer Betting Guide - How to Bet On Soccer for Beginners
+2026-10-05 15:51:53,670 [INFO] Rank 9 | quora.com | What is soccer betting?
+2026-10-05 15:52:00,767 [INFO] Rank 10 | soccerbase.com | Football Betting | Place Your Football Bet Today | Soccer Base
+2026-10-05 15:52:00,768 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 15:52:00,916 [INFO] Updated 10 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:52:01,117 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+2026-10-05 15:52:06,964 [INFO] Browser closed.
+2026-10-05 16:14:52,222 [INFO] ============================================================
+2026-10-05 16:14:52,223 [INFO] Run start: 2026-10-05T16:14:52.222134+02:00 | keyword=Soccer Betting
+2026-10-05 16:14:52,226 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting
+2026-10-05 16:14:52,229 [INFO] Headless mode: False
+2026-10-05 16:14:54,587 [INFO] Persistent Chrome context ready.
+2026-10-05 16:14:54,870 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-05 16:15:12,714 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-05 16:15:12,726 [INFO] SERP loaded.
+2026-10-05 16:15:12,734 [INFO] SERP candidates found (H3): 10
+2026-10-05 16:15:14,032 [INFO] Rank 1 | betway.co.za | AI Mode replied:
+2026-10-05 16:15:18,640 [INFO] Rank 2 | rg.org | Soccer Betting Guides
+2026-10-05 16:15:19,766 [INFO] Rank 3 | livescore.com | How to Analyse Teams & Stats: Guide to Placing a Soccer ...
+2026-10-05 16:15:21,273 [INFO] Rank 4 | sportsbook.draftkings.com | Soccer Odds, Lines, and Online Betting
+2026-10-05 16:15:23,530 [INFO] Rank 5 | quora.com | What is soccer betting?
+2026-10-05 16:15:28,058 [INFO] Rank 6 | youtube.com | Soccer Betting Guide - How to Bet On Soccer for Beginners
+2026-10-05 16:15:32,621 [INFO] Rank 7 | betolimp.co.za | Soccer Betting South Africa
+2026-10-05 16:15:35,397 [INFO] Rank 8 | actionnetwork.com | How To Bet on Soccer: 9 Different Bet Types, Explained
+2026-10-05 16:15:39,130 [INFO] Rank 9 | soccerbase.com | Football Betting | Place Your Football Bet Today | Soccer Base
+2026-10-05 16:15:41,887 [INFO] Rank 10 | hardrock.bet | Soccer Betting: Live Odds, Available Markets, and FAQ ...
+2026-10-05 16:15:41,893 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-05 16:15:41,962 [INFO] Updated 10 SERP rows for 2026-10-05 at 16:00
+2026-10-05 16:15:42,045 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+2026-10-05 16:15:47,889 [INFO] Browser closed.

@@ -1,0 +1,157 @@
+2026-10-05 12:27:17,672 [INFO] ============================================================
+2026-10-05 12:27:17,674 [INFO] Run start: 2026-10-05T12:27:17.672384+02:00 | keyword=Online Slots
+2026-10-05 12:27:17,679 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:27:17,681 [INFO] Headless mode: False
+2026-10-05 12:27:20,993 [INFO] Persistent Chrome context ready.
+2026-10-05 12:27:21,304 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:27:25,372 [INFO] SERP loaded.
+2026-10-05 12:27:25,382 [INFO] Visible h3 result titles: 9
+2026-10-05 12:27:26,940 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 12:27:33,766 [INFO] Rank 2 | casino.co.za | 2026's Top Roulette Slots Games Online
+2026-10-05 12:27:35,608 [INFO] Rank 3 | thepost.co.za | Top five new online slot machines coming soon to the South ...
+2026-10-05 12:27:37,747 [INFO] Rank 4 | playcasino.co.za | Best Online Slots South Africa: Free Play & Real Money Slots
+2026-10-05 12:27:42,427 [INFO] Rank 5 | unibet.co.uk | Online Slots | Play UK Slot Games with Unibet
+2026-10-05 12:27:44,641 [INFO] Rank 6 | iol.co.za | 5 new online slots to play in South Africa in September 2025
+2026-10-05 12:27:51,277 [INFO] Rank 7 | youtube.com | ONLINE SLOTS Tips, How To, and what could cost you
+2026-10-05 12:27:54,142 [INFO] Rank 8 | bettingguide.co.za | How to Play Online Slots in South Africa
+2026-10-05 12:27:58,092 [INFO] Rank 9 | casinolife.co.za | Play in the Best Online Slots for Real Money in South Africa
+2026-10-05 12:27:58,092 [INFO] Organic extracted: 9
+2026-10-05 12:27:58,093 [WARNING] Only 9 organic results were extracted; expected 10.
+2026-10-05 12:27:58,118 [INFO] Updated 9 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:27:58,214 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+2026-10-05 12:27:59,017 [INFO] Browser closed.
+2026-10-05 12:32:33,081 [INFO] ============================================================
+2026-10-05 12:32:33,081 [INFO] Run start: 2026-10-05T12:32:33.081638+02:00 | keyword=Online Slots
+2026-10-05 12:32:33,086 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 12:32:33,086 [INFO] Headless mode: False
+2026-10-05 12:32:38,648 [INFO] Persistent Chrome context ready.
+2026-10-05 12:32:38,983 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 12:32:41,375 [INFO] SERP loaded.
+2026-10-05 12:32:41,467 [INFO] Visible h3 result titles: 10
+2026-10-05 12:32:44,788 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 12:32:47,568 [INFO] Rank 2 | hollywoodbets.net | Online Slot Games
+2026-10-05 12:32:56,279 [INFO] Rank 3 | worldsportsbetting.co.za | Online Slot Games | Play Real Money ...
+2026-10-05 12:33:04,810 [INFO] Rank 4 | betolimp.co.za | Play Online Slots for Real Money in South Africa
+2026-10-05 12:33:07,093 [INFO] Rank 5 | foxybingo.com | Play Online Slots UK | Foxy Games
+2026-10-05 12:33:10,135 [INFO] Rank 6 | supersportbet.com | Online Casino Games | Slots, Crash & Live Dealer
+2026-10-05 12:33:14,682 [INFO] Rank 7 | fortunesultimateslots.com | Caesars Slots – Free Slots & Online Social Casino
+2026-10-05 12:33:18,069 [INFO] Rank 8 | betway.com | Play Slot Games Online
+2026-10-05 12:33:25,181 [INFO] Rank 9 | playojo.com | Online Slots - Play slot games in UK at PlayOJO
+2026-10-05 12:33:25,181 [INFO] Organic extracted: 9
+2026-10-05 12:33:25,181 [WARNING] Only 9 organic results were extracted; expected 10.
+2026-10-05 12:33:25,338 [INFO] Updated 9 SERP rows for 2026-10-05 at 12:00
+2026-10-05 12:33:25,622 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+2026-10-05 12:35:29,753 [INFO] Browser closed.
+2026-10-05 13:35:50,992 [INFO] ============================================================
+2026-10-05 13:35:50,995 [INFO] Run start: 2026-10-05T13:35:50.992984+02:00 | keyword=Online Slots
+2026-10-05 13:35:50,998 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 13:35:50,998 [INFO] Headless mode: False
+2026-10-05 13:35:52,306 [INFO] Persistent Chrome context ready.
+2026-10-05 13:35:52,444 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 13:35:53,840 [INFO] SERP loaded.
+2026-10-05 13:35:53,851 [INFO] Visible h3 result titles: 9
+2026-10-05 13:35:55,106 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 13:35:56,550 [INFO] Organic extracted: 1
+2026-10-05 13:35:56,551 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 13:35:56,589 [INFO] Updated 1 SERP rows for 2026-10-05 at 13:00
+2026-10-05 13:35:56,635 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+2026-10-05 13:35:57,270 [INFO] Browser closed.
+2026-10-05 14:06:39,721 [INFO] ============================================================
+2026-10-05 14:06:39,723 [INFO] Run start: 2026-10-05T14:06:39.721715+02:00 | keyword=Online Slots
+2026-10-05 14:06:39,727 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:06:39,727 [INFO] Headless mode: False
+2026-10-05 14:06:41,876 [INFO] Persistent Chrome context ready.
+2026-10-05 14:06:42,257 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:06:43,854 [INFO] SERP loaded.
+2026-10-05 14:06:43,882 [INFO] Visible h3 result titles: 9
+2026-10-05 14:06:46,176 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 14:06:50,175 [INFO] Organic extracted: 1
+2026-10-05 14:06:50,176 [WARNING] Only 1 organic results were extracted; expected 10.
+2026-10-05 14:06:50,242 [INFO] Updated 1 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:06:50,337 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+2026-10-05 14:06:52,145 [INFO] Browser closed.
+2026-10-05 14:16:37,189 [INFO] ============================================================
+2026-10-05 14:16:37,189 [INFO] Run start: 2026-10-05T14:16:37.189324+02:00 | keyword=Online Slots
+2026-10-05 14:16:37,189 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 14:16:37,189 [INFO] Headless mode: False
+2026-10-05 14:16:38,800 [INFO] Persistent Chrome context ready.
+2026-10-05 14:16:39,056 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=10&pws=0
+2026-10-05 14:16:40,672 [INFO] SERP loaded.
+2026-10-05 14:16:40,695 [INFO] Visible h3 result titles: 10
+2026-10-05 14:16:41,842 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-05 14:16:42,693 [INFO] Rank 2 | hollywoodbets.net | Online Slot Games
+2026-10-05 14:16:44,432 [INFO] Rank 3 | worldsportsbetting.co.za | Online Slot Games | Play Real Money ...
+2026-10-05 14:16:45,353 [INFO] Rank 4 | smoothspins.co.uk | Play Online Slots
+2026-10-05 14:17:03,877 [INFO] Rank 5 | betolimp.co.za | Play Online Slots for Real Money in South Africa
+2026-10-05 14:17:04,539 [INFO] Rank 6 | foxybingo.com | Play Online Slots UK | Foxy Games
+2026-10-05 14:17:06,056 [INFO] Rank 7 | fortunesultimateslots.com | Caesars Slots – Free Slots & Online Social Casino
+2026-10-05 14:17:08,119 [INFO] Rank 8 | betway.com | Play Slot Games Online
+2026-10-05 14:17:12,769 [INFO] Rank 9 | playojo.com | Online Slots - Play slot games in UK at PlayOJO
+2026-10-05 14:17:12,770 [INFO] Organic extracted: 9
+2026-10-05 14:17:12,771 [WARNING] Only 9 organic results were extracted; expected 10.
+2026-10-05 14:17:12,836 [INFO] Updated 9 SERP rows for 2026-10-05 at 14:00
+2026-10-05 14:17:12,940 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+2026-10-05 14:17:16,513 [INFO] Browser closed.
+2026-10-05 15:36:38,086 [INFO] ============================================================
+2026-10-05 15:36:38,088 [INFO] Run start: 2026-10-05T15:36:38.086369+02:00 | keyword=Online Slots
+2026-10-05 15:36:38,091 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile
+2026-10-05 15:36:38,092 [INFO] Headless mode: False
+2026-10-05 15:36:39,780 [INFO] Persistent Chrome context ready.
+2026-10-05 15:36:40,006 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:36:48,777 [INFO] SERP loaded.
+2026-10-05 15:36:48,789 [INFO] SERP candidates found (H3): 10
+2026-10-05 15:36:50,801 [INFO] Rank 1 | betway.co.za | AI Mode reply for Online Slots
+2026-10-05 15:36:56,022 [INFO] Rank 2 | worldsportsbetting.co.za | Online Slot Games | Play Real Money ...
+2026-10-05 15:36:57,870 [INFO] Rank 3 | hollywoodbets.net | Online Slot Games
+2026-10-05 15:36:57,985 [INFO] Rank 4 | play.google.com | Slots online – Apps on Google Play
+2026-10-05 15:37:06,918 [INFO] Rank 5 | betolimp.co.za | Play Online Slots for Real Money in South Africa
+2026-10-05 15:37:08,089 [INFO] Rank 6 | smoothspins.co.uk | Play Online Slots
+2026-10-05 15:37:11,190 [INFO] Rank 7 | apps.apple.com | Cashman Casino Slots Games - App Store
+2026-10-05 15:37:13,139 [INFO] Rank 8 | foxybingo.com | Play Online Slots UK | Foxy Games
+2026-10-05 15:37:16,017 [INFO] Rank 9 | fortunesultimateslots.com | Caesars Slots – Free Slots & Online Social Casino
+2026-10-05 15:37:16,018 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-05 15:37:16,100 [INFO] Updated 9 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:37:16,211 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+2026-10-05 15:37:58,984 [INFO] Browser closed.
+2026-10-05 15:50:07,397 [INFO] ============================================================
+2026-10-05 15:50:07,398 [INFO] Run start: 2026-10-05T15:50:07.397299+02:00 | keyword=Online Slots
+2026-10-05 15:50:07,399 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_online_slots
+2026-10-05 15:50:07,399 [INFO] Headless mode: False
+2026-10-05 15:50:08,767 [INFO] Persistent Chrome context ready.
+2026-10-05 15:50:08,882 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=20&pws=0
+2026-10-05 15:50:13,504 [INFO] SERP loaded.
+2026-10-05 15:50:13,514 [INFO] SERP candidates found (H3): 10
+2026-10-05 15:50:15,882 [INFO] Rank 1 | springbokcasino.co.za | Are you ready to play lots of slots?
+2026-10-05 15:50:19,210 [INFO] Rank 2 | slotsrealmoney.co.za | Find the Best Online Slots Casino Bonuses @ Slots Real Money
+2026-10-05 15:50:20,909 [INFO] Rank 3 | playcasino.co.za | Best Online Slots South Africa: Free Play & Real Money Slots
+2026-10-05 15:50:24,282 [INFO] Rank 4 | unibet.co.uk | Online Slots | Play UK Slot Games with Unibet
+2026-10-05 15:50:26,350 [INFO] Rank 5 | iol.co.za | 5 new online slots to play in South Africa in September 2025
+2026-10-05 15:50:31,334 [INFO] Rank 6 | youtube.com | ONLINE SLOTS Tips, How To, and what could cost you
+2026-10-05 15:50:35,428 [INFO] Rank 7 | whichcasino.co.za | Popular Online Slots at South African Casinos
+2026-10-05 15:50:40,592 [INFO] Rank 8 | saonlinecasinos.co.za | A Guide to Playing Slots at Online Casinos
+2026-10-05 15:50:44,848 [INFO] Rank 9 | onlinegambling.co.za | The Basics to Playing Real Money Online Slots
+2026-10-05 15:50:44,850 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-05 15:50:44,954 [INFO] Updated 9 SERP rows for 2026-10-05 at 15:00
+2026-10-05 15:50:45,160 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+2026-10-05 15:51:01,726 [INFO] Browser closed.
+2026-10-05 16:14:13,439 [INFO] ============================================================
+2026-10-05 16:14:13,441 [INFO] Run start: 2026-10-05T16:14:13.439642+02:00 | keyword=Online Slots
+2026-10-05 16:14:13,456 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_online_slots
+2026-10-05 16:14:13,458 [INFO] Headless mode: False
+2026-10-05 16:14:16,087 [INFO] Persistent Chrome context ready.
+2026-10-05 16:14:16,441 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=20&pws=0
+2026-10-05 16:14:22,203 [INFO] SERP loaded.
+2026-10-05 16:14:22,213 [INFO] SERP candidates found (H3): 10
+2026-10-05 16:14:24,690 [INFO] Rank 1 | springbokcasino.co.za | Are you ready to play lots of slots?
+2026-10-05 16:14:26,720 [INFO] Rank 2 | slotsrealmoney.co.za | Find the Best Online Slots Casino Bonuses @ Slots Real Money
+2026-10-05 16:14:28,272 [INFO] Rank 3 | playcasino.co.za | Best Online Slots South Africa: Free Play & Real Money Slots
+2026-10-05 16:14:30,900 [INFO] Rank 4 | unibet.co.uk | Online Slots | Play UK Slot Games with Unibet
+2026-10-05 16:14:32,392 [INFO] Rank 5 | iol.co.za | 5 new online slots to play in South Africa in September 2025
+2026-10-05 16:14:35,950 [INFO] Rank 6 | youtube.com | ONLINE SLOTS Tips, How To, and what could cost you
+2026-10-05 16:14:37,488 [INFO] Rank 7 | whichcasino.co.za | Popular Online Slots at South African Casinos
+2026-10-05 16:14:42,755 [INFO] Rank 8 | saonlinecasinos.co.za | A Guide to Playing Slots at Online Casinos
+2026-10-05 16:14:44,405 [INFO] Rank 9 | onlinegambling.co.za | The Basics to Playing Real Money Online Slots
+2026-10-05 16:14:44,407 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-05 16:14:44,477 [INFO] Updated 9 SERP rows for 2026-10-05 at 16:00
+2026-10-05 16:14:44,576 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+2026-10-05 16:14:49,012 [INFO] Browser closed.
