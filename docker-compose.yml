@@ -1,24 +1,11 @@
 services:
-  api:
-    build: ./backend
-    container_name: serp-monitor-api
-    restart: unless-stopped
+  web:
+    build: .
     env_file:
       - .env
     environment:
-      DATABASE_URL: ${DATABASE_URL}
-      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173}
+      COOKIE_SECURE: "${COOKIE_SECURE:-false}"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     ports:
-      - "8000:8000"
-
-  frontend:
-    build:
-      context: ./frontend
-      args:
-        VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
-    container_name: serp-monitor-frontend
-    restart: unless-stopped
-    ports:
-      - "5173:80"
-    depends_on:
-      - api
+      - "0.0.0.0:8805:8000"

@@ -1,0 +1,10 @@
+.git
+.gitignore
+**/__pycache__
+*.pyc
+frontend/node_modules
+backend/.venv
+scripts/serp_chrome_profile*/
+scripts/*.log
+*.xlsx
+.env
