@@ -2338,3 +2338,203 @@ Excel to PostgreSQL sync completed successfully (first pass).
 ============================================================
 [2026/10/05 16:15:55,69] CAPTURE + SYNC COMPLETE
 ============================================================
+============================================================
+[2026/10/06 12:28:31,38] CAPTURE + SYNC START
+============================================================
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_aviator...
+2026-10-06 12:28:33,306 [INFO] ============================================================
+2026-10-06 12:28:33,307 [INFO] Run start: 2026-10-06T12:28:33.306320+02:00 | keyword=Aviator
+2026-10-06 12:28:33,308 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator
+2026-10-06 12:28:33,308 [INFO] Headless mode: False
+2026-10-06 12:28:35,400 [INFO] Persistent Chrome context ready.
+2026-10-06 12:28:35,524 [INFO] GET https://www.google.com/search?q=Aviator&hl=en&gl=za&num=20&pws=0
+2026-10-06 12:28:41,030 [INFO] SERP loaded.
+2026-10-06 12:28:41,034 [INFO] SERP candidates found (H3): 10
+2026-10-06 12:28:41,860 [INFO] Rank 1 | hollywoodbets.net | Play Aviator | Aviator Game | Hollywoodbets SA
+2026-10-06 12:28:42,960 [INFO] Rank 2 | betway.co.za | Play Aviator and reach for the sky | Betway Sports betting
+2026-10-06 12:28:43,800 [INFO] Rank 3 | betway.co.za | Play Online Casino Games - Register ...
+2026-10-06 12:28:45,559 [INFO] Rank 4 | 10bet.co.za | Play Aviator Game Online | Crash Game by Spribe
+2026-10-06 12:28:46,909 [INFO] Rank 5 | livescore.com | How to Play Aviator on Betway 2026: Get 10 Free Flights
+2026-10-06 12:28:50,434 [INFO] Rank 6 | app.aviator.co | Login - Aviator
+2026-10-06 12:28:50,508 [INFO] Rank 7 | play.google.com | Aviator – Apps on Google Play
+2026-10-06 12:28:54,266 [INFO] Rank 8 | netflix.com | Watch The Aviator
+2026-10-06 12:28:56,697 [INFO] Rank 9 | spribe.co | Aviator
+2026-10-06 12:29:02,868 [INFO] Rank 10 | supersportbet.com | Crash Casino Games | Aviator 50 Free Bets
+2026-10-06 12:29:02,869 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 12:29:02,917 [INFO] Updated 10 SERP rows for 2026-10-06 at 12:00
+2026-10-06 12:29:02,969 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Aviator
+Date: 2026-10-06
+Capture hour: 12:00
+Organic results collected: 10
+------------------------------------------------------------
+1. Hollywoodbets | hollywoodbets.net
+2. Betway | betway.co.za
+3. Betway | betway.co.za
+4. 10bet | 10bet.co.za
+5. LiveScore | livescore.com
+6. App | app.aviator.co
+7. Google Play | play.google.com
+8. Netflix | netflix.com
+9. SPRIBE | spribe.co
+10. Supersportbet | supersportbet.com
+------------------------------------------------------------
+Hollywoodbets rank: 1
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\aviator_rankings.xlsx
+============================================================
+2026-10-06 12:29:03,945 [INFO] Browser closed.
+SEO_SERP_Monitor_aviator completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_lucky_numbers...
+2026-10-06 12:29:05,789 [INFO] ============================================================
+2026-10-06 12:29:05,791 [INFO] Run start: 2026-10-06T12:29:05.789834+02:00 | keyword=Lucky Numbers
+2026-10-06 12:29:05,792 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 12:29:05,793 [INFO] Headless mode: False
+2026-10-06 12:29:07,198 [INFO] Persistent Chrome context ready.
+2026-10-06 12:29:07,379 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 12:29:13,861 [INFO] SERP loaded.
+2026-10-06 12:29:13,881 [INFO] SERP candidates found (H3): 11
+2026-10-06 12:29:16,604 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 12:29:19,639 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 12:29:19,946 [INFO] Rank 3 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-06 12:29:22,642 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 12:29:25,851 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 12:29:28,165 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-06 12:29:31,228 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-06 12:29:33,317 [INFO] Rank 8 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-06 12:29:35,826 [INFO] Rank 9 | sportybet.co.za | Lucky numbers
+2026-10-06 12:29:39,101 [INFO] Rank 10 | yesplay.bet | Check Winning Lottery Numbers Online - Lottery Results List
+2026-10-06 12:29:39,103 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 12:29:39,323 [INFO] Updated 10 SERP rows for 2026-10-06 at 12:00
+2026-10-06 12:29:39,488 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Lucky Numbers
+Date: 2026-10-06
+Capture hour: 12:00
+Organic results collected: 10
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Tiktok | tiktok.com
+3. Google Play | play.google.com
+4. Hollywoodbets | hollywoodbets.net
+5. Worldsportsbetting | worldsportsbetting.co.za
+6. Luckynumber | luckynumber.today
+7. En | en.wikipedia.org
+8. Supersportbet | supersportbet.com
+9. Sportybet | sportybet.co.za
+10. Yesplay | yesplay.bet
+------------------------------------------------------------
+Hollywoodbets rank: 4
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+============================================================
+2026-10-06 12:29:42,362 [INFO] Browser closed.
+SEO_SERP_Monitor_lucky_numbers completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_online_slots...
+2026-10-06 12:29:44,486 [INFO] ============================================================
+2026-10-06 12:29:44,487 [INFO] Run start: 2026-10-06T12:29:44.486471+02:00 | keyword=Online Slots
+2026-10-06 12:29:44,488 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_online_slots
+2026-10-06 12:29:44,488 [INFO] Headless mode: False
+2026-10-06 12:29:45,983 [INFO] Persistent Chrome context ready.
+2026-10-06 12:29:46,223 [INFO] GET https://www.google.com/search?q=Online+Slots&hl=en&gl=za&num=20&pws=0
+2026-10-06 12:29:51,022 [INFO] SERP loaded.
+2026-10-06 12:29:51,040 [INFO] SERP candidates found (H3): 10
+2026-10-06 12:29:55,610 [INFO] Rank 1 | betway.co.za | Online Slots Games | Betway | Register & Get Free Spins
+2026-10-06 12:29:57,891 [INFO] Rank 2 | worldsportsbetting.co.za | Online Slot Games | Play Real Money ...
+2026-10-06 12:30:04,903 [INFO] Rank 3 | hollywoodbets.net | Online Slot Games
+2026-10-06 12:30:05,098 [INFO] Rank 4 | play.google.com | Slots online – Apps on Google Play
+2026-10-06 12:30:11,635 [INFO] Rank 5 | betolimp.co.za | Play Online Slots for Real Money in South Africa
+2026-10-06 12:30:14,432 [INFO] Rank 6 | foxybingo.com | Play Online Slots UK | Foxy Games
+2026-10-06 12:30:17,831 [INFO] Rank 7 | apps.apple.com | Cashman Casino Slots Games - App Store
+2026-10-06 12:30:22,103 [INFO] Rank 8 | fortunesultimateslots.com | Caesars Slots – Free Slots & Online Social Casino
+2026-10-06 12:30:30,130 [INFO] Rank 9 | playojo.com | Online Slots - Play slot games in UK at PlayOJO
+2026-10-06 12:30:34,097 [INFO] Rank 10 | supersportbet.com | Online Casino Games | Slots, Crash & Live Dealer
+2026-10-06 12:30:34,099 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 12:30:34,377 [INFO] Updated 10 SERP rows for 2026-10-06 at 12:00
+2026-10-06 12:30:34,609 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Online Slots
+Date: 2026-10-06
+Capture hour: 12:00
+Organic results collected: 10
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Worldsportsbetting | worldsportsbetting.co.za
+3. Hollywoodbets | hollywoodbets.net
+4. Google Play | play.google.com
+5. Betolimp | betolimp.co.za
+6. Foxybingo | foxybingo.com
+7. Apps | apps.apple.com
+8. Fortunesultimateslots | fortunesultimateslots.com
+9. Playojo | playojo.com
+10. Supersportbet | supersportbet.com
+------------------------------------------------------------
+Hollywoodbets rank: 3
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\online_slots_rankings.xlsx
+============================================================
+2026-10-06 12:30:35,998 [INFO] Browser closed.
+SEO_SERP_Monitor_online_slots completed successfully.
+------------------------------------------------------------
+Starting SEO_SERP_Monitor_soccer_betting...
+2026-10-06 12:30:37,705 [INFO] ============================================================
+2026-10-06 12:30:37,710 [INFO] Run start: 2026-10-06T12:30:37.705664+02:00 | keyword=Soccer Betting
+2026-10-06 12:30:37,711 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 12:30:37,712 [INFO] Headless mode: False
+2026-10-06 12:30:39,178 [INFO] Persistent Chrome context ready.
+2026-10-06 12:30:39,380 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 12:30:56,780 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-06 12:30:56,811 [INFO] SERP loaded.
+2026-10-06 12:30:56,838 [INFO] SERP candidates found (H3): 10
+2026-10-06 12:30:58,669 [INFO] Rank 1 | betway.co.za | AI Mode replied:
+2026-10-06 12:31:07,755 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 12:31:10,785 [INFO] Rank 3 | 10bet.co.za | Soccer Betting South Africa | Football Odds on 10bet
+2026-10-06 12:31:13,829 [INFO] Rank 4 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-06 12:31:20,131 [INFO] Rank 5 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 12:31:21,667 [INFO] Rank 6 | reddit.com | r/SoccerBetting
+2026-10-06 12:31:25,426 [INFO] Rank 7 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 12:31:30,337 [INFO] Rank 8 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 12:31:33,107 [INFO] Rank 9 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 12:31:33,108 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 12:31:34,235 [INFO] Updated 9 SERP rows for 2026-10-06 at 12:00
+2026-10-06 12:31:34,549 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+HOLLYWOODBETS SEO SERP CHECK
+============================================================
+Keyword: Soccer Betting
+Date: 2026-10-06
+Capture hour: 12:00
+Organic results collected: 9
+------------------------------------------------------------
+1. Betway | betway.co.za
+2. Worldsportsbetting | worldsportsbetting.co.za
+3. 10bet | 10bet.co.za
+4. Hollywoodbets | hollywoodbets.net
+5. Betolimp | betolimp.co.za
+6. Reddit | reddit.com
+7. Sportingbet | sportingbet.co.za
+8. LiveScore | livescore.com
+9. Betway | betway.com
+------------------------------------------------------------
+Hollywoodbets rank: 4
+Results saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+============================================================
+2026-10-06 12:31:35,584 [INFO] Browser closed.
+SEO_SERP_Monitor_soccer_betting completed successfully.
+Starting Excel to PostgreSQL sync (first pass)...
+aviator_rankings.xlsx: captures created=1, existing captures refreshed=2.
+lucky_numbers_rankings.xlsx: captures created=1, existing captures refreshed=2.
+online_slots_rankings.xlsx: captures created=1, existing captures refreshed=5.
+soccer_betting_rankings.xlsx: captures created=1, existing captures refreshed=2.
+Imported all real Excel data: captures created=4, existing captures refreshed=11.
+Excel to PostgreSQL sync completed successfully (first pass).
+============================================================
+[2026/10/06 12:31:56,12] CAPTURE + SYNC COMPLETE
+============================================================

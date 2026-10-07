@@ -147,3 +147,25 @@
 2026-10-05 16:14:04,261 [INFO] Updated 10 SERP rows for 2026-10-05 at 16:00
 2026-10-05 16:14:04,366 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
 2026-10-05 16:14:09,786 [INFO] Browser closed.
+2026-10-06 12:29:05,789 [INFO] ============================================================
+2026-10-06 12:29:05,791 [INFO] Run start: 2026-10-06T12:29:05.789834+02:00 | keyword=Lucky Numbers
+2026-10-06 12:29:05,792 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 12:29:05,793 [INFO] Headless mode: False
+2026-10-06 12:29:07,198 [INFO] Persistent Chrome context ready.
+2026-10-06 12:29:07,379 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 12:29:13,861 [INFO] SERP loaded.
+2026-10-06 12:29:13,881 [INFO] SERP candidates found (H3): 11
+2026-10-06 12:29:16,604 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 12:29:19,639 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 12:29:19,946 [INFO] Rank 3 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-06 12:29:22,642 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 12:29:25,851 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 12:29:28,165 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-06 12:29:31,228 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-06 12:29:33,317 [INFO] Rank 8 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-06 12:29:35,826 [INFO] Rank 9 | sportybet.co.za | Lucky numbers
+2026-10-06 12:29:39,101 [INFO] Rank 10 | yesplay.bet | Check Winning Lottery Numbers Online - Lottery Results List
+2026-10-06 12:29:39,103 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 12:29:39,323 [INFO] Updated 10 SERP rows for 2026-10-06 at 12:00
+2026-10-06 12:29:39,488 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 12:29:42,362 [INFO] Browser closed.

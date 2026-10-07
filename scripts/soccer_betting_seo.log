@@ -135,3 +135,25 @@
 2026-10-05 16:15:41,962 [INFO] Updated 10 SERP rows for 2026-10-05 at 16:00
 2026-10-05 16:15:42,045 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
 2026-10-05 16:15:47,889 [INFO] Browser closed.
+2026-10-06 12:30:37,705 [INFO] ============================================================
+2026-10-06 12:30:37,710 [INFO] Run start: 2026-10-06T12:30:37.705664+02:00 | keyword=Soccer Betting
+2026-10-06 12:30:37,711 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 12:30:37,712 [INFO] Headless mode: False
+2026-10-06 12:30:39,178 [INFO] Persistent Chrome context ready.
+2026-10-06 12:30:39,380 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 12:30:56,780 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-06 12:30:56,811 [INFO] SERP loaded.
+2026-10-06 12:30:56,838 [INFO] SERP candidates found (H3): 10
+2026-10-06 12:30:58,669 [INFO] Rank 1 | betway.co.za | AI Mode replied:
+2026-10-06 12:31:07,755 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 12:31:10,785 [INFO] Rank 3 | 10bet.co.za | Soccer Betting South Africa | Football Odds on 10bet
+2026-10-06 12:31:13,829 [INFO] Rank 4 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-06 12:31:20,131 [INFO] Rank 5 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 12:31:21,667 [INFO] Rank 6 | reddit.com | r/SoccerBetting
+2026-10-06 12:31:25,426 [INFO] Rank 7 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 12:31:30,337 [INFO] Rank 8 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 12:31:33,107 [INFO] Rank 9 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 12:31:33,108 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 12:31:34,235 [INFO] Updated 9 SERP rows for 2026-10-06 at 12:00
+2026-10-06 12:31:34,549 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
+2026-10-06 12:31:35,584 [INFO] Browser closed.

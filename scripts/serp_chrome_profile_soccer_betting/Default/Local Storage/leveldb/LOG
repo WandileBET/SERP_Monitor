@@ -1,3 +1,6 @@
-2026/10/05-16:14:54.211 637c Reusing MANIFEST C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting\Default\Local Storage\leveldb/MANIFEST-000001
-2026/10/05-16:14:54.219 637c Recovering log #3
-2026/10/05-16:14:54.240 637c Reusing old log C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting\Default\Local Storage\leveldb/000003.log 
+2026/10/06-12:30:38.937 93c0 Reusing MANIFEST C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/06-12:30:38.949 93c0 Recovering log #3
+2026/10/06-12:30:38.976 93c0 Reusing old log C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_soccer_betting\Default\Local Storage\leveldb/000003.log 
+2026/10/06-12:31:07.983 93c0 Level-0 table #5: started
+2026/10/06-12:31:08.070 93c0 Level-0 table #5: 112147 bytes OK
+2026/10/06-12:31:08.145 93c0 Delete type=0 #3
