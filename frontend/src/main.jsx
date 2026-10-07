@@ -78,7 +78,7 @@ function App() {
   const [lastRefresh, setLastRefresh] = useState(null)
   const [startDate, setStartDate] = useState('')
   const [endDate, setEndDate] = useState('')
-  const [resolution, setResolution] = useState('auto')
+  const [resolution, setResolution] = useState('hourly')
   const [hourFilter] = useState('')
   const [chartView, setChartView] = useState('period')
   const [hourlyDate, setHourlyDate] = useState('')

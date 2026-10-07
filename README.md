@@ -21,3 +21,18 @@ Create `.env` in the project root with `DATABASE_URL=...` and optionally `SERP_S
 
 ## Frontend
 From `frontend`: `npm install` then `npm run dev`.
+
+
+Don't mind me!!!!!!!!
+docker compose build
+docker compose up -d
+
+Then confirm:
+
+PowerShell
+docker compose ps
+
+and:
+
+PowerShell
+docker compose logs --tail=30 backend
