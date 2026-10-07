@@ -1,0 +1,26 @@
+# Runtime/generated files produced by the SERP collectors.
+scripts/*
+
+# Keep the executable collector and sync code under scripts version-controlled.
+!scripts/*.py
+!scripts/*.bat
+
+# Excel workbooks, logs, failed-capture artifacts, and temporary files.
+scripts/*.xlsx
+scripts/*.xlsx.*
+scripts/*.log
+scripts/*.html
+scripts/*.tmp
+scripts/*.bak
+
+# Browser profiles and local browser/cache state.
+scripts/serp_chrome_profile*/
+scripts/*chrome_profile*/
+scripts/__pycache__/
+
+# Local environment and tool caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+frontend/dist/

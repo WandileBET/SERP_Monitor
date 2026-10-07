@@ -29,9 +29,9 @@ const DOMAIN_COLORS = {
   'livescore.com': '#FF6D00',
 }
 
-function isHollywoodbets(value) {
-  const domain = (value || '').toLowerCase().replace(/^www\./, '')
-  return domain === HB_DOMAIN || domain.endsWith(`.${HB_DOMAIN}`)
+function isHollywoodbets(value, name = '') {
+  const values = [value, name].map((item) => (item || '').toLowerCase().replace(/^www\./, ''))
+  return values.some((domain) => domain === HB_DOMAIN || domain.endsWith(`.${HB_DOMAIN}`) || domain.includes('hollywoodbets'))
 }
 
 function identityFor(point) {
@@ -39,7 +39,7 @@ function identityFor(point) {
 }
 
 function labelFor(point) {
-  return isHollywoodbets(point.domain) ? 'Hollywoodbets' : point.name || point.domain || 'Unknown'
+  return isHollywoodbets(point.domain) || isHollywoodbets(point.name) ? 'Hollywoodbets' : point.name || point.domain || 'Unknown'
 }
 
 export function buildColorMap(items = []) {
@@ -48,7 +48,7 @@ export function buildColorMap(items = []) {
   const unique = [...new Set(items.map((item) => (item?.domain || item?.identity || item?.name || '').toLowerCase()).filter(Boolean))]
 
   for (const identity of unique) {
-    if (identity === HB_DOMAIN || identity.endsWith(`.${HB_DOMAIN}`)) {
+    if (identity === HB_DOMAIN || identity.endsWith(`.${HB_DOMAIN}`) || identity.includes('hollywoodbets')) {
       map.set(identity, '#5C2D91')
       used.add('#5C2D91')
     }
@@ -96,7 +96,30 @@ function formatTick(value, resolution) {
   return dt.toLocaleDateString([], { day: '2-digit', month: 'short' })
 }
 
-export default function TrendChart({ data = [], resolution = 'hourly' }) {
+function RankedTooltip({ active, label, payload = [] }) {
+  const actualPayload = payload.filter((entry) => Number(entry.value) > 0)
+  if (!active || !actualPayload.length) return null
+  const ordered = [...actualPayload].sort((a, b) => {
+    const rankA = Number(a.value) > 0 ? Number(a.value) : 999
+    const rankB = Number(b.value) > 0 ? Number(b.value) : 999
+    return rankA - rankB || String(a.name).localeCompare(String(b.name))
+  })
+
+  return (
+    <div className="ranked-tooltip">
+      <div className="ranked-tooltip-date">{new Date(label).toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' })}</div>
+      {ordered.map((entry) => (
+        <div className="ranked-tooltip-row" key={entry.dataKey}>
+          <i style={{ background: entry.color || entry.stroke }}></i>
+          <span>{entry.value > 0 ? `#${entry.value}` : 'Not in Top 10'}</span>
+          <strong>{entry.name}</strong>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+export default function TrendChart({ data = [], resolution = 'hourly', resultLimit = 5 }) {
   const scrollRef = useRef(null)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
   const [canScrollRight, setCanScrollRight] = useState(false)
@@ -130,12 +153,24 @@ export default function TrendChart({ data = [], resolution = 'hourly' }) {
       rows.some((row) => Number.isFinite(row[item.identity]))
     )
 
-    const colorMap = buildColorMap(plotted)
+    const orderedPlotted = plotted.sort((a, b) => {
+      const aBest = Math.min(...rows.map((row) => Number.isFinite(row[a.identity]) && row[a.identity] > 0 ? row[a.identity] : 99))
+      const bBest = Math.min(...rows.map((row) => Number.isFinite(row[b.identity]) && row[b.identity] > 0 ? row[b.identity] : 99))
+      return aBest - bBest || a.name.localeCompare(b.name)
+    })
+    const hollywoodbets = orderedPlotted.find((item) => isHollywoodbets(item.domain))
+    const competitors = orderedPlotted.filter((item) => !isHollywoodbets(item.domain))
+    // Hollywoodbets is the focal series and must remain visible in every view.
+    // The limit applies to competitors, so the default Top 5 never hides it.
+    const visible = resultLimit === 'all'
+      ? orderedPlotted
+      : [hollywoodbets, ...competitors.slice(0, Math.max(0, Number(resultLimit) - 1))].filter(Boolean)
+    const colorMap = buildColorMap(visible)
     return {
       rows,
-      plotted: plotted.map((item) => ({ ...item, color: colorMap.get(item.identity) })),
+      plotted: visible.map((item) => ({ ...item, color: colorMap.get(item.identity) })),
     }
-  }, [data])
+  }, [data, resultLimit])
 
   const chartWidth = useMemo(() => {
     // Keep the original visual proportions for shorter ranges, but expand the
@@ -195,7 +230,7 @@ export default function TrendChart({ data = [], resolution = 'hourly' }) {
         >
           <div className="trend-chart-canvas" style={{ width: `${chartWidth}px` }}>
             <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={model.rows} margin={{ top: 12, right: 20, bottom: 16, left: -10 }}>
+              <AreaChart data={model.rows} margin={{ top: 12, right: 20, bottom: 16, left: 0 }}>
                 <defs>
                   <linearGradient id="hbRankGlow" x1="0" y1="0" x2="0" y2="1">
                     <stop offset="0%" stopColor="#5C2D91" stopOpacity={0.25} />
@@ -221,18 +256,13 @@ export default function TrendChart({ data = [], resolution = 'hourly' }) {
                   tickLine={false}
                   axisLine={false}
                   tick={{ fill: '#51445A', fontSize: 10 }}
-                  width={24}
+                  width={34}
                 />
                 <Tooltip
-                  contentStyle={{ background: '#141119', border: '1px solid #352B40', borderRadius: 12, color: '#fff' }}
-                  labelFormatter={(value) => new Date(value).toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' })}
-                  formatter={(value, identity) => {
-                    const item = model.plotted.find((entry) => entry.identity === identity)
-                    return [`#${value}`, item?.name || identity]
-                  }}
+                  content={<RankedTooltip />}
                 />
                 {model.plotted.map((item) => {
-                  const hb = isHollywoodbets(item.domain)
+      const hb = isHollywoodbets(item.domain, item.name)
                   const stroke = hb ? '#5C2D91' : item.color
                   return (
                     <Area
@@ -269,7 +299,7 @@ export default function TrendChart({ data = [], resolution = 'hourly' }) {
 
       <div className="chart-legend">
         {model.plotted.map((item) => {
-          const hb = isHollywoodbets(item.domain)
+          const hb = isHollywoodbets(item.domain, item.name)
           const stroke = hb ? '#5C2D91' : item.color
           return (
             <span className={`chart-legend-item ${hb ? 'hb' : ''}`} key={item.identity}>
