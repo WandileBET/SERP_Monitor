@@ -41,9 +41,9 @@ def get_keyword(db: Session, keyword: str) -> Keyword:
     return row
 
 
-def is_hollywoodbets(domain: str | None) -> bool:
-    value = (domain or "").lower().strip().removeprefix("www.")
-    return value == TARGET_DOMAIN or value.endswith("." + TARGET_DOMAIN)
+def is_hollywoodbets(domain: str | None, name: str | None = None) -> bool:
+    values = [(domain or "").lower().strip().removeprefix("www."), (name or "").lower().strip()]
+    return any(value == TARGET_DOMAIN or value.endswith("." + TARGET_DOMAIN) or "hollywoodbets" in value for value in values)
 
 
 def parse_date(value: str | None) -> date | None:
@@ -277,12 +277,12 @@ def dashboard(
     heatmap, selected_heatmap_date = build_heatmap(raw_rows, heatmap_requested)
 
     hb_ranks = [
-        result.rank for result, _dt in raw_rows if is_hollywoodbets(result.domain)
+        result.rank for result, _dt in raw_rows if is_hollywoodbets(result.domain, result.name)
     ]
     top3_capture_count = sum(
         1 for capture_id in capture_ids
         if any(
-            result.rank <= 3 and is_hollywoodbets(result.domain)
+            result.rank <= 3 and is_hollywoodbets(result.domain, result.name)
             for result, _dt in raw_rows
             if result.capture_id == capture_id
         )
@@ -291,7 +291,7 @@ def dashboard(
     competitors = {
         (row.domain or row.name).lower()
         for row in latest_rows
-        if not is_hollywoodbets(row.domain)
+        if not is_hollywoodbets(row.domain, row.name)
     }
 
     return DashboardOut(
@@ -310,7 +310,7 @@ def dashboard(
         heatmap=heatmap,
         heatmap_date=selected_heatmap_date,
         hollywoodbets_current_rank=next(
-            (row.rank for row in latest_rows if is_hollywoodbets(row.domain)), None
+            (row.rank for row in latest_rows if is_hollywoodbets(row.domain, row.name)), None
         ),
         hollywoodbets_best_rank=min(hb_ranks) if hb_ranks else None,
         hollywoodbets_worst_rank=max(hb_ranks) if hb_ranks else None,

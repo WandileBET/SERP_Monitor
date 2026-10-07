@@ -14,9 +14,9 @@ const RESOLUTIONS = [
   { value: 'monthly', label: 'Monthly' },
 ]
 
-function isHollywoodbets(value) {
-  const domain = (value || '').toLowerCase().replace(/^www\./, '')
-  return domain === HB_DOMAIN || domain.endsWith(`.${HB_DOMAIN}`)
+function isHollywoodbets(value, name = '') {
+  const values = [value, name].map((item) => (item || '').toLowerCase().replace(/^www\./, ''))
+  return values.some((domain) => domain === HB_DOMAIN || domain.endsWith(`.${HB_DOMAIN}`) || domain.includes('hollywoodbets'))
 }
 
 function formatDate(value) {
@@ -84,6 +84,7 @@ function App() {
   const [hourlyDate, setHourlyDate] = useState('')
   const [heatmapDate, setHeatmapDate] = useState('')
   const [rangePreset, setRangePreset] = useState('7d')
+  const [trendResultLimit, setTrendResultLimit] = useState('all')
   const [rangeInitialized, setRangeInitialized] = useState(false)
   const [monitorStatus, setMonitorStatus] = useState({ items: [], bot_detected: [] })
 
@@ -208,13 +209,13 @@ function App() {
 
   const insights = useMemo(() => {
     const hbSeries = trend
-      .filter((p) => isHollywoodbets(p.domain))
+      .filter((p) => isHollywoodbets(p.domain, p.name))
       .sort((a, b) => new Date(a.captured_at) - new Date(b.captured_at))
     const first = hbSeries[0]?.rank ?? null
     const last = hbSeries.at(-1)?.rank ?? dashboard?.hollywoodbets_current_rank ?? null
     const movement = first != null && last != null ? first - last : 0
     const competitorMoves = latestResults
-      .filter((r) => !isHollywoodbets(r.domain))
+      .filter((r) => !isHollywoodbets(r.domain, r.name))
       .map((r) => {
         const identity = r.domain || r.name
         const history = trend.filter((p) => (p.domain || p.name) === identity).sort((a, b) => new Date(a.captured_at) - new Date(b.captured_at))
@@ -241,7 +242,7 @@ function App() {
   }
 
   const reportPeriod = periodTitle(dashboard?.report_start || (chartView === 'hourly-day' ? hourlyDate : startDate), dashboard?.report_end || (chartView === 'hourly-day' ? hourlyDate : endDate), dashboard?.hour_filter, chartView)
-  const competitorCount = latestResults.filter((r) => !isHollywoodbets(r.domain)).length
+  const competitorCount = latestResults.filter((r) => !isHollywoodbets(r.domain, r.name)).length
   const latestColorMap = useMemo(() => buildColorMap(latestResults), [latestResults])
 
   return (
@@ -299,6 +300,7 @@ function App() {
                 ) : (
                   <div className="filter-group select-filter"><label><span>Data day</span><input className="day-picker" type="date" value={hourlyDate} onChange={(e) => setHourlyDate(e.target.value)} /></label></div>
                 )}
+                <div className="filter-group select-filter"><label><span>Results shown</span><select value={trendResultLimit} onChange={(e) => setTrendResultLimit(e.target.value)}><option value="5">Top 5</option><option value="all">All</option></select></label></div>
               </section>
 
                             <section className="kpi-grid">
@@ -311,7 +313,7 @@ function App() {
 
               <section className="panel trend-panel">
                 <div className="panel-heading"><div><div className="eyebrow">SECTION 01 · RANK TREND ANALYSIS</div><h2>{chartView === 'hourly-day' ? 'Hourly ranking movement' : 'Ranking movement over time'}</h2></div><div className="chart-badge"><i></i>{chartView === 'hourly-day' ? '24 hours' : effectiveResolution}</div></div>
-                <div className="trend-chart"><TrendChart data={trend} resolution={effectiveResolution} /></div>
+                <div className="trend-chart"><TrendChart data={trend} resolution={effectiveResolution} resultLimit={trendResultLimit} /></div>
               </section>
 
               <section className="panel heat-panel"><div className="panel-heading heat-heading"><div><div className="eyebrow">SECTION 03 · RANKING HEATMAP</div><h2>24-hour position map</h2></div><label className="heatmap-date-control"><span>Latest captured day</span><input type="date" value={heatmapDate || dashboard?.heatmap_date || ''} min={dashboard?.report_start || undefined} max={dashboard?.report_end || undefined} onChange={(e) => setHeatmapDate(clampDate(e.target.value, dashboard?.report_start, dashboard?.report_end))} /><strong>{heatmapDate || dashboard?.heatmap_date ? formatDate(heatmapDate || dashboard?.heatmap_date) : '—'}</strong></label></div><RankingHeatmap data={heatmap} /></section>
