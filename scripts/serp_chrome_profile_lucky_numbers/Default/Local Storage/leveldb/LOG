@@ -1,3 +1,6 @@
-2026/10/06-12:29:06.913 5e64 Reusing MANIFEST C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_lucky_numbers\Default\Local Storage\leveldb/MANIFEST-000001
-2026/10/06-12:29:06.918 5e64 Recovering log #7
-2026/10/06-12:29:06.934 5e64 Reusing old log C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_lucky_numbers\Default\Local Storage\leveldb/000007.log 
+2026/10/07-09:00:25.155 15cc8 Reusing MANIFEST C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/07-09:00:25.156 15cc8 Recovering log #45
+2026/10/07-09:00:25.159 15cc8 Reusing old log C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers\Default\Local Storage\leveldb/000045.log 
+2026/10/07-09:00:32.513 1a9d0 Level-0 table #50: started
+2026/10/07-09:00:32.518 1a9d0 Level-0 table #50: 83794 bytes OK
+2026/10/07-09:00:32.519 1a9d0 Delete type=0 #45
