@@ -176,7 +176,7 @@ def dashboard(
     keyword: str = Query(min_length=1),
     start_date: str | None = Query(default=None),
     end_date: str | None = Query(default=None),
-    resolution: str = Query(default="auto", pattern="^(auto|hourly|daily|weekly|monthly)$"),
+    resolution: str = Query(default="hourly", pattern="^(auto|hourly|daily|weekly|monthly)$"),
     hour: int | None = Query(default=None, ge=0, le=23),
     heatmap_date: str | None = Query(default=None),
     db: Session = Depends(get_db),

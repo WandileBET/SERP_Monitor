@@ -135,3 +135,601 @@
 2026-10-05 16:15:41,962 [INFO] Updated 10 SERP rows for 2026-10-05 at 16:00
 2026-10-05 16:15:42,045 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\soccer_betting_rankings.xlsx
 2026-10-05 16:15:47,889 [INFO] Browser closed.
+2026-10-06 10:46:58,970 [INFO] ============================================================
+2026-10-06 10:46:58,970 [INFO] Run start: 2026-10-06T10:46:58.970215+02:00 | keyword=Soccer Betting
+2026-10-06 10:46:58,970 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 10:46:58,970 [INFO] Headless mode: False
+2026-10-06 10:46:59,543 [INFO] Persistent Chrome context ready.
+2026-10-06 10:46:59,611 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 10:47:04,161 [INFO] SERP loaded.
+2026-10-06 10:47:04,163 [INFO] SERP candidates found (H3): 10
+2026-10-06 10:47:04,947 [INFO] Rank 1 | betway.co.za | AI Mode reply for Soccer Betting
+2026-10-06 10:47:06,670 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 10:47:08,805 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 10:47:11,128 [INFO] Rank 4 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-06 10:47:13,581 [INFO] Rank 5 | 10bet.co.za | Bet on Soccer and Check 10bet Odds!
+2026-10-06 10:47:15,867 [INFO] Rank 6 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 10:47:23,079 [INFO] Rank 7 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 10:47:23,797 [INFO] Rank 8 | reddit.com | r/SoccerBetting
+2026-10-06 10:47:25,531 [INFO] Rank 9 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 10:47:27,812 [INFO] Rank 10 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 10:47:27,812 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 10:47:27,832 [INFO] Updated 10 SERP rows for 2026-10-06 at 10:00
+2026-10-06 10:47:27,859 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 10:47:28,058 [INFO] Browser closed.
+2026-10-06 10:52:36,659 [INFO] ============================================================
+2026-10-06 10:52:36,659 [INFO] Run start: 2026-10-06T10:52:36.659584+02:00 | keyword=Soccer Betting
+2026-10-06 10:52:36,660 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 10:52:36,660 [INFO] Headless mode: False
+2026-10-06 10:52:37,227 [INFO] Persistent Chrome context ready.
+2026-10-06 10:52:37,298 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 10:52:41,419 [INFO] SERP loaded.
+2026-10-06 10:52:41,421 [INFO] SERP candidates found (H3): 10
+2026-10-06 10:52:42,172 [INFO] Rank 1 | betway.co.za | AI Mode reply for Soccer Betting
+2026-10-06 10:52:43,000 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 10:52:44,156 [INFO] Rank 3 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-06 10:52:45,259 [INFO] Rank 4 | 10bet.co.za | Bet on Soccer and Check 10bet Odds!
+2026-10-06 10:52:47,099 [INFO] Rank 5 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 10:52:47,859 [INFO] Rank 6 | reddit.com | r/SoccerBetting
+2026-10-06 10:52:51,804 [INFO] Rank 7 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 10:52:52,219 [INFO] Rank 8 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 10:52:53,479 [INFO] Rank 9 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 10:52:53,479 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 10:52:53,496 [INFO] Updated 9 SERP rows for 2026-10-06 at 10:00
+2026-10-06 10:52:53,524 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 10:52:53,717 [INFO] Browser closed.
+2026-10-06 13:28:26,488 [INFO] ============================================================
+2026-10-06 13:28:26,489 [INFO] Run start: 2026-10-06T13:28:26.488867+02:00 | keyword=Soccer Betting
+2026-10-06 13:28:26,489 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 13:28:26,489 [INFO] Headless mode: False
+2026-10-06 13:28:27,121 [INFO] Persistent Chrome context ready.
+2026-10-06 13:28:27,158 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 13:28:31,138 [INFO] SERP loaded.
+2026-10-06 13:28:31,140 [INFO] SERP candidates found (H3): 10
+2026-10-06 13:28:32,736 [INFO] Rank 1 | 10bet.co.za | AI Mode reply for Soccer Betting
+2026-10-06 13:28:33,639 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 13:28:34,655 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 13:28:35,845 [INFO] Rank 4 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 13:28:36,351 [INFO] Rank 5 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-06 13:28:39,506 [INFO] Rank 6 | betway.co.za | Betway | Soccer Betting & Get The latest Soccer Odds
+2026-10-06 13:28:42,514 [INFO] Rank 7 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 13:28:42,996 [INFO] Rank 8 | reddit.com | r/SoccerBetting
+2026-10-06 13:28:44,465 [INFO] Rank 9 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 13:28:44,465 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 13:28:44,486 [INFO] Updated 9 SERP rows for 2026-10-06 at 13:00
+2026-10-06 13:28:44,517 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 13:28:44,846 [INFO] Browser closed.
+2026-10-06 13:35:11,930 [INFO] ============================================================
+2026-10-06 13:35:11,930 [INFO] Run start: 2026-10-06T13:35:11.930719+02:00 | keyword=Soccer Betting
+2026-10-06 13:35:11,931 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 13:35:11,931 [INFO] Headless mode: False
+2026-10-06 13:35:12,851 [INFO] Persistent Chrome context ready.
+2026-10-06 13:35:12,888 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 13:35:16,672 [INFO] SERP loaded.
+2026-10-06 13:35:16,674 [INFO] SERP candidates found (H3): 10
+2026-10-06 13:35:17,778 [INFO] Rank 1 | hollywoodbets.net | AI Mode reply for Soccer Betting
+2026-10-06 13:35:19,172 [INFO] Rank 2 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 13:35:25,537 [INFO] Rank 3 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 13:35:26,324 [INFO] Rank 4 | worldsportsbetting.co.za | Soccer Betting in South Africa
+2026-10-06 13:35:28,813 [INFO] Rank 5 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 13:35:34,397 [INFO] Rank 6 | caesars.com | How to Bet on Soccer: Beginner's Guide
+2026-10-06 13:35:37,088 [INFO] Rank 7 | supersportbet.com | Soccer
+2026-10-06 13:35:40,099 [INFO] Rank 8 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-06 13:35:41,547 [INFO] Rank 9 | easybet.co.za | Soccer
+2026-10-06 13:35:42,659 [INFO] Rank 10 | soccer6.co.za | Soccer6.co.za
+2026-10-06 13:35:42,659 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 13:35:42,685 [INFO] Updated 10 SERP rows for 2026-10-06 at 13:00
+2026-10-06 13:35:42,733 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 13:42:36,842 [INFO] ============================================================
+2026-10-06 13:42:36,843 [INFO] Run start: 2026-10-06T13:42:36.842761+02:00 | keyword=Soccer Betting
+2026-10-06 13:42:36,843 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 13:42:36,843 [INFO] Headless mode: False
+2026-10-06 13:42:37,505 [INFO] Persistent Chrome context ready.
+2026-10-06 13:42:37,560 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 13:42:41,476 [INFO] SERP loaded.
+2026-10-06 13:42:41,478 [INFO] SERP candidates found (H3): 10
+2026-10-06 13:42:42,648 [INFO] Rank 1 | sportingbet.co.za | AI Mode reply for Soccer Betting
+2026-10-06 13:42:45,634 [INFO] Rank 2 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 13:42:46,382 [INFO] Rank 3 | worldsportsbetting.co.za | Soccer Betting in South Africa
+2026-10-06 13:42:48,400 [INFO] Rank 4 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 13:42:50,021 [INFO] Rank 5 | caesars.com | How to Bet on Soccer: Beginner's Guide
+2026-10-06 13:42:51,900 [INFO] Rank 6 | supersportbet.com | Soccer
+2026-10-06 13:42:53,969 [INFO] Rank 7 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-06 13:42:54,679 [INFO] Rank 8 | easybet.co.za | Soccer
+2026-10-06 13:42:55,397 [INFO] Rank 9 | soccer6.co.za | Soccer6.co.za
+2026-10-06 13:42:55,397 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 13:42:55,420 [INFO] Updated 9 SERP rows for 2026-10-06 at 13:00
+2026-10-06 13:42:55,445 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 13:42:55,722 [INFO] Browser closed.
+2026-10-06 13:44:53,237 [INFO] ============================================================
+2026-10-06 13:44:53,237 [INFO] Run start: 2026-10-06T13:44:53.237452+02:00 | keyword=Soccer Betting
+2026-10-06 13:44:53,238 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 13:44:53,238 [INFO] Headless mode: False
+2026-10-06 13:44:53,783 [INFO] Persistent Chrome context ready.
+2026-10-06 13:44:53,819 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 13:44:57,685 [INFO] SERP loaded.
+2026-10-06 13:44:57,687 [INFO] SERP candidates found (H3): 10
+2026-10-06 13:44:58,733 [INFO] Rank 1 | worldsportsbetting.co.za | AI Mode reply for Soccer Betting
+2026-10-06 13:44:59,478 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 13:45:00,602 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 13:45:01,689 [INFO] Rank 4 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 13:45:02,226 [INFO] Rank 5 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-06 13:45:03,421 [INFO] Rank 6 | 10bet.co.za | Soccer Betting South Africa | Football Odds on 10bet
+2026-10-06 13:45:04,049 [INFO] Rank 7 | reddit.com | r/SoccerBetting
+2026-10-06 13:45:04,476 [INFO] Rank 8 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 13:45:10,049 [INFO] Rank 9 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 13:45:12,201 [INFO] Rank 10 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 13:45:12,201 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 13:45:12,221 [INFO] Updated 10 SERP rows for 2026-10-06 at 13:00
+2026-10-06 13:45:12,251 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 13:45:12,491 [INFO] Browser closed.
+2026-10-06 14:01:01,986 [INFO] ============================================================
+2026-10-06 14:01:01,986 [INFO] Run start: 2026-10-06T14:01:01.986022+02:00 | keyword=Soccer Betting
+2026-10-06 14:01:01,986 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 14:01:01,986 [INFO] Headless mode: False
+2026-10-06 14:01:02,523 [INFO] Persistent Chrome context ready.
+2026-10-06 14:01:02,574 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 14:01:06,513 [INFO] SERP loaded.
+2026-10-06 14:01:06,515 [INFO] SERP candidates found (H3): 10
+2026-10-06 14:01:07,277 [INFO] Rank 1 | betway.co.za | AI Mode reply for Soccer Betting
+2026-10-06 14:01:08,094 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 14:01:09,267 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 14:01:10,714 [INFO] Rank 4 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 14:01:11,121 [INFO] Rank 5 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-06 14:01:12,583 [INFO] Rank 6 | 10bet.co.za | Soccer Betting South Africa | Football Odds on 10bet
+2026-10-06 14:01:13,040 [INFO] Rank 7 | reddit.com | r/SoccerBetting
+2026-10-06 14:01:14,558 [INFO] Rank 8 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 14:01:17,058 [INFO] Rank 9 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 14:01:19,368 [INFO] Rank 10 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 14:01:19,368 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 14:01:19,386 [INFO] Updated 10 SERP rows for 2026-10-06 at 14:00
+2026-10-06 14:01:19,414 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 14:01:19,656 [INFO] Browser closed.
+2026-10-06 15:00:54,814 [INFO] ============================================================
+2026-10-06 15:00:54,814 [INFO] Run start: 2026-10-06T15:00:54.814182+02:00 | keyword=Soccer Betting
+2026-10-06 15:00:54,814 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 15:00:54,814 [INFO] Headless mode: False
+2026-10-06 15:00:55,342 [INFO] Persistent Chrome context ready.
+2026-10-06 15:00:55,397 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 15:00:59,287 [INFO] SERP loaded.
+2026-10-06 15:00:59,289 [INFO] SERP candidates found (H3): 10
+2026-10-06 15:01:00,375 [INFO] Rank 1 | 10bet.co.za | AI Mode reply for Soccer Betting
+2026-10-06 15:01:01,213 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 15:01:02,865 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 15:01:03,556 [INFO] Rank 4 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 15:01:03,969 [INFO] Rank 5 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-06 15:01:12,930 [INFO] Rank 6 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 15:01:16,930 [INFO] Rank 7 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 15:01:17,630 [INFO] Rank 8 | reddit.com | r/SoccerBetting
+2026-10-06 15:01:19,429 [INFO] Rank 9 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 15:01:19,429 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 15:01:19,451 [INFO] Updated 9 SERP rows for 2026-10-06 at 15:00
+2026-10-06 15:01:19,480 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 15:01:19,740 [INFO] Browser closed.
+2026-10-06 15:05:39,065 [INFO] ============================================================
+2026-10-06 15:05:39,065 [INFO] Run start: 2026-10-06T15:05:39.065069+02:00 | keyword=Soccer Betting
+2026-10-06 15:05:39,065 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 15:05:39,065 [INFO] Headless mode: False
+2026-10-06 15:05:39,629 [INFO] Persistent Chrome context ready.
+2026-10-06 15:05:39,653 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 15:05:43,506 [INFO] SERP loaded.
+2026-10-06 15:05:43,509 [INFO] SERP candidates found (H3): 9
+2026-10-06 15:05:44,811 [INFO] SERP extraction complete: 0/10 organic results
+2026-10-06 15:05:44,811 [ERROR] INCOMPLETE SERP: extracted 0/10 results. Nothing will be written to Excel.
+2026-10-06 15:05:44,812 [WARNING] Could not save failed SERP HTML: Page.content: Target page, context or browser has been closed
+2026-10-06 15:05:44,813 [ERROR] Run failed: Insufficient SERP extraction: 0 results; minimum=5
+2026-10-06 15:05:44,813 [ERROR] Traceback (most recent call last):
+  File "C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\SEO_SERP_Monitor_Soccer_Betting.py", line 1114, in run_once
+    raise RuntimeError(
+        f"Insufficient SERP extraction: {len(results)} results; minimum={MINIMUM_ORGANIC_RESULTS}"
+    )
+RuntimeError: Insufficient SERP extraction: 0 results; minimum=5
+
+2026-10-06 15:37:45,832 [INFO] ============================================================
+2026-10-06 15:37:45,832 [INFO] Run start: 2026-10-06T15:37:45.832616+02:00 | keyword=Soccer Betting
+2026-10-06 15:37:45,833 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 15:37:45,833 [INFO] Headless mode: False
+2026-10-06 15:37:46,751 [INFO] Persistent Chrome context ready.
+2026-10-06 15:37:46,811 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 15:37:50,626 [INFO] SERP loaded.
+2026-10-06 15:37:50,629 [INFO] SERP candidates found (H3): 9
+2026-10-06 15:37:51,392 [INFO] Rank 1 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 15:37:52,508 [INFO] Rank 2 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 15:37:58,214 [INFO] Rank 3 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 15:38:01,655 [INFO] Rank 4 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 15:38:02,996 [INFO] Rank 5 | livescore.com | AI Mode replied:
+2026-10-06 15:38:04,873 [INFO] Rank 6 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 15:38:05,571 [INFO] Rank 7 | easybet.co.za | Soccer
+2026-10-06 15:38:07,539 [INFO] Rank 8 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 15:38:09,458 [INFO] Rank 9 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-06 15:38:09,458 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 15:38:09,472 [INFO] Updated 9 SERP rows for 2026-10-06 at 15:00
+2026-10-06 15:38:09,495 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 15:38:09,734 [INFO] Browser closed.
+2026-10-06 16:01:24,001 [INFO] ============================================================
+2026-10-06 16:01:24,002 [INFO] Run start: 2026-10-06T16:01:24.001535+02:00 | keyword=Soccer Betting
+2026-10-06 16:01:24,002 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 16:01:24,002 [INFO] Headless mode: False
+2026-10-06 16:01:25,012 [INFO] Persistent Chrome context ready.
+2026-10-06 16:01:25,137 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 16:01:28,993 [INFO] SERP loaded.
+2026-10-06 16:01:28,996 [INFO] SERP candidates found (H3): 9
+2026-10-06 16:01:29,872 [INFO] Rank 1 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 16:01:31,015 [INFO] Rank 2 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 16:01:31,669 [INFO] Rank 3 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 16:01:33,945 [INFO] Rank 4 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 16:01:34,408 [INFO] Rank 5 | livescore.com | AI Mode replied:
+2026-10-06 16:01:36,522 [INFO] Rank 6 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 16:01:37,192 [INFO] Rank 7 | easybet.co.za | Soccer
+2026-10-06 16:01:38,985 [INFO] Rank 8 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 16:01:41,241 [INFO] Rank 9 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-06 16:01:41,242 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 16:01:41,255 [INFO] Updated 9 SERP rows for 2026-10-06 at 16:00
+2026-10-06 16:01:41,278 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 16:01:41,537 [INFO] Browser closed.
+2026-10-06 17:01:07,368 [INFO] ============================================================
+2026-10-06 17:01:07,368 [INFO] Run start: 2026-10-06T17:01:07.368694+02:00 | keyword=Soccer Betting
+2026-10-06 17:01:07,369 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 17:01:07,369 [INFO] Headless mode: False
+2026-10-06 17:01:07,893 [INFO] Persistent Chrome context ready.
+2026-10-06 17:01:07,947 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 17:01:11,819 [INFO] SERP loaded.
+2026-10-06 17:01:11,822 [INFO] SERP candidates found (H3): 10
+2026-10-06 17:01:14,236 [INFO] Rank 1 | youtube.com | AI Mode reply for Soccer Betting
+2026-10-06 17:01:15,051 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 17:01:16,179 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 17:01:16,897 [INFO] Rank 4 | betway.co.za | Betway | Soccer Betting & Get The latest Soccer Odds
+2026-10-06 17:01:17,876 [INFO] Rank 5 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 17:01:18,280 [INFO] Rank 6 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-06 17:01:19,493 [INFO] Rank 7 | 10bet.co.za | Bet on Soccer and Check 10bet Odds!
+2026-10-06 17:01:21,498 [INFO] Rank 8 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 17:01:21,934 [INFO] Rank 9 | reddit.com | r/SoccerBetting
+2026-10-06 17:01:23,233 [INFO] Rank 10 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 17:01:23,233 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 17:01:23,251 [INFO] Updated 10 SERP rows for 2026-10-06 at 17:00
+2026-10-06 17:01:23,271 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 17:01:23,539 [INFO] Browser closed.
+2026-10-06 18:00:59,104 [INFO] ============================================================
+2026-10-06 18:00:59,105 [INFO] Run start: 2026-10-06T18:00:59.104858+02:00 | keyword=Soccer Betting
+2026-10-06 18:00:59,105 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 18:00:59,105 [INFO] Headless mode: False
+2026-10-06 18:01:00,052 [INFO] Persistent Chrome context ready.
+2026-10-06 18:01:00,097 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 18:01:04,625 [INFO] SERP loaded.
+2026-10-06 18:01:04,630 [INFO] SERP candidates found (H3): 10
+2026-10-06 18:01:05,552 [INFO] Rank 1 | sportingbet.co.za | AI Mode reply for Soccer Betting
+2026-10-06 18:01:06,318 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 18:01:08,206 [INFO] Rank 3 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 18:01:10,451 [INFO] Rank 4 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 18:01:12,962 [INFO] Rank 5 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 18:01:16,505 [INFO] Rank 6 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 18:01:17,878 [INFO] Rank 7 | easybet.co.za | Soccer
+2026-10-06 18:01:19,278 [INFO] Rank 8 | supersportbet.com | soccer betting
+2026-10-06 18:01:21,857 [INFO] Rank 9 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-06 18:01:21,858 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 18:01:21,875 [INFO] Updated 9 SERP rows for 2026-10-06 at 18:00
+2026-10-06 18:01:21,898 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 18:01:22,182 [INFO] Browser closed.
+2026-10-06 19:01:05,980 [INFO] ============================================================
+2026-10-06 19:01:05,980 [INFO] Run start: 2026-10-06T19:01:05.980207+02:00 | keyword=Soccer Betting
+2026-10-06 19:01:05,981 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 19:01:05,981 [INFO] Headless mode: False
+2026-10-06 19:01:06,912 [INFO] Persistent Chrome context ready.
+2026-10-06 19:01:06,938 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 19:01:11,582 [INFO] SERP loaded.
+2026-10-06 19:01:11,584 [INFO] SERP candidates found (H3): 10
+2026-10-06 19:01:12,480 [INFO] Rank 1 | worldsportsbetting.co.za | AI Mode reply for Soccer Betting
+2026-10-06 19:01:14,253 [INFO] Rank 2 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 19:01:14,965 [INFO] Rank 3 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 19:01:17,069 [INFO] Rank 4 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 19:01:19,025 [INFO] Rank 5 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 19:01:20,736 [INFO] Rank 6 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 19:01:21,463 [INFO] Rank 7 | easybet.co.za | Soccer
+2026-10-06 19:01:22,600 [INFO] Rank 8 | supersportbet.com | soccer betting
+2026-10-06 19:01:24,869 [INFO] Rank 9 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-06 19:01:24,869 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 19:01:24,883 [INFO] Updated 9 SERP rows for 2026-10-06 at 19:00
+2026-10-06 19:01:24,909 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 19:01:25,211 [INFO] Browser closed.
+2026-10-06 20:01:26,449 [INFO] ============================================================
+2026-10-06 20:01:26,449 [INFO] Run start: 2026-10-06T20:01:26.448997+02:00 | keyword=Soccer Betting
+2026-10-06 20:01:26,449 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 20:01:26,449 [INFO] Headless mode: False
+2026-10-06 20:01:27,384 [INFO] Persistent Chrome context ready.
+2026-10-06 20:01:27,409 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 20:01:31,711 [INFO] SERP loaded.
+2026-10-06 20:01:31,713 [INFO] SERP candidates found (H3): 10
+2026-10-06 20:01:32,364 [INFO] Rank 1 | hollywoodbets.net | AI Mode reply for Soccer Betting
+2026-10-06 20:01:33,119 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 20:01:33,993 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 20:01:35,515 [INFO] Rank 4 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 20:01:36,196 [INFO] Rank 5 | betway.co.za | Betway | Soccer Betting & Get The latest Soccer Odds
+2026-10-06 20:01:37,967 [INFO] Rank 6 | 10bet.co.za | Bet on Soccer and Check 10bet Odds!
+2026-10-06 20:01:40,403 [INFO] Rank 7 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 20:01:41,158 [INFO] Rank 8 | reddit.com | r/SoccerBetting
+2026-10-06 20:01:42,973 [INFO] Rank 9 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 20:01:42,973 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 20:01:42,989 [INFO] Updated 9 SERP rows for 2026-10-06 at 20:00
+2026-10-06 20:01:43,012 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 20:01:43,291 [INFO] Browser closed.
+2026-10-06 21:00:58,630 [INFO] ============================================================
+2026-10-06 21:00:58,630 [INFO] Run start: 2026-10-06T21:00:58.630204+02:00 | keyword=Soccer Betting
+2026-10-06 21:00:58,630 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 21:00:58,630 [INFO] Headless mode: False
+2026-10-06 21:00:59,566 [INFO] Persistent Chrome context ready.
+2026-10-06 21:00:59,589 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 21:01:03,640 [INFO] SERP loaded.
+2026-10-06 21:01:03,643 [INFO] SERP candidates found (H3): 10
+2026-10-06 21:01:04,581 [INFO] Rank 1 | sports.betway.co.za | AI Mode reply for Soccer Betting
+2026-10-06 21:01:05,352 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 21:01:06,925 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 21:01:07,960 [INFO] Rank 4 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 21:01:09,837 [INFO] Rank 5 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 21:01:12,042 [INFO] Rank 6 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 21:01:13,630 [INFO] Rank 7 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 21:01:14,682 [INFO] Rank 8 | easybet.co.za | Soccer
+2026-10-06 21:01:16,478 [INFO] Rank 9 | supersportbet.com | soccer betting
+2026-10-06 21:01:19,827 [INFO] Rank 10 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-06 21:01:19,827 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 21:01:19,845 [INFO] Updated 10 SERP rows for 2026-10-06 at 21:00
+2026-10-06 21:01:19,870 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 21:01:20,145 [INFO] Browser closed.
+2026-10-06 22:00:59,277 [INFO] ============================================================
+2026-10-06 22:00:59,278 [INFO] Run start: 2026-10-06T22:00:59.277816+02:00 | keyword=Soccer Betting
+2026-10-06 22:00:59,278 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 22:00:59,278 [INFO] Headless mode: False
+2026-10-06 22:00:59,857 [INFO] Persistent Chrome context ready.
+2026-10-06 22:00:59,881 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 22:01:03,940 [INFO] SERP loaded.
+2026-10-06 22:01:03,944 [INFO] SERP candidates found (H3): 10
+2026-10-06 22:01:04,626 [INFO] Rank 1 | betway.co.za | AI Mode reply for Soccer Betting
+2026-10-06 22:01:05,494 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 22:01:06,585 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-06 22:01:06,977 [INFO] Rank 4 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-06 22:01:07,846 [INFO] Rank 5 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 22:01:09,523 [INFO] Rank 6 | 10bet.co.za | Soccer Betting South Africa | Football Odds on 10bet
+2026-10-06 22:01:11,367 [INFO] Rank 7 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 22:01:11,804 [INFO] Rank 8 | reddit.com | Soccer Betting Guide
+2026-10-06 22:01:13,055 [INFO] Rank 9 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-06 22:01:13,055 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 22:01:13,070 [INFO] Updated 9 SERP rows for 2026-10-06 at 22:00
+2026-10-06 22:01:13,092 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 22:01:13,372 [INFO] Browser closed.
+2026-10-06 23:00:54,687 [INFO] ============================================================
+2026-10-06 23:00:54,687 [INFO] Run start: 2026-10-06T23:00:54.687193+02:00 | keyword=Soccer Betting
+2026-10-06 23:00:54,687 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-06 23:00:54,688 [INFO] Headless mode: False
+2026-10-06 23:00:55,511 [INFO] Persistent Chrome context ready.
+2026-10-06 23:00:55,534 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-06 23:00:59,593 [INFO] SERP loaded.
+2026-10-06 23:00:59,595 [INFO] SERP candidates found (H3): 10
+2026-10-06 23:01:00,855 [INFO] Rank 1 | sportingbet.co.za | AI Mode reply for Soccer Betting
+2026-10-06 23:01:01,605 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-06 23:01:03,560 [INFO] Rank 3 | bet.co.za | Sports - Soccer - Competitions
+2026-10-06 23:01:06,116 [INFO] Rank 4 | betolimp.co.za | Soccer Betting South Africa
+2026-10-06 23:01:07,804 [INFO] Rank 5 | betway.com | Football Betting & Football Odds 2026
+2026-10-06 23:01:09,575 [INFO] Rank 6 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-06 23:01:10,289 [INFO] Rank 7 | easybet.co.za | Soccer
+2026-10-06 23:01:11,196 [INFO] Rank 8 | supersportbet.com | soccer betting
+2026-10-06 23:01:13,123 [INFO] Rank 9 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-06 23:01:13,123 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-06 23:01:13,140 [INFO] Updated 9 SERP rows for 2026-10-06 at 23:00
+2026-10-06 23:01:13,162 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-06 23:01:13,460 [INFO] Browser closed.
+2026-10-07 00:01:00,856 [INFO] ============================================================
+2026-10-07 00:01:00,856 [INFO] Run start: 2026-10-07T00:01:00.856456+02:00 | keyword=Soccer Betting
+2026-10-07 00:01:00,857 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-07 00:01:00,857 [INFO] Headless mode: False
+2026-10-07 00:01:01,754 [INFO] Persistent Chrome context ready.
+2026-10-07 00:01:01,776 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-07 00:01:05,825 [INFO] SERP loaded.
+2026-10-07 00:01:05,828 [INFO] SERP candidates found (H3): 10
+2026-10-07 00:01:06,545 [INFO] Rank 1 | betway.co.za | AI Mode reply for Soccer Betting
+2026-10-07 00:01:07,348 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-07 00:01:08,810 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-07 00:01:10,313 [INFO] Rank 4 | bet.co.za | Sports - Soccer - Competitions
+2026-10-07 00:01:10,810 [INFO] Rank 5 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-07 00:01:12,929 [INFO] Rank 6 | 10bet.co.za | Soccer Betting South Africa | Football Odds on 10bet
+2026-10-07 00:01:17,245 [INFO] Rank 7 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-07 00:01:19,267 [INFO] Rank 8 | livescore.com | Best Soccer Betting Sites South Africa | Top ZA Bookies
+2026-10-07 00:01:20,021 [INFO] Rank 9 | reddit.com | Soccer Betting Guide
+2026-10-07 00:01:20,021 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-07 00:01:20,042 [INFO] Updated 9 SERP rows for 2026-10-07 at 00:00
+2026-10-07 00:01:20,070 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-07 00:01:20,336 [INFO] Browser closed.
+2026-10-07 01:01:00,539 [INFO] ============================================================
+2026-10-07 01:01:00,539 [INFO] Run start: 2026-10-07T01:01:00.539116+02:00 | keyword=Soccer Betting
+2026-10-07 01:01:00,539 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-07 01:01:00,539 [INFO] Headless mode: False
+2026-10-07 01:01:01,496 [INFO] Persistent Chrome context ready.
+2026-10-07 01:01:01,520 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-07 01:01:05,646 [INFO] SERP loaded.
+2026-10-07 01:01:05,648 [INFO] SERP candidates found (H3): 10
+2026-10-07 01:01:07,236 [INFO] Rank 1 | youtube.com | AI Mode reply for Soccer Betting
+2026-10-07 01:01:08,054 [INFO] Rank 2 | worldsportsbetting.co.za | ⚽ Soccer Betting at World Sports Betting
+2026-10-07 01:01:08,968 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-07 01:01:10,622 [INFO] Rank 4 | betway.com | Football Betting & Football Odds 2026
+2026-10-07 01:01:11,490 [INFO] Rank 5 | supersportbet.com | Soccer
+2026-10-07 01:01:13,804 [INFO] Rank 6 | betolimp.co.za | Soccer Betting South Africa
+2026-10-07 01:01:14,693 [INFO] Rank 7 | bet.co.za | Sports - Soccer - Competitions
+2026-10-07 01:01:17,263 [INFO] Rank 8 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-07 01:01:18,365 [INFO] Rank 9 | easybet.co.za | Soccer
+2026-10-07 01:01:19,810 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-07 01:01:19,829 [INFO] Updated 9 SERP rows for 2026-10-07 at 01:00
+2026-10-07 01:01:19,858 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-07 01:01:20,127 [INFO] Browser closed.
+2026-10-07 02:00:50,907 [INFO] ============================================================
+2026-10-07 02:00:50,908 [INFO] Run start: 2026-10-07T02:00:50.907596+02:00 | keyword=Soccer Betting
+2026-10-07 02:00:50,908 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-07 02:00:50,908 [INFO] Headless mode: False
+2026-10-07 02:00:51,849 [INFO] Persistent Chrome context ready.
+2026-10-07 02:00:51,885 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-07 02:00:56,042 [INFO] SERP loaded.
+2026-10-07 02:00:56,044 [INFO] SERP candidates found (H3): 10
+2026-10-07 02:00:57,265 [INFO] Rank 1 | worldsportsbetting.co.za | AI Mode reply for Soccer Betting
+2026-10-07 02:00:59,046 [INFO] Rank 2 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-07 02:00:59,937 [INFO] Rank 3 | bet.co.za | Sports - Soccer - Competitions
+2026-10-07 02:01:00,371 [INFO] Rank 4 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-07 02:01:01,387 [INFO] Rank 5 | 10bet.co.za | Soccer Betting South Africa | Football Odds on 10bet
+2026-10-07 02:01:02,074 [INFO] Rank 6 | betway.co.za | Betway | Soccer Betting & Get The latest Soccer Odds
+2026-10-07 02:01:03,028 [INFO] Rank 7 | supersportbet.com | Soccer
+2026-10-07 02:01:03,471 [INFO] Rank 8 | reddit.com | Soccer Betting Guide
+2026-10-07 02:01:05,653 [INFO] Rank 9 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-07 02:01:05,653 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-07 02:01:05,674 [INFO] Updated 9 SERP rows for 2026-10-07 at 02:00
+2026-10-07 02:01:05,706 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-07 02:01:06,024 [INFO] Browser closed.
+2026-10-07 03:00:58,920 [INFO] ============================================================
+2026-10-07 03:00:58,920 [INFO] Run start: 2026-10-07T03:00:58.920230+02:00 | keyword=Soccer Betting
+2026-10-07 03:00:58,920 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-07 03:00:58,920 [INFO] Headless mode: False
+2026-10-07 03:00:59,811 [INFO] Persistent Chrome context ready.
+2026-10-07 03:00:59,859 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-07 03:01:04,519 [INFO] SERP loaded.
+2026-10-07 03:01:04,521 [INFO] SERP candidates found (H3): 10
+2026-10-07 03:01:04,967 [INFO] Rank 1 | hollywoodbets.net | AI Mode reply for Soccer Betting
+2026-10-07 03:01:05,734 [INFO] Rank 2 | worldsportsbetting.co.za | ⚽ Soccer Betting at World Sports Betting
+2026-10-07 03:01:07,228 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-07 03:01:09,364 [INFO] Rank 4 | betway.com | Football Betting & Football Odds 2026
+2026-10-07 03:01:10,264 [INFO] Rank 5 | supersportbet.com | Soccer
+2026-10-07 03:01:12,322 [INFO] Rank 6 | betolimp.co.za | Soccer Betting South Africa
+2026-10-07 03:01:13,721 [INFO] Rank 7 | bet.co.za | Sports - Soccer - Competitions
+2026-10-07 03:01:14,734 [INFO] Rank 8 | easybet.co.za | Soccer
+2026-10-07 03:01:17,718 [INFO] Rank 9 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-07 03:01:19,457 [INFO] Rank 10 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-07 03:01:19,457 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-07 03:01:19,477 [INFO] Updated 10 SERP rows for 2026-10-07 at 03:00
+2026-10-07 03:01:19,501 [WARNING] Excel file is locked; retrying save (1/5)...
+2026-10-07 03:01:21,019 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-07 03:01:21,324 [INFO] Browser closed.
+2026-10-07 04:01:03,232 [INFO] ============================================================
+2026-10-07 04:01:03,232 [INFO] Run start: 2026-10-07T04:01:03.232257+02:00 | keyword=Soccer Betting
+2026-10-07 04:01:03,233 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-07 04:01:03,233 [INFO] Headless mode: False
+2026-10-07 04:01:04,166 [INFO] Persistent Chrome context ready.
+2026-10-07 04:01:04,189 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-07 04:01:08,542 [INFO] SERP loaded.
+2026-10-07 04:01:08,544 [INFO] SERP candidates found (H3): 10
+2026-10-07 04:01:09,447 [INFO] Rank 1 | worldsportsbetting.co.za | AI Mode reply for Soccer Betting
+2026-10-07 04:01:11,642 [INFO] Rank 2 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-07 04:01:15,059 [INFO] Rank 3 | betway.com | Football Betting & Football Odds 2026
+2026-10-07 04:01:16,485 [INFO] Rank 4 | supersportbet.com | Soccer
+2026-10-07 04:01:18,540 [INFO] Rank 5 | betolimp.co.za | Soccer Betting South Africa
+2026-10-07 04:01:19,515 [INFO] Rank 6 | bet.co.za | Sports - Soccer - Competitions
+2026-10-07 04:01:20,485 [INFO] Rank 7 | easybet.co.za | Soccer
+2026-10-07 04:01:24,789 [INFO] Rank 8 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-07 04:01:28,190 [INFO] Rank 9 | caesars.com | How to Bet on Soccer: Beginner's Guide
+2026-10-07 04:01:28,190 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-07 04:01:28,212 [INFO] Updated 9 SERP rows for 2026-10-07 at 04:00
+2026-10-07 04:01:28,247 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-07 04:01:29,076 [INFO] Browser closed.
+2026-10-07 05:01:07,165 [INFO] ============================================================
+2026-10-07 05:01:07,165 [INFO] Run start: 2026-10-07T05:01:07.165185+02:00 | keyword=Soccer Betting
+2026-10-07 05:01:07,165 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-07 05:01:07,165 [INFO] Headless mode: False
+2026-10-07 05:01:08,329 [INFO] Persistent Chrome context ready.
+2026-10-07 05:01:08,360 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-07 05:01:12,405 [INFO] SERP loaded.
+2026-10-07 05:01:12,408 [INFO] SERP candidates found (H3): 10
+2026-10-07 05:01:13,321 [INFO] Rank 1 | betway.co.za | AI Mode reply for Soccer Betting
+2026-10-07 05:01:14,153 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-07 05:01:15,102 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-07 05:01:16,002 [INFO] Rank 4 | bet.co.za | Sports - Soccer - Competitions
+2026-10-07 05:01:16,621 [INFO] Rank 5 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-07 05:01:17,247 [INFO] Rank 6 | betway.co.za | Betway | Soccer Betting & Get The latest Soccer Odds
+2026-10-07 05:01:18,104 [INFO] Rank 7 | supersportbet.com | Soccer
+2026-10-07 05:01:19,847 [INFO] Rank 8 | 10bet.co.za | Soccer Betting South Africa | Football Odds on 10bet
+2026-10-07 05:01:21,413 [INFO] Rank 9 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-07 05:01:21,848 [INFO] Rank 10 | reddit.com | Soccer Betting Guide
+2026-10-07 05:01:21,848 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-07 05:01:21,871 [INFO] Updated 10 SERP rows for 2026-10-07 at 05:00
+2026-10-07 05:01:21,901 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-07 05:01:22,183 [INFO] Browser closed.
+2026-10-07 06:00:53,352 [INFO] ============================================================
+2026-10-07 06:00:53,352 [INFO] Run start: 2026-10-07T06:00:53.352309+02:00 | keyword=Soccer Betting
+2026-10-07 06:00:53,352 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-07 06:00:53,353 [INFO] Headless mode: False
+2026-10-07 06:00:54,284 [INFO] Persistent Chrome context ready.
+2026-10-07 06:00:54,308 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-07 06:00:58,901 [INFO] SERP loaded.
+2026-10-07 06:00:58,904 [INFO] SERP candidates found (H3): 10
+2026-10-07 06:00:59,761 [INFO] Rank 1 | worldsportsbetting.co.za | AI Mode reply for Soccer Betting
+2026-10-07 06:01:02,035 [INFO] Rank 2 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-07 06:01:04,091 [INFO] Rank 3 | betway.com | Football Betting & Football Odds 2026
+2026-10-07 06:01:06,489 [INFO] Rank 4 | betolimp.co.za | Soccer Betting South Africa
+2026-10-07 06:01:07,981 [INFO] Rank 5 | bet.co.za | Sports - Soccer - Competitions
+2026-10-07 06:01:10,088 [INFO] Rank 6 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-07 06:01:11,082 [INFO] Rank 7 | easybet.co.za | Soccer
+2026-10-07 06:01:12,369 [INFO] Rank 8 | supersportbet.com | soccer betting
+2026-10-07 06:01:14,678 [INFO] Rank 9 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-07 06:01:14,679 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-07 06:01:14,702 [INFO] Updated 9 SERP rows for 2026-10-07 at 06:00
+2026-10-07 06:01:14,734 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-07 06:01:15,046 [INFO] Browser closed.
+2026-10-07 07:00:58,788 [INFO] ============================================================
+2026-10-07 07:00:58,789 [INFO] Run start: 2026-10-07T07:00:58.788858+02:00 | keyword=Soccer Betting
+2026-10-07 07:00:58,789 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-07 07:00:58,790 [INFO] Headless mode: False
+2026-10-07 07:00:59,733 [INFO] Persistent Chrome context ready.
+2026-10-07 07:00:59,770 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-07 07:01:03,892 [INFO] SERP loaded.
+2026-10-07 07:01:03,894 [INFO] SERP candidates found (H3): 10
+2026-10-07 07:01:04,688 [INFO] Rank 1 | worldsportsbetting.co.za | AI Mode reply for Soccer Betting
+2026-10-07 07:01:06,369 [INFO] Rank 2 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-07 07:01:08,263 [INFO] Rank 3 | betway.com | Football Betting & Football Odds 2026
+2026-10-07 07:01:10,379 [INFO] Rank 4 | betolimp.co.za | Soccer Betting South Africa
+2026-10-07 07:01:11,101 [INFO] Rank 5 | bet.co.za | Sports - Soccer - Competitions
+2026-10-07 07:01:12,867 [INFO] Rank 6 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-07 07:01:13,584 [INFO] Rank 7 | easybet.co.za | Soccer
+2026-10-07 07:01:14,523 [INFO] Rank 8 | supersportbet.com | soccer betting
+2026-10-07 07:01:16,351 [INFO] Rank 9 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-07 07:01:16,351 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-07 07:01:16,374 [INFO] Updated 9 SERP rows for 2026-10-07 at 07:00
+2026-10-07 07:01:16,402 [WARNING] Excel file is locked; retrying save (1/5)...
+2026-10-07 07:01:17,922 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-07 07:01:18,214 [INFO] Browser closed.
+2026-10-07 08:01:01,100 [INFO] ============================================================
+2026-10-07 08:01:01,100 [INFO] Run start: 2026-10-07T08:01:01.100331+02:00 | keyword=Soccer Betting
+2026-10-07 08:01:01,101 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-07 08:01:01,101 [INFO] Headless mode: False
+2026-10-07 08:01:01,984 [INFO] Persistent Chrome context ready.
+2026-10-07 08:01:02,007 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-07 08:01:06,101 [INFO] SERP loaded.
+2026-10-07 08:01:06,104 [INFO] SERP candidates found (H3): 10
+2026-10-07 08:01:08,129 [INFO] Rank 1 | youtube.com | AI Mode reply for Soccer Betting
+2026-10-07 08:01:08,882 [INFO] Rank 2 | worldsportsbetting.co.za | Soccer Betting | Premier League, PSL & More
+2026-10-07 08:01:23,053 [INFO] Rank 3 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-07 08:01:25,150 [INFO] Rank 4 | betway.com | Football Betting & Football Odds 2026
+2026-10-07 08:01:27,711 [INFO] Rank 5 | betolimp.co.za | Soccer Betting South Africa
+2026-10-07 08:01:28,932 [INFO] Rank 6 | supersportbet.com | Soccer
+2026-10-07 08:01:29,929 [INFO] Rank 7 | bet.co.za | Sports - Soccer - Competitions
+2026-10-07 08:01:30,715 [INFO] Rank 8 | easybet.co.za | Soccer
+2026-10-07 08:01:32,531 [INFO] Rank 9 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-07 08:01:33,258 [INFO] Rank 10 | hollywoodbets.net | Hollywoodbets Soccer Betting | Latest Soccer Odds
+2026-10-07 08:01:33,259 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-07 08:01:33,282 [INFO] Updated 10 SERP rows for 2026-10-07 at 08:00
+2026-10-07 08:01:33,311 [WARNING] Excel file is locked; retrying save (1/5)...
+2026-10-07 08:01:34,829 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-07 08:01:35,056 [INFO] Browser closed.
+2026-10-07 09:00:57,007 [INFO] ============================================================
+2026-10-07 09:00:57,008 [INFO] Run start: 2026-10-07T09:00:57.007832+02:00 | keyword=Soccer Betting
+2026-10-07 09:00:57,008 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting
+2026-10-07 09:00:57,008 [INFO] Headless mode: False
+2026-10-07 09:00:57,926 [INFO] Persistent Chrome context ready.
+2026-10-07 09:00:57,952 [INFO] GET https://www.google.com/search?q=Soccer+Betting&hl=en&gl=za&num=20&pws=0
+2026-10-07 09:01:01,912 [INFO] SERP loaded.
+2026-10-07 09:01:01,914 [INFO] SERP candidates found (H3): 10
+2026-10-07 09:01:02,852 [INFO] Rank 1 | worldsportsbetting.co.za | AI Mode reply for Soccer Betting
+2026-10-07 09:01:04,739 [INFO] Rank 2 | sportingbet.co.za | Soccer Betting & Football Betting South Africa
+2026-10-07 09:01:07,232 [INFO] Rank 3 | betway.com | Football Betting & Football Odds 2026
+2026-10-07 09:01:08,327 [INFO] Rank 4 | supersportbet.com | Soccer
+2026-10-07 09:01:11,586 [INFO] Rank 5 | betolimp.co.za | Soccer Betting South Africa
+2026-10-07 09:01:12,690 [INFO] Rank 6 | bet.co.za | Sports - Soccer - Competitions
+2026-10-07 09:01:13,516 [INFO] Rank 7 | easybet.co.za | Soccer
+2026-10-07 09:01:16,183 [INFO] Rank 8 | sportpesa.co.za | Soccer betting odds | SportPesa South Africa
+2026-10-07 09:01:18,022 [INFO] Rank 9 | youtube.com | How To Bet On Soccer - The Complete Guide
+2026-10-07 09:01:18,022 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-07 09:01:18,046 [INFO] Updated 9 SERP rows for 2026-10-07 at 09:00
+2026-10-07 09:01:18,076 [WARNING] Excel file is locked; retrying save (1/5)...
+2026-10-07 09:01:19,594 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\soccer_betting_rankings.xlsx
+2026-10-07 09:01:19,935 [INFO] Browser closed.

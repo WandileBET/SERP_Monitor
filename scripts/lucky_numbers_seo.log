@@ -147,3 +147,637 @@
 2026-10-05 16:14:04,261 [INFO] Updated 10 SERP rows for 2026-10-05 at 16:00
 2026-10-05 16:14:04,366 [INFO] Excel workbook saved: C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\lucky_numbers_rankings.xlsx
 2026-10-05 16:14:09,786 [INFO] Browser closed.
+2026-10-06 10:45:23,272 [INFO] ============================================================
+2026-10-06 10:45:23,272 [INFO] Run start: 2026-10-06T10:45:23.272419+02:00 | keyword=Lucky Numbers
+2026-10-06 10:45:23,272 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 10:45:23,273 [INFO] Headless mode: False
+2026-10-06 10:45:23,856 [INFO] Persistent Chrome context ready.
+2026-10-06 10:45:23,933 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 10:45:29,597 [INFO] SERP loaded.
+2026-10-06 10:45:29,602 [INFO] SERP candidates found (H3): 10
+2026-10-06 10:45:30,383 [INFO] Rank 1 | tiktok.com | AI Mode replied:
+2026-10-06 10:45:30,759 [INFO] Rank 2 | scribd.com | Choosing Your Lucky Number Guide | PDF | Luck
+2026-10-06 10:45:39,079 [INFO] Rank 3 | betolimp.co.za | Lucky Numbers | Lotto & Powerball Plus Information
+2026-10-06 10:45:40,851 [INFO] Rank 4 | blog.hollywoodbets.net | Lucky Numbers | Hollywoodbets Sports Blog
+2026-10-06 10:45:41,525 [INFO] Rank 5 | takealot.com | Raven's Lucky Numbers Book of Places: USA Edition
+2026-10-06 10:45:46,493 [INFO] Rank 6 | hyggeonkel.dk | Lucky Numbers → Køb det billigt i dag!
+2026-10-06 10:45:48,106 [INFO] Rank 7 | blog.hollywoodbets.net | Lucky Numbers | Hollywoodbets Sports Blog
+2026-10-06 10:45:49,814 [INFO] Rank 8 | blog.hollywoodbets.net | This Week's Lucky Numbers (05/01/2021)
+2026-10-06 10:45:50,660 [INFO] Rank 9 | hollywoodbets.net | Online Sports Betting and Online Casino
+2026-10-06 10:45:52,349 [INFO] Rank 10 | blog.hollywoodbets.net | This Week's Lucky Numbers (04/08/2020)
+2026-10-06 10:45:52,349 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 10:45:52,374 [INFO] Updated 10 SERP rows for 2026-10-06 at 10:00
+2026-10-06 10:45:52,397 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 10:45:52,579 [INFO] Browser closed.
+2026-10-06 10:51:11,367 [INFO] ============================================================
+2026-10-06 10:51:11,368 [INFO] Run start: 2026-10-06T10:51:11.367826+02:00 | keyword=Lucky Numbers
+2026-10-06 10:51:11,368 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 10:51:11,368 [INFO] Headless mode: False
+2026-10-06 10:51:11,938 [INFO] Persistent Chrome context ready.
+2026-10-06 10:51:12,014 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 10:51:15,800 [INFO] SERP loaded.
+2026-10-06 10:51:15,812 [INFO] SERP candidates found (H3): 11
+2026-10-06 10:51:17,481 [INFO] Rank 1 | yesplay.bet | Lucky Numbers in South Africa Lotteries
+2026-10-06 10:51:18,406 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 10:51:19,147 [INFO] Rank 3 | betway.co.za | Betway
+2026-10-06 10:51:20,619 [INFO] Rank 4 | legacy.hollywoodbets.net | https://legacy.hollywoodbets.net/betting/21/lucky-...
+2026-10-06 10:51:22,059 [INFO] Rank 5 | goldrush.co.za | Lucky Numbers ideas
+2026-10-06 10:51:25,211 [INFO] Rank 6 | x.com | Lucky Number Results (@LNResults ...
+2026-10-06 10:51:28,864 [INFO] Rank 7 | lotterypredictor.com | South Africa Lottery Lucky Numbers For Today
+2026-10-06 10:51:34,374 [INFO] Rank 8 | mathworld.wolfram.com | Lucky Number -- from Wolfram MathWorld
+2026-10-06 10:51:35,656 [INFO] Rank 9 | za.pinterest.com | 9 Lucky numbers for lottery ideas
+2026-10-06 10:51:37,260 [INFO] Rank 10 | yourbet.co.za | Numbers
+2026-10-06 10:51:37,260 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 10:51:37,280 [INFO] Updated 10 SERP rows for 2026-10-06 at 10:00
+2026-10-06 10:51:37,304 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 10:51:37,486 [INFO] Browser closed.
+2026-10-06 13:26:17,410 [INFO] ============================================================
+2026-10-06 13:26:17,410 [INFO] Run start: 2026-10-06T13:26:17.410101+02:00 | keyword=Lucky Numbers
+2026-10-06 13:26:17,410 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 13:26:17,410 [INFO] Headless mode: False
+2026-10-06 13:26:18,361 [INFO] Persistent Chrome context ready.
+2026-10-06 13:26:18,425 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 13:26:37,811 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-06 13:26:37,815 [INFO] SERP loaded.
+2026-10-06 13:26:37,818 [INFO] SERP candidates found (H3): 9
+2026-10-06 13:26:38,425 [INFO] Rank 1 | hollywoodbets.net | AI Mode replied:
+2026-10-06 13:26:39,865 [INFO] Rank 2 | za.pinterest.com | Lotto Chart - สมุดคณิตศาสตร์, วอลเปเปอร์, หวย
+2026-10-06 13:26:42,648 [INFO] Rank 3 | peacocktv.com | Watch The Doctor Blake Mysteries Season 4, Episode 3: Lucky ...
+2026-10-06 13:26:43,161 [INFO] Rank 4 | salesianyouth.org | Roulette Lucky Numbers
+2026-10-06 13:26:44,526 [INFO] Rank 5 | sportybet.co.za | Online Sports Betting International & Live Betting Odds at ...
+2026-10-06 13:26:47,284 [INFO] Rank 6 | youtube.com | Lucky Lottery Numbers: Strategy for Winning the Lotto?
+2026-10-06 13:26:49,463 [INFO] Rank 7 | blog.hollywoodbets.net | This Week's Lucky Numbers (29/09/2020)
+2026-10-06 13:26:54,614 [INFO] Rank 8 | am.co.za | Lucky Phone Number - Advanced Machinery (Pty) Ltd
+2026-10-06 13:26:54,614 [INFO] SERP extraction complete: 8/10 organic results
+2026-10-06 13:26:54,632 [INFO] Updated 8 SERP rows for 2026-10-06 at 13:00
+2026-10-06 13:26:54,663 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 13:26:54,985 [INFO] Browser closed.
+2026-10-06 13:27:30,316 [INFO] ============================================================
+2026-10-06 13:27:30,317 [INFO] Run start: 2026-10-06T13:27:30.316784+02:00 | keyword=Lucky Numbers
+2026-10-06 13:27:30,317 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 13:27:30,317 [INFO] Headless mode: False
+2026-10-06 13:27:30,899 [INFO] Persistent Chrome context ready.
+2026-10-06 13:27:30,923 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 13:27:47,865 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-06 13:27:47,869 [INFO] SERP loaded.
+2026-10-06 13:27:47,871 [INFO] SERP candidates found (H3): 10
+2026-10-06 13:27:48,320 [INFO] Rank 1 | hollywoodbets.net | AI Mode replied:
+2026-10-06 13:27:48,964 [INFO] Rank 2 | takealot.com | Raven's Lucky Numbers Book of Places: USA Edition
+2026-10-06 13:27:51,013 [INFO] Rank 3 | blog.hollywoodbets.net | This Week's Lucky Numbers
+2026-10-06 13:27:51,445 [INFO] Rank 4 | salesianyouth.org | Roulette Lucky Numbers
+2026-10-06 13:27:51,888 [INFO] Rank 5 | bestsportsbetting.co.za | Lucky Numbers Betting South Africa
+2026-10-06 13:27:53,518 [INFO] Rank 6 | blog.hollywoodbets.net | This Week's Featured Lucky Number Draws
+2026-10-06 13:27:54,500 [INFO] Rank 7 | pjcventures.co.za | Lucky lottery numbers today and tomorrow Weve done ...
+2026-10-06 13:27:56,452 [INFO] Rank 8 | blog.hollywoodbets.net | Iceland 5/40 - Lucky Numbers
+2026-10-06 13:27:57,417 [INFO] Rank 9 | diesonsak.co.za | Daily lotto lucky numbers NOTE This article is updated daily ...
+2026-10-06 13:27:59,045 [INFO] Rank 10 | blog.hollywoodbets.net | This Week's Lucky Numbers (28/07/2020)
+2026-10-06 13:27:59,045 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 13:27:59,067 [INFO] Updated 10 SERP rows for 2026-10-06 at 13:00
+2026-10-06 13:27:59,096 [WARNING] Excel file is locked; retrying save (1/5)...
+2026-10-06 13:28:00,616 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 13:28:00,790 [INFO] Browser closed.
+2026-10-06 13:34:02,526 [INFO] ============================================================
+2026-10-06 13:34:02,527 [INFO] Run start: 2026-10-06T13:34:02.526706+02:00 | keyword=Lucky Numbers
+2026-10-06 13:34:02,527 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 13:34:02,527 [INFO] Headless mode: False
+2026-10-06 13:34:03,465 [INFO] Persistent Chrome context ready.
+2026-10-06 13:34:03,501 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 13:34:20,777 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-06 13:34:20,783 [INFO] SERP loaded.
+2026-10-06 13:34:20,785 [INFO] SERP candidates found (H3): 9
+2026-10-06 13:34:21,662 [INFO] Rank 1 | hollywoodbets.net | AI Mode replied:
+2026-10-06 13:34:23,226 [INFO] Rank 2 | za.pinterest.com | Lotto Chart - สมุดคณิตศาสตร์, วอลเปเปอร์, หวย
+2026-10-06 13:34:26,690 [INFO] Rank 3 | peacocktv.com | Watch The Doctor Blake Mysteries Season 4, Episode 3: Lucky ...
+2026-10-06 13:34:27,145 [INFO] Rank 4 | salesianyouth.org | Roulette Lucky Numbers
+2026-10-06 13:34:37,042 [INFO] Rank 5 | sportybet.co.za | Online Sports Betting International & Live Betting Odds at ...
+2026-10-06 13:34:38,821 [INFO] Rank 6 | youtube.com | Lucky Lottery Numbers: Strategy for Winning the Lotto?
+2026-10-06 13:34:41,347 [INFO] Rank 7 | blog.hollywoodbets.net | This Week's Lucky Numbers (29/09/2020)
+2026-10-06 13:34:45,152 [INFO] Rank 8 | am.co.za | Lucky Phone Number - Advanced Machinery (Pty) Ltd
+2026-10-06 13:34:45,152 [INFO] SERP extraction complete: 8/10 organic results
+2026-10-06 13:34:45,174 [INFO] Updated 8 SERP rows for 2026-10-06 at 13:00
+2026-10-06 13:34:45,206 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 13:34:45,473 [INFO] Browser closed.
+2026-10-06 13:41:14,542 [INFO] ============================================================
+2026-10-06 13:41:14,543 [INFO] Run start: 2026-10-06T13:41:14.542444+02:00 | keyword=Lucky Numbers
+2026-10-06 13:41:14,543 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 13:41:14,543 [INFO] Headless mode: False
+2026-10-06 13:41:15,192 [INFO] Persistent Chrome context ready.
+2026-10-06 13:41:15,253 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 13:41:32,128 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-06 13:41:32,131 [INFO] SERP loaded.
+2026-10-06 13:41:32,133 [INFO] SERP candidates found (H3): 9
+2026-10-06 13:41:32,701 [INFO] Rank 1 | hollywoodbets.net | AI Mode replied:
+2026-10-06 13:41:33,621 [INFO] Rank 2 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 13:41:33,658 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-06 13:41:34,524 [INFO] Rank 4 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 13:41:36,486 [INFO] Rank 5 | luckynumber.today | Lucky Numbers
+2026-10-06 13:41:38,490 [INFO] Rank 6 | en.wikipedia.org | Lucky number
+2026-10-06 13:41:40,131 [INFO] Rank 7 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 13:41:40,446 [INFO] Rank 8 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-06 13:41:40,446 [INFO] SERP extraction complete: 8/10 organic results
+2026-10-06 13:41:40,463 [INFO] Updated 8 SERP rows for 2026-10-06 at 13:00
+2026-10-06 13:41:40,491 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 13:41:40,706 [INFO] Browser closed.
+2026-10-06 13:43:37,509 [INFO] ============================================================
+2026-10-06 13:43:37,510 [INFO] Run start: 2026-10-06T13:43:37.509909+02:00 | keyword=Lucky Numbers
+2026-10-06 13:43:37,510 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 13:43:37,510 [INFO] Headless mode: False
+2026-10-06 13:43:38,071 [INFO] Persistent Chrome context ready.
+2026-10-06 13:43:38,093 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 13:43:56,249 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-06 13:43:56,255 [INFO] SERP loaded.
+2026-10-06 13:43:56,257 [INFO] SERP candidates found (H3): 9
+2026-10-06 13:43:56,722 [INFO] Rank 1 | hollywoodbets.net | AI Mode replied:
+2026-10-06 13:43:57,413 [INFO] Rank 2 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 13:43:57,449 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-06 13:43:58,171 [INFO] Rank 4 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 13:44:00,055 [INFO] Rank 5 | luckynumber.today | Lucky Numbers
+2026-10-06 13:44:02,349 [INFO] Rank 6 | en.wikipedia.org | Lucky number
+2026-10-06 13:44:03,830 [INFO] Rank 7 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 13:44:04,169 [INFO] Rank 8 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-06 13:44:04,169 [INFO] SERP extraction complete: 8/10 organic results
+2026-10-06 13:44:04,186 [INFO] Updated 8 SERP rows for 2026-10-06 at 13:00
+2026-10-06 13:44:04,214 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 13:44:04,460 [INFO] Browser closed.
+2026-10-06 14:00:22,733 [INFO] ============================================================
+2026-10-06 14:00:22,733 [INFO] Run start: 2026-10-06T14:00:22.732985+02:00 | keyword=Lucky Numbers
+2026-10-06 14:00:22,733 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 14:00:22,733 [INFO] Headless mode: False
+2026-10-06 14:00:23,270 [INFO] Persistent Chrome context ready.
+2026-10-06 14:00:23,312 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 14:00:29,826 [INFO] SERP loaded.
+2026-10-06 14:00:29,829 [INFO] SERP candidates found (H3): 11
+2026-10-06 14:00:30,543 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 14:00:31,337 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 14:00:31,365 [INFO] Rank 3 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-06 14:00:31,785 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 14:00:32,502 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 14:00:34,396 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-06 14:00:36,399 [INFO] Rank 7 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-06 14:00:37,592 [INFO] Rank 8 | sportybet.co.za | Lucky numbers
+2026-10-06 14:00:38,949 [INFO] Rank 9 | za.pinterest.com | 9 Lucky numbers for lottery ideas
+2026-10-06 14:00:41,081 [INFO] Rank 10 | en.wikipedia.org | Lucky number
+2026-10-06 14:00:41,082 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 14:00:41,105 [INFO] Updated 10 SERP rows for 2026-10-06 at 14:00
+2026-10-06 14:00:41,135 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 14:00:41,365 [INFO] Browser closed.
+2026-10-06 15:00:19,095 [INFO] ============================================================
+2026-10-06 15:00:19,095 [INFO] Run start: 2026-10-06T15:00:19.095089+02:00 | keyword=Lucky Numbers
+2026-10-06 15:00:19,095 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 15:00:19,095 [INFO] Headless mode: False
+2026-10-06 15:00:19,691 [INFO] Persistent Chrome context ready.
+2026-10-06 15:00:19,715 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 15:00:23,540 [INFO] SERP loaded.
+2026-10-06 15:00:23,544 [INFO] SERP candidates found (H3): 11
+2026-10-06 15:00:24,229 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 15:00:25,125 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 15:00:25,153 [INFO] Rank 3 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-06 15:00:25,560 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 15:00:26,327 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 15:00:27,217 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-06 15:00:28,314 [INFO] Rank 7 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-06 15:00:29,298 [INFO] Rank 8 | sportybet.co.za | Lucky numbers
+2026-10-06 15:00:30,522 [INFO] Rank 9 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 15:00:32,390 [INFO] Rank 10 | interbet.co.za | Play Lucky Numbers Online at Interbet
+2026-10-06 15:00:32,390 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 15:00:32,406 [INFO] Updated 10 SERP rows for 2026-10-06 at 15:00
+2026-10-06 15:00:32,436 [WARNING] Excel file is locked; retrying save (1/5)...
+2026-10-06 15:00:33,954 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 15:00:34,175 [INFO] Browser closed.
+2026-10-06 15:04:25,266 [INFO] ============================================================
+2026-10-06 15:04:25,266 [INFO] Run start: 2026-10-06T15:04:25.266069+02:00 | keyword=Lucky Numbers
+2026-10-06 15:04:25,266 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 15:04:25,266 [INFO] Headless mode: False
+2026-10-06 15:04:25,863 [INFO] Persistent Chrome context ready.
+2026-10-06 15:04:25,886 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 15:04:30,906 [INFO] SERP loaded.
+2026-10-06 15:04:30,910 [INFO] SERP candidates found (H3): 11
+2026-10-06 15:04:33,972 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 15:04:34,709 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 15:04:34,734 [INFO] Rank 3 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-06 15:04:41,678 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 15:04:42,387 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 15:04:43,395 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-06 15:04:44,499 [INFO] Rank 7 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-06 15:04:45,972 [INFO] Rank 8 | sportybet.co.za | Lucky numbers
+2026-10-06 15:04:47,108 [INFO] Rank 9 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 15:04:49,077 [INFO] Rank 10 | en.wikipedia.org | Lucky number
+2026-10-06 15:04:49,077 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 15:04:49,093 [INFO] Updated 10 SERP rows for 2026-10-06 at 15:00
+2026-10-06 15:04:49,118 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 15:04:49,460 [INFO] Browser closed.
+2026-10-06 15:36:52,171 [INFO] ============================================================
+2026-10-06 15:36:52,171 [INFO] Run start: 2026-10-06T15:36:52.171106+02:00 | keyword=Lucky Numbers
+2026-10-06 15:36:52,171 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 15:36:52,171 [INFO] Headless mode: False
+2026-10-06 15:36:53,159 [INFO] Persistent Chrome context ready.
+2026-10-06 15:36:53,184 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 15:36:56,811 [INFO] SERP loaded.
+2026-10-06 15:36:56,813 [INFO] SERP candidates found (H3): 11
+2026-10-06 15:36:57,563 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 15:36:58,314 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 15:36:58,342 [INFO] Rank 3 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-06 15:36:58,770 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 15:36:59,487 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 15:37:00,485 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-06 15:37:01,689 [INFO] Rank 7 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-06 15:37:03,383 [INFO] Rank 8 | sportybet.co.za | Lucky numbers
+2026-10-06 15:37:05,129 [INFO] Rank 9 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 15:37:07,553 [INFO] Rank 10 | interbet.co.za | Play Lucky Numbers Online at Interbet
+2026-10-06 15:37:07,553 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 15:37:07,566 [INFO] Updated 10 SERP rows for 2026-10-06 at 15:00
+2026-10-06 15:37:07,592 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 15:37:07,890 [INFO] Browser closed.
+2026-10-06 16:00:23,639 [INFO] ============================================================
+2026-10-06 16:00:23,639 [INFO] Run start: 2026-10-06T16:00:23.639402+02:00 | keyword=Lucky Numbers
+2026-10-06 16:00:23,639 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 16:00:23,639 [INFO] Headless mode: False
+2026-10-06 16:00:24,222 [INFO] Persistent Chrome context ready.
+2026-10-06 16:00:24,251 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 16:00:28,092 [INFO] SERP loaded.
+2026-10-06 16:00:28,095 [INFO] SERP candidates found (H3): 11
+2026-10-06 16:00:28,804 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 16:00:29,749 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 16:00:29,778 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-06 16:00:30,249 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 16:00:30,957 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 16:00:31,968 [INFO] Rank 6 | luckynumber.today | Lucky Numbers
+2026-10-06 16:00:33,939 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-06 16:00:35,019 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 16:00:35,355 [INFO] Rank 9 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-06 16:00:36,993 [INFO] Rank 10 | yesplay.bet | Check Winning Lottery Numbers Online - Lottery Results List
+2026-10-06 16:00:36,993 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 16:00:37,011 [INFO] Updated 10 SERP rows for 2026-10-06 at 16:00
+2026-10-06 16:00:37,035 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 16:00:37,271 [INFO] Browser closed.
+2026-10-06 17:00:22,246 [INFO] ============================================================
+2026-10-06 17:00:22,247 [INFO] Run start: 2026-10-06T17:00:22.246184+02:00 | keyword=Lucky Numbers
+2026-10-06 17:00:22,248 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 17:00:22,248 [INFO] Headless mode: False
+2026-10-06 17:00:22,835 [INFO] Persistent Chrome context ready.
+2026-10-06 17:00:22,859 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 17:00:39,324 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-06 17:00:39,329 [INFO] SERP loaded.
+2026-10-06 17:00:39,331 [INFO] SERP candidates found (H3): 9
+2026-10-06 17:00:41,454 [INFO] Rank 1 | en.wikipedia.org | AI Mode replied:
+2026-10-06 17:00:42,165 [INFO] Rank 2 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 17:00:42,201 [INFO] Rank 3 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-06 17:00:42,610 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 17:00:44,091 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 17:00:45,168 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-06 17:00:46,289 [INFO] Rank 7 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-06 17:00:47,312 [INFO] Rank 8 | sportybet.co.za | Lucky numbers
+2026-10-06 17:00:47,312 [INFO] SERP extraction complete: 8/10 organic results
+2026-10-06 17:00:47,326 [INFO] Updated 8 SERP rows for 2026-10-06 at 17:00
+2026-10-06 17:00:47,350 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 17:00:47,611 [INFO] Browser closed.
+2026-10-06 18:00:23,933 [INFO] ============================================================
+2026-10-06 18:00:23,934 [INFO] Run start: 2026-10-06T18:00:23.933629+02:00 | keyword=Lucky Numbers
+2026-10-06 18:00:23,935 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 18:00:23,935 [INFO] Headless mode: False
+2026-10-06 18:00:24,814 [INFO] Persistent Chrome context ready.
+2026-10-06 18:00:24,836 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 18:00:29,201 [INFO] SERP loaded.
+2026-10-06 18:00:29,204 [INFO] SERP candidates found (H3): 11
+2026-10-06 18:00:29,881 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 18:00:30,695 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 18:00:30,723 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-06 18:00:31,352 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 18:00:32,076 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 18:00:34,294 [INFO] Rank 6 | luckynumber.today | Lucky Numbers
+2026-10-06 18:00:36,699 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-06 18:00:38,079 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 18:00:38,433 [INFO] Rank 9 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-06 18:00:41,201 [INFO] Rank 10 | yesplay.bet | Check Winning Lottery Numbers Online - Lottery Results List
+2026-10-06 18:00:41,201 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 18:00:41,216 [INFO] Updated 10 SERP rows for 2026-10-06 at 18:00
+2026-10-06 18:00:41,241 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 18:00:41,506 [INFO] Browser closed.
+2026-10-06 19:00:20,441 [INFO] ============================================================
+2026-10-06 19:00:20,441 [INFO] Run start: 2026-10-06T19:00:20.441424+02:00 | keyword=Lucky Numbers
+2026-10-06 19:00:20,442 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 19:00:20,442 [INFO] Headless mode: False
+2026-10-06 19:00:21,387 [INFO] Persistent Chrome context ready.
+2026-10-06 19:00:21,419 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 19:00:25,689 [INFO] SERP loaded.
+2026-10-06 19:00:25,692 [INFO] SERP candidates found (H3): 11
+2026-10-06 19:00:26,364 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 19:00:26,402 [INFO] Rank 2 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-06 19:00:27,488 [INFO] Rank 3 | tiktok.com | AI Mode replied:
+2026-10-06 19:00:27,959 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 19:00:28,771 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 19:00:29,972 [INFO] Rank 6 | luckynumber.today | Lucky Numbers
+2026-10-06 19:00:31,909 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-06 19:00:34,884 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 19:00:35,248 [INFO] Rank 9 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-06 19:00:38,035 [INFO] Rank 10 | facebook.com | Those are some great lucky numbers
+2026-10-06 19:00:38,035 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 19:00:38,061 [INFO] Updated 10 SERP rows for 2026-10-06 at 19:00
+2026-10-06 19:00:38,090 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 19:00:38,354 [INFO] Browser closed.
+2026-10-06 20:00:17,079 [INFO] ============================================================
+2026-10-06 20:00:17,079 [INFO] Run start: 2026-10-06T20:00:17.079340+02:00 | keyword=Lucky Numbers
+2026-10-06 20:00:17,079 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 20:00:17,079 [INFO] Headless mode: False
+2026-10-06 20:00:18,008 [INFO] Persistent Chrome context ready.
+2026-10-06 20:00:18,053 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 20:00:22,640 [INFO] SERP loaded.
+2026-10-06 20:00:22,642 [INFO] SERP candidates found (H3): 11
+2026-10-06 20:00:23,324 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 20:00:24,491 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 20:00:24,523 [INFO] Rank 3 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-06 20:00:24,937 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 20:00:25,730 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 20:00:26,822 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-06 20:00:28,776 [INFO] Rank 7 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-06 20:00:29,943 [INFO] Rank 8 | sportybet.co.za | Lucky numbers
+2026-10-06 20:00:32,247 [INFO] Rank 9 | en.wikipedia.org | Lucky number
+2026-10-06 20:00:57,259 [INFO] Rank 10 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 20:00:57,259 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 20:00:57,273 [INFO] Updated 10 SERP rows for 2026-10-06 at 20:00
+2026-10-06 20:00:57,299 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 20:00:57,512 [INFO] Browser closed.
+2026-10-06 21:00:18,828 [INFO] ============================================================
+2026-10-06 21:00:18,829 [INFO] Run start: 2026-10-06T21:00:18.828814+02:00 | keyword=Lucky Numbers
+2026-10-06 21:00:18,829 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 21:00:18,829 [INFO] Headless mode: False
+2026-10-06 21:00:19,742 [INFO] Persistent Chrome context ready.
+2026-10-06 21:00:19,781 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 21:00:23,877 [INFO] SERP loaded.
+2026-10-06 21:00:23,880 [INFO] SERP candidates found (H3): 11
+2026-10-06 21:00:24,548 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 21:00:25,487 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 21:00:25,514 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-06 21:00:25,910 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 21:00:26,617 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 21:00:27,854 [INFO] Rank 6 | luckynumber.today | Lucky Numbers
+2026-10-06 21:00:30,175 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-06 21:00:31,457 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 21:00:31,817 [INFO] Rank 9 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-06 21:00:35,321 [INFO] Rank 10 | facebook.com | Those are some great lucky numbers
+2026-10-06 21:00:35,321 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 21:00:35,335 [INFO] Updated 10 SERP rows for 2026-10-06 at 21:00
+2026-10-06 21:00:35,357 [WARNING] Excel file is locked; retrying save (1/5)...
+2026-10-06 21:00:36,873 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 21:00:37,167 [INFO] Browser closed.
+2026-10-06 22:00:20,922 [INFO] ============================================================
+2026-10-06 22:00:20,923 [INFO] Run start: 2026-10-06T22:00:20.922639+02:00 | keyword=Lucky Numbers
+2026-10-06 22:00:20,923 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 22:00:20,923 [INFO] Headless mode: False
+2026-10-06 22:00:21,486 [INFO] Persistent Chrome context ready.
+2026-10-06 22:00:21,521 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 22:00:25,630 [INFO] SERP loaded.
+2026-10-06 22:00:25,633 [INFO] SERP candidates found (H3): 11
+2026-10-06 22:00:26,278 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 22:00:27,031 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 22:00:27,071 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-06 22:00:27,542 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 22:00:28,352 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 22:00:29,450 [INFO] Rank 6 | luckynumber.today | Lucky Numbers
+2026-10-06 22:00:31,379 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-06 22:00:32,425 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 22:00:32,753 [INFO] Rank 9 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-06 22:00:34,485 [INFO] Rank 10 | facebook.com | Those are some great lucky numbers
+2026-10-06 22:00:34,485 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 22:00:34,497 [INFO] Updated 10 SERP rows for 2026-10-06 at 22:00
+2026-10-06 22:00:34,517 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 22:00:34,774 [INFO] Browser closed.
+2026-10-06 23:00:18,836 [INFO] ============================================================
+2026-10-06 23:00:18,836 [INFO] Run start: 2026-10-06T23:00:18.836343+02:00 | keyword=Lucky Numbers
+2026-10-06 23:00:18,836 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-06 23:00:18,836 [INFO] Headless mode: False
+2026-10-06 23:00:19,405 [INFO] Persistent Chrome context ready.
+2026-10-06 23:00:19,434 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-06 23:00:23,660 [INFO] SERP loaded.
+2026-10-06 23:00:23,663 [INFO] SERP candidates found (H3): 11
+2026-10-06 23:00:24,313 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-06 23:00:25,113 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-06 23:00:25,139 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-06 23:00:25,532 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-06 23:00:26,320 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-06 23:00:27,375 [INFO] Rank 6 | luckynumber.today | Lucky Numbers
+2026-10-06 23:00:29,389 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-06 23:00:30,841 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-06 23:00:31,185 [INFO] Rank 9 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-06 23:00:33,176 [INFO] Rank 10 | facebook.com | Those are some great lucky numbers
+2026-10-06 23:00:33,176 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-06 23:00:33,190 [INFO] Updated 10 SERP rows for 2026-10-06 at 23:00
+2026-10-06 23:00:33,212 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-06 23:00:33,553 [INFO] Browser closed.
+2026-10-07 00:00:22,161 [INFO] ============================================================
+2026-10-07 00:00:22,161 [INFO] Run start: 2026-10-07T00:00:22.161251+02:00 | keyword=Lucky Numbers
+2026-10-07 00:00:22,161 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-07 00:00:22,161 [INFO] Headless mode: False
+2026-10-07 00:00:23,002 [INFO] Persistent Chrome context ready.
+2026-10-07 00:00:23,025 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-07 00:00:27,637 [INFO] SERP loaded.
+2026-10-07 00:00:27,640 [INFO] SERP candidates found (H3): 11
+2026-10-07 00:00:28,333 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-07 00:00:29,232 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-07 00:00:29,261 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-07 00:00:29,671 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-07 00:00:30,445 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-07 00:00:31,942 [INFO] Rank 6 | luckynumber.today | Lucky Numbers
+2026-10-07 00:00:34,335 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-07 00:00:35,759 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-07 00:00:36,118 [INFO] Rank 9 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-07 00:00:38,651 [INFO] Rank 10 | facebook.com | Those are some great lucky numbers
+2026-10-07 00:00:38,652 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-07 00:00:38,672 [INFO] Updated 10 SERP rows for 2026-10-07 at 00:00
+2026-10-07 00:00:38,701 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-07 00:00:38,936 [INFO] Browser closed.
+2026-10-07 01:00:26,984 [INFO] ============================================================
+2026-10-07 01:00:26,984 [INFO] Run start: 2026-10-07T01:00:26.984693+02:00 | keyword=Lucky Numbers
+2026-10-07 01:00:26,985 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-07 01:00:26,985 [INFO] Headless mode: False
+2026-10-07 01:00:27,549 [INFO] Persistent Chrome context ready.
+2026-10-07 01:00:27,586 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-07 01:00:31,719 [INFO] SERP loaded.
+2026-10-07 01:00:31,722 [INFO] SERP candidates found (H3): 11
+2026-10-07 01:00:32,381 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-07 01:00:33,676 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-07 01:00:33,841 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-07 01:00:34,279 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-07 01:00:34,982 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-07 01:00:36,093 [INFO] Rank 6 | luckynumber.today | Lucky Numbers
+2026-10-07 01:00:37,707 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-07 01:00:38,640 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-07 01:00:39,002 [INFO] Rank 9 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-07 01:00:40,357 [INFO] Rank 10 | yesplay.bet | Check Winning Lottery Numbers Online - Lottery Results List
+2026-10-07 01:00:40,357 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-07 01:00:40,380 [INFO] Updated 10 SERP rows for 2026-10-07 at 01:00
+2026-10-07 01:00:40,409 [WARNING] Excel file is locked; retrying save (1/5)...
+2026-10-07 01:00:41,929 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-07 01:00:42,193 [INFO] Browser closed.
+2026-10-07 02:00:19,604 [INFO] ============================================================
+2026-10-07 02:00:19,605 [INFO] Run start: 2026-10-07T02:00:19.604717+02:00 | keyword=Lucky Numbers
+2026-10-07 02:00:19,606 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-07 02:00:19,606 [INFO] Headless mode: False
+2026-10-07 02:00:20,538 [INFO] Persistent Chrome context ready.
+2026-10-07 02:00:20,560 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-07 02:00:25,112 [INFO] SERP loaded.
+2026-10-07 02:00:25,116 [INFO] SERP candidates found (H3): 11
+2026-10-07 02:00:25,775 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-07 02:00:25,813 [INFO] Rank 2 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-07 02:00:26,701 [INFO] Rank 3 | tiktok.com | AI Mode replied:
+2026-10-07 02:00:27,282 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-07 02:00:28,054 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-07 02:00:29,053 [INFO] Rank 6 | luckynumber.today | Lucky Numbers
+2026-10-07 02:00:31,000 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-07 02:00:32,284 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-07 02:00:32,610 [INFO] Rank 9 | aiminghigh.aimssec.ac.za | LUCKY NUMBERS HELP - Lesson Activities
+2026-10-07 02:00:33,693 [INFO] Rank 10 | yesplay.bet | Check Winning Lottery Numbers Online - Lottery Results List
+2026-10-07 02:00:33,693 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-07 02:00:33,712 [INFO] Updated 10 SERP rows for 2026-10-07 at 02:00
+2026-10-07 02:00:33,740 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-07 02:00:33,975 [INFO] Browser closed.
+2026-10-07 03:00:20,563 [INFO] ============================================================
+2026-10-07 03:00:20,563 [INFO] Run start: 2026-10-07T03:00:20.563320+02:00 | keyword=Lucky Numbers
+2026-10-07 03:00:20,564 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-07 03:00:20,564 [INFO] Headless mode: False
+2026-10-07 03:00:21,506 [INFO] Persistent Chrome context ready.
+2026-10-07 03:00:21,529 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-07 03:00:26,195 [INFO] SERP loaded.
+2026-10-07 03:00:26,199 [INFO] SERP candidates found (H3): 11
+2026-10-07 03:00:26,838 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-07 03:00:27,954 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-07 03:00:27,983 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-07 03:00:28,393 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-07 03:00:29,171 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-07 03:00:30,665 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-07 03:00:32,889 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-07 03:00:34,391 [INFO] Rank 8 | za.pinterest.com | Lucky numbers for lottery
+2026-10-07 03:00:34,823 [INFO] Rank 9 | hollywoodbets.net | Lucky Numbers Results for Today | Hollywoodbets SA
+2026-10-07 03:00:37,290 [INFO] Rank 10 | interbet.co.za | Play Lucky Numbers Online at Interbet
+2026-10-07 03:00:37,290 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-07 03:00:37,310 [INFO] Updated 10 SERP rows for 2026-10-07 at 03:00
+2026-10-07 03:00:37,333 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-07 03:00:37,627 [INFO] Browser closed.
+2026-10-07 04:00:20,236 [INFO] ============================================================
+2026-10-07 04:00:20,236 [INFO] Run start: 2026-10-07T04:00:20.236535+02:00 | keyword=Lucky Numbers
+2026-10-07 04:00:20,237 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-07 04:00:20,237 [INFO] Headless mode: False
+2026-10-07 04:00:21,147 [INFO] Persistent Chrome context ready.
+2026-10-07 04:00:21,172 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-07 04:00:38,529 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-07 04:00:38,533 [INFO] SERP loaded.
+2026-10-07 04:00:38,536 [INFO] SERP candidates found (H3): 9
+2026-10-07 04:00:38,989 [INFO] Rank 1 | hollywoodbets.net | AI Mode replied:
+2026-10-07 04:00:39,656 [INFO] Rank 2 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-07 04:00:39,692 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-07 04:00:40,880 [INFO] Rank 4 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-07 04:00:41,934 [INFO] Rank 5 | luckynumber.today | Today Lucky Number
+2026-10-07 04:00:43,896 [INFO] Rank 6 | en.wikipedia.org | Lucky number
+2026-10-07 04:00:44,297 [INFO] Rank 7 | hollywoodbets.net | Lucky Numbers Results for Today | Hollywoodbets SA
+2026-10-07 04:00:44,298 [INFO] SERP extraction complete: 7/10 organic results
+2026-10-07 04:00:44,316 [INFO] Updated 7 SERP rows for 2026-10-07 at 04:00
+2026-10-07 04:00:44,344 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-07 04:00:44,637 [INFO] Browser closed.
+2026-10-07 05:00:21,471 [INFO] ============================================================
+2026-10-07 05:00:21,471 [INFO] Run start: 2026-10-07T05:00:21.471417+02:00 | keyword=Lucky Numbers
+2026-10-07 05:00:21,472 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-07 05:00:21,472 [INFO] Headless mode: False
+2026-10-07 05:00:22,417 [INFO] Persistent Chrome context ready.
+2026-10-07 05:00:22,440 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-07 05:00:39,269 [WARNING] SERP H3 elements did not appear within the expected time.
+2026-10-07 05:00:39,274 [INFO] SERP loaded.
+2026-10-07 05:00:39,277 [INFO] SERP candidates found (H3): 9
+2026-10-07 05:00:39,740 [INFO] Rank 1 | hollywoodbets.net | AI Mode replied:
+2026-10-07 05:00:40,401 [INFO] Rank 2 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-07 05:00:40,445 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-07 05:00:41,572 [INFO] Rank 4 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-07 05:00:42,688 [INFO] Rank 5 | luckynumber.today | Today Lucky Number
+2026-10-07 05:00:44,663 [INFO] Rank 6 | en.wikipedia.org | Lucky number
+2026-10-07 05:00:45,082 [INFO] Rank 7 | hollywoodbets.net | Lucky Numbers Results for Today | Hollywoodbets SA
+2026-10-07 05:00:45,082 [INFO] SERP extraction complete: 7/10 organic results
+2026-10-07 05:00:45,099 [INFO] Updated 7 SERP rows for 2026-10-07 at 05:00
+2026-10-07 05:00:45,122 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-07 05:00:45,338 [INFO] Browser closed.
+2026-10-07 06:00:21,230 [INFO] ============================================================
+2026-10-07 06:00:21,230 [INFO] Run start: 2026-10-07T06:00:21.230499+02:00 | keyword=Lucky Numbers
+2026-10-07 06:00:21,231 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-07 06:00:21,231 [INFO] Headless mode: False
+2026-10-07 06:00:22,204 [INFO] Persistent Chrome context ready.
+2026-10-07 06:00:22,227 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-07 06:00:26,428 [INFO] SERP loaded.
+2026-10-07 06:00:26,430 [INFO] SERP candidates found (H3): 11
+2026-10-07 06:00:27,102 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-07 06:00:28,055 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-07 06:00:28,080 [INFO] Rank 3 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-07 06:00:28,775 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-07 06:00:29,574 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-07 06:00:30,361 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-07 06:00:32,048 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-07 06:00:32,524 [INFO] Rank 8 | hollywoodbets.net | Lucky Numbers Results for Today | Hollywoodbets SA
+2026-10-07 06:00:33,811 [INFO] Rank 9 | za.pinterest.com | Lucky numbers for lottery
+2026-10-07 06:00:36,269 [INFO] Rank 10 | interbet.co.za | Play Lucky Numbers Online at Interbet
+2026-10-07 06:00:36,269 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-07 06:00:36,289 [INFO] Updated 10 SERP rows for 2026-10-07 at 06:00
+2026-10-07 06:00:36,319 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-07 06:00:36,587 [INFO] Browser closed.
+2026-10-07 07:00:19,403 [INFO] ============================================================
+2026-10-07 07:00:19,403 [INFO] Run start: 2026-10-07T07:00:19.403152+02:00 | keyword=Lucky Numbers
+2026-10-07 07:00:19,403 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-07 07:00:19,404 [INFO] Headless mode: False
+2026-10-07 07:00:19,989 [INFO] Persistent Chrome context ready.
+2026-10-07 07:00:20,016 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-07 07:00:24,328 [INFO] SERP loaded.
+2026-10-07 07:00:24,331 [INFO] SERP candidates found (H3): 11
+2026-10-07 07:00:24,982 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-07 07:00:25,894 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-07 07:00:25,922 [INFO] Rank 3 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-07 07:00:26,337 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-07 07:00:27,426 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-07 07:00:28,855 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-07 07:00:30,288 [INFO] Rank 7 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-07 07:00:32,051 [INFO] Rank 8 | sportybet.co.za | Lucky numbers
+2026-10-07 07:00:34,264 [INFO] Rank 9 | en.wikipedia.org | Lucky number
+2026-10-07 07:00:36,956 [INFO] Rank 10 | za.pinterest.com | Lucky numbers for lottery
+2026-10-07 07:00:36,956 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-07 07:00:36,974 [INFO] Updated 10 SERP rows for 2026-10-07 at 07:00
+2026-10-07 07:00:36,998 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-07 07:00:37,303 [INFO] Browser closed.
+2026-10-07 08:00:20,898 [INFO] ============================================================
+2026-10-07 08:00:20,899 [INFO] Run start: 2026-10-07T08:00:20.898634+02:00 | keyword=Lucky Numbers
+2026-10-07 08:00:20,899 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-07 08:00:20,899 [INFO] Headless mode: False
+2026-10-07 08:00:21,835 [INFO] Persistent Chrome context ready.
+2026-10-07 08:00:21,857 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-07 08:00:26,103 [INFO] SERP loaded.
+2026-10-07 08:00:26,105 [INFO] SERP candidates found (H3): 10
+2026-10-07 08:00:26,966 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-07 08:00:28,045 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-07 08:00:28,073 [INFO] Rank 3 | play.google.com | My Lucky Numbers – Apps on Google Play
+2026-10-07 08:00:28,485 [INFO] Rank 4 | hollywoodbets.net | Lucky Numbers for today
+2026-10-07 08:00:29,221 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-07 08:00:30,196 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-07 08:00:31,830 [INFO] Rank 7 | supersportbet.com | Dream Guide: How to Bet on Lucky Numbers and Lotteries
+2026-10-07 08:00:33,273 [INFO] Rank 8 | sportybet.co.za | Lucky numbers
+2026-10-07 08:00:35,486 [INFO] Rank 9 | en.wikipedia.org | Lucky number
+2026-10-07 08:00:35,486 [INFO] SERP extraction complete: 9/10 organic results
+2026-10-07 08:00:35,507 [INFO] Updated 9 SERP rows for 2026-10-07 at 08:00
+2026-10-07 08:00:35,537 [WARNING] Excel file is locked; retrying save (1/5)...
+2026-10-07 08:00:37,059 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-07 08:00:37,265 [INFO] Browser closed.
+2026-10-07 09:00:24,355 [INFO] ============================================================
+2026-10-07 09:00:24,355 [INFO] Run start: 2026-10-07T09:00:24.355630+02:00 | keyword=Lucky Numbers
+2026-10-07 09:00:24,356 [INFO] Starting Playwright with dedicated SERP Chrome profile: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers
+2026-10-07 09:00:24,356 [INFO] Headless mode: False
+2026-10-07 09:00:25,311 [INFO] Persistent Chrome context ready.
+2026-10-07 09:00:25,334 [INFO] GET https://www.google.com/search?q=Lucky+Numbers&hl=en&gl=za&num=20&pws=0
+2026-10-07 09:00:29,566 [INFO] SERP loaded.
+2026-10-07 09:00:29,569 [INFO] SERP candidates found (H3): 11
+2026-10-07 09:00:30,397 [INFO] Rank 1 | betway.co.za | Place your Lucky Numbers bets with ...
+2026-10-07 09:00:31,201 [INFO] Rank 2 | tiktok.com | AI Mode replied:
+2026-10-07 09:00:31,631 [INFO] Rank 3 | hollywoodbets.net | Lucky Numbers for today
+2026-10-07 09:00:31,668 [INFO] Rank 4 | play.google.com | Today Lucky Numbers – Apps on Google Play
+2026-10-07 09:00:32,491 [INFO] Rank 5 | worldsportsbetting.co.za | Play Powerball Online | Lucky Numbers & Jackpots
+2026-10-07 09:00:33,561 [INFO] Rank 6 | luckynumber.today | Today Lucky Number
+2026-10-07 09:00:35,607 [INFO] Rank 7 | en.wikipedia.org | Lucky number
+2026-10-07 09:00:36,476 [INFO] Rank 8 | supersportbet.com | Lucky Numbers
+2026-10-07 09:00:36,900 [INFO] Rank 9 | hollywoodbets.net | Lucky Numbers Results for Today | Hollywoodbets SA
+2026-10-07 09:00:38,410 [INFO] Rank 10 | za.pinterest.com | Lucky numbers for lottery
+2026-10-07 09:00:38,410 [INFO] SERP extraction complete: 10/10 organic results
+2026-10-07 09:00:38,429 [INFO] Updated 10 SERP rows for 2026-10-07 at 09:00
+2026-10-07 09:00:38,456 [INFO] Excel workbook saved: C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\lucky_numbers_rankings.xlsx
+2026-10-07 09:00:38,691 [INFO] Browser closed.

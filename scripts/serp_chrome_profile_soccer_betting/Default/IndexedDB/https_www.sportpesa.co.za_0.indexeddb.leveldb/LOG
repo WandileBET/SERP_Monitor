@@ -1,0 +1,14 @@
+2026/10/07-09:01:15.629 1dbfc Reusing MANIFEST C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting\Default\IndexedDB\https_www.sportpesa.co.za_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/07-09:01:15.629 1dbfc Recovering log #74
+2026/10/07-09:01:15.629 1dbfc Reusing old log C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting\Default\IndexedDB\https_www.sportpesa.co.za_0.indexeddb.leveldb/000074.log 
+2026/10/07-09:01:15.630 1dbfc Delete type=2 #72
+2026/10/07-09:01:15.635 1c068 Level-0 table #79: started
+2026/10/07-09:01:15.636 1c068 Level-0 table #79: 1126 bytes OK
+2026/10/07-09:01:15.637 1c068 Delete type=0 #74
+2026/10/07-09:01:15.638 1dbfc Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at '\x00\x16\x00\x00\x05' @ 975 : 1
+2026/10/07-09:01:15.638 1dbfc Compacting 1@0 + 1@1 files
+2026/10/07-09:01:15.639 1dbfc Generated table #80@0: 161 keys, 2705 bytes
+2026/10/07-09:01:15.639 1dbfc Compacted 1@0 + 1@1 files => 2705 bytes
+2026/10/07-09:01:15.639 1dbfc compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/07-09:01:15.640 1dbfc Delete type=2 #79
+2026/10/07-09:01:15.640 1dbfc Manual compaction at level-0 from '\x00\x16\x00\x00\x05' @ 975 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)

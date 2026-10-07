@@ -1,3 +1,15 @@
-2026/10/05-16:12:56.458 8094 Reusing MANIFEST C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator\Default\Local Storage\leveldb/MANIFEST-000001
-2026/10/05-16:12:56.461 8094 Recovering log #16
-2026/10/05-16:12:56.468 8094 Reusing old log C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\serp_monitor_app\scripts\serp_chrome_profile_aviator\Default\Local Storage\leveldb/000016.log 
+2026/10/07-09:00:08.633 1d2f0 Reusing MANIFEST C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_aviator\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/07-09:00:08.634 1d2f0 Recovering log #29
+2026/10/07-09:00:08.636 1d2f0 Reusing old log C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_aviator\Default\Local Storage\leveldb/000029.log 
+2026/10/07-09:00:18.287 1d2f0 Level-0 table #33: started
+2026/10/07-09:00:18.292 1d2f0 Level-0 table #33: 49514 bytes OK
+2026/10/07-09:00:18.293 1d2f0 Delete type=0 #29
+2026/10/07-09:00:18.294 1d2f0 Compacting 4@0 + 1@1 files
+2026/10/07-09:00:18.299 1d2f0 Generated table #34@0: 55 keys, 16148 bytes
+2026/10/07-09:00:18.299 1d2f0 Compacted 4@0 + 1@1 files => 16148 bytes
+2026/10/07-09:00:18.299 1d2f0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/07-09:00:18.300 1d2f0 Delete type=2 #21
+2026/10/07-09:00:18.300 1d2f0 Delete type=2 #24
+2026/10/07-09:00:18.300 1d2f0 Delete type=2 #27
+2026/10/07-09:00:18.300 1d2f0 Delete type=2 #30
+2026/10/07-09:00:18.300 1d2f0 Delete type=2 #33
