@@ -1,11 +1,24 @@
 services:
-  web:
-    build: .
+  backend:
+    build:
+      context: ./backend
     env_file:
       - .env
     environment:
       COOKIE_SECURE: "${COOKIE_SECURE:-false}"
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    expose:
+      - "8000"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: "/api"
     ports:
-      - "0.0.0.0:8805:8000"
+      - "0.0.0.0:8805:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
