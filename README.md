@@ -58,3 +58,7 @@ docker compose logs --tail=30 backend
 
 cd "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\SERP_Monitor\SERP_Monitor"
 .\scripts\run_capture_and_sync.bat
+
+git pull:
+git fetch origin
+git reset --mixed origin/SERP_Moniter_V2
