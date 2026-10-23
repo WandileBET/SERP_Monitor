@@ -13,6 +13,23 @@ Each collector uses the original working SERP extraction logic and captures up t
 ## Hourly automation
 Use `scripts/run_capture_and_sync.bat` in Windows Task Scheduler. It runs all four keyword collectors once each, synchronizes successful workbook data into PostgreSQL, records any failures in `scripts/failed_scrapers.txt`, waits 15 minutes, retries only the failed collectors, and synchronizes again so successful retry data is imported immediately.
 
+## Google search URL mode
+Use the full URL mode when you want the scraper to behave consistently across scheduled runs, with South Africa targeting and personalization disabled:
+
+```python
+url = (
+    "https://www.google.com/search"
+    f"?q={quote_plus(keyword)}"
+    f"&hl={GOOGLE_HL}&gl={GOOGLE_GL}&num={GOOGLE_NUM}&pws=0"
+)
+```
+
+Use the plain URL mode when you want the scraper to be closer to a normal manual browser search:
+
+```python
+url = "https://www.google.com/search" f"?q={quote_plus(keyword)}"
+```
+
 ## Dashboard
 The React dashboard supports keyword selection, date ranges, trend resolution, hourly-day analysis, horizontal trend scrolling, date-based heatmap selection, PDF export, and a visible bot-detection alert based on each keyword workbook's real Capture Status.
 
@@ -36,3 +53,8 @@ and:
 
 PowerShell
 docker compose logs --tail=30 backend
+
+
+
+cd "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\SERP_Monitor\SERP_Monitor"
+.\scripts\run_capture_and_sync.bat

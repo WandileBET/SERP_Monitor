@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 import {
   Area,
   AreaChart,
@@ -123,6 +123,7 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
   const scrollRef = useRef(null)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
   const [canScrollRight, setCanScrollRight] = useState(false)
+  const [viewportWidth, setViewportWidth] = useState(0)
 
   const model = useMemo(() => {
     const grouped = new Map()
@@ -173,13 +174,18 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
   }, [data, resultLimit])
 
   const chartWidth = useMemo(() => {
-    // Keep the original visual proportions for shorter ranges, but expand the
-    // chart canvas for long hourly periods so every capture can be inspected.
     const points = model.rows.length
-    const minimum = 980
-    const perPoint = resolution === 'hourly' ? 86 : 118
-    return Math.max(minimum, points * perPoint)
-  }, [model.rows.length, resolution])
+    // Width follows the number of buckets in the selected resolution, not a
+    // single fixed width for all date ranges. Small ranges fill the viewport.
+    const spacing = {
+      hourly: 74,
+      daily: 84,
+      weekly: 106,
+      monthly: 124,
+    }[resolution] ?? 84
+    const chartPadding = 100 // axes and edge labels
+    return Math.max(viewportWidth || 320, points * spacing + chartPadding)
+  }, [model.rows.length, resolution, viewportWidth])
 
   const updateScrollState = () => {
     const node = scrollRef.current
@@ -189,6 +195,39 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
     setCanScrollRight(node.scrollLeft < maxScroll - 2)
   }
 
+  useEffect(() => {
+    const node = scrollRef.current
+    if (!node) return undefined
+    const measure = () => {
+      setViewportWidth(node.clientWidth)
+      updateScrollState()
+    }
+    measure()
+    const observer = typeof ResizeObserver !== 'undefined'
+      ? new ResizeObserver(measure)
+      : null
+    if (observer) observer.observe(node)
+    window.addEventListener('resize', measure)
+    return () => {
+      observer?.disconnect()
+      window.removeEventListener('resize', measure)
+    }
+  }, [model.rows.length, resolution])
+
+  useEffect(() => {
+    const node = scrollRef.current
+    if (!node) return
+    // A new range/resolution starts at the beginning of its own timeline.
+    node.scrollLeft = 0
+    const frame = requestAnimationFrame(updateScrollState)
+    return () => cancelAnimationFrame(frame)
+  }, [resolution, data])
+
+  useEffect(() => {
+    const frame = requestAnimationFrame(updateScrollState)
+    return () => cancelAnimationFrame(frame)
+  }, [chartWidth])
+
   const scrollByAmount = (direction) => {
     const node = scrollRef.current
     if (!node) return
@@ -196,13 +235,6 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
       left: direction * Math.max(320, Math.round(node.clientWidth * 0.72)),
       behavior: 'smooth',
     })
-  }
-
-  const attachScrollRef = (node) => {
-    scrollRef.current = node
-    if (node) {
-      requestAnimationFrame(updateScrollState)
-    }
   }
 
   if (!model.rows.length || !model.plotted.length) {
@@ -225,7 +257,7 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
 
         <div
           className="trend-chart-scroll"
-          ref={attachScrollRef}
+          ref={scrollRef}
           onScroll={updateScrollState}
         >
           <div className="trend-chart-canvas" style={{ width: `${chartWidth}px` }}>
@@ -297,18 +329,6 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
         </button>
       </div>
 
-      <div className="chart-legend">
-        {model.plotted.map((item) => {
-          const hb = isHollywoodbets(item.domain, item.name)
-          const stroke = hb ? '#5C2D91' : item.color
-          return (
-            <span className={`chart-legend-item ${hb ? 'hb' : ''}`} key={item.identity}>
-              <i style={{ background: stroke }}></i>
-              {item.name}
-            </span>
-          )
-        })}
-      </div>
     </div>
   )
 }

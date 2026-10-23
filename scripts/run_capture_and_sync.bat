@@ -7,6 +7,8 @@ set "LOG_FILE=%SCRIPT_DIR%run_capture_and_sync.log"
 set "CURRENT_LOG=%SCRIPT_DIR%run_current.log"
 set "FAILED_LIST=%SCRIPT_DIR%failed_scrapers.txt"
 set "RETRY_LIST=%SCRIPT_DIR%retry_scrapers.txt"
+set "BOT_LIST=%SCRIPT_DIR%bot_blocked_scrapers.txt"
+set "TECHNICAL_RETRY_LIST=%SCRIPT_DIR%technical_retry_scrapers.txt"
 set "SYNC=%SCRIPT_DIR%sync_excel.py"
 set "KNOWN_PYTHON=C:\Users\WandileK\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe"
 set "OVERALL_ERROR=0"
@@ -21,6 +23,8 @@ call :log "============================================================"
 
 if exist "%FAILED_LIST%" del /q "%FAILED_LIST%" >nul 2>&1
 if exist "%RETRY_LIST%" del /q "%RETRY_LIST%" >nul 2>&1
+if exist "%BOT_LIST%" del /q "%BOT_LIST%" >nul 2>&1
+if exist "%TECHNICAL_RETRY_LIST%" del /q "%TECHNICAL_RETRY_LIST%" >nul 2>&1
 
 where python >nul 2>&1
 if "%ERRORLEVEL%"=="0" (
@@ -46,6 +50,7 @@ for %%F in (
     "%SCRIPT_DIR%SEO_SERP_Monitor_Lucky_Numbers.py"
     "%SCRIPT_DIR%SEO_SERP_Monitor_Online_Slots.py"
     "%SCRIPT_DIR%SEO_SERP_Monitor_Soccer_Betting.py"
+    "%SCRIPT_DIR%SEO_SERP_Monitor_gambling_affiliate_south_africa.py"
 ) do (
     if not exist "%%~F" (
         call :log "ERROR: Scraper not found: %%~F"
@@ -62,6 +67,7 @@ for %%F in (
     "%SCRIPT_DIR%SEO_SERP_Monitor_Lucky_Numbers.py"
     "%SCRIPT_DIR%SEO_SERP_Monitor_Online_Slots.py"
     "%SCRIPT_DIR%SEO_SERP_Monitor_Soccer_Betting.py"
+    "%SCRIPT_DIR%SEO_SERP_Monitor_gambling_affiliate_south_africa.py"
 ) do (
     call :run_scraper "%%~F"
 )
@@ -78,21 +84,34 @@ REM ============================================================
 
 if exist "%FAILED_LIST%" (
     call :log "------------------------------------------------------------"
-    call :log "One or more scrapers failed. Waiting 15 minutes, then retrying only failed scrapers."
+    call :log "Technical scraper failures found. Retrying non-bot failures after 15 minutes."
     timeout /t 900 /nobreak
 
     move /y "%FAILED_LIST%" "%RETRY_LIST%" >nul
 
-    for /f "usebackq delims=" %%F in ("%RETRY_LIST%") do (
-        call :run_scraper "%%~F"
+    if exist "%TECHNICAL_RETRY_LIST%" (
+        for %%A in ("%TECHNICAL_RETRY_LIST%") do if %%~zA GTR 0 (
+            call :log "Retrying technical failures only..."
+            for /f "usebackq delims=" %%F in ("%TECHNICAL_RETRY_LIST%") do (
+                call :run_scraper "%%~F"
+            )
+            REM Sync again so any successful retries are imported immediately.
+            call :sync_excel "retry pass"
+        )
     )
 
-    REM Sync again so any successful retries are imported immediately.
-    call :sync_excel "retry pass"
-
     if exist "%FAILED_LIST%" (
-        call :log "ERROR: One or more scrapers still failed after the 15-minute retry."
+        call :log "ERROR: One or more technical scraper failures remain after the 15-minute retry."
         set "OVERALL_ERROR=1"
+    )
+)
+
+if exist "%BOT_LIST%" (
+    for %%A in ("%BOT_LIST%") do if %%~zA GTR 0 (
+        call :log "Bot-detection failures were skipped. They will be attempted again at the next hourly run."
+        for /f "usebackq delims=" %%F in ("%BOT_LIST%") do (
+            call :log "BOT SKIPPED: %%~nxF"
+        )
     )
 )
 
@@ -108,6 +127,8 @@ if "%OVERALL_ERROR%"=="0" (
     if exist "%CURRENT_LOG%" del /q "%CURRENT_LOG%" >nul 2>&1
     if exist "%FAILED_LIST%" del /q "%FAILED_LIST%" >nul 2>&1
     if exist "%RETRY_LIST%" del /q "%RETRY_LIST%" >nul 2>&1
+    if exist "%BOT_LIST%" del /q "%BOT_LIST%" >nul 2>&1
+    if exist "%TECHNICAL_RETRY_LIST%" del /q "%TECHNICAL_RETRY_LIST%" >nul 2>&1
 
     exit /b 0
 )
@@ -118,6 +139,8 @@ call :log "============================================================"
 
 if exist "%CURRENT_LOG%" del /q "%CURRENT_LOG%" >nul 2>&1
 if exist "%RETRY_LIST%" del /q "%RETRY_LIST%" >nul 2>&1
+if exist "%BOT_LIST%" del /q "%BOT_LIST%" >nul 2>&1
+if exist "%TECHNICAL_RETRY_LIST%" del /q "%TECHNICAL_RETRY_LIST%" >nul 2>&1
 
 exit /b 1
 
@@ -148,6 +171,7 @@ if not "%SYNC_EXIT%"=="0" (
 )
 
 exit /b 0
+
 
 
 REM ============================================================
@@ -181,8 +205,14 @@ popd
 type "%CURRENT_LOG%" >> "%LOG_FILE%"
 
 if not "%SCRAPER_EXIT%"=="0" (
-    call :log "WARNING: %NAME% failed with exit code %SCRAPER_EXIT%. Continuing with remaining keywords."
-    >> "%FAILED_LIST%" echo %SCRAPER%
+    findstr /i /c:"Google blocked this run" /c:"BLOCKED:" /c:"bot-detection" /c:"CAPTCHA page" "%CURRENT_LOG%" >nul 2>&1
+    if not errorlevel 1 (
+        call :log "BOT DETECTION: %NAME% failed due to Google bot detection. Skipping the 15-minute retry; next attempt will be the next hourly run."
+        >> "%BOT_LIST%" echo %SCRAPER%
+    ) else (
+        call :log "WARNING: %NAME% failed with exit code %SCRAPER_EXIT%. Continuing with remaining keywords."
+        >> "%FAILED_LIST%" echo %SCRAPER%
+    )
 ) else (
     call :log "%NAME% completed successfully."
 )
