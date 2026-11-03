@@ -40,25 +40,31 @@ Create `.env` in the project root with `DATABASE_URL=...` and optionally `SERP_S
 From `frontend`: `npm install` then `npm run dev`.
 
 
-Don't mind me!!!!!!!!
+## Run with Docker
+From the project root:
+
+```powershell
 docker compose build
 docker compose up -d
-
-Then confirm:
-
-PowerShell
 docker compose ps
-
-and:
-
-PowerShell
 docker compose logs --tail=30 backend
+```
 
+## Run collectors manually
+From the project root in PowerShell:
 
-
-cd "C:\Users\WandileK\OneDrive - HollywoodBets\Desktop\SERP_Monitor\SERP_Monitor"
+```powershell
 .\scripts\run_capture_and_sync.bat
+```
 
-git pull:
+## Sync an existing clone after the history cleanup
+The `main` and `SERP_Moniter_V2` branches were rewritten to remove generated workbooks, browser profiles, logs, and caches from Git history. Existing clones should fetch the updated branch and reset their local branch to it.
+
+On `SERP_Moniter_V2`, run from the project root:
+
+```powershell
 git fetch origin
 git reset --mixed origin/SERP_Moniter_V2
+```
+
+On `main`, use `git reset --mixed origin/main` instead. The `--mixed` reset updates the branch and Git index while leaving local files in place, so existing spreadsheets and Chrome profiles remain on that machine and are ignored by Git. Avoid `git reset --hard`, which can delete local files. Back up any unpushed commits before resetting.
