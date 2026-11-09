@@ -1,0 +1,13 @@
+2026/11/03-00:00:20.147 2986c Reusing MANIFEST C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_aviator\Default\IndexedDB\https_www.sportpesa.co.za_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/03-00:00:20.148 2986c Recovering log #829
+2026/11/03-00:00:20.148 2986c Reusing old log C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_aviator\Default\IndexedDB\https_www.sportpesa.co.za_0.indexeddb.leveldb/000829.log 
+2026/11/03-00:00:20.149 2986c Delete type=2 #827
+2026/11/03-00:00:20.181 26928 Level-0 table #834: started
+2026/11/03-00:00:20.182 26928 Level-0 table #834: 1506 bytes OK
+2026/11/03-00:00:20.213 26928 Delete type=0 #829
+2026/11/03-00:00:20.224 26928 Manual compaction at level-0 from '\x00\xd8\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xd9\x00\x00\x00' @ 0 : 0; will stop at '\x00\xd8\x00\x00\x05' @ 15789 : 1
+2026/11/03-00:00:20.239 26928 Compacting 1@0 + 1@1 files
+2026/11/03-00:00:20.254 26928 Generated table #835@0: 821 keys, 12011 bytes
+2026/11/03-00:00:20.254 26928 Compacted 1@0 + 1@1 files => 12011 bytes
+2026/11/03-00:00:20.270 26928 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/03-00:00:20.270 263f4 Manual compaction at level-0 from '\x00\xd8\x00\x00\x05' @ 15789 : 1 .. '\x00\xd9\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,2 +1,13 @@
-2026/10/06-13:26:28.743 1aa84 Creating DB C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb since it was missing.
-2026/10/06-13:26:28.748 1aa84 Reusing MANIFEST C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/29-17:00:27.458 1120 Reusing MANIFEST C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/29-17:00:27.459 1120 Recovering log #45
+2026/10/29-17:00:27.459 1120 Reusing old log C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_lucky_numbers\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000045.log 
+2026/10/29-17:00:31.766 1f498 Level-0 table #50: started
+2026/10/29-17:00:31.781 1f498 Level-0 table #50: 6590 bytes OK
+2026/10/29-17:00:31.783 1f498 Delete type=0 #45
+2026/10/29-17:00:31.784 1120 Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xb0\x08\xd4\x82\x18zB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 23806 : 1
+2026/10/29-17:00:31.784 1120 Compacting 1@0 + 1@1 files
+2026/10/29-17:00:31.786 1120 Generated table #51@0: 1038 keys, 107145 bytes
+2026/10/29-17:00:31.786 1120 Compacted 1@0 + 1@1 files => 107145 bytes
+2026/10/29-17:00:31.786 1120 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/29-17:00:31.787 1120 Delete type=2 #50
+2026/10/29-17:00:31.787 1120 Manual compaction at level-0 from '\x00\x0d\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xb0\x08\xd4\x82\x18zB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 23806 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)

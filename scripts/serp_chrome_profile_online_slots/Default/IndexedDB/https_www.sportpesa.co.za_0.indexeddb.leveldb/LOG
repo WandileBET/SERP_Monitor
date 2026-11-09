@@ -1,0 +1,6 @@
+2026/10/26-13:01:10.782 1e468 Creating DB C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_online_slots\Default\IndexedDB\https_www.sportpesa.co.za_0.indexeddb.leveldb since it was missing.
+2026/10/26-13:01:10.786 1e468 Reusing MANIFEST C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_online_slots\Default\IndexedDB\https_www.sportpesa.co.za_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/26-13:01:10.790 26c8 Level-0 table #5: started
+2026/10/26-13:01:10.792 26c8 Level-0 table #5: 566 bytes OK
+2026/10/26-13:01:10.793 26c8 Delete type=0 #3
+2026/10/26-13:01:10.793 26c8 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

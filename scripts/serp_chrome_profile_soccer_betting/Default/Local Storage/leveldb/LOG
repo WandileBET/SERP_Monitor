@@ -1,6 +1,6 @@
-2026/10/07-09:00:57.800 1c90c Reusing MANIFEST C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting\Default\Local Storage\leveldb/MANIFEST-000001
-2026/10/07-09:00:57.801 1c90c Recovering log #32
-2026/10/07-09:00:57.804 1c90c Reusing old log C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting\Default\Local Storage\leveldb/000032.log 
-2026/10/07-09:01:03.856 1cdbc Level-0 table #37: started
-2026/10/07-09:01:03.862 1cdbc Level-0 table #37: 64842 bytes OK
-2026/10/07-09:01:03.863 1cdbc Delete type=0 #32
+2026/11/04-13:01:18.778 2ecd0 Reusing MANIFEST C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting\Default\Local Storage\leveldb/MANIFEST-000001
+2026/11/04-13:01:18.779 2ecd0 Recovering log #626
+2026/11/04-13:01:18.782 2ecd0 Reusing old log C:\Users\santhm\Desktop\SERP_Monitor\SERP_Monitor\scripts\serp_chrome_profile_soccer_betting\Default\Local Storage\leveldb/000626.log 
+2026/11/04-13:01:48.422 2dd1c Level-0 table #630: started
+2026/11/04-13:01:48.427 2dd1c Level-0 table #630: 57778 bytes OK
+2026/11/04-13:01:48.430 2dd1c Delete type=0 #626

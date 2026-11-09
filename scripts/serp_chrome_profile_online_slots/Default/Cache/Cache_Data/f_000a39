@@ -1,0 +1,2463 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+        <script>
+    (function () {
+        "use strict";
+
+        try {
+            var params = new URLSearchParams(window.location.search);
+            var token = params.get("token");
+
+            if (token === null) {
+                return;
+            }
+
+            localStorage.setItem("play_co_za_session_token", token);
+
+            var auth = params.get("auth");
+
+            if (auth !== null) {
+                // decodeURI mirrors SessionUtil exactly; bcSession.js:507 encodeURI's the value on the
+                // way out. URLSearchParams has already decoded it, so this is a no-op in practice —
+                // kept so the two readers cannot diverge.
+                localStorage.setItem("auth_data", decodeURI(auth));
+            }
+
+            // Credentials only. btag, refer, payment_key, reset_password_otp and the rest are read later
+            // by the app and must survive — this is deliberately not the beacon's allowlist.
+            params.delete("token");
+            params.delete("auth");
+
+            var query = params.toString();
+
+            // replaceState, not pushState: pushState leaves the token-bearing URL one Back-press away.
+            history.replaceState({}, "", window.location.pathname + (query ? "?" + query : "") + window.location.hash);
+        } catch (e) {
+            // Blocked storage (private mode, cookie-blocking extension) must not take the page down
+            // before anything else has loaded. SessionUtil still reads the params if we bail here.
+        }
+    })();
+</script>
+        <script>
+    (function () {
+        "use strict";
+
+        try {
+            if (window.top === window.self) {
+                return;
+            }
+
+            var params = new URLSearchParams(window.location.search);
+
+            if (params.get("return") !== "deposit" || params.get("status") === null) {
+                return;
+            }
+
+            // Throws for a cross-origin top window; the catch below then leaves the page alone.
+            if (window.top.location.origin !== window.location.origin) {
+                return;
+            }
+
+            window.__gatewayReturnHandoff = true;
+            document.documentElement.style.display = "none";
+            window.top.location.replace(window.location.href);
+            window.stop();
+        } catch (e) {
+            // Cross-origin parent: load normally.
+        }
+    })();
+</script>
+
+        
+                    <!-- GOOGLE TAG MANAGER -->
+            <script>
+                (function(w,d,s,l,i){
+                    // Gateway-return hand-off (layouts/gatewayReturnFrameGuard): this document is being
+                    // replaced by the top window; load nothing.
+                    if(w.__gatewayReturnHandoff){return;}
+                    // dataLayer stays immediate so all app-code events queue even before gtm.js loads.
+                    w[l]=w[l]||[];
+                    w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+                    var loaded=false;
+                    function loadGTM(){
+                        if(loaded){return;} loaded=true;
+                        var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+                        j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    }
+                    // ?gtmdefer=0 forces the original immediate load (A/B).
+                    var immediate=false;
+                    try{immediate=new URLSearchParams(w.location.search).get('gtmdefer')==='0';}catch(e){}
+                    if(immediate){loadGTM();return;}
+                    // Defer the gtm.js load off the initial critical path: load on the first real
+                    // interaction (any conversion needs interaction first, so GTM is up well before it),
+                    // with a timeout fallback so no-interaction / bot sessions still fire tags. Queued
+                    // dataLayer events are processed in order when gtm.js loads, so nothing is lost.
+                    ['click','keydown','touchstart','scroll'].forEach(function(ev){
+                        d.addEventListener(ev,loadGTM,{once:true,passive:true});
+                    });
+                    setTimeout(loadGTM,3500);
+                })(window,document,'script','dataLayer','GTM-5S5X8NF');
+            </script>
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5S5X8NF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <!-- END GOOGLE TAG MANAGER -->
+        
+                <title>Top Online Casinos in South Africa: Play Now! | Play.co.za</title>
+<meta name="description" content="Play the best online casino South Africa has to offer! Enjoy top slots, live dealer games, and unbeatable promotions at Play.co.za. Register to play today.">
+<link rel="canonical" href="https://play.co.za/news/top-online-casinos-in-south-africa">
+        <meta property="og:title" content="Top Online Casinos in South Africa: Play Now! | Play.co.za">
+<meta property="og:description" content="Play the best online casino South Africa has to offer! Enjoy top slots, live dealer games, and unbeatable promotions at Play.co.za. Register to play today.">
+<meta property="og:image" content="news/2025-10-28/1761637027.jpg">
+
+        <meta name="twitter:title" content="Top Online Casinos in South Africa: Play Now! | Play.co.za">
+<meta name="twitter:description" content="Play the best online casino South Africa has to offer! Enjoy top slots, live dealer games, and unbeatable promotions at Play.co.za. Register to play today.">
+<meta name="twitter:image" content="https://playcozamedia.s3.af-south-1.amazonaws.com/images/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@play_coza">
+        <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Top Online Casinos in South Africa: Play Now! | Play.co.za","description":"Play the best online casino South Africa has to offer! Enjoy top slots, live dealer games, and unbeatable promotions at Play.co.za. Register to play today."}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Play.co.za","url":"https://play.co.za","logo":"https://play.co.za/images/logo.png","sameAs":["https://www.facebook.com/Play.co.zaSouthAfrica/","https://www.instagram.com/play.coza/","https://www.youtube.com/@playcoza","https://twitter.com/play_coza"]}</script>
+
+		<meta name="csrf-token" content="LG6upCt2MBaPpvLwCjq44m9IXUosq2YAzm7c4Nod">
+		<meta name="theme-color" content="#1b1c20">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="Permissions-Policy" content="payment=(self https://eftsecure.callpay.com)">
+		<link rel="icon" type="image/png" href="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/icon.png">
+		<link rel="manifest" href="/manifest/manifest.json?v=2.5.24" />
+        <link rel="stylesheet" href="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/fonts/fontAwesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/fonts/fonts.css?v=2.5.24">
+        
+                        <style>html{background-color:#1b1c20;color:#888b90;font-family:Jost,sans-serif;height:100%;overflow-x:hidden;overflow-y:auto}body{height:100%;margin:0;overflow-x:hidden;overflow-y:auto;touch-action:pan-y}body::before{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/backgrounds/smoke.webp');bottom:0;content:"";left:0;opacity:.035;position:fixed;right:0;top:0;z-index:-1}h1,h2,h3,h4,h5,h6{color:#fff;margin:0;padding:0}h1{font-size:44px;font-weight:100;line-height:48px}h2{font-size:36px;font-weight:100;line-height:40px}h3{font-size:26px;font-weight:100;line-height:28px}p{margin:0;padding:0}.authenticated{display:none}.signedIn .authenticated{display:block}.grecaptcha-badge{display:none!important}#divAppBody{bottom:0;left:320px;overflow-x:hidden;overflow-y:auto;padding-top:110px;position:absolute;right:0;scroll-behavior:smooth;top:0;transition:left .25s,padding .25s}.hideMenu #divAppBody{left:0}#divAppBody .divScrollSentinel{position:absolute;top:0}#divAppContent{min-height:600px;overflow:hidden;position:relative}#divAppContent:before{background-color:#1b1c20;content:"";display:block;height:100%;left:0;opacity:1;position:fixed;top:0;width:100%;z-index:1}#divAppContent:after{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/backgrounds/smoke.webp');content:"";display:block;height:100%;left:0;opacity:.035;position:fixed;top:0;width:100%;z-index:1}#divAppContent.hideOverlay:before{animation-duration:.25s;animation-name:hideContentOverlay1;height:0%;opacity:0}#divAppContent.hideOverlay:after{animation-duration:.25s;animation-name:hideContentOverlay2;height:0%;opacity:0}.clear{clear:both}.randBefore:before{border:2px solid #fff;border-radius:50%;box-shadow:inset 0 0 5px #7262f2,inset 0 0 5px #7262f2,0 0 5px #7262f2,0 0 5px #7262f2;color:#fff;content:"R";display:inline-block;font-family:JostBold,sans-serif;font-size:14px;height:20px;line-height:20px;margin-right:10px;text-align:center;text-shadow:0 0 5px #7262f2,0 0 5px #7262f2;width:20px}.randBefore.loading:before{content:"⃪";animation:rotateBalanceLoader 2.5s linear infinite}.textBlue{color:#cffdff;text-shadow:0 0 5px #01eff9}.textGreen{color:#fff;text-shadow:0 0 1px #0f0,0 0 3px #0f0,0 0 5px #0f0}.textPurple{color:#fbd3ff;text-shadow:0 0 5px #e600ff}.textRed{color:#fee;text-shadow:0 0 5px red}.textYellow{color:#f5c400}.no-results{text-align:center;font-size:22px;color:grey}::-webkit-scrollbar{height:5px;width:5px}.mobile ::-webkit-scrollbar,.mobile::-webkit-scrollbar{height:0;width:0}::-webkit-scrollbar-track{background-color:transparent}body::-webkit-scrollbar-track{background-color:rgba(0,0,0,.5)}::-webkit-scrollbar-thumb{background-color:#7262f2;border-radius:2.5px}.gameActive.iphone #divAppAlert,.gameActive.iphone #divAppBalanceHistory,.gameActive.iphone #divAppBody,.gameActive.iphone #divAppBonuses,.gameActive.iphone #divAppEditProfile,.gameActive.iphone #divAppFloatingMenu,.gameActive.iphone #divAppFooter,.gameActive.iphone #divAppGamblePrize,.gameActive.iphone #divAppGameSearch,.gameActive.iphone #divAppGameSlideOut,.gameActive.iphone #divAppHeader,.gameActive.iphone #divAppLoader,.gameActive.iphone #divAppLogin,.gameActive.iphone #divAppLoyaltyRewards,.gameActive.iphone #divAppLuckyStreakChallenge,.gameActive.iphone #divAppMenu,.gameActive.iphone #divAppPromotionWheel,.gameActive.iphone #divAppPushNotificationIntroduction,.gameActive.iphone #divAppSkywarsTournamentDetails,.gameActive.iphone #divAppSportPredictor,.gameActive.iphone #divAppTournamentDetails,.gameActive.iphone #divAppUserAlerts,.gameActive.iphone #divAppUserNotifications,.gameActive.iphone #divAppUserProfile,.gameActive.iphone #divAppVipClaimedPromotions,.gameActive.iphone #divAppWelcomePackage{display:none}.gameActive.iphone *{transition:none!important;animation:none!important}.gameActive.iphone #divAppSkywarsPrizeOverlay,.gameActive.iphone #divAppSkywarsPrizeOverlay *{transition:revert!important;animation:revert!important}.gameActive.iphone #divAppAlert.quickTopup{display:block}#divAlertMessage #recaptcha-v2>div{margin:0 auto}@keyframes hideContentOverlay1{0%{height:100%;opacity:1}1%{height:100%;opacity:1}99%{height:100%;opacity:0}100%{height:0%;opacity:0}}@keyframes hideContentOverlay2{0%{height:100%;opacity:.035}1%{height:100%;opacity:.035}99%{height:100%;opacity:0}100%{height:0%;opacity:0}}@keyframes rotateBalanceLoader{from{transform:rotateY(0)}to{transform:rotateY(360deg)}}@media (max-width:1200px){#divAppBody{left:0}}@media (max-width:800px){h1{font-size:36px;line-height:40px}h2{font-size:26px;line-height:28px}h3{font-size:22px;line-height:24px}#divAppBody{padding-top:90px}}@media (max-width:600px){.iphone{touch-action:pan-x pan-y}.iphone *,.iphone .divImageScroller *{touch-action:pan-y pan-x}.iphone img,.iphone rect,.iphone svg{pointer-events:none;touch-action:pan-y pan-x}.iphone .divGame .divGameOverlay{pointer-events:auto}h1{font-size:26px;line-height:28px}h2{font-size:22px;line-height:24px}h3{font-size:18px;line-height:20px}#divAppBody{padding-top:80px}}@media (max-width:420px){h1{font-size:22px;line-height:24px}h2{font-size:18px;line-height:20px}}@media only screen and (max-width:600px){#root,body,html{height:100%;width:100%}body{overflow:hidden}}#divSportBetaBanner{background:#7262f2;border-radius:10px;margin:12px 12px 0;position:relative}#divSportBetaBanner .betaBannerContent{align-items:center;display:flex;gap:12px;padding:14px 16px}#divSportBetaBanner .betaBannerText{color:#fff;display:flex;flex:1;flex-direction:column;font-size:13px;gap:3px;min-width:0}#divSportBetaBanner .betaBannerText strong{font-size:14px;font-weight:700}#divSportBetaBanner .betaBannerBtn{background:#fff;border:none;border-radius:20px;box-shadow:none;color:#7262f2;cursor:pointer;flex-shrink:0;font-family:Jost,sans-serif;font-size:13px;font-weight:700;height:auto;line-height:normal;min-width:0;padding:8px 18px;position:static;text-align:center;transition:opacity .2s;white-space:nowrap}#divSportBetaBanner .betaBannerBtn:hover{opacity:.9}#divSportBetaBanner .betaBannerDismiss{background:0 0;border:none;box-shadow:none;color:#f44;cursor:pointer;font-size:12px;height:auto;line-height:1;min-width:0;padding:2px 4px;position:absolute;right:8px;top:6px}#divSportBetaBanner .betaBannerDismiss:hover{color:red}@media (min-width:801px){#divSportBetaBanner{margin:6px 12px 16px}}#divSportsbookBetaBanner{align-items:center;background:#2a2b30;border-bottom:1px solid #3a3b40;display:none;gap:12px;justify-content:space-between;padding:8px 16px}#divSportsbookBetaBanner .betaBackText{color:#888b90;font-size:12px}#divSportsbookBetaBanner .betaBackText strong{color:#cffdff}#divSportsbookBetaBanner .betaBackBtn{background:0 0;border:1px solid #888b90;border-radius:16px;color:#888b90;cursor:pointer;flex-shrink:0;font-size:12px;padding:5px 14px;transition:border-color .2s,color .2s;white-space:nowrap}#divSportsbookBetaBanner .betaBackBtn:hover{border-color:#cffdff;color:#cffdff}#divAppAlert{background-color:rgba(0,0,0,.75);display:none;height:100%;left:0;opacity:0;position:fixed;top:0;width:100%;z-index:1000}#divAppAlert.show{animation-duration:.25s;animation-name:showAlert;display:block;opacity:1}#divAppAlert .divAlertPopup{background-color:#1b1c20;border-radius:10px;box-shadow:inset 0 20px 10px -20px rgba(255,255,255,.75),inset 0 -20px 10px -20px rgba(0,0,0,.75),0 0 50px #000;left:50%;max-height:calc(100% - 100px);max-width:calc(100% - 100px);opacity:0;overflow:auto;padding:30px;position:absolute;top:50%;transform:translate(-50%,-50%);width:280px}#divAppAlert.autoSize .divAlertPopup{margin:auto;max-width:75%;min-width:280px;width:auto}#divAppAlert.show .divAlertPopup{animation-duration:.25s;animation-name:showAlert;opacity:1}#divAppAlert #divAlertMessage{font-size:16px;padding-bottom:20px}#divAppAlert #divAlertButtons{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end}#divAppAlert .btnAlert{min-width:60px;padding:0 15px}#divAppAlert .btnAlert:not(:only-child){flex:1 1 180px}#divAppAlert .btnAlert.purple{background:#966dff;border-color:#966dff;color:#fff;float:left;margin-left:0}@keyframes showAlert{0%{opacity:0}1%{opacity:0}100%{opacity:1}}@media (max-width:500px){#divAppAlert.autoSize .divAlertPopup{max-height:calc(100% - 80px);max-width:calc(100% - 80px);padding:20px;width:calc(100% - 80px)}#divAppAlert.autoSize #divAlertMessage{font-size:14px}}@media (max-width:400px){#divAppAlert.autoSize .divAlertPopup{max-height:calc(100% - 70px);max-width:calc(100% - 70px);padding:15px;width:calc(100% - 70px)}#divAppAlert.autoSize #divAlertMessage{font-size:13px}}#divAppFooter{contain:layout style;contain-intrinsic-size:auto 900px;min-height:900px;position:relative;z-index:1}#divAppFooter #divProviderIcons{contain:layout style;min-height:150px;padding:0 50px}#divAppFooter .divFooterLinks{padding:80px 50px 100px;position:relative;z-index:1}#divAppFooter .divFooterLinks:before{background-color:#fff;box-shadow:0 0 15px 3px #e600ff;content:"";height:5px;left:0;position:absolute;right:0;top:0}#divAppFooter .divFooterLinks:after{clear:both;content:"";display:block}#divAppFooter .divFooterColumn{float:left;position:relative;width:22%}#divAppFooter .divFooterColumn:nth-child(2),#divAppFooter .divFooterColumn:nth-child(3){width:17%}#divAppFooter .imgFooterLogo{width:160px}#divAppFooter .divFooterHeading{color:#fff;font-size:20px;font-weight:700;margin-bottom:20px}#divAppFooter .aFooterLink,#divAppFooter .divFooterLink{color:#888b90;cursor:pointer;font-size:14px;display:block;margin-bottom:5px;text-decoration:none;transition:color .25s,text-shadow .25s}#divAppFooter .aFooterLink:focus,#divAppFooter .aFooterLink:hover,#divAppFooter .divFooterLink:focus,#divAppFooter .divFooterLink:hover{color:#cffdff;text-shadow:0 0 5px #01eff9}#divAppFooter .imgFooterVisa{margin:0 15px 10px 0;vertical-align:middle;width:60px}#divAppFooter .imgFooterMasterCard{margin:0 15px 10px 0;vertical-align:middle;width:35px}#divAppFooter .imgFooterInstantEft{margin:0 0 10px 0;vertical-align:middle;width:86px}#divAppFooter .imgFooterApplePay{height:20px;margin:0 15px 10px 0;vertical-align:middle;width:auto}#divAppFooter .imgFooterGooglePay{height:20px;margin:0 15px 10px 0;vertical-align:middle;width:auto}#divAppFooter .imgFooterCapitecPay{height:30px;margin:0 15px 10px 0;vertical-align:middle;width:auto}#divAppFooter .imgFooterOneVoucher{height:30px;margin:0 15px 10px 0;vertical-align:middle;width:auto}#divAppFooter .imgFooterOttVoucher{height:25px;margin:0 15px 10px 0;vertical-align:middle;width:auto}#divAppFooter .imgFooterEasyPayVoucher{height:30px;margin:0 0 10px 0;vertical-align:middle;width:auto}#divAppFooter .divFooterText{font-size:12px;line-height:16px;margin-top:20px;text-align:justify}#divAppFooter .divFooterBottom{min-height:350px;padding:0 50px 120px;text-align:center}#divAppFooter .divFooterBottom .divFooterText{font-size:14px;line-height:20px;text-align:center}#divAppFooter .divFooterBottom .divFooterClock{font-variant-numeric:tabular-nums}#divAppFooter .divFooterBottom a{color:#888b90;transition:color .25s,text-shadow .25s}#divAppFooter .divFooterBottom a:focus,#divAppFooter .divFooterBottom a:hover{color:#cffdff;text-shadow:0 0 5px #01eff9}#divAppFooter .divFooterImportantLinksHeading{color:#fff;font-size:18px;margin:30px 0 10px}#divAppFooter .divFooterImportantLinks{margin-bottom:30px}#divAppFooter .divFooterImportantLinks a{border-right:1px solid #888b90;color:#888b90;font-size:14px;padding:0 10px 0 5px;text-decoration:none;transition:color .25s,text-shadow .25s}#divAppFooter .divFooterImportantLinks a:last-child{border-right:none}#divAppFooter .divFooterImportantLinks a:focus,#divAppFooter .divFooterImportantLinks a:hover{color:#cffdff;text-shadow:0 0 5px #01eff9}#divAppFooter .divSocialLinks a{font-size:32px;margin:0 10px 30px;text-decoration:none}#divAppFooter .imgX{opacity:.75;transition:filter .25s,opacity .25s;width:26px}#divAppFooter .imgHelloPeter{opacity:.75;transition:filter .25s,opacity .25s;width:100px}#divAppFooter .imgHelloPeter:focus,#divAppFooter .imgHelloPeter:hover,#divAppFooter .imgX:focus,#divAppFooter .imgX:hover{filter:drop-shadow(0px 0px 5px #01eff9);opacity:1}#divAppFooter .divCopyright{color:#fff;font-size:28px;margin-bottom:30px}#divAppFooter .imgBeGambleAware{margin-bottom:30px;width:350px}#divAppFooter .divEighteenPlus{background-color:#fff;border-radius:50%;color:#1b1c20;font-size:28px;font-weight:700;height:60px;left:calc(50% - 30px);line-height:60px;position:relative;text-align:center;width:60px}@media (max-width:1600px){#divAppFooter .divFooterLinks{padding:80px 50px 150px}#divAppFooter .divFooterColumn:first-child{bottom:50px;float:none;position:absolute}#divAppFooter .divFooterColumn:nth-child(2),#divAppFooter .divFooterColumn:nth-child(3),#divAppFooter .divFooterColumn:nth-child(4){width:22%}#divAppFooter .divFooterColumn:nth-child(5){width:34%}}@media (max-width:1200px){#divAppFooter #divProviderIcons{padding:0 30px}#divAppFooter .divFooterLinks{padding:80px 30px 50px}#divAppFooter .divFooterBottom{padding:0 30px 120px}}@media (max-width:800px){#divAppFooter #divProviderIcons{padding:0 20px}#divAppFooter .divFooterLinks{padding:80px 20px 50px}#divAppFooter .divFooterColumn:first-child{bottom:auto;margin-bottom:50px;position:relative}#divAppFooter .divFooterColumn:last-child{text-align:center}#divAppFooter .divFooterColumn:nth-child(2),#divAppFooter .divFooterColumn:nth-child(3),#divAppFooter .divFooterColumn:nth-child(4){margin-bottom:50px;width:33.3%}#divAppFooter .divFooterColumn:nth-child(5){clear:both;float:none;width:100%}#divAppFooter .divFooterBottom{padding:0 20px 120px}}@media (max-width:600px){#divAppFooter #divProviderIcons{min-height:125px;padding:0 15px}#divAppFooter .divFooterLinks{padding:80px 15px 30px}#divAppFooter .aFooterLink,#divAppFooter .divFooterLink{font-size:13px}#divAppFooter .divFooterBottom{padding:0 15px 120px}}@media (max-width:500px){#divAppFooter .divCopyright{font-size:24px}#divAppFooter .imgBeGambleAware{Width:320px}}@media (max-width:420px){#divAppFooter .divSocialLinks a{font-size:28px;margin:0 5px 30px}#divAppFooter .imgX{width:22px}#divAppFooter .imgHelloPeter{width:90px}}#divAppFooter .divFooterBottom .divFooterText.footer-text-sportmode,#divAppFooter .divFooterBottom .divFooterText.footer-text-sportmode a{color:#fff;font-size:16px}#divAppFloatingMenu{bottom:0;display:none;height:90px;left:0;position:fixed;right:0;user-select:none;-webkit-tap-highlight-color:transparent;z-index:10}.progressiveWebApplication #divAppFloatingMenu{border-bottom:30px solid rgba(0,0,0,.9)}.iosApplication #divAppFloatingMenu{border-bottom:none}#divAppFloatingMenu .divFloatingMenuBackground{height:100%;left:-100%;position:absolute;top:0;transition:transform .25s;width:300%}#divAppFloatingMenu .cnvFloatingMenu{bottom:0;height:60px;left:calc(50% - 1250px);position:absolute;width:2500px}#divAppFloatingMenu .divSelectedIndicator{background-color:rgba(0,0,0,.9);border:1px solid #fff;border-radius:50%;box-shadow:inset 0 0 5px #01eff9,0 0 5px #01eff9;height:44px;left:calc(50% - 23px);position:absolute;top:5px;width:44px}#divAppFloatingMenu .divFloatingButton{bottom:0;color:#888b90;cursor:pointer;font-size:14px;height:45px;line-height:58px;padding-top:15px;position:absolute;text-align:center;transform:translateX(-50%);transition:color .25s,padding .25s,text-shadow .25s}#divAppFloatingMenu .divFloatingButton.selected{color:#cffdff;text-shadow:0 0 5px #01eff9}#divAppFloatingMenu .divFloatingButton.selected{padding-top:36px}#divAppFloatingMenu #spnSupportStatus{background-color:#fbd3ff;border:1px solid #fff;border-radius:50%;box-shadow:inset 0 0 5px red,0 0 5px red;height:4px;left:calc(50% + 6px);position:absolute;top:8px;width:4px}.chatOnline #divAppFloatingMenu #spnSupportStatus{box-shadow:inset 0 0 5px #0f0,0 0 5px #0f0}#divAppFloatingMenu #spnBonusCount,#divAppFloatingMenu #spnNotificationCount{animation:pulsateNotificationCount 3s linear 0s infinite;background-color:#000;border:1px solid #fff;border-radius:50%;display:none;font-size:9px;height:12px;left:calc(50% + 10px);line-height:12px;position:absolute;text-align:center;top:0;width:12px}#divAppFloatingMenu #spnBonusCount.show,#divAppFloatingMenu #spnNotificationCount.show{display:inline}#divAppFloatingMenu #spnBetslipCount{background-color:#000;border:1px solid #fff;border-radius:50%;font-size:9px;height:12px;left:calc(50% + 10px);line-height:12px;position:absolute;text-align:center;top:0;width:12px}#divAppFloatingMenu .divFloatingButtonIcon{background-repeat:no-repeat;background-position:center;background-size:24px 24px;height:40px;left:calc(50% - 20px);opacity:.5;position:absolute;top:0;transition:opacity .25s;width:40px}#divAppFloatingMenu .divFloatingButton.selected .divFloatingButtonIcon{opacity:1}@keyframes pulsateNotificationCount{0%{border:1px solid #cffdff;box-shadow:inset 0 0 5px #01eff9,0 0 5px #01eff9;color:#fff;text-shadow:0 0 5px #01eff9}25%{border:1px solid #3f4656;box-shadow:inset 0 0 5px rgba(1,239,249,0),0 0 5px rgba(1,239,249,0);color:#888b90;text-shadow:0 0 5px rgba(1,239,249,0)}50%{border:1px solid #fbd3ff;box-shadow:inset 0 0 5px #e600ff,0 0 5px #e600ff;color:#fff;text-shadow:0 0 5px #e600ff}75%{border:1px solid #3f4656;box-shadow:inset 0 0 5px rgba(1,239,249,0),0 0 5px rgba(1,239,249,0);color:#888b90;text-shadow:0 0 5px rgba(1,239,249,0)}100%{border:1px solid #cffdff;box-shadow:inset 0 0 5px #01eff9,0 0 5px #01eff9;color:#fff;text-shadow:0 0 5px #01eff9}}@media (max-width:1200px){#divAppFloatingMenu{display:block}}@media (max-width:500px){#divAppFloatingMenu .divFloatingButton{font-size:13px}}@media (max-width:400px){#divAppFloatingMenu .divFloatingButton{font-size:12px}}#divAppHeader{height:50px;left:320px;padding:30px 0;position:fixed;right:0;top:0;transition:background-color .25s,box-shadow .25s,left .25s,padding .25s;z-index:2}.hideMenu #divAppHeader{left:0}.pageScrolled #divAppHeader{background-color:rgba(27,28,32,.9);box-shadow:0 0 15px rgba(0,0,0,.9);padding:15px 0}#divAppHeader #divHeaderLogo{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/logo.png');background-size:cover;cursor:pointer;display:none;float:left;height:50px;margin-left:20px;position:relative;width:134px}.hideMenu #divAppHeader #divHeaderLogo{display:inline}#divAppHeader #btnPromotions{display:none;float:right;margin:5px 50px 0 0}.signedIn #divAppHeader #btnPromotions{display:inline-block}#divAppHeader #btnRegister,#divAppHeader #btnSignIn{float:right;margin:5px 15px 0 0}.signedIn #divAppHeader #btnRegister,.signedIn #divAppHeader #btnSignIn{display:none}#divAppHeader #btnPromotions,#divAppHeader #btnRegister{animation:pulsateButton 3s;animation-iteration-count:infinite}@keyframes pulsateButton{0%{border:2px solid #cffdff;box-shadow:inset 0 0 5px #01eff9,0 0 5px #01eff9;color:#fff;text-shadow:0 0 5px #01eff9}25%{border:2px solid #3f4656;box-shadow:inset 0 0 5px rgba(1,239,249,0),0 0 5px rgba(1,239,249,0);color:#888b90;text-shadow:0 0 5px rgba(1,239,249,0)}50%{border:2px solid #fbd3ff;box-shadow:inset 0 0 5px #e600ff,0 0 5px #e600ff;color:#fff;text-shadow:0 0 5px #e600ff}75%{border:2px solid #3f4656;box-shadow:inset 0 0 5px rgba(1,239,249,0),0 0 5px rgba(1,239,249,0);color:#888b90;text-shadow:0 0 5px rgba(1,239,249,0)}100%{border:2px solid #cffdff;box-shadow:inset 0 0 5px #01eff9,0 0 5px #01eff9;color:#fff;text-shadow:0 0 5px #01eff9}}@media (max-width:1200px){#divAppHeader{left:0}#divAppHeader #divHeaderLogo{display:inline}#divAppHeader #btnPromotions,.signedIn #divAppHeader #btnPromotions{display:none}#divAppHeader #btnSignIn{margin:5px 30px 0 0}}@media (max-width:800px){#divAppHeader{padding:20px 0}#divAppHeader #divHeaderLogo{margin-left:10px;width:48px}#divAppHeader #btnSignIn{margin:5px 20px 0 0}}@media (max-width:600px){#divAppHeader{padding:15px 0}.pageScrolled #divAppHeader{padding:10px 0}#divAppHeader #divHeaderLogo{margin-left:10px}#divAppHeader #btnSignIn{margin:5px 15px 0 0}}@media (max-width:400px){#divAppHeader #divHeaderLogo{height:40px;margin-top:5px;width:38px}}@media (max-width:380px){#divAppHeader #divHeaderLogo{margin-left:5px}#divAppHeader #btnRegister{margin-right:10px}}#divAppLoader{background-color:rgba(0,0,0,.75);display:none;height:100%;left:0;outline:0;position:fixed;top:0;user-select:none;-webkit-tap-highlight-color:transparent;width:100%;z-index:30}#divAppLoader.show{animation-duration:.1s;animation-name:loaderShow;display:block;opacity:1}#divAppLoader .imgLoaderLogo{animation:rotate 2.5s linear infinite;left:calc(50% - 60px);height:120px;position:absolute;top:calc(50% - 60px);width:120px}#divAppLoader .divLoading{color:#cffdff;font-size:20px;left:50%;position:absolute;text-shadow:0 0 5px #01eff9;top:calc(50% + 65px);transform:translateX(-50%)}@keyframes loaderShow{0%{opacity:0}1%{opacity:0}100%{opacity:1}}@keyframes rotate{from{transform:rotate(0)}to{transform:rotate(360deg)}}#divAppHeader #btnHeaderMenu{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/icons/menu.svg');background-position:center;background-position:center;background-repeat:no-repeat;background-size:24px;cursor:pointer;display:none;float:left;height:40px;margin:5px 0 0 50px;filter:drop-shadow(0px 0px 5px #7262f2) drop-shadow(0px 0px 10px #7262f2);opacity:1;transition:filter .25s,opacity .25s;width:40px}#divAppHeader #btnHeaderMenu:hover{filter:drop-shadow(0px 0px 5px #e600ff);opacity:1}.hideMenu #divAppHeader #btnHeaderMenu{display:inline-block}#divAppMenu{bottom:0;left:0;position:fixed;top:0;transition:left .25s;user-select:none;-webkit-tap-highlight-color:transparent;width:320px;z-index:3}.hideMenu #divAppMenu{left:-340px}#divAppMenu #divMenuOverlay{background-color:rgba(0,0,0,.5);display:none;height:100%;left:0;opacity:0;position:fixed;top:0;transition:opacity .25s;width:100%;z-index:-1}#divAppMenu .divMenuContainer{background-color:#292a2f;box-shadow:-10px 0 30px rgba(0,0,0,.75);height:100%;left:0;position:absolute;top:0;width:100%;z-index:-1}#divAppMenu .divMenuHeader{height:105px;position:relative}#divAppMenu #imgMenuLogo{cursor:pointer;left:30px;position:absolute;top:25px;width:200px}#divAppMenu #btnCloseMenu{cursor:pointer;height:40px;position:absolute;right:10px;top:10px;width:40px}#divAppMenu #btnCloseMenu:before{background-color:#fff;box-shadow:0 0 5px #7262f2;content:"";height:2px;left:8px;position:absolute;top:20px;transform:rotate(45deg);width:24px}#divAppMenu #btnCloseMenu:after{background-color:#fff;box-shadow:0 0 5px #7262f2;content:"";height:2px;left:8px;position:absolute;top:20px;transform:rotate(-45deg);width:24px}#divAppMenu #divMenuItemsContainer{height:calc(100% - 100px);overflow-y:auto;padding-top:15px;-webkit-overflow-scrolling:touch}#divAppMenu #divMenuItemsContainer::-webkit-scrollbar{background:0 0;height:0;width:0}#divAppMenu #divFeaturedItems{background:0 0;border-radius:12px;filter:drop-shadow(0px 0px 8px rgba(160, 80, 255, .2)) drop-shadow(0px 0px 22px rgba(160, 80, 255, .05));margin:20px 15px 15px;min-height:185px;padding:5px 0;position:relative}#divAppMenu #divFeaturedItems:before{color:#fff;content:"FEATURED";font-family:JostBold,sans-serif;font-size:18px;font-weight:600;left:0;position:absolute;right:0;text-align:center;text-shadow:0 0 10px rgba(220,160,255,.7),0 1px 2px rgba(0,0,0,.8);top:-12px;z-index:1}#divAppMenu #svgFeaturedBorder{height:calc(100% + 26px);left:0;overflow:visible;pointer-events:none;position:absolute;top:-26px;width:100%;z-index:0}#divAppMenu #btnMultiplierLeaderboards{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/menu/multiplierLeaderboards.webp');background-position:center;background-repeat:no-repeat;background-size:cover;border-radius:10px;box-shadow:inset 0 20px 10px -20px rgba(255,255,255,.75),inset 0 -20px 10px -20px rgba(0,0,0,.75),0 0 10px rgba(0,0,0,.5);cursor:pointer;float:left;height:70px;margin:20px 10px 15px 15px;padding-top:85px;position:relative;width:calc(50% - 25px)}#divAppMenu #btnLuckyStreakChallenge{border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,.5);color:#fff;cursor:pointer;float:left;height:40px;margin:20px 15px 15px 10px;padding-top:115px;position:relative;text-align:center;text-shadow:0 0 5px #000;width:calc(50% - 25px)}#divAppMenu #btnLuckyStreakChallenge:before{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/menu/luckyStreakChallenge.webp');background-position:center;background-size:cover;border-radius:10px;box-shadow:inset 0 20px 10px -20px #fff,inset 0 -20px 10px -20px #000;content:"";display:block;height:100%;left:0;opacity:.85;position:absolute;top:0;width:100%}#divAppMenu #btnLuckyStreakChallenge:after{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/promotions/luckyStreakChallenge/luckyStreakHeading.webp');background-repeat:no-repeat;background-size:cover;content:"";display:block;filter:drop-shadow(0px 0px 2px #000000);height:32px;left:5px;position:absolute;top:8px;width:calc(100% - 10px)}#divAppMenu #divBirthdayBonusButton{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/promotions/birthdayBonuses/background.webp');background-position:center;background-size:105%;border-radius:10px;box-shadow:inset 0 20px 10px -20px rgba(255,255,255,.75),inset 0 -20px 10px -20px rgba(0,0,0,.75),0 0 10px rgba(0,0,0,.5);cursor:pointer;clear:both;display:none;height:60px;margin:15px 15px 10px;position:relative;width:calc(100% - 30px)}#divAppMenu #divBirthdayBonusButton.show{display:block}#divAppMenu #divBirthdayBonusButton:before{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/promotions/birthdayBonuses/heading.webp');background-position:center;background-repeat:no-repeat;background-size:75%;content:"";display:block;height:100%;left:0;position:absolute;top:0;width:100%}#divAppMenu #divVipClaimedPromotionsButton{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/menu/vipClaimedPromotions.webp');background-position:center;background-repeat:no-repeat;background-size:cover;border-radius:10px;box-shadow:inset 0 20px 10px -20px rgba(255,255,255,.75),inset 0 -20px 10px -20px rgba(0,0,0,.75);cursor:pointer;clear:both;display:none;filter:drop-shadow(0px 0px 10px rgba(0, 0, 0, .5));height:60px;margin:15px 15px 10px;position:relative;width:calc(100% - 30px)}#divAppMenu #divVipClaimedPromotionsButton.show{display:block}#divAppMenu #divPromotionButtons{clear:both}#divAppMenu .btnPromotionButton{animation:menuNeonTextPink 5s linear 2.5s infinite;background-position:center top;background-repeat:no-repeat;background-size:100%;border-radius:10px;box-shadow:inset 0 20px 10px -20px rgba(255,255,255,.75),inset 0 -20px 10px -20px rgba(0,0,0,.75),0 0 10px rgba(0,0,0,.5);color:#fff;cursor:pointer;clear:both;font-family:Bayshore,sans-serif;font-size:30px;height:60px;line-height:22px;margin:15px 15px 10px;position:relative;text-align:center;width:calc(100% - 30px)}#divAppMenu .btnPromotionButton span{display:inline-block;margin-top:8px}#divAppMenu #divMenuItems{clear:both;padding-bottom:80px}#divAppMenu #divMenuItems a{text-decoration:none}#divAppMenu .divMenuItemContianer{position:relative}#divAppMenu .divMenuItem{margin-top:15px;position:relative}#divAppMenu .divSubmenuItems{display:none;position:relative}#divAppMenu .expanded .divSubmenuItems{display:block}#divAppMenu .btnExpandCollapse{cursor:pointer;height:40px;position:absolute;right:20px;top:10px;width:40px}#divAppMenu .btnExpandCollapse:before{background-color:#fff;content:"";height:2px;position:absolute;right:12px;top:19px;transition:background-color .25s,box-shadow .25s;width:16px}#divAppMenu .btnExpandCollapse:after{background-color:#fff;content:"";height:2px;position:absolute;right:12px;top:19px;transform:rotate(90deg);transition:background-color .25s,box-shadow .25s,transform .25s;width:16px}#divAppMenu .expanded .btnExpandCollapse:after{transform:rotate(0)}#divAppMenu .btnExpandCollapse:focus:after,#divAppMenu .btnExpandCollapse:focus:before,#divAppMenu .btnExpandCollapse:hover:after,#divAppMenu .btnExpandCollapse:hover:before{background-color:#cffdff;box-shadow:0 0 5px #01eff9}#divAppMenu .divSubmenuItem{position:relative}#divAppMenu .divMenuItem.clickable,#divAppMenu .divSubmenuItem.clickable{cursor:pointer}#divAppMenu .divMenuItem.clickable:before,#divAppMenu .divSubmenuItem.clickable:before{background:linear-gradient(90deg,#6b42de,#966dff);bottom:0;content:"";display:block;left:0;opacity:0;position:absolute;right:0;top:0;transition:opacity .25s;z-index:-1}#divAppMenu .divMenuItem.clickable.selected:before,#divAppMenu .divMenuItem.clickable:focus:before,#divAppMenu .divMenuItem.clickable:hover:before,#divAppMenu .divSubmenuItem.clickable.selected:before,#divAppMenu .divSubmenuItem.clickable:focus:before,#divAppMenu .divSubmenuItem.clickable:hover:before{opacity:1}.signedIn #divAppMenu .divSubmenuItem.menuItemLobbySignedOut{display:none}#divAppMenu .divMenuItem.menuItemWelcomePackage,#divAppMenu .divSubmenuItem.menuItemWelcomePackage{display:none}.showWelcomePackage #divAppMenu .divMenuItem.menuItemWelcomePackage,.showWelcomePackage #divAppMenu .divSubmenuItem.menuItemWelcomePackage{display:block}#divAppMenu .divSubmenuItem.menuItemFullOpacity .divSubmenuItemIcon{opacity:1}#divAppMenu .divMenuItemLabel{color:#fff;font-family:JostBold,sans-serif;font-size:22px;line-height:30px;overflow:hidden;padding:15px 35px;position:relative;text-overflow:ellipsis;white-space:nowrap}#divAppMenu .divSubmenuItemLabel{color:#888b90;font-size:20px;line-height:30px;overflow:hidden;padding:15px 35px 15px 80px;position:relative;text-overflow:ellipsis;transition:color .25s;white-space:nowrap}#divAppMenu .divSubmenuItem.clickable.selected .divSubmenuItemLabel,#divAppMenu .divSubmenuItem.clickable:focus .divSubmenuItemLabel,#divAppMenu .divSubmenuItem.clickable:hover .divSubmenuItemLabel{color:#fff}#divAppMenu .divSubmenuItemIcon{background-position:center;background-repeat:no-repeat;background-size:100%;left:35px;height:20px;opacity:.4;position:absolute;top:50%;transform:translateY(-50%);transition:opacity .25s;width:20px}#divAppMenu .divSubmenuItem.clickable.selected .divSubmenuItemIcon,#divAppMenu .divSubmenuItem.clickable:focus .divSubmenuItemIcon,#divAppMenu .divSubmenuItem.clickable:hover .divSubmenuItemIcon{opacity:1}#divAppMenu .divMenuItemHr{background-color:#6a6a6a;height:2px;margin:15px 35px}#divAppMenu .spnSubmenuItemBonusCount{background-color:#e00;border-radius:50%;color:#fff;display:none;font-size:9px;height:14px;line-height:14px;margin:-5px 0 0 5px;padding:2px 7px;position:absolute;text-align:center}#divAppMenu .spnSubmenuItemBonusCount.show{display:inline}#divAppMenu .spnTournamentsAvailable{background-color:#e00;border-radius:50%;color:#fff;font-size:9px;height:14px;line-height:14px;margin:-5px 0 0 5px;padding:2px 7px;position:absolute;text-align:center}#divAppMenu .divFeaturedStroke:before{animation:featuredStrokeSpin 2s linear 0s infinite,featuredStrokeLifecycle 5s ease-in-out 0s 1 forwards;background:conic-gradient(from var(--featured-stroke-angle) at 50% 50%,rgba(0,0,0,0) 0,rgba(0,0,0,0) 44%,#a0f 48.5%,#f0aaff 50%,#a0f 51.5%,rgba(0,0,0,0) 56%,rgba(0,0,0,0) 100%);border-radius:13px;content:"";display:block;inset:-3px;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:0;padding:3px;pointer-events:none;position:absolute}#divAppMenu .divFeaturedStroke:after{animation:featuredStrokeSpin 2s linear 0s infinite,featuredStrokeLifecycle 5s ease-in-out 0s 1 forwards;background:conic-gradient(from var(--featured-stroke-angle) at 50% 50%,rgba(0,0,0,0) 0,rgba(0,0,0,0) 38%,rgba(119,0,187,.5) 47%,rgba(204,102,255,.5) 50%,rgba(119,0,187,.5) 53%,rgba(0,0,0,0) 62%,rgba(0,0,0,0) 100%);border-radius:14px;content:"";display:block;filter:blur(20px);inset:-5px;opacity:0;padding:0;pointer-events:none;position:absolute}#divAppMenu #btnMultiplierLeaderboards .divFeaturedStroke:before{background:conic-gradient(from var(--featured-stroke-angle) at 50% 50%,rgba(0,0,0,0) 0,rgba(0,0,0,0) 44%,#0b4 48.5%,#cfd 50%,#0b4 51.5%,rgba(0,0,0,0) 56%,rgba(0,0,0,0) 100%)}#divAppMenu #btnMultiplierLeaderboards .divFeaturedStroke:after{background:conic-gradient(from var(--featured-stroke-angle) at 50% 50%,rgba(0,0,0,0) 0,rgba(0,0,0,0) 38%,rgba(0,136,51,.5) 47%,rgba(136,255,170,.5) 50%,rgba(0,136,51,.5) 53%,rgba(0,0,0,0) 62%,rgba(0,0,0,0) 100%)}#divAppMenu #btnLuckyStreakChallenge .divFeaturedStroke:before{background:conic-gradient(from var(--featured-stroke-angle) at 50% 50%,rgba(0,0,0,0) 0,rgba(0,0,0,0) 44%,#f70 48.5%,#fff 50%,#f70 51.5%,rgba(0,0,0,0) 56%,rgba(0,0,0,0) 100%)}#divAppMenu #btnLuckyStreakChallenge .divFeaturedStroke:after{background:conic-gradient(from var(--featured-stroke-angle) at 50% 50%,rgba(0,0,0,0) 0,rgba(0,0,0,0) 38%,rgba(204,85,0,.5) 47%,rgba(255,204,136,.5) 50%,rgba(204,85,0,.5) 53%,rgba(0,0,0,0) 62%,rgba(0,0,0,0) 100%)}#divAppMenu #divBirthdayBonusButton .divFeaturedStroke:before{background:conic-gradient(from var(--featured-stroke-angle) at 50% 50%,rgba(0,0,0,0) 0,rgba(0,0,0,0) 44%,#da0 48.5%,#8df 50%,#da0 51.5%,rgba(0,0,0,0) 56%,rgba(0,0,0,0) 100%)}#divAppMenu #divBirthdayBonusButton .divFeaturedStroke:after{background:conic-gradient(from var(--featured-stroke-angle) at 50% 50%,rgba(0,0,0,0) 0,rgba(0,0,0,0) 38%,rgba(187,136,0,.5) 47%,rgba(85,187,255,.5) 50%,rgba(187,136,0,.5) 53%,rgba(0,0,0,0) 62%,rgba(0,0,0,0) 100%)}#divAppMenu #divVipClaimedPromotionsButton .divFeaturedStroke:before{background:conic-gradient(from var(--featured-stroke-angle) at 50% 50%,rgba(0,0,0,0) 0,rgba(0,0,0,0) 44%,#f4a 48.5%,#fff 50%,#f4a 51.5%,rgba(0,0,0,0) 56%,rgba(0,0,0,0) 100%)}#divAppMenu #divVipClaimedPromotionsButton .divFeaturedStroke:after{background:conic-gradient(from var(--featured-stroke-angle) at 50% 50%,rgba(0,0,0,0) 0,rgba(0,0,0,0) 38%,rgba(255,34,153,.5) 47%,rgba(255,204,238,.5) 50%,rgba(255,34,153,.5) 53%,rgba(0,0,0,0) 62%,rgba(0,0,0,0) 100%)}#divAppMenu .bounce{animation:featuredButtonBounce 1s ease-in-out 0s infinite}#divAppMenu #divFeaturedItems:before,#divAppMenu #svgFeaturedBorder,#divAppMenu .popInItem{opacity:0}#divAppMenu.menuPopIn .popInItem{animation:menuPopIn .5s cubic-bezier(.34,1.56,.64,1) both}#divAppMenu.menuPopIn #divMenuItems.popInItem{animation-name:menuFadeUp;animation-timing-function:ease-out}#divAppMenu.menuPopIn #divFeaturedItems:before,#divAppMenu.menuPopIn #svgFeaturedBorder{animation:menuFadeUp .5s ease-out 0s both}@keyframes showMenu{0%{opacity:0}1%{opacity:0}100%{opacity:1}}@keyframes menuNeonText{0%{text-shadow:0 0 1px #000}1%{text-shadow:0 0 1px #000,0 0 5px #01eff9,0 0 5px #01eff9,0 0 10px #01eff9}5%{text-shadow:0 0 1px #000,0 0 5px #01eff9,0 0 5px #01eff9,0 0 10px #01eff9}6%{text-shadow:0 0 1px #000}9%{text-shadow:0 0 1px #000}10%{text-shadow:0 0 1px #000,0 0 5px #01eff9,0 0 5px #01eff9,0 0 10px #01eff9}16%{text-shadow:0 0 1px #000,0 0 5px #01eff9,0 0 5px #01eff9,0 0 10px #01eff9}17%{text-shadow:0 0 1px #000}20%{text-shadow:0 0 1px #000}21%{text-shadow:0 0 1px #000,0 0 5px #01eff9,0 0 5px #01eff9,0 0 10px #01eff9}59%{text-shadow:0 0 1px #000,0 0 5px #01eff9,0 0 5px #01eff9,0 0 10px #01eff9}60%{text-shadow:0 0 1px #000}64%{text-shadow:0 0 1px #000}65%{text-shadow:0 0 1px #000,0 0 5px #01eff9,0 0 5px #01eff9,0 0 10px #01eff9}100%{text-shadow:0 0 1px #000,0 0 5px #01eff9,0 0 5px #01eff9,0 0 10px #01eff9}}@keyframes menuNeonTextPink{0%{text-shadow:0 0 1px #000}1%{text-shadow:0 0 1px #000,0 0 5px #e600ff,0 0 5px #e600ff,0 0 10px #e600ff}5%{text-shadow:0 0 1px #000,0 0 5px #e600ff,0 0 5px #e600ff,0 0 10px #e600ff}6%{text-shadow:0 0 1px #000}9%{text-shadow:0 0 1px #000}10%{text-shadow:0 0 1px #000,0 0 5px #e600ff,0 0 5px #e600ff,0 0 10px #e600ff}16%{text-shadow:0 0 1px #000,0 0 5px #e600ff,0 0 5px #e600ff,0 0 10px #e600ff}17%{text-shadow:0 0 1px #000}20%{text-shadow:0 0 1px #000}21%{text-shadow:0 0 1px #000,0 0 5px #e600ff,0 0 5px #e600ff,0 0 10px #e600ff}59%{text-shadow:0 0 1px #000,0 0 5px #e600ff,0 0 5px #e600ff,0 0 10px #e600ff}60%{text-shadow:0 0 1px #000}64%{text-shadow:0 0 1px #000}65%{text-shadow:0 0 1px #000,0 0 5px #e600ff,0 0 5px #e600ff,0 0 10px #e600ff}100%{text-shadow:0 0 1px #000,0 0 5px #e600ff,0 0 5px #e600ff,0 0 10px #e600ff}}@property --featured-stroke-angle{syntax:'<angle>';initial-value:0deg;inherits:false}@keyframes featuredStrokeSpin{to{--featured-stroke-angle:360deg}}@keyframes featuredStrokeLifecycle{0%{opacity:0}10%{opacity:1}80%{opacity:1}100%{opacity:0}}@keyframes featuredButtonBounce{0%{transform:translateY(0)}30%{transform:translateY(-3px)}60%{transform:translateY(0)}80%{transform:translateY(-2px)}100%{transform:translateY(0)}}@keyframes menuPopIn{0%{opacity:0;transform:scale(.8) translateY(10px)}100%{opacity:1;transform:scale(1) translateY(0)}}@keyframes menuFadeUp{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}@media (max-width:1400px){#divAppMenu .divMenuContainer{width:320px}}@media (max-width:1200px){#divAppHeader #btnHeaderMenu{display:inline-block;margin:5px 0 0 15px}body:not(.hideMenu) #divAppMenu #divMenuOverlay{animation:showMenu .25s;display:block;opacity:1}}@media (max-width:600px){#divAppHeader #btnHeaderMenu{margin:5px 0 0 10px}}@media (max-width:540px){#divAppMenu .divMenuContainer{width:300px}#divAppMenu .divMenuHeader{height:60px}#divAppMenu #imgMenuLogo{left:30px;top:15px;width:134px}#divAppMenu #btnCloseMenu{right:20px;top:20px}#divAppMenu #divFeaturedItems{min-height:190px}#divAppMenu #btnMultiplierLeaderboards{margin:20px 0 10px 15px;padding-top:90px;width:calc(50% - 20px)}#divAppMenu #btnLuckyStreakChallenge{height:55px;margin:20px 15px 10px 10px;padding-top:105px;width:calc(50% - 20px)}#divAppMenu #btnLuckyStreakChallenge:after{height:29px}#divAppMenu #divBirthdayBonusButton,#divAppMenu #divVipClaimedPromotionsButton{margin:10px 15px}#divAppMenu .btnPromotionButton{margin:10px 15px}#divAppMenu .divMenuItem{margin-top:0}#divAppMenu .divMenuItemLabel{font-size:18px;padding:10px 35px}#divAppMenu .divSubmenuItemLabel{font-size:16px;line-height:20px;padding:10px 35px 10px 70px}#divAppMenu .btnExpandCollapse{top:5px}}#divAppHeader #divHeaderProfile{cursor:pointer;float:right;height:50px;margin-right:50px;position:relative;transition:margin .25s;user-select:none;-webkit-tap-highlight-color:transparent;width:220px}#divHeaderProfile #divHeaderUserIcon{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/bronze.png');background-position:center;background-size:cover;height:62px;width:62px}#divHeaderProfile #divHeaderUserIcon.Silver{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/silver.png')}#divHeaderProfile #divHeaderUserIcon.Gold{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/gold.png')}#divHeaderProfile #divHeaderUserIcon.Platinum{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/platinum.png')}#divHeaderProfile #divHeaderUserIcon.Diamond{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/diamond.png')}#divHeaderProfile #divHeaderUserName{color:#fff;left:70px;line-height:20px;overflow:hidden;padding-right:10px;position:absolute;right:0;text-overflow:ellipsis;top:10px;white-space:nowrap}#divHeaderProfile #divHeaderUserName:after{color:#888b90;content:">";font-size:14px;position:absolute;right:0;transform:rotate(90deg);transition:color .25s,transform .25s,text-shadow .25s}#divHeaderProfile:focus #divHeaderUserName:after,#divHeaderProfile:hover #divHeaderUserName:after{color:#cffdff;text-shadow:0 0 5px #01eff9;transform:rotate(450deg)}#divHeaderProfile .divHeaderLoyaltyBar{background-color:#292a2f;border-radius:4px;height:8px;left:70px;overflow:hidden;position:absolute;right:0;top:40px}#divHeaderProfile #divHeaderLoyaltyProgress{background:#6b42de;background:linear-gradient(270deg,#01eff9 0,#e600ff 100%);border-radius:4px;height:100%;left:0;position:absolute;top:0;transition:width .25s;width:0}#divAppUserProfile{height:0;left:0;position:fixed;top:0;transition:height .25s;width:100%;z-index:5}#divAppUserProfile.show{height:100%}#divAppUserProfile #divUserProfileOverlay{height:100%;left:0;position:absolute;top:0;width:100%}#divAppUserProfile .divUserProfilePopup{background-color:#1b1c20;border-radius:10px;box-shadow:inset 0 0 5px #01eff9,0 0 5px #01eff9,0 0 10px rgba(0,0,0,.5);cursor:default;height:0;opacity:0;overflow:hidden;position:absolute;right:325px;top:110px;transition:height .25s,opacity .25s,top .25s;user-select:none;-webkit-tap-highlight-color:transparent;width:340px}#divAppUserProfile.show .divUserProfilePopup{border:2px solid #cffdff;height:225px;opacity:1}.iosApplication #divAppUserProfile.show .divUserProfilePopup,.progressiveWebApplication #divAppUserProfile.show .divUserProfilePopup{height:155px}#divAppUserProfile.show.rewardsLive .divUserProfilePopup{height:249px}.iosApplication #divAppUserProfile.show.rewardsLive .divUserProfilePopup,.progressiveWebApplication #divAppUserProfile.show.rewardsLive .divUserProfilePopup{height:179px}.pageScrolled #divAppUserProfile .divUserProfilePopup{top:80px}#divAppUserProfile #divProfileUserIcon{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/bronze.png');background-position:center;background-size:cover;height:80px;left:20px;position:absolute;top:20px;width:80px}#divAppUserProfile #divProfileUserIcon.Silver{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/silver.png')}#divAppUserProfile #divProfileUserIcon.Gold{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/gold.png')}#divAppUserProfile #divProfileUserIcon.Platinum{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/platinum.png')}#divAppUserProfile #divProfileUserIcon.Diamond{background-image:url('https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/diamond.png')}#divAppUserProfile #divProfileUserName{color:#fff;font-size:22px;left:105px;overflow:hidden;position:absolute;right:50px;text-overflow:ellipsis;top:20px;white-space:nowrap}#divAppUserProfile #btnProfileEdit{color:#888b90;cursor:pointer;font-size:20px;height:40px;line-height:40px;position:absolute;right:20px;text-align:center;top:20px;transition:color .25s,text-shadow .25s;width:40px}#divAppUserProfile #btnProfileEdit:focus,#divAppUserProfile #btnProfileEdit:hover{color:#fff;text-shadow:0 0 5px #e600ff}#divAppUserProfile #divProfileUserId{color:#fff;cursor:pointer;font-family:Jost,sans-serif;font-size:14px;left:105px;overflow:hidden;position:absolute;right:20px;text-overflow:ellipsis;top:53px;white-space:nowrap}#divAppUserProfile #divProfileUserId.pulsateCopy{animation:pulsateCopyId 2s}#divAppUserProfile #divProfileUserId:before{color:#888b90;content:"ID:";margin-right:5px}#divAppUserProfile #divProfileUserId:after{color:#888b90;content:"\f24d";display:inline-block;font:normal normal normal 12px/1 FontAwesome;margin-left:8px;transform:translateY(-2px);transition:color .25s,text-shadow .25s}#divAppUserProfile #divProfileUserId:focus:after,#divAppUserProfile #divProfileUserId:hover:after{color:#fff;text-shadow:0 0 5px #01eff9}#divAppUserProfile #divProfileLoyaltyTier{color:#fff;left:105px;overflow:hidden;position:absolute;right:20px;text-overflow:ellipsis;text-shadow:0 0 5px #e600ff;top:70px;white-space:nowrap}#divAppUserProfile #divProfileLoyaltyTier:before{color:#888b90;content:"Loyalty Tier:";margin-right:5px;text-shadow:none}#divAppUserProfile .divProfileLoyaltyBar{background-color:#292a2f;border-radius:8px;height:16px;left:20px;overflow:hidden;position:absolute;right:20px;top:105px}#divAppUserProfile #divProfileLoyaltyProgress{background:#8a5a2b;background:linear-gradient(90deg,#8a5a2b 0,#e0b184 100%);border-radius:8px;height:100%;left:0;position:absolute;top:0;transition:width .25s;width:0}#divAppUserProfile #divProfileLoyaltyProgress.Silver{background:linear-gradient(90deg,#6f7c8a 0,#e8edf2 100%)}#divAppUserProfile #divProfileLoyaltyProgress.Gold{background:linear-gradient(90deg,#b5933e 0,#ebde7a 100%)}#divAppUserProfile #divProfileLoyaltyProgress.Platinum{background:linear-gradient(90deg,#6f8fa6 0,#eaf6fc 100%)}#divAppUserProfile #divProfileLoyaltyProgress.Diamond{background:linear-gradient(90deg,#4f78c8 0,#bfe8ff 100%)}#divAppUserProfile #divProfileLoyaltyPercentage,#divAppUserProfile #divProfileRewardPercentage{color:#fff;font-size:12px;height:16px;line-height:16px;left:0;position:absolute;right:0;text-align:center;text-shadow:0 0 3px rgba(0,0,0,.75);top:0}#divAppUserProfile .divProfileRewardBar{background-color:#292a2f;border-radius:8px;display:none;height:16px;left:20px;overflow:hidden;position:absolute;right:20px;top:129px}#divAppUserProfile.rewardsLive .divProfileRewardBar{display:block}#divAppUserProfile #divProfileRewardProgress{background:#6b42de;background:linear-gradient(270deg,#01eff9 0,#e600ff 100%);border-radius:8px;height:100%;left:0;position:absolute;top:0;transition:width .25s;width:0}#divAppUserProfile #btnInstallAsApplication{left:20px;position:absolute;right:20px;top:160px}#divAppUserProfile.rewardsLive #btnInstallAsApplication{top:184px}.iosApplication #divAppUserProfile #btnInstallAsApplication,.progressiveWebApplication #divAppUserProfile #btnInstallAsApplication{display:none}#divAppUserProfile #btnInstallAsApplication:before{background-color:#888b90;content:"";height:1px;left:0;position:absolute;right:0;top:-20px}#divAppUserProfile #divApplicationVersion{bottom:5px;font-size:11px;left:0;position:absolute;right:0;text-align:center}#divAppUserProfile #divApplicationVersion:before{content:"Play.co.za v"}.vidInstallPwa{background-color:#000}@keyframes bounceIndication{0%{transform:scale(1,1) translateY(0)}5%{transform:scale(1.1,.9) translateY(0)}15%{transform:scale(.9,1.1) translateY(-8px)}25%{transform:scale(1,1) translateY(0)}29%{transform:scale(1,1) translateY(-1px)}32%{transform:scale(1,1) translateY(0)}100%{transform:scale(1,1) translateY(0)}}@keyframes pulsateCopyId{0%{color:#0f0}99%{color:#fff}100%{color:inherit}}@media (max-width:1600px){#divAppHeader #divHeaderProfile{margin-right:30px}#divAppUserProfile .divUserProfilePopup{right:280px}}@media (max-width:1200px){#divAppUserProfile .divUserProfilePopup{right:20px}}@media (max-width:800px){#divAppHeader #divHeaderProfile{margin-right:20px;width:64px}#divHeaderProfile #divHeaderUserIcon{height:44px;margin:0 10px;width:44px}#divHeaderProfile #divHeaderUserName{display:none}#divHeaderProfile .divHeaderLoyaltyBar{left:0;height:5px;position:absolute;top:45px;width:100%}}@media (max-width:380px){#divAppUserProfile .divUserProfilePopup{width:320px}}
+/* critical: keep popup roots hidden until their async feature CSS arrives */
+#divAppBalanceHistory,#divAppBirthdayBonusPopup,#divAppBonuses,#divAppChallengeDetails,#divAppEditProfile,#divAppGamblePrize,#divAppGamePopup,#divAppGameSearch,#divAppLogin,#divAppLoyaltyLevelUpPopup,#divAppLoyaltyRewards,#divAppLuckyStreakChallenge,#divAppMultiplierLeaderboards,#divAppPromotionWheel,#divAppPushNotificationIntroduction,#divAppRegister,#divAppSignUpBonusSlots,#divAppSignUpBonusSlotsV2,#divAppSignUpBonusSlotsV3,#divAppSignUpScratchers,#divAppSignUpSportScratchers,#divAppSkywarsBuyInOverlay,#divAppSkywarsPrizeOverlay,#divAppSkywarsTournamentDetails,#divAppSportMvp,#divAppSportPredictor,#divAppTournamentDetails,#divAppTournamentGamePopup,#divAppUserAlerts,#divAppUserNotifications,#divAppVipClaimedPromotions,#divAppVipSignUpWheel,#divAppWallet,#divAppWelcomePackage,#divAppWinATripScratcher{display:none}
+</style>
+        <link rel="preload" href="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/build/features.04685e67.css?v=2.5.24" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/build/features.04685e67.css?v=2.5.24"></noscript>
+                
+                    <link rel="stylesheet" href="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/components/quickVault/quickVault.css?v=2.5.24">
+        			</head>
+	<body class="hideMenu">
+                    <!-- GOOGLE RETARGETING PIXEL -->
+            <script type="text/javascript" src="https://pubads.g.doubleclick.uk.net/pixel/67056206f0402e4" async></script>
+            <!-- END GOOGLE RETARGETING PIXEL -->
+        
+        <!-- Fast Track -->
+        <div id="fasttrack-crm"></div>
+
+        <div id="divAppBody">
+            <div id="divAppContent"></div>
+
+
+			<div id="divAppFooter">
+    <div id="divProviderIcons"></div>
+    <div class="divFooterLinks">
+        <div class="divFooterColumn">
+            <img class="imgFooterLogo" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/logo.png" width="160px" height="60px" alt="Play.co.za">
+        </div>
+                <div class="divFooterColumn">
+            <div class="divFooterHeading">CASINO GAMES</div>
+            <div class="divFooterLink" data-route="/promotions">Promotions</div>
+            <div class="divFooterLink" data-route="/loyalty-rewards">Loyalty Rewards</div>
+            <div class="divFooterLink" data-route="/live-dealer">Live Casino Games</div>
+            <div class="divFooterLink" data-route="/sport">Sport Betting</div>
+        </div>
+                <div class="divFooterColumn">
+            <div class="divFooterHeading">SUPPORT</div>
+            <div class="divFooterLink" data-route="/contact-us">Contact Us</div>
+            <div class="divFooterLink" data-route="/faq">FAQ</div>            <div class="divFooterLink" data-route="/payment-options">Payment Options</div>
+            <div class="divFooterLink" data-route="/game-rules">Game Rules</div>            <div class="divFooterLink" data-route="/sportsbook-rules-2026">Sportsbook Rules</div>
+            <div class="divFooterLink" data-route="/fica-compliance">FICA Compliance</div>
+            <div class="divFooterLink" data-route="/responsible-gambling">Responsible Gambling</div>
+            <div class="divFooterLink" data-route="/self-exclusion">Self Exclusion</div>
+        </div>
+        <div class="divFooterColumn">
+            <div class="divFooterHeading">ABOUT US</div>
+            <div class="divFooterLink" data-route="/about-us">About Us</div>            <div class="divFooterLink" data-route="/terms-and-conditions">Terms & Conditions</div>
+            
+            <div class="divFooterLink" data-route="/privacy-policy">Privacy Policy</div>
+            <div class="divFooterLink" data-route="/cookie-policy">Cookie Policy</div>
+            <div class="divFooterLink" data-route="/welcome-promotion-terms-and-conditions">Welcome Promotions</div>        </div>
+        <div class="divFooterColumn">
+            <div class="divFooterHeading">PAYMENT OPTIONS</div>
+            <img class="imgFooterApplePay" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/wallet/apay.svg" alt="Apple Pay" />
+            <img class="imgFooterGooglePay" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/wallet/gpay.svg" alt="Google Pay" />
+            <img class="imgFooterVisa" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/footer/visa.webp" alt="VISA" />
+            <img class="imgFooterMasterCard" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/footer/masterCard.webp" alt="Master Card" />
+            <img class="imgFooterInstantEft" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/footer/instantEft.webp" alt="Instant EFT" />
+            <img class="imgFooterCapitecPay" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/wallet/capitecPay.svg" alt="Capitec Pay" />
+            <img class="imgFooterOneVoucher" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/wallet/oneVoucher.svg" alt="One Voucher" />
+            <img class="imgFooterOttVoucher" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/wallet/ott.png" alt="OTT Voucher" />
+            <img class="imgFooterEasyPayVoucher" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/footer/easyPayVoucher.svg" alt="Easy Pay Voucher" />
+            <div class="divFooterText">This website offers gambling with risk experience. To be a user of our site you must be over 18 y.o. We are not responsible for the violation of your local laws related to igaming.</div>
+        </div>
+    </div>
+    <div class="divFooterBottom">
+        <div id="divFooterClock" class="divFooterText divFooterClock">Monday, 02 November 2026 05:01:07</div>
+        <div class="divFooterText">Play.co.za is operated by Betflash (Pty) LTD. Registration Number 2011/135672/07. Licensed by the <a href="https://www.wcgrb.co.za" target="_blank">Western Cape Gambling and Racing Board</a>.
+            <div>Western Cape - License Number: 10172287-015</div>
+        </div>
+        <div class="divFooterText">Play.co.za is operated by All Star 777 (Pty) Ltd, licensed by the <a href="https://ecgb.org.za" target="_blank">Eastern Cape Gambling Board</a> under license number <a href="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/pdfs/ecgb-licence-ecbm-042.pdf" target="_blank" rel="noopener">ECBM 042 (All Star 777 (Pty) Ltd, Registration Number 2025/540453/07)</a>
+            <div>248 Walmer Boulevard, South End, Gqeberha, Eastern Cape. Office Tel: +27 87 138 6703</div>
+        </div>
+        <div class="divFooterText">Wellington Road, Durbanville, 7550. Tel: +27 87 138 6703. Email: <a href="mailto:support@play.co.za">support@play.co.za</a></div>
+        <div class="divFooterText"><a href="https://www.wcgrb.co.za" target="_blank">Western Cape Gambling and Racing Board</a> Contact Details PO Box 8175, Roggebaai, 8012. Tel: +27 021 480 7400, Fax: +27 021 422 2614</div>
+        <div class="divFooterText"><a href="https://ecgb.org.za" target="_blank">Eastern Cape Gambling Board</a> Contact Details Quenera Office Park, Beacon Bay, East London. Tel: +27 (0) 43 702 8300, Email: <a href="mailto:communications@ecgb.org.za">communications@ecgb.org.za</a></div>
+        <div class="divFooterText">Only for persons 18 years and older. Please gamble responsibly and control your gambling habits as gambling can be harmful and addictive. Winners know when to stop. South African Responsible Gambling Foundation toll-free counselling line 0800 006 008 or Whatsapp HELP to 076 675 0710. For more info, visit the <a href="https://www.ngb.org.za" target="_blank">National Gaming Board</a> website, <a href="https://www.fic.gov.za/Pages/Home.aspx" target="_blank">Financial Intelligence Centre Act</a> website and the <a href="https://responsiblegambling.org.za/" target="_blank">National Responsible Gambling Programme</a> website.</div>
+        <div class="divFooterImportantLinksHeading">Important Links:</div>
+        <div class="divFooterImportantLinks">
+            <a href="/betting-limits">Betting Limits</a>
+            <a href="https://www.wcgrb.co.za/wp-content/uploads/2019/08/Bookmakers-Operational-Rules-15-June-2017.pdf" target="_blank">Bookmaker's Operational Rules</a>
+            <a href="https://www.wcgrb.co.za/wp-content/uploads/2019/08/Totalisator-Operational-Rules.pdf" target="_blank">Totalisator Operational Rules</a>
+            <a href="https://www.wcgrb.co.za/wp-content/uploads/2019/08/Racing_and_Betting_Operational_Rules.pdf" target="_blank">Racing and Betting Operational Rules</a>
+            <a href="/news">Latest News</a>
+        </div>
+        <div class="divSocialLinks">
+            <a href="https://www.facebook.com/Play.co.zaSouthAfrica/" class="fa fa-facebook" target="_blank">&ZeroWidthSpace;</a>
+            <a href="https://www.instagram.com/play.coza/" class="fa fa-instagram" target="_blank">&ZeroWidthSpace;</a>
+            <a href="https://www.youtube.com/@playcoza" class="fa fa-youtube" target="_blank">&ZeroWidthSpace;</a>
+            <a href="https://twitter.com/play_coza?s=11&t=Jbi2QdYRUxbDR7T1DlYqnQ" target="_blank">
+                <img class="imgX" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/footer/x.svg" width="26px" height="26px" alt="X Social Media"/>
+            </a>
+			<a href="https://t.me/play_coza" class="fa fa-telegram" target="_blank">&ZeroWidthSpace;</a>
+            <a href="https://www.hellopeter.com/playcoza" target="_blank">
+                <img class="imgHelloPeter" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/footer/hellopeter.svg" width="100px" height="25px" alt="HelloPeter"/>
+            </a>
+        </div>
+        <div class="divCopyright">Play.co.za | Copyright 2026</div>
+        <a href="https://www.begambleaware.org/" target="_blank">
+            <img class="imgBeGambleAware" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/footer/beGambleAware.webp" width="350px" height="45px" alt="Be Gamble Aware 18+"/>
+        </a>
+        <div class="divEighteenPlus">18+</div>
+    </div>
+</div>
+		</div>
+		<div id="divAppHeader">
+    <div id="btnHeaderMenu"></div>
+    <div id="divHeaderLogo"></div>
+    <div id="divHeaderWallet" class="authenticated">
+        <span class="spnWalletRand randBefore"></span>
+        <div id="divHeaderBalance"></div>
+        <span class="spnWalletArrow"></span>
+    </div>
+    <button id="btnPromotions" class="blue authenticated">Promotions</button>
+    <div id="divHeaderSearch"></div>
+    <div id="divHeaderSupport"></div>
+    <div id="divHeaderNotifications" class="authenticated"></div>
+    <button id="btnSignIn" class="blue">SIGN IN</button>
+    <button id="btnRegister" class="blue">REGISTER</button>
+    <div id="divHeaderProfile" class="authenticated">
+        <div id="divHeaderUserIcon"></div>
+        <div id="divHeaderUserName"></div>
+        <div class="divHeaderLoyaltyBar">
+            <div id="divHeaderLoyaltyProgress"></div>
+        </div>
+    </div>
+</div>		<div id="divAppMenu">
+    <div id="divMenuOverlay"></div>
+    <div class="divMenuContainer">
+        <div class="divMenuHeader">
+            <img id="imgMenuLogo" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/logo.png" alt="Play.co.za">
+            <div id="btnCloseMenu"></div>
+        </div>
+        <div id="divMenuItemsContainer">
+            <div id="divFeaturedItems">
+                <svg id="svgFeaturedBorder" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="featuredHeaderGrad" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#a872ff"/>
+                            <stop offset="8%" stop-color="#9450ec"/>
+                            <stop offset="28%" stop-color="#6322b8"/>
+                            <stop offset="60%" stop-color="#4e169a"/>
+                            <stop offset="100%" stop-color="#9450ec"/>
+                        </linearGradient>
+                    </defs>
+                    <path id="svgFeaturedBorderLine" d="" fill="#23232C" stroke="url(#featuredHeaderGrad)" stroke-width="2.5" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+                </svg>
+                <div id="btnMultiplierLeaderboards"></div>
+                <div id="btnLuckyStreakChallenge"></div>
+                <div id="divBirthdayBonusButton"></div>
+                <div id="divVipClaimedPromotionsButton"></div>
+                <div id="divPromotionButtons"></div>
+            </div>
+            <div id="divLoyaltyLevelUpFeature">
+                <div id="divLoyaltyLevelUpButton">
+                    <span id="spnLoyaltyLevelUpEyebrow">Level Up</span>
+                    <span id="spnLoyaltyLevelUpTitle">Choose Your Reward</span>
+                </div>
+            </div>
+            <div id="divMenuItems"></div>
+        </div>
+    </div>
+</div>
+<!-- DO NOT REMOVE -->
+<script>if(window.innerWidth>1200)document.body.classList.remove('hideMenu');</script>        <div id="divAppGameSearch">
+    <div id="divGameSearchOverlay"></div>
+    <div id="divGameSearchPopup">
+        <h3 class="h3PopupHeading">Game Search</h3>
+        <div id="btnClosePopup"></div>
+        <div id="txtSearchValue"></div>
+        <div id="divGameList"></div>
+    </div>
+</div>		<div id="divAppUserProfile">
+    <div id="divUserProfileOverlay"></div>
+    <div class="divUserProfilePopup">
+        <div id="divProfileUserIcon"></div>
+        <div id="divProfileUserName"></div>
+        <div id="btnProfileEdit" class="fa fa-pencil"></div>
+        <div id="divProfileUserId"class="fa fa-clone"></div>
+        <div id="divProfileLoyaltyTier"></div>
+        <div class="divProfileLoyaltyBar">
+            <div id="divProfileLoyaltyProgress"></div>
+            <div id="divProfileLoyaltyPercentage"></div>
+        </div>
+        
+        <div class="divProfileRewardBar">
+            <div id="divProfileRewardProgress"></div>
+            <div id="divProfileRewardPercentage"></div>
+        </div>
+		<button id="btnInstallAsApplication">Install the Play.co.za App</button>
+		<div id="divApplicationVersion"></div>
+    </div>
+</div>		<div id="divAppEditProfile">
+    <div id="divEditProfilePopup">
+        <h3 class="h3PopupHeading">Profile</h3>
+        <div id="btnClosePopup"></div>
+        <div id="divSettingsTabs"></div>
+        <div class="divChangeDetails">
+            <div id="txtUserId"></div>
+            <div id="txtEmailAddress"></div>
+            <div id="txtMobileNumber"></div>
+			<div id="divPushNotifications"></div>
+			<button id="btnPushNotifications" class="blue"></button>
+			<div class="divHr"></div>
+            <div id="divQuickSignIn"></div>
+            <button id="btnClearQuickSignIn" class="blue">Clear Quick Sign-in</button>
+			<div class="divHr"></div>
+            <button id="btnInstallAsApplication">Install Play.co.za as Application</button>
+        </div>
+        <div class="divChangePassword">
+            
+            <div id="divPasswordOtpInfo" class="divOtpInfo">Tap <strong>Send OTP</strong> and we will SMS a One Time Pin to the mobile number registered on your account. The OTP is not emailed.</div>
+            <div id="divPasswordOtpTimer" class="otp-timer"></div>
+            <div id="txtEnterOtp"></div>
+            <button id="btnSendOtp" class="blueLarge">Send OTP</button>
+            <div id="txtOldPassword"></div>
+            <div id="txtNewPassword"></div>
+            <button id="btnUpdatePassword" class="large">UPDATE PASSWORD</button>
+        </div>
+        <div class="divBankAccounts">
+            <div id="divBankAccountsList"></div>
+            <input type="file" id="filBankDocument" accept=".pdf,.jpg,.jpeg,.png" style="display:none"/>
+            <div id="divBankAccountAdd">
+                <div class="divHr"></div>
+                <div id="drdBankAcctBank"></div>
+                <div class="divBankAcctTypeLabel">Account Type</div>
+                <div class="divBankAcctTypes">
+                    <div id="rbtBankAcctCheque" class="radioButton">Cheque</div>
+                    <div id="rbtBankAcctSavings" class="radioButton">Savings</div>
+                </div>
+                <div id="txtBankAcctNumber"></div>
+                <div id="txtBankAcctHolder"></div>
+                <button id="btnAddBankAccountProfile" class="large">ADD BANK ACCOUNT</button>
+            </div>
+        </div>
+        <div class="divResponsibleGambling">
+            <h4>Temporary Account Closure</h4>
+            <p>You may temporarily close your account for a selected period. During this time, you will not be able to log in or play any games. Your account will automatically reopen once the selected period has ended.</p>
+            <div id="divClosureStatus"></div>
+            <div id="divClosureOptions">
+                <button class="btnClosure" data-hours="3" data-label="3 Hours">3 Hours</button>
+                <button class="btnClosure" data-hours="12" data-label="12 Hours">12 Hours</button>
+                <button class="btnClosure" data-hours="24" data-label="24 Hours">24 Hours</button>
+                <button class="btnClosure" data-hours="48" data-label="48 Hours">48 Hours</button>
+                <button class="btnClosure" data-hours="72" data-label="72 Hours">72 Hours</button>
+                <button class="btnClosure" data-hours="336" data-label="2 Weeks">2 Weeks</button>
+                <button class="btnClosure" data-hours="720" data-label="1 Month">1 Month</button>
+            </div>
+            
+            <div id="divClosureReasonTemplate" style="display:none">
+                <div class="divClosureReasons">
+                    <h5 class="closureReasonHeading">Why are you taking a break? <span class="closureReasonOptional">(optional)</span></h5>
+                                            <label class="closureReasonOption"><input type="radio" name="closureReason" value="too_much_time" data-free-text="0"/> Spending too much time playing</label>
+                                            <label class="closureReasonOption"><input type="radio" name="closureReason" value="over_budget" data-free-text="0"/> Spending more than I planned</label>
+                                            <label class="closureReasonOption"><input type="radio" name="closureReason" value="wellbeing_break" data-free-text="0"/> Need a break for my wellbeing</label>
+                                            <label class="closureReasonOption"><input type="radio" name="closureReason" value="technical_or_other" data-free-text="0"/> Technical Issues</label>
+                                            <label class="closureReasonOption"><input type="radio" name="closureReason" value="games_promotions_not_for_me" data-free-text="0"/> Games or promotions aren&#039;t for me right now</label>
+                                            <label class="closureReasonOption"><input type="radio" name="closureReason" value="service_related" data-free-text="0"/> Service Related</label>
+                                        <input type="text" class="closureReasonOther" placeholder="Tell us more" maxlength="500"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div id="divAppSkywarsTournamentDetails">
+    <div id="divTournamentDetailsPopup">
+        <h3 id="h3PopupHeading"></h3>
+        <div id="btnRefresh" class="fa fa-refresh"></div>
+        <div id="btnClosePopup"></div>
+        <div id="divTournamentDetailsTabs"></div>
+        <div class="divTournamentDetails">
+			<div id="divTournamentTimer"></div>
+            <div id="divGameName"></div>
+			<div id="divYourPosition"></div>
+            <div id="divPrizePool"></div>
+            <div id="divBuyIn"></div>
+            <div id="divPlayersJoined"></div>
+            <div id="divMinPlayers"></div>
+            <div id="divMaxPlayers"></div>
+            <div id="divRegistrationStart"></div>
+            <div id="divRegistrationEnd"></div>
+			<div id="divTournamentStart"></div>
+            <div id="divTournamentEnd"></div>
+            <button id="btnJoinPlay" class="large"></button>
+        </div>
+        <div class="divLeaderboard">
+            <div id="divLeaderboardDetails">
+                <div class="divLeaderboardYourPosition">YOUR POSITION</div>
+                <div id="divLeaderboardYourPositionValue" class="textBlue"></div>
+                <div class="divLeaderboardPlayersJoined">PLAYERS JOINED</div>
+                <div id="divLeaderboardPlayersJoinedValue" class="textBlue"></div>
+            </div>
+            <div class="divLeaderboardHeaderRow">
+                <div class="divLeaderboardHeaderPosition">#</div>
+                <div class="divLeaderboardHeaderUser">User</div>
+                <div class="divLeaderboardHeaderPoints">Points</div>
+            </div>
+            <div id="divLeaderboardList"></div>
+        </div>
+        <div class="divPrizePool">
+            <div class="divPrizePoolHeaderRow">
+                <div class="divPrizePoolHeaderPosition">#</div>
+                <div class="divPrizePoolHeaderPercentage">Percentage</div>
+            </div>
+            <div id="divPrizePoolList"></div>
+        </div>
+    </div>
+</div>
+		<div id="divAppTournamentGamePopup">
+	<div id="divTournamentGamePopup">
+		<div class="divGameName"></div>
+		<div id="divTournamentTitle"></div>
+		<div id="btnFullScreen"></div>
+		<div id="btnClosePopup"></div>
+		<div class="divGameBackground">
+			<img class="imgLoaderLogo" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loader.webp" alt="Play.co.za">
+			<div class="divLoading">Loading...</div>
+		</div>
+		<div id="divEntriesCount"></div>
+		<div id="btnPrizePool"><img src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/skywars/prizepool_coins.webp" alt="Prize Pool"></div>
+	</div>
+	<div id="divPrizePoolPopup">
+		<div id="divPrizePool"></div>
+		<div id="btnClosePrizePool"></div>
+	</div>
+</div>        <div id="divAppSkywarsBuyInOverlay">
+	<div id="divSkywarsBuyInPopup">
+		<div id="btnCloseBuyIn"></div>
+		<div id="divBuyInHeading"></div>
+		<div id="divBuyInOptions"></div>
+		<div id="btnCancelBuyIn">Cancel</div>
+	</div>
+</div>        <div id="divAppSkywarsPrizeOverlay">
+	<div id="divPrizeMessage"></div>
+</div>		<div id="divAppTournamentDetails">
+    <div id="divTournamentDetailsPopup">
+        <h3 id="h3PopupHeading"></h3>
+        <div id="btnRefresh" class="fa fa-refresh"></div>
+        <div id="btnClosePopup"></div>
+        <div id="divTournamentDetailsTabs"></div>
+        <div class="divDetails">
+            <div id="divYourPosition">N/A</div>
+            <div id="divPrizePool"></div>
+            <div id="divBuyIn"></div>
+            <div id="divPlayerCount"></div>
+            <div id="divMinBet"></div>
+            <div id="divMaxBet"></div>
+            <div id="divMinRounds"></div>
+            <div id="divTournamentStart"></div>
+            <div id="divTournamentEnd"></div>
+            <button id="btnJoinNow" class="large">JOIN NOW</button>
+        </div>
+        <div id="divGames"></div>
+        <div class="divLeaderboard">
+            <div id="divLeaderboardRowDetails">
+                <div class="divLeaderboardMyPositionText textBlue">YOUR POSITION</div>
+                <div id="divLeaderboardMyPosition" class="textPurple"></div>
+                <div class="divLeaderboardUsersJoinedText textBlue">USERS JOINED</div>
+                <div id="divLeaderboardUsersJoined" class="textPurple"></div>
+            </div>
+            <div class="divLeaderboardRow">
+                <div class="divHeaderPosition">#</div>
+                <div class="divHeaderUser">USER</div>
+                <div class="divHeaderPoints">BOUNTY</div>
+            </div>
+            <div id="divLeaderboardList"></div>
+        </div>
+        <div class="divPrizePool">
+            <div class="divPrizePoolRow">
+                <div class="divHeaderPrizePoolPosition">#</div>
+                <div class="divHeaderPrizePoolPercentage">Percentage</div>
+                <div class="divHeaderPrizePoolAmount">Prize</div>
+            </div>
+            <div id="divPrizePoolList"></div>
+        </div>
+    </div>
+</div>
+		<div id="divAppUserNotifications">
+    <div id="divUserNotificationsOverlay"></div>
+    <div id="divUserNotificationsPopup">
+        <h3 class="h3PopupHeading">Inbox</h3>
+        <div id="btnClosePopup"></div>
+        <div id="divUserNotifications"></div>
+        <div class="divUserNotification">
+            <div id="btnBackToNotifiactions">BACK</div>
+            <div id="divNotificationDate"></div>
+            <div id="divNotificationTitle"></div>
+            <div id="divNotificationMessage"></div>
+            <button id="btnDeleteNotification" class="blue">Delete</button>
+        </div>
+    </div>
+</div>		<div id="divAppWallet">
+    <div id="divWalletPopup">
+        <h3 class="h3PopupHeading">Wallet</h3>
+        <div id="btnClosePopup"></div>
+        <div id="divWalletTabs"></div>
+        <div class="divBalanceSection">
+            <div class="divBalanceLabel">Balance:</div>
+            <div id="divNormalBalance"></div>
+            <div class="divBalanceLabel">Bonus:</div>
+            <div id="divBonusBalance"></div>
+            <div id="btnBalanceInfo" class="fa fa-info-circle"></div>
+            
+                            <div id="divVaultedRow" style="display:none">
+                    <div class="divBalanceLabel">Vault:</div>
+                    <div id="divVaultedBalance"></div>
+                </div>
+                    </div>
+        <div class="divDeposit">
+            <div id="divDepositStepWrapper">
+                <div id="divDepositSteps">
+                    <div id="divDepositStep1" class="divDepositStep">
+                        <div id="divFreespinTiles"></div>
+                        <button id="btnSkipFreespins" class="large">SKIP</button>
+                    </div>
+                    <div id="divDepositStep2" class="divDepositStep">
+                        <div id="divStep2Header"></div>
+                        <div id="divDepositTypes"></div>
+                        <div id="divStep2Footer"></div>
+                        <button id="btnStep2Back" class="large">BACK</button>
+                    </div>
+                    <div id="divDepositStep3" class="divDepositStep">
+                        <div id="divStep3Header"></div>
+                        <div id="divDepositPresets"></div>
+                        <div id="txtDepositAmount"></div>
+                        <div id="divCards">
+                            <div id="divRememberedCards"></div>
+                            <div id="chkRememberCard" class="checkbox">Remember card details</div>
+                        </div>
+                        <button id="btnDeposit" class="large">DEPOSIT</button>
+                        <button id="btnStepBack" class="large">BACK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divWithdraw">
+            <div class="divWithdrawNote"></div>
+            <div id="divWalletBankAccounts"></div>
+            <div id="divWithdrawAccount"></div>
+            <div id="drdWithdrawAccount"></div>
+            <div id="btnChangeAccount" class="textBlue">Add bank account</div>
+            <div id="txtWithdrawAmount"></div>
+            <div id="divWalletAccountsHr" class="divHr" style="display:none"></div>
+            <div id="divWithdrawNewAccount">
+                <div id="drdBank"></div>
+                <div class="divWithdrawTypeLabel">Account Type</div>
+                <div class="divAccountTypes">
+                    <div id="rbtCheque" class="radioButton">Cheque</div>
+                    <div id="rbtSavings" class="radioButton">Savings</div>
+                </div>
+                <div id="txtAccountNumber"></div>
+                <div id="txtAccountHolder"></div>
+            </div>
+            <button id="btnAddBankAccount" class="large">ADD BANK ACCOUNT</button>
+            <div id="btnCancelAddAccount" class="textBlue" style="display:none">Cancel</div>
+            <input type="file" id="filWithdrawDocument" accept=".pdf,.jpg,.jpeg,.png" style="display:none"/>
+            <input type="file" id="filIdDocument" accept=".pdf,.jpg,.jpeg,.png" style="display:none"/>
+            <div id="drdSourceOfFunds"></div>
+            <button id="btnWithdraw" class="large">WITHDRAW</button>
+            <div class="divCancelWithdrawal">
+                <div id="divCancelText"></div>
+                <button id="btnCancelWithdrawal" class="blue">Cancel Withdrawal</button>
+            </div>
+        </div>
+        <div class="divLimits">
+            
+            <div id="divWithdrawalLimit" class="divWithdrawalLimit"></div>
+            <div class="divWithdrawalLimitNote">All accounts must be <span class="textBlue">verified with Play.co.za</span> and a <span class="textBlue">minimum deposit of R100</span> is required to qualify for withdrawals. For more information, please contact support.</div>
+        </div>
+        
+                    <div class="divVault">
+                <div id="divVaultSummary"></div>
+                <div id="divVaultNote"></div>
+                <div id="divVaultPresets"></div>
+                <div id="txtVaultAmount"></div>
+                
+                <div class="divVaultActions">
+                    <button id="btnVaultDeposit" class="large">MOVE IN</button>
+                    <button id="btnVaultWithdraw" class="blue">MOVE OUT</button>
+                </div>
+                
+                <div id="divVaultLock">
+                    <div id="divVaultLockStatus"></div>
+                    <button id="btnVaultLock" class="blue">LOCK VAULT</button>
+                </div>
+            </div>
+                <div id="divTransactionHistory">Transaction History</div>
+    </div>
+</div>		<div id="divAppBonuses">
+    <div id="divBonusesOverlay"></div>
+    <div id="divBonusesPopup">
+        <h3 class="h3PopupHeading">Bonuses</h3>
+        <div id="btnClosePopup"></div>
+        <div class="divBalanceSection">
+            <div class="divBalanceLabel">Balance:</div>
+            <div id="divNormalBalance"></div>
+            <div class="divBalanceLabel">Bonus:</div>
+            <div id="divBonusBalance"></div>
+            <div id="btnBalanceInfo" class="fa fa-info-circle"></div>
+        </div>
+		<div class="divRedeemSection">
+			<div id="txtEnterCode"></div>
+			<button id="btnRedeemCode">REDEEM</button>
+		</div>
+		<div class="divPendingCouponSection">
+			<div id="divPendingCouponName"></div>
+			<div id="divPendingCouponInfo"></div>
+            <button id="btnCancelPendingCoupon" class="purple">Cancel Bonus</button>
+			<button id="btnDepositNow" class="blue">Deposit Now</button>
+		</div>
+		<div class="divFreeSpinCampaignSection">
+			<div id="divFreeSpinCampaignName"></div>
+			<button id="btnFreeSpinCampaignDeposit" class="blue">Deposit</button>
+		</div>
+		<div class="divMyBonusesSection">
+			<div class="divMyBonusesHeadings">
+				<span>MY BONUSES</span>
+				<span>STATUS</span>
+				<span>TYPE</span>
+			</div>
+			<div id="divBonusList">
+				<img class="imgLoaderLogo" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loader.webp" alt="Play.co.za">
+				<div class="divLoading">Loading...</div>
+			</div>
+		</div>
+		<div id="divBonusesUserId"></div>
+    </div>
+</div>
+		<div id="divAppFloatingMenu"></div>		<div id="divAppGameSlideOut">
+    <div id="divGameSlideOutOverlay"></div>
+    <div class="divGameSlideOutPanel">
+        <div id="btnCloseGameSlideOut"></div>
+        <div class="divGameLabel">
+            <div id="divGameName"></div>
+            <div id="btnGameFavourite" class="authenticated fa"></div>
+        </div>
+        <div id="divGameProvider"></div>
+        <div id="divGameImage"></div>
+        <div class="divPlayContainer">
+            <div id="btnPlay"></div>
+        </div>
+        <div class="divDemoContainer">
+            <div id="btnDemo"></div>
+        </div>
+        <div class="divTournamentContainer">
+            <div id="btnTournament"></div>
+        </div>
+		<div id="divGameRating"></div>
+		<a id="lnkGameMoreInfo" href="#">More Info</a>
+    </div>
+</div>
+		<div id="divAppGamePopup" class="activeTournament">
+    <div id="divGamePopup">
+        <div id="divGameName"></div>
+        <div id="divGameProvider"></div>
+        <div class="divGamePopupLoyaltyBar">
+            <div id="divGamePopupLoyaltyProgress"></div>
+            <div id="divGamePopupLoyaltyPercentage"></div>
+        </div>
+        <div id="divGamePopupBonusBar">
+            <div id="divGamePopupBonusProgress"></div>
+            <div id="divGamePopupBonusPercentage"></div>
+        </div>
+        <div id="btnFullScreen"></div>
+        <div id="btnClosePopup"></div>
+        
+        <div class="divGamePopupActions">
+            <div id="btnTopupGame"><img alt="Top up"><span class="spnTopupLabel">Topup</span></div>
+            
+                            <div id="btnVaultGame"><img src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/icons/vault.svg" alt="Vault"><span class="spnVaultLabel">Vault</span></div>
+                        <div class="divGamePopupActionsRight">
+                <div id="btnActiveChallenge">Challenge</div>
+                
+                <div id="btnGamePopupLoyaltyReward"><span id="spnGamePopupLoyaltyRewardLabel">Reward</span></div>
+                <div id="btnGamePopupMultiplierLeaderboards"><img src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/icons/leaderboard.svg" alt="Multiplier Madness"><span class="spnMultiplierLeaderboardsLabel">Multiplier<br>Madness</span></div>
+            </div>
+        </div>
+        <div class="divGamePopupBackground">
+            <img class="imgLoaderLogo" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loader.webp" alt="Play.co.za">
+            <div class="divLoading">Loading...</div>
+        </div>
+        <div id="divGamePopupTournamentDetails">
+            <div id="divGamePopupTournamentInfo" class="textBlue">
+                <div>Tournament Position: <span id="divGamePopupTournamentPosition" class="textBlue"></span></div>
+                <div>Min Bet: <span id="divGamePopupTournamentMinBet" class="textBlue"></span></div>
+            </div>
+            <div id="divGamePopupTournamentActions">
+                <button id="btnViewTournamentLeaderboard" class="blue">Leaderboard</button>
+            </div>
+        </div>
+    </div>
+</div>
+		<div id="divAppChallengeDetails">
+	<div id="divChallengeDetailsPopup">
+		<div class="divPopupBorder"></div>
+		<div id="btnClosePopup"></div>
+		<div id="divGameVideo"></div>
+		<div class="divDetailsView">
+			<div id="divChallengeDescription"></div>
+			<div id="divChallengeReward"></div>
+			<div id="divChallengeStatus"></div>
+			<div id="divChallengeActions">
+				<button id="btnJoinChallenge" class="blue">Join Challenge</button>
+			</div>
+		</div>
+		<div class="divCompletedView">
+			<div class="divCompletedStamp"></div>
+			<div class="divChallengeCompleted">Challenge Completed!</div>
+			<div id="divCompletedChallengeReward"></div>
+		</div>
+		<div class="divExpiredView">
+			<div class="divChallengeExpired">Challenge Expired!</div>
+			<div class="divExpiredChallengeDetails">Your active challenge is no longer available. Congratulations to our winners.</div>
+		</div>
+	</div>
+</div>		<div id="divAppLuckyStreakChallenge">
+    <div id="divLuckyStreakChallengePopup">
+		<div id="btnInfo" class="fa fa-info-circle"></div>
+        <div id="btnClosePopup"></div>
+		<div id="btnMuteMusic" class="fa fa-volume-up"></div>
+		<div id="divDetailsView">
+			<img class="imgDetailsHeading" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/promotions/luckyStreakChallenge/luckyStreakHeading.webp" alt="Lucky Streak Challenge"/>
+			<div class="divLuckyStreakInfo"><span>Gameplay:</span> You get 7 guesses per round.<br/><span>Objective:</span> Build the longest streak of successful rounds.</div>
+			<div class="divActionButtons">
+				<div id="btnPlayNow">PLAY NOW (R10)</div>
+				<div id="btnEntryPackages">ENTRY PACKAGES</div>
+			</div>
+		</div>
+		<div id="divGameView">
+			<img class="imgGameHeading" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/promotions/luckyStreakChallenge/luckyStreakHeading.webp" alt="Lucky Streak Challenge"/>
+			<div class="divGameDetails">
+				<div id="divCurrentRound"></div>
+				<div id="divHighScore"></div>
+				<div id="divRemainingAttempts"></div>
+				<div id="divYourBest"></div>
+			</div>
+			<div id="divGameSelection"></div>
+		</div>
+		<div id="divEntryPackagesView">
+			<img class="imgEntryPackagesHeading" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/promotions/luckyStreakChallenge/luckyStreakHeading.webp" alt="Lucky Streak Challenge"/>	
+			<div class="divMyEntries">
+				<div id="divMyEntries"></div>
+			</div>
+			<div class="divEntryPackagesContent">Buy <span>Entry Packages</span> and save on entry fees!</div>
+			<div class="divEntryPackageButtons">
+				<div id="btn5Entries" class="btnEntryPackage" data-amount="5" data-fee="22.50">Hot Streak</div>
+				<div id="btn10Entries" class="btnEntryPackage" data-amount="10" data-fee="40">Fan Favourite</div>
+				<div id="btn20Entries" class="btnEntryPackage" data-amount="20" data-fee="75">Leaderboard Grinder</div>
+				<button id="btnBack">BACK</button>
+			</div>
+		</div>
+		<div id="divLeaderboard">
+			<div class="divLeaderboardVideoContainer">
+				<video id="vidLeaderboardBackground" loop muted playsinline></video>
+			</div>
+			<div class="divLeaderboardContainer">
+				<div class="divLeaderboardHeaderRow">
+					<div class="divLeaderboardCell">#</div>
+					<div class="divLeaderboardCell">PLAYER</div>
+					<div class="divLeaderboardCell">STREAK</div>
+					<div class="divLeaderboardCell">PRIZE</div>
+				</div>
+				<div id="divLeaderboardList"></div>
+			</div>
+			<div id="btnLeaderboard">LEADERBOARD</div>
+			<div id="divLeaderboardTimer"></div>
+		</div>
+		<div id="divBuyInConfirmation">
+			<div class="divBuyInConfirmationPopup">
+				<div class="divBuyInConfirmationHeading">BUY IN!</div>
+				<div class="divBuyInConfirmationContent">Are you sure you would like to enter into the Lucky Streak Challenge? <span class='textPurple'>R5</span> per entry.</div>
+				<button id="btnBuyInYes">Yes</button>
+				<button id="btnBuyInNo">No</button>
+			</div>
+		</div>
+		<div id="divNextRound">
+			<div class="divNextRoundPopup">
+				<div class="divNextRoundHeading">CONGRATULATIONS!</div>
+				<div id="divNextRoundContent"></div>
+				<button id="btnNextRound">Next Round</button>
+			</div>
+		</div>
+		<div id="divGameOver">
+			<div class="divGameOverPopup">
+				<div class="divGameOverHeading">GAME OVER!</div>
+				<div id="divGameOverContent"></div>
+				<button id="btnGameOverPlayAgain"></button>
+				<button id="btnGameOverOk">OK</button>
+			</div>
+		</div>
+    </div>
+</div>        <div id="divAppMultiplierLeaderboards" class="landingView">
+	<div id="divMultiplierLeaderboardsPopup">
+		<div id="btnCloseMultiplierLeaderboards"></div>
+		<div id="divMultiplierLeaderboardsEmpty">There are no Multiplier Leaderboards running right now.<br>Check back soon.</div>
+		<div id="divMultiplierLeaderboardsBody">
+			<div class="divLandingView">
+				<div class="divLandingHeading">
+					<img id="imgLandingBanner" alt="Landing banner"/>
+					<div id="divLandingTitle"></div>
+					<div id="divLandingPrizeTotal"></div>
+					<div id="divLandingSubtitle"></div>
+				</div>
+				<div class="divLandingSteps">
+					<div class="divLandingStep">Play an eligible game</div>
+					<div class="divLandingStep">Win <span id="spnStepsMultiplier"></span>x+ - your multiplier becomes points</div>
+					<div class="divLandingStep">Your bet value decides your leaderboard</div>
+				</div>
+				<div class="divLandingExmaple">
+					<span>SAME LEADERBOARD</span>
+					<span>12x + <s>7x</s> + 22x = <strong>34 points</strong></span>
+					<span>Below <span id="spnExampleMultiplier"></span>x doesn't count</span>
+				</div>
+				<div class="divLandingButtons">
+					<div id="btnViewEligibleGames">View eligible games</div>
+					<div id="btnHowPointsBetsWork">How points & bets work</div>
+					<div id="btnViewPrizes">View prizes</div>
+				</div>
+				<div class="divLandingLeaderboards">
+					<div class="divLandingLeaderboardsHeading">Three Leaderboards</div>
+					<div id="divLandingCountdown"></div>
+				</div>
+				<div id="divLandingTiers"></div>
+				<div class="divLandingExplainer">Your bet is the full amount paid for one spin or feature buy. You can score on all three.<span id="spnViewPrizes">View prizes</span></div>
+			</div>
+			<div class="divLeaderboardView">
+				<div id="btnLeaderboardBack"></div>
+				<div class="divLeaderboardBanner">
+					<div id="divLeaderboardTitle"></div>
+					<div id="divLeaderboardPrizePool"></div>
+					<div id="divLeaderboardBetRange"></div>
+					<div id="divLeaderboardRule"></div>
+				</div>
+				<div id="divLeaderboardTierTabs"></div>
+				<div id="divLeaderboardMyPosition"></div>
+				<div class="divLeaderboardTable">
+					<div class="divLeaderboardTableHeading">
+						<div>RANK</div>
+						<div>PLAYER</div>
+						<div>POINTS</div>
+						<div>PRIZE</div>
+					</div>
+					<div id="divLeaderboardRows"></div>
+					<div id="divLeaderboardMyRow"></div>
+					<div id="btnLeaderboardExpand"></div>
+				</div>
+				<div class="divLeaderboardSpookyBonus">
+					<div class="divLeaderboardSpookyBonusTier standard">
+						<div class="divLeaderboardSpookyBonusHeading">Spooky Bonuses <span>Deposits up to R5,000</span></div>
+						<ul>
+							<li>20% Spooky Bonus: maximum R1,000 bonus.</li>
+							<li>15% Spooky Bonus: maximum R750 bonus.</li>
+							<li>10% Spooky Bonus: maximum R500 bonus.</li>
+						</ul>
+					</div>
+					<div class="divLeaderboardSpookyBonusTier elite">
+						<div class="divLeaderboardSpookyBonusHeading">Spooky Bonuses <span>Deposits up to R25,000</span></div>
+						<ul>
+							<li>20% Spooky Bonus: maximum R5,000 bonus.</li>
+							<li>15% Spooky Bonus: maximum R3,750 bonus.</li>
+							<li>10% Spooky Bonus: maximum R2,500 bonus.</li>
+						</ul>
+					</div>
+					<div class="divLeaderboardSpookyBonusTier high_roller">
+						<div class="divLeaderboardSpookyBonusHeading">Spooky Bonuses <span>Deposits up to R100,000</span></div>
+						<ul>
+							<li>20% Spooky Bonus: maximum R20,000 bonus.</li>
+							<li>15% Spooky Bonus: maximum R15,000 bonus.</li>
+							<li>10% Spooky Bonus: maximum R10,000 bonus.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="divLeaderboardActions">
+					<div id="btnLeaderboardGames">View eligible games</div>
+					<div id="btnLeaderboardHowItWorks">How it works</div>
+				</div>
+			</div>
+			<div class="divGamesView">
+				<div id="btnGamesBack"></div>
+				<div class="divViewHeading">Eligible Games</div>
+				<div id="divGamesAll">
+					<div>Every casino game counts towards this event.</div>
+					<div id="btnGamesBrowse">Browse games</div>
+				</div>
+				<div id="divGamesList"></div>
+			</div>
+			<div class="divPrizesView">
+				<div id="btnPrizesBack"></div>
+				<div class="divViewHeading">Prizes</div>
+				<div id="divPrizesList"></div>
+			</div>
+			<div class="divHowItWorksView">
+				<div id="btnHowItWorksBack"></div>
+				<div class="divViewHeading">How It Works</div>
+				<ol class="olHowItWorks">
+					<li>Play any eligible game with real money.</li>
+					<li>Land a win of <span id="spnMultiplier"></span> your bet or more.</li>
+					<li>Your multiplier becomes points, rounded to the nearest whole number. A 12.7x win scores 13 points.</li>
+					<li>Your bet size decides which leaderboard the points go to:<ul id="ulTierInfo"></ul></li>
+					<li>Points keep adding up until the leaderboard ends. The top players on each leaderboard win the prizes.</li>
+				</ol>
+				<div class="divHowItWorksDetails">
+					<div class="divHowItWorksSubheading">What counts as a bet</div>
+					<p>The bet amount is the money paid for one spin or one in-game feature buy. A R1 spin is a R1 bet and routes to Standard. A R100 feature buy is a R100 bet and routes to High Roller, even if the slot displays a R1 base stake.</p>
+					<div class="divHowItWorksSubheading">Spooky Bonuses: how they work</div>
+					<p>Your Spooky Bonus percentage depends on your final leaderboard position. It applies to a qualifying deposit up to the limit for the leaderboard on which you earned the reward:</p>
+					<div class="divSpookyBonusTier standard">
+						<span>Standard leaderboard:</span> deposits up to R5,000
+						<ul>
+							<li>20% Spooky Bonus: maximum R1,000 bonus.</li>
+							<li>15% Spooky Bonus: maximum R750 bonus.</li>
+							<li>10% Spooky Bonus: maximum R500 bonus.</li>
+						</ul>
+					</div>
+					<div class="divSpookyBonusTier elite">
+						<span>Elite leaderboard:</span> deposits up to R25,000
+						<ul>
+							<li>20% Spooky Bonus: maximum R5,000 bonus.</li>
+							<li>15% Spooky Bonus: maximum R3,750 bonus.</li>
+							<li>10% Spooky Bonus: maximum R2,500 bonus.</li>
+						</ul>
+					</div>
+					<div class="divSpookyBonusTier high_roller">
+						<span>High Roller leaderboard:</span> deposits up to R100,000
+						<ul>
+							<li>20% Spooky Bonus: maximum R20,000 bonus.</li>
+							<li>15% Spooky Bonus: maximum R15,000 bonus.</li>
+							<li>10% Spooky Bonus: maximum R10,000 bonus.</li>
+						</ul>
+					</div>
+					<p>Smaller qualifying deposits receive the awarded percentage of the amount deposited. Deposits above the applicable limit do not increase the maximum bonus. The percentages shown are separate reward examples and are not added together.</p>
+					<div class="divHowItWorksSubheading">Claiming your Spooky Bonus</div>
+					<p>After the leaderboard ends and rewards have been allocated, your awarded offers will appear under &ldquo;My Bonuses&rdquo; in your bonus wallet. Select the Spooky Bonus you wish to claim and make your qualifying deposit.</p>
+					<p>Your deposit is credited to your real-money wallet. Your Spooky Bonus is credited separately to your bonus wallet and must be activated before you play with it.</p>
+					<p>Players may earn rewards on more than one leaderboard. Each awarded Spooky Bonus can be selected and claimed separately, using a separate qualifying deposit.</p>
+					<div class="divHowItWorksSubheading">Wagering and winnings</div>
+					<p>All cash prizes carry a 1x wagering requirement: the cash prize amount must be wagered once before withdrawal. No cap on winnings applies.</p>
+					<p>Spooky Bonuses carry a 1x wagering requirement on the bonus amount only. Once this requirement is completed, the remaining bonus balance, including winnings, transfers to your real-money wallet. No cap on bonus winnings applies.</p>
+					<p class="pHowItWorksExample">Example: Deposit R5,000 with a 20% Standard leaderboard Spooky Bonus. R5,000 goes into your real-money wallet and R1,000 goes into your bonus wallet. Activate the bonus and wager R1,000 to complete its wagering requirement. The amount transferred to your real-money wallet depends on your play results.</p>
+					<p>The deposit limits and maximum bonus amounts above still apply; &ldquo;no cap&rdquo; refers to winnings, not the amount of bonus awarded.</p>
+				</div>
+				<div class='divHowItWorksNote'>Bonus money bets do not count. Prizes are paid after the leaderboard ends. T&Cs apply. 18+</div>
+			</div>
+			<div class="divMyPointsView">
+				<div id="btnMyPointsBack"></div>
+				<div class="divViewHeading">My Points</div>
+				<div id="divMyPointsSummary"></div>
+				<div class="divMyPointsTable">
+					<div class="divMyPointsTableHeading">
+						<div>DATE</div>
+						<div>GAME</div>
+						<div>WIN</div>
+						<div>POINTS</div>
+					</div>
+					<div id="divMyPointsRows"></div>
+				</div>
+				<div id="divMyPointsNote"></div>
+			</div>
+		</div>
+	</div>
+</div>
+        <div id="divAppBirthdayBonusPopup">
+    <div id="divBirthdayBonusPopup">
+		<div id="btnCloseBirthdayPopup"></div>
+		<div class="divPopupHeading"></div>
+		<div class="divPopupSubheading">Open your presents to claim your birthday bonuses</div>
+		<div id="divBirthdayPresentsContainer"></div>
+		<div class="divBestRegards"></div>
+    </div>
+</div>
+        <div id="divAppLoyaltyLevelUpPopup">
+	<div id="divLoyaltyLevelUpPopup">
+		<div id="btnCloseLoyaltyLevelUpPopup"></div>
+		
+		<div id="divLoyaltyLevelUpPit"></div>
+		<div id="divLoyaltyLevelUpChoiceCard">
+			<div id="divLoyaltyLevelUpBadge"></div>
+			<div id="divLoyaltyLevelUpEyebrow">Level Up</div>
+			<div id="divLoyaltyLevelUpHeading"></div>
+			<div id="divLoyaltyLevelUpSubheading">Pick one reward to claim</div>
+			<div id="divLoyaltyLevelUpWithdrawal"></div>
+			<div id="divLoyaltyLevelUpOptions"></div>
+			<div id="btnLoyaltyLevelUpLater">Decide later</div>
+		</div>
+		<div id="divLoyaltyLevelUpFootnote">
+			<span id="spnLoyaltyLevelUpHint">You can only choose one</span>
+			<span id="spnLoyaltyLevelUpPending"></span>
+		</div>
+	</div>
+</div>
+        <div id="divAppPromotionWheel">
+    <div id="divPromotionWheelPopup">
+        <div id="divHollowGlitter"></div>
+        <div id="divConfetti"></div>
+        <img class="imgHeading" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/promotions/rugby10s/capeTown10sLogo.webp" alt="Promotion Heading"/>
+        <div id="btnClosePopup"></div>
+        <div id="divPromotionWheel"></div>
+        <div id="divAvailableSpins"></div>
+        <div class="divSpinProgress">
+            <div class="divSpinProgressLabel">Spin Progress</div>
+            <div class="divProgressBar">
+                <div id="divProgressFill"></div>
+                <div id="divProgressText"></div>
+            </div>
+            <div class="divTotalValueLabel">Total Free Spins</div>
+            <div id="divTotalValue"></div>
+        </div>
+        <div id="divPromotionWinnings">
+            <div class="divPromotionWinningsPopup">
+                <div id="divWinningsHeading"></div>
+                <div id="divWinningsMessage"></div>
+                <div id="divWinningsButtons"></div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div id="divAppSignUpBonusSlots">
+	<div class="divSignUpBonusSlotsPopup">
+		<video id="vidBackground" muted loop autoplay></video>
+		<div class="divCurtainContainer">
+			<img class="imgCurtainInner" alt="Curtain" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/promotions/signUpBonusSlots/curtain2.webp"/>
+		</div>
+		<div class="divCurtainContainer alignRight">
+			<img class="imgCurtainInner" alt="Curtain" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/promotions/signUpBonusSlots/curtain2.webp"/>
+		</div>
+		<div class="divWheelBoxContainer">
+			<div class="divWheelBoxSpinner">
+				<div class="divWheelSymbools spinUp"></div>
+			</div>
+			<div class="divWheelBoxSpinner">
+				<div class="divWheelSymbools spinDown"></div>
+			</div>
+			<div class="divWheelBoxSpinner">
+				<div class="divWheelSymbools spinUp"></div>
+			</div>
+			<div id="btnSpinNow"></div>
+			<div class="divPlayLogo"></div>
+		</div>
+		<div id="btnClosePopup"></div>
+	</div>
+	<div id="divIntroOverlay">
+		<div id="btnEnterTheGates"></div>
+		<div id="divIntroTermsAndConditions">Terms and Conditions Apply. 18+</div>
+	</div>
+	<div id="divTryAgainOverlay">
+		<div id="btnSpinAgain"></div>
+	</div>
+	<div id="divBonusRewardOverlay">
+		<div id="drdSelectPrize"></div>
+		<div id="btnClaimPrize"></div>
+		<div id="divBonusRewardTermsAndConditions">Terms and Conditions Apply. 18+</div>
+	</div>
+	<div id="divTermsAndConditionsOverlay">
+		<div class="divTermsAndConditionsText"><h3>Terms and Conditions</h3><br/><span>Bonus Option 1:<br/>125% SIGN UP DEPOSIT MATCH BONUS</span><br/>Min R50, Max R3000<br/>Wagering - 29X Bonus, 1X real money deposit<br/>Max Cap - 10X (Max R37,500)<br/>Excludes - "10,001 Nights", "Cash Ultimate", "Reel Rush", "Rome The Golden Age", Bac Bo", "Sic Bo", "Aviator", "Wild o Clock", "BetGames tables", Roulette & Baccarat<br/>Valid - 15days<br/><br/><span>Bonus Option 2:<br/>30x FREE SPINS SIGN UP BONUS</span><br/>Gates of Olympus 1000<br/>30x R1.00 Spins<br/>No Wagering</div>
+		<div id="btnCloseTermsAndConditions"></div>
+	</div>
+</div>        <div id="divAppSignUpBonusSlotsV2">
+	<div class="divSignUpBonusSlotsPopup">
+		<video id="vidBackground" muted loop autoplay></video>
+		<div class="divWheelBoxContainer">
+			<div class="divWheelBoxSpinner">
+				<div class="divWheelSymbools spinUp"></div>
+			</div>
+			<div class="divWheelBoxSpinner">
+				<div class="divWheelSymbools spinDown"></div>
+			</div>
+			<div class="divWheelBoxSpinner">
+				<div class="divWheelSymbools spinUp"></div>
+			</div>
+			<div id="btnSpinNow"></div>
+			<div class="divPlayLogo"></div>
+		</div>
+		<div id="btnClosePopup"></div>
+	</div>
+	<div id="divIntroOverlay">
+		<div id="btnEnterNow"></div>
+		<div id="divIntroTermsAndConditions">Terms and Conditions Apply. 18+</div>
+	</div>
+	<div id="divTryAgainOverlay">
+		<div id="btnSpinAgain"></div>
+	</div>
+	<div id="divBonusRewardOverlay">
+		<div id="drdSelectPrize"></div>
+		<div id="btnClaimPrize"></div>
+		<div id="divBonusRewardTermsAndConditions">Terms and Conditions Apply. 18+</div>
+	</div>
+	<div id="divTermsAndConditionsOverlay">
+		<div class="divTermsAndConditionsText"><h3>Terms and Conditions</h3><br/><span>Bonus Option 1:<br/>150% SIGN UP DEPOSIT MATCH BONUS</span><br/>Min R100, Max R5000<br/>Wagering - 29X Bonus, 1X real money deposit<br/>Max Cap - 10X (Max R75,000)<br/>Excludes - "10,001 Nights", "Cash Ultimate", "Reel Rush", "Rome The Golden Age", Bac Bo", "Sic Bo", "Aviator", "Wild o Clock", "BetGames tables", Roulette & Baccarat<br/>Valid - 15days<br/><br/><span>Bonus Option 2:<br/>69x FREE SPINS SIGN UP BONUS</span><br/>Wild Spells<br/>69x R1.00 Spins<br/>No Wagering</div>
+		<div id="btnCloseTermsAndConditions"></div>
+	</div>
+</div>        <div id="divAppSignUpBonusSlotsV3">
+	<div class="divSignUpBonusSlotsPopup">
+		<div class="divWheelBoxContainer">
+			<div class="divWheelBoxSpinner">
+				<div class="divWheelSymbools spinUp"></div>
+			</div>
+			<div class="divWheelBoxSpinner">
+				<div class="divWheelSymbools spinDown"></div>
+			</div>
+			<div class="divWheelBoxSpinner">
+				<div class="divWheelSymbools spinUp"></div>
+			</div>
+		</div>
+		<div class="divLeftContent">
+			<canvas id="cnvCharacterAnimation"></canvas>
+		</div>
+		<div class="divRightContent"></div>
+		<div id="btnClosePopup"></div>
+		<div id="btnSpinNow"></div>
+	</div>
+	<div id="divIntroOverlay">
+		<div id="btnEnterNow"></div>
+		<div id="divIntroTermsAndConditions">Terms and Conditions Apply. 18+</div>
+	</div>
+	<div id="divTryAgainOverlay">
+		<div id="btnSpinAgain"></div>
+	</div>
+	<div id="divBonusRewardOverlay">
+		<div id="drdSelectPrize"></div>
+		<div id="btnClaimPrize"></div>
+		<div id="divBonusRewardTermsAndConditions">Terms and Conditions Apply. 18+</div>
+	</div>
+	<div id="divTermsAndConditionsOverlay">
+		<div class="divTermsAndConditionsText"><h3>Terms and Conditions</h3><br/><span>Bonus Option 1:<br/>150% SIGN UP DEPOSIT MATCH BONUS</span><br/>Min R100, Max R5000<br/>Wagering - 29X Bonus, 1X real money deposit<br/>Max Cap - 10X (Max R75,000)<br/>Excludes - "10,001 Nights", "Cash Ultimate", "Reel Rush", "Rome The Golden Age", Bac Bo", "Sic Bo", "Aviator", "Wild o Clock", "BetGames tables", Roulette & Baccarat<br/>Valid - 15days<br/><br/><span>Bonus Option 2:<br/>69x FREE SPINS SIGN UP BONUS</span><br/>Wild Spells<br/>69x R1.00 Spins<br/>No Wagering</div>
+		<div id="btnCloseTermsAndConditions"></div>
+	</div>
+</div>        <div id="divAppSignUpScratchers">
+	<div class="divSignUpScratchersPopup">
+		<div id="btnClosePopup"></div>
+		<div id="btnToggleSound" class="fa fa-volume-up"></div>
+		<div id="btnShowInfo" class="fa fa-info"></div>
+		<div id="divPopupHeading"></div>
+		<div id="divScratcherCardOverlay"></div>
+		<div id="divScratchersGrid"></div>
+		<div class="divScratcherStats">
+			<div id="divCardsScratched"></div>
+			<div id="divTotalWinnings"></div>
+			<button id="btnClaimNow">Claim Now</button>
+		</div>
+		<div class="divFeatureStrip">
+			<div class="divFeatureItem">INSTANT FUN</div>
+			<div class="divFeatureItem">EXCITING PRIZES</div>
+			<div class="divFeatureItem">100% FAIR PLAY</div>
+			<div class="divFeatureItem">SAFE & SECURE</div>
+		</div>
+		<div id="divTermsAndConditions">
+			<div class="divTermsAndConditionsHeading">Scratch Cards Terms & Conditions</div>
+			<div class="divTermsAndConditionsSubHeading">Availability</div>
+			<p>Scratch Cards are offered as a promotional feature on Play.co.za.</p>
+			<p>They may run for a limited time and can be changed or removed at any time without prior notice.</p>
+			<div class="divTermsAndConditionsSubHeading">Participation</div>
+			<p>You must be <span class="textPurple">new to Play.co.za</span> to open a Scratch Card.</p>
+			<p>A card is revealed once you have scratched away enough of the panel.</p>
+			<div class="divTermsAndConditionsSubHeading">Winning Criteria</div>
+			<p>Match <span class="textBlue">3 of the same symbol</span> on a card to win that card's prize.</p>
+			<p>Each card shows the <span class="texttextPurpleBlue">maximum prize</span> available on that card.</p>
+			<div class="divTermsAndConditionsSubHeading">General Conditions</div>
+			<p>Standard Play.co.za Terms & Conditions apply.</p>
+			<p>We may amend, suspend, or cancel Scratch Cards at any time.</p>
+			<p>Any abuse (collusion, manipulation, etc.) will result in disqualification and may lead to account closure.</p>
+		</div>
+		<div id="divConfetti"></div>
+	</div>
+	<div id="divIntroOverlay">
+		<div class="divIntroPopup">
+			<div id="btnCloseIntroPopup"></div>
+			<div id="divIntroHeading"></div>
+			<div class="divHowItWorks">
+				<div class="divHowItWorksItem">
+					<div class="divHowItWorksImage"></div>
+					<div class="divHowItWorksContent">SCRATCH<span>Pick a card and scratch the panel with your finger or your mouse.</span></div>
+				</div>
+				<div class="divHowItWorksItem">
+					<div class="divHowItWorksImage"></div>
+					<div class="divHowItWorksContent">MATCH<span>Land 3 of the same fruit in a line to win that card's prize.</span></div>
+				</div>
+				<div class="divHowItWorksItem">
+					<div class="divHowItWorksImage"></div>
+					<div class="divHowItWorksContent">WIN<span>Your prize is shown the moment the card is revealed.</span></div>
+				</div>
+			</div>
+			<div id="btnScratchNow">
+				<span>SCRATCH NOW!</span>
+			</div>
+		</div>
+	</div>
+	<div id="divWinningsOverlay">
+		<div class="divWinningsPopup">
+			<div id="btnCloseWinningsPopup"></div>
+			<div id="divWinningsHeading"></div>
+			<div id="divWinningsText"></div>
+			<div id="btnClaimWinningsNow">
+				<span>CLAIM NOW!</span>
+			</div>
+		</div>
+	</div>
+</div>        <div id="divAppSignUpSportScratchers">
+	<div class="divSignUpSportScratchersPopup">
+		<div id="btnClosePopup"></div>
+		<div id="btnToggleSound" class="fa fa-volume-up"></div>
+		<div id="btnShowInfo" class="fa fa-info"></div>
+		<div id="divPopupHeading"></div>
+		<div id="divScratcherCardOverlay"></div>
+		<div id="divScratchersGrid"></div>
+		<div class="divScratcherStats">
+			<div id="divCardsScratched"></div>
+			<div id="divTotalWinnings"></div>
+			<button id="btnClaimNow">Claim Now</button>
+		</div>
+		<div class="divFeatureStrip">
+			<div class="divFeatureItem">INSTANT FUN</div>
+			<div class="divFeatureItem">EXCITING PRIZES</div>
+			<div class="divFeatureItem">100% FAIR PLAY</div>
+			<div class="divFeatureItem">SAFE & SECURE</div>
+		</div>
+		<div id="divTermsAndConditions">
+			<div class="divTermsAndConditionsHeading">Scratch Cards Terms & Conditions</div>
+			<div class="divTermsAndConditionsSubHeading">Availability</div>
+			<p>Scratch Cards are offered as a promotional feature on Play.co.za.</p>
+			<p>They may run for a limited time and can be changed or removed at any time without prior notice.</p>
+			<div class="divTermsAndConditionsSubHeading">Participation</div>
+			<p>You must be <span class="textPurple">new to Play.co.za</span> to open a Scratch Card.</p>
+			<p>A card is revealed once you have scratched away enough of the panel.</p>
+			<div class="divTermsAndConditionsSubHeading">Winning Criteria</div>
+			<p>Match <span class="textBlue">3 of the same symbol</span> on a card to win that card's prize.</p>
+			<p>Each card shows the <span class="texttextPurpleBlue">maximum prize</span> available on that card.</p>
+			<div class="divTermsAndConditionsSubHeading">General Conditions</div>
+			<p>Standard Play.co.za Terms & Conditions apply.</p>
+			<p>We may amend, suspend, or cancel Scratch Cards at any time.</p>
+			<p>Any abuse (collusion, manipulation, etc.) will result in disqualification and may lead to account closure.</p>
+		</div>
+		<div id="divConfetti"></div>
+	</div>
+	<div id="divIntroOverlay">
+		<div class="divIntroPopup">
+			<div id="btnCloseIntroPopup"></div>
+			<div id="divIntroHeading"></div>
+			<div class="divHowItWorks">
+				<div class="divHowItWorksItem">
+					<div class="divHowItWorksImage"></div>
+					<div class="divHowItWorksContent">SCRATCH<span>Pick a card and scratch the panel with your finger or your mouse.</span></div>
+				</div>
+				<div class="divHowItWorksItem">
+					<div class="divHowItWorksImage"></div>
+					<div class="divHowItWorksContent">MATCH<span>Land 3 of the same fruit in a line to win that card's prize.</span></div>
+				</div>
+				<div class="divHowItWorksItem">
+					<div class="divHowItWorksImage"></div>
+					<div class="divHowItWorksContent">WIN<span>Your prize is shown the moment the card is revealed.</span></div>
+				</div>
+			</div>
+			<div id="btnScratchNow">
+				<span>SCRATCH NOW!</span>
+			</div>
+		</div>
+	</div>
+	<div id="divWinningsOverlay">
+		<div class="divWinningsPopup">
+			<div id="btnCloseWinningsPopup"></div>
+			<div id="divWinningsHeading"></div>
+			<div class="divWelcomeOffer">Welcome Offer</div>
+			<div class="divWinningsText">Get 100% Cashback on Sports net losses for the first 7 days of settled bets up to <span class="textPurple">R10 000</span> (VIP).</div>
+			<div id="btnClaimWinningsNow">
+				<span>CLAIM NOW!</span>
+			</div>
+		</div>
+	</div>
+</div>		<div id="divAppSportPredictor">
+	<div id="divSportPredictorsPopup">
+		<div id="btnMuteMusic" class="fa fa-volume-up muted"></div>
+		<div id="btnCloseSportPredictors"></div>
+		<div class="divSportPredictorsPopupHeading"></div>
+		<div id="divActivePredictors"></div>
+		<div class="divInfoBox"></div>
+	</div>
+	<div id="divIntroPopup">
+		<div class="divPopupHeadingImage"></div>
+		<div id="btnCloseIntro"></div>
+		<div class="divIntroButtons">
+			<div id="btnHowItWorks" class="divIntroButton">
+				<span>Learn how to play, score points, and climb the Leaderboard.</span>
+			</div>
+			<div id="btnMakeYourPicks" class="divIntroButton">
+				<span>Predict match scores before kick-off and submit your picks.</span>
+			</div>
+			<div id="btnViewLeaderboards" class="divIntroButton">
+				<span>View the Global Leaderboard, standings and prizes.</span>
+			</div>
+			<div id="btnMyProgress" class="divIntroButton">
+				<span>Track your points, leaderboard rankings and prize progress.</span>
+			</div>
+			<div id="btnViewPools" class="divIntroButton">
+				<span>View your pools, create new pools and compete with friends.</span>
+			</div>
+			<div id="btnFAQs" class="divIntroButton">
+				<span>Get quick answers about scoring, pools, prizes and rules.</span>
+			</div>
+		</div>
+	</div>
+	<div id="divHowItWorksPopup">
+		<div class="divPopupHeadingImage"></div>
+		<div id="btnCloseHowItWorks"></div>
+		<div id="btnBackHowItWorks"></div>
+		<div id="btnTournamentDetails" class="divHowItWorksButton">
+			<span>TOURNAMENT DETAILS</span>
+		</div>
+		<div id="btnHowPointsWork" class="divHowItWorksButton">
+			<span>HOW POINTS WORK</span>
+		</div>
+		<div id="btnGrandPrize" class="divHowItWorksButton">
+			<span>GRAND PRIZE</span>
+		</div>
+		<div id="btnStageLeaderboard" class="divHowItWorksButton">
+			<span>ROUND LEADERBOARD</span>
+		</div>
+		<div id="btnOverallLeaderboard" class="divHowItWorksButton">
+			<span>GLOBAL LEADERBOARD</span>
+		</div>
+		<div id="btnHowItWorksPickNow" class="btnSportPredictorGlow">PICK NOW</div>
+		<div id="divTournamentDetails">
+			<div class="divHowItWorksContent">
+				<div class="divHowItWorksTitle">Tournament Details</div>
+				<div class="divHowItWorksCards">
+					<div id="divTournamentDescription" class="divHowItWorksCard"></div>
+				</div>
+			</div>
+		</div>
+		<div id="divHowPointsWork">
+			<div class="divHowItWorksContent">
+				<div class="divHowItWorksTitle">How Points Work</div>
+				<div class="divHowItWorksCards">
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">1</div>
+						<div class="divHowItWorksCardTitle">Make Your Prediction</div>
+						<div class="divHowItWorksCardText">Each tournament uses one of two prediction modes:<br/><br/><span class="textBlue">Exact Score</span> — Predict each team's final score using two pickers (e.g. 22 - 17).<br/><span class="textPurple">Win By</span> — Predict which team wins and by how many points using a single picker (e.g. Team A by 5, or Draw).</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">2</div>
+						<div class="divHowItWorksCardTitle">Correct Result (CR)<span id="spnCorrectResultPoints"></span></div>
+						<div class="divHowItWorksCardText">You predicted the correct outcome (which team wins or a draw) but not the exact score or margin. You still earn points for getting the result right.</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">3</div>
+						<div class="divHowItWorksCardTitle">Correct Score (CS)<span id="spnCorrectScorePoints"></span></div>
+						<div class="divHowItWorksCardText">Your prediction matched exactly. In <span class="textBlue">Exact Score</span> mode this means both teams' scores are correct. In <span class="textPurple">Win By</span> mode this means the correct winner and exact margin.</div>
+					</div>
+					<div id="divHowMarginPointsWork" class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">4</div>
+						<div class="divHowItWorksCardTitle">Margin Points (MP)<span id="spnMarginPoints"></span></div>
+						<div class="divHowItWorksCardText">If your prediction is close to the actual score (within the margin grace), you earn bonus margin points. This applies to both prediction modes and may be disabled for some tournaments.</div>
+					</div>
+					<div id="divTournamentDescription" class="divHowItWorksCard"></div>
+				</div>
+				<div class="divHowItWorksFooter">
+					<span class="textBlue">Exact Score:</span> Predict each team's score
+					<span>|</span>
+					<span class="textPurple">Win By:</span> Predict the winner and margin
+					<br/>
+					<span id="spnMatchConfiguration"></span>
+				</div>
+			</div>
+		</div>
+		<div id="divGrandPrize">
+			<div class="divHowItWorksContent">
+				<div class="divHowItWorksTitle">Grand Prize</div>
+				<div class="divHowItWorksCards">
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#127942;</div>
+						<div class="divHowItWorksCardTitle">What is the Grand Prize?</div>
+						<div class="divHowItWorksCardText">Some tournaments offer a Grand Prize for predicting a set number of correct scores across the entire tournament. Check the My Progress page to see if a Grand Prize is available.</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#127919;</div>
+						<div class="divHowItWorksCardTitle">How to Qualify</div>
+						<div class="divHowItWorksCardText">You need to correctly predict the exact score of a certain number of matches across the full tournament. The target and prize amount are displayed in your My Progress page.</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#128200;</div>
+						<div class="divHowItWorksCardTitle">No Streak Needed</div>
+						<div class="divHowItWorksCardText">Your correct scores do not need to be consecutive. They can come from any combination of matches across all rounds of the tournament.</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#129309;</div>
+						<div class="divHowItWorksCardTitle">Multiple Winners</div>
+						<div class="divHowItWorksCardText">If more than one player qualifies, the Grand Prize is shared equally between all qualifying winners.</div>
+					</div>
+				</div>
+				<div class="divHowItWorksFooter">Track your Grand Prize progress in <span>My Progress</span></div>
+			</div>
+		</div>
+		<div id="divStageLeaderboard">
+			<div class="divHowItWorksContent">
+				<div class="divHowItWorksTitle">Round Leaderboards</div>
+				<div class="divHowItWorksCards">
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#128202;</div>
+						<div class="divHowItWorksCardTitle">Separate Leaderboards</div>
+						<div class="divHowItWorksCardText">Tournaments with multiple rounds have a separate leaderboard for each round, giving you more chances to compete and win prizes.</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#9889;</div>
+						<div class="divHowItWorksCardTitle">Earn Points Every Match</div>
+						<div class="divHowItWorksCardText">Every match you predict during a round can earn you points. You do not need to get every score correct to appear on the leaderboard.</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#127941;</div>
+						<div class="divHowItWorksCardTitle">Win Multiple Prizes</div>
+						<div class="divHowItWorksCardText">You can win prizes across different rounds. Finish in a paying position on any round leaderboard to claim that round's prizes.</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#9200;</div>
+						<div class="divHowItWorksCardTitle">When Are Winners Decided?</div>
+						<div class="divHowItWorksCardText">Round leaderboard winners are decided after all matches in that round have been completed and the results have been processed.</div>
+					</div>
+				</div>
+				<div class="divHowItWorksFooter">Round prizes are shown in <span>View Prizes</span></div>
+			</div>
+		</div>
+		<div id="divOverallLeaderboard">
+			<div class="divHowItWorksContent">
+				<div class="divHowItWorksTitle">Overall Leaderboard</div>
+				<div class="divHowItWorksCards">
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#127760;</div>
+						<div class="divHowItWorksCardTitle">Full Tournament</div>
+						<div class="divHowItWorksCardText">The Overall Leaderboard runs from the first match to the final match. Your goal is to collect as many points as possible across the entire tournament.</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#128170;</div>
+						<div class="divHowItWorksCardTitle">Every Match Counts</div>
+						<div class="divHowItWorksCardText">All tournament matches count toward the Overall Leaderboard. Submit predictions for as many matches as possible and aim for correct scores to climb the rankings.</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#128176;</div>
+						<div class="divHowItWorksCardTitle">Climb to a Paying Position</div>
+						<div class="divHowItWorksCardText">Players who finish in a paying position on the Overall Leaderboard qualify for prizes. The higher you rank, the bigger the reward.</div>
+					</div>
+					<div class="divHowItWorksCard">
+						<div class="divHowItWorksCardIcon">&#128101;</div>
+						<div class="divHowItWorksCardTitle">Compete & Compare</div>
+						<div class="divHowItWorksCardText">Create or join pools to compete with friends while still being part of the Global Leaderboard. Your picks apply to all pools and leaderboards automatically.</div>
+					</div>
+				</div>
+				<div class="divHowItWorksFooter">View the Overall Leaderboard in <span>Leaderboards & Pools</span></div>
+			</div>
+		</div>
+	</div>
+	<div id="divLeaderboardPopup">
+		<div class="divPopupHeading">Leaderboards</div>
+		<div id="btnCloseLeaderboard"></div>
+		<div class="divMainContent">
+			<div>
+				<div id="divGlobalPosition"></div>
+				<div id="btnRefreshLeaderboard" class="fa fa-refresh"></div>
+			</div>
+			<div id="drdLeaderboardRound"></div>
+			<div id="divLeaderboard">
+				<div class="divRow divRowHeader">
+					<div class="divCell">#</div>
+					<div class="divCell">USER</div>
+					<div class="divCell" title="Correct Result Points - Predicted correct winner">CR</div>
+					<div class="divCell" title="Correct Score Points - Predicted exact score">CS</div>
+					<div class="divCell" title="Margin Points - Predicted score within margin grace (2 points)">MP</div>
+					<div class="divCell" title="Total Margin Difference - Total margin difference across all matches">TMD</div>
+					<div class="divCell" title="Total Points - Total combined points">TP</div>
+					<div class="divCell" title="Prize">PRIZE</div>
+				</div>
+			</div>
+			<div class="divLeaderboardLegend"><span>CR</span> = Correct Result | <span>CS</span> = Correct Score | <span>MP</span> = Margin Points | <span>TP</span> = Total Points</div>
+		</div>
+		<div id="btnLeaderboardPickNow" class="btnSportPredictorGlow">PICK NOW</div>
+	</div>
+	<div id="divPoolsPopup">
+		<div class="divPopupHeading">Pools</div>
+		<div id="btnClosePools"></div>
+		<div class="divMainContent">
+			<div id="divPoolTabs"></div>
+			<div id="divMyPoolsTab">
+				<div id="drdMyPools"></div>
+				<div class="divCustomPoolButtons">
+					<button id="btnSharePool" class="btnSportPredictor">
+						<span>Share Pool</span>
+					</button>
+					<button id="btnLeavePool" class="btnSportPredictor">
+						<span>Leave Pool</span>
+					</button>
+				</div>
+				<div id="divMyPoolsLeaderboard">
+					<div class="divRow divRowHeader">
+						<div class="divCell">#</div>
+						<div class="divCell">USER</div>
+						<div class="divCell" title="Correct Result Points">CR</div>
+						<div class="divCell" title="Correct Score Points">CS</div>
+						<div class="divCell" title="Margin Points">MP</div>
+						<div class="divCell" title="Total Margin Difference">TMD</div>
+						<div class="divCell" title="Total Points">TP</div>
+						<div class="divCell" title="Prize">PRIZE</div>
+					</div>
+				</div>
+			</div>
+			<div id="divJoinPoolTab">
+				<div class="divContentText">Join public pools or search for private pools and compete with your friends!</div>
+				<div>
+					<div id="txtSearchPool"></div>
+					<button id="btnSearchPools" class="btnSportPredictor">
+						<span>Search</span>
+					</button>
+				</div>
+				<div id="divSearchResults" class="hide">
+					<div class="divRow divRowHeader">
+						<div class="divCell">POOL NAME</div>
+						<div class="divCell">USERS</div>
+						<div class="divCell">TYPE</div>
+						<div class="divCell">JOIN</div>
+					</div>
+				</div>
+			</div>
+			<div id="divCreatePoolTab">
+				<div class="divContentText"><span>PLEASE NOTE:</span> Each user can only create <span>ONE</span> pool. A pool can be <span>PUBLIC</span> where all other users can join or <span>PRIVATE</span> where a password can be shared for other users to join.</div>
+				<div id="txtCreatePoolName"></div>
+				<div id="chkPrivatePool" class="checkbox selected">Private Pool</div>
+				<div id="txtCreatePoolPassword"></div>
+				<button id="btnCreatePool" class="btnSportPredictor">
+					<span>Create Pool</span>
+				</button>
+			</div>
+		</div>
+		<div id="btnPoolsPickNow" class="btnSportPredictorGlow">PICK NOW</div>
+	</div>
+	<div id="divViewUserPopup">
+		<div class="divPopupHeading">User Picks</div>
+		<div id="btnCloseViewUser"></div>
+		<div id="divViewUserSummary">
+			<div class="divRow divRowHeader">
+				<div class="divCell">USER</div>
+				<div class="divCell">RANK</div>
+				<div class="divCell">CR</div>
+				<div class="divCell">CS</div>
+				<div class="divCell">MP</div>
+				<div class="divCell">TMD</div>
+				<div class="divCell">TP</div>
+			</div>
+		</div>
+		<div id="divViewUserTable">
+			<div class="divRow divRowHeader">
+				<div class="divCell">USER PICKS</div>
+				<div class="divCell">RESULT</div>
+				<div class="divCell">CR</div>
+				<div class="divCell">CS</div>
+				<div class="divCell">MP</div>
+			</div>
+			<div id="divUserPicks"></div>
+		</div>
+	</div>
+	<div id="divPicksPopup">
+		<div class="divPopupHeading">Make Your Picks</div>
+		<div id="btnClosePicks"></div>
+		<div id="divRoundTabs"></div>
+		<div id="btnShareMyPicks" class="btnSportPredictor">
+			<span>SHARE MY PICKS</span>
+		</div>
+		<div id="btnPrevious" class="btnSportPredictor">
+			<span>&lt;</span>
+		</div>
+		<div id="btnNext" class="btnSportPredictor">
+			<span>&gt;</span>
+		</div>
+		<div id="divPicksScroller">
+			<div id="divPicks"></div>
+		</div>
+		<button id="btnSavePicks" class="btnSportPredictorGlow">SAVE PICKS</button>
+	</div>
+	<div id="divProgressPopup">
+		<div id="btnCloseProgress"></div>
+		<div class="divProgressHeading">My Progress</div>
+		<div class="divStatsContainer">
+			<div class="divStatsItem">
+				<div class="divProgressSubHeading">
+					<span>What is My Progress?</span>My Progress is your personal dashboard for tracking your sport prediction performance throughout the campaign.
+					<div id="divGrandPrizeSubHeading"></div>
+				</div>
+			</div>
+			<div class="divStatsItem">
+				<div class="divCorrectScoreProgress">
+					<div class="divCorrectScoreChartContainer">
+						<svg id="svgCorrectScoreChart"></svg>
+						<div id="divCorrectScoreContent"></div>
+					</div>
+				</div>
+			</div>
+			<div class="divStatsItem">
+				<div class="divStatsLabel divTotalPointsLabel">TOTAL POINTS</div>
+				<div id="divTotalPoints"></div>
+			</div>
+			<div class="divStatsItem">
+				<div class="divStatsLabel divCorrectScoreLabel">CORRECT SCORES</div>
+				<div id="divTotalCorrectScores"></div>
+			</div>
+			<div class="divStatsItem">
+				<div class="divStatsLabel divCorrectResultLabel">CORRECT RESULTS</div>
+				<div id="divTotalCorrectResults"></div>
+			</div>
+			<div class="divStatsItem">
+				<div class="divStatsLabel divStageRankingLabel">ROUND RANKING</div>
+				<div id="divStageRanking"></div>
+			</div>
+			<div class="divStatsItem">
+				<div class="divStatsLabel divOverallRankingLabel">OVERALL RANKING</div>
+				<div id="divOverallRanking"></div>
+			</div>
+		</div>
+		<button id="btnViewPicks" class="btnSportPredictorGlow">VIEW PICKS</button>
+	</div>
+	<div id="divFaqsPopup">
+		<div class="divPopupHeading">Frequently Asked Questions</div>
+		<div id="btnCloseFaqs"></div>
+		<div id="divFaqsList">
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>1. General Questions</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What is the Sport Predictor?</div>
+					<div class="divFaqAnswer">The Sport Predictor is a free-to-play prediction competition where you predict the outcome of tournament matches before kick-off.<br/>Depending on the tournament, you either predict the exact final score (<span class="textBlue">Exact Score mode</span>) or predict which team will win and by how many points (<span class="textPurple">Win By mode</span>).<br/>You earn points for correct scores and correct results, climb leaderboards, compete in pools, and stand a chance to win prizes throughout the tournament.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Which sports are supported?</div>
+					<div class="divFaqAnswer">The Sport Predictor supports multiple divisions of rugby and soccer.<br/>Each tournament may have its own scoring configuration, rules, and prizes. Check the tournament's "How It Works" section for individual tournament details.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Is it free to participate?</div>
+					<div class="divFaqAnswer">Yes. The Sport Predictor is completely free to participate in.<br/>You do not need to pay an entry fee to make predictions, join the Global Pool, compete on leaderboards, or take part in the competition.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Who can enter?</div>
+					<div class="divFaqAnswer">Anyone who is 18 years or older and has a play.co.za account.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Do the Terms and Conditions apply?</div>
+					<div class="divFaqAnswer">Yes. These FAQs are a simple guide to help users understand how the competition works.<br/>The official Terms and Conditions apply to all entries, prizes, Free Bets, leaderboards, tie-breakers, wagering requirements, verification, and eligibility.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What do I need to do?</div>
+					<div class="divFaqAnswer">You need to make a prediction for each match before kick-off. The prediction format depends on the tournament mode:<br/><br/><span class="textBlue">Exact Score mode</span>: Predict each team's final score (e.g. Team A 22 - Team B 17).<br/><span class="textPurple">Win By mode:</span> Predict which team wins and by how many points (e.g. Team A by 5, or Draw).<br/><br/>If your prediction matches the actual result exactly, you earn maximum points.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Do I need to predict every match?</div>
+					<div class="divFaqAnswer">No. You do not need to predict every match to appear on the leaderboards.<br/>However, the more matches you predict, the more chances you have to earn points.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can I skip matches?</div>
+					<div class="divFaqAnswer">Yes. You can skip matches, but you will receive 0 points for any match where you do not submit a prediction.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can I have more than one account?</div>
+					<div class="divFaqAnswer">No. Users are not allowed to create or use multiple accounts.<br/>Each user may only participate with one account. Multiple accounts may result in disqualification and prize forfeiture.</div>
+				</div>
+			</div>
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>2. How Points Work</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How do I earn points?</div>
+					<div class="divFaqAnswer">You earn points based on how accurate your prediction is. Each tournament may award different point values, but the categories are:<br/><br/>Correct Score (CS) - Your prediction matched exactly. In <span class="textBlue">Exact Score mode</span> this means both teams' scores are correct. In <span class="textPurple">Win By mode</span> this means the correct winner and exact margin.<br/>Correct Result (CR) - You predicted the correct outcome (win/loss/draw) but not the exact score or margin.<br/>Margin Points (MP) - Awarded when your prediction is close to the actual result (within the margin grace).<br/>Incorrect Result - 0 points.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What is a Correct Score?</div>
+					<div class="divFaqAnswer">A Correct Score means your prediction matched the actual result exactly.<br/><br/><span class="textBlue">Exact Score mode:</span><br/>You predict 22-17. The match ends 22-17. You earn Correct Score points.<br/><br/><span class="textPurple">Win By mode:</span><br/>You predict Team A by 5. Team A wins by exactly 5 points. You earn Correct Score points.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What is a Correct Result?</div>
+					<div class="divFaqAnswer">A Correct Result means you predicted the correct match outcome (which team wins, or a draw) but not the exact score or margin.<br/><br/><span class="textBlue">Exact Score mode:</span><br/>You predict 22-17 (Team A wins). The match ends 15-10 (Team A wins). You picked the correct winning team, so you earn Correct Result points.<br/><br/><span class="textPurple">Win By mode:</span><br/>You predict Team A by 10. Team A wins by 3. You picked the correct winning team but not the exact margin, so you earn Correct Result points.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What are Margin Points?</div>
+					<div class="divFaqAnswer">Margin Points reward predictions that are close to the actual result, even if they are not exact.<br/><br/>Each tournament has a Margin Grace value. If the difference between your prediction and the actual result falls within the margin grace, you earn Margin Points.<br/><br/><span class="textBlue">Exact Score mode</span> (margin grace of 7):<br/>You predict 24-17. The match ends 22-14. The differences are 2 (home) and 3 (away), totalling 5. Since 5 is within the margin grace of 7, you earn Margin Points.<br/><br/><span class="textPurple">Win By mode</span> (margin grace of 7):<br/>You predict Team A by 10. Team A wins by 5. The difference is 5. Since 5 is within the margin grace of 7, you earn Margin Points.<br/><br/>Note: Margin Points are not available in every tournament. If disabled for a tournament, they will not appear on the leaderboard.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What is an incorrect result?</div>
+					<div class="divFaqAnswer">An incorrect result means your predicted outcome did not match the actual result.<br/><br/><span class="textBlue">Exact Score mode:</span><br/>You predict Team A to win (e.g. 22-17), but Team B wins or the match ends in a draw. You earn 0 points.<br/><br/><span class="textPurple">Win By mode:</span><br/>You predict Team A to win, but Team B wins or the match ends in a draw. You earn 0 points.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How are draw predictions scored?</div>
+					<div class="divFaqAnswer">If you predict a draw and the match ends in a draw, you can earn points.<br/><br/><span class="textBlue">Exact Score mode:</span><br/>You predict 15-15. The match ends 15-15. You earn Correct Score points.<br/>You predict 15-15 and the match ends 12-12. You earn Correct Result points because you correctly predicted a draw.<br/><br/><span class="textPurple">Win By mode:</span><br/>You predict Draw. The match ends in a draw. You earn Correct Score points.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can I earn points if I get the winner right but the score wrong?</div>
+					<div class="divFaqAnswer">Yes. You will earn Correct Result points. You may also earn Margin Points if the tournament supports them and your prediction is close enough to the actual score.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can I earn points if I get the scores right but the result wrong?</div>
+					<div class="divFaqAnswer">No. If the winning team is wrong, you earn 0 points regardless of the prediction mode.<br/><br/><span class="textBlue">Exact Score mode:</span><br/>You predict 22-17, but the match ends 17-22. The scores are swapped, meaning the winning team is wrong, so you earn 0 points.<br/><br/><span class="textPurple">Win By mode:</span><br/>You predict Team A by 5, but Team B wins. The winning team is wrong, so you earn 0 points.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What do CR, CS, MP, TMD, and TP mean on the leaderboard?</div>
+					<div class="divFaqAnswer">CR = Correct Results - the number of times you predicted the correct outcome.<br/>CS = Correct Scores - the number of times your prediction matched exactly.<br/>MP = Margin Points - bonus points for predictions close to the actual result.<br/>TMD = Total Margin Difference - the combined difference between your predictions and the actual results across all matches.<br/>TP = Total Points - your total score on the leaderboard.<br/><br/>Note: MP and TMD columns may be hidden if the tournament does not use Margin Points.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Do point values change between tournaments?</div>
+					<div class="divFaqAnswer">Yes. Each tournament may have its own point values for Correct Score, Correct Result, Margin Points, and Margin Grace.<br/>The point values for the current tournament are displayed in the tournament details.</div>
+				</div>
+			</div>
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>3. Making Predictions</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How do I make a prediction?</div>
+					<div class="divFaqAnswer">Click Make Your Picks.<br/>If the tournament has multiple rounds, you can select which round to predict. Then enter your predictions for the available matches.<br/><br/>In <span class="textBlue">Exact Score mode</span> you will see two pickers per match to set each team's score. In <span class="textPurple">Win By mode</span> you will see a single picker to select the winner and margin.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">When must I submit my prediction?</div>
+					<div class="divFaqAnswer">Predictions must be submitted before the match kicks off.<br/>Once the match has started, predictions for that match will close.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can I change my prediction after submitting it?</div>
+					<div class="divFaqAnswer">You can change your prediction before kick-off, as long as the prediction window for that match is still open.<br/>Once the match has started, your prediction is locked and cannot be changed.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What happens if I forget to submit a prediction?</div>
+					<div class="divFaqAnswer">You will receive 0 points for that match.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Will I get a reminder before matches start?</div>
+					<div class="divFaqAnswer">Where available, the platform may send reminders before selected matches, but it remains your responsibility to submit predictions before kick-off.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can I see other users' predictions?</div>
+					<div class="divFaqAnswer">No. You will only be able to see your own picks.<br/>Other users' predictions will not be visible unless play.co.za decides to share them after the leaderboard has been concluded.</div>
+				</div>
+			</div>
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>4. Match Result Rules</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Which score counts for predictions?</div>
+					<div class="divFaqAnswer">Only the official match result at the end of regulation time will count for prediction purposes.<br/>For rugby, this is the score after 80 minutes including stoppage or injury time.<br/>For soccer, this is the score after 90 minutes including stoppage or injury time.<br/>Extra time and penalty shootouts do not count.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Do penalty shootouts or extra time count?</div>
+					<div class="divFaqAnswer">No. Penalty shootouts and extra time do not count.<br/>Only the regulation-time result will be used for prediction scoring.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What happens if a match is postponed?</div>
+					<div class="divFaqAnswer">If a match is postponed, predictions may remain valid for the rescheduled match.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What happens if a match is cancelled or abandoned?</div>
+					<div class="divFaqAnswer">If a match is cancelled and not replayed, the match may be voided for prediction and leaderboard purposes.<br/>If a match is abandoned, the result will be handled according to the verified official match outcome used by the platform.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What happens if the official result changes later?</div>
+					<div class="divFaqAnswer">If the official result is corrected or updated after the match, leaderboard points may be updated according to the verified result used by the platform.</div>
+				</div>
+			</div>
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>5. How Pools Work</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What are Pools?</div>
+					<div class="divFaqAnswer">Pools are a way to compete against friends, family, colleagues, or your own group.<br/>You can compete inside your pool while still being part of the Global Pool.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Am I automatically added to the Global Pool?</div>
+					<div class="divFaqAnswer">Yes. Anyone who saves a pick is automatically added to the Global Pool for that tournament.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What about Round Pools?</div>
+					<div class="divFaqAnswer">Some tournaments have separate leaderboards for each round consisting of 1 or more matches per round. If a tournament has round pools, you are automatically added when you submit picks for matches in that round.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can I be in multiple pools at the same time?</div>
+					<div class="divFaqAnswer">Yes. You can be in the Global Pool, round pools, and your own custom pools simultaneously.<br/>Your pool lets you compare yourself against your friends, while the Global Pool shows where you rank against everyone.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How do I create a pool?</div>
+					<div class="divFaqAnswer">Go to Leaderboards and select Create Pool.<br/><br/>You will need to set:<br/>A pool name and optionally a password.<br/>You can then share the pool name and password with your friends so they can join.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How do my friends join my pool?</div>
+					<div class="divFaqAnswer">Your friends must go to Join Pool and search for your pool name.<br/>Once they find it, they will enter the password (if set) and join the pool.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Do my picks change between pools?</div>
+					<div class="divFaqAnswer">No. Your saved picks apply to the entire tournament.<br/>Your points reflect across all pools and leaderboards you are part of.</div>
+				</div>
+			</div>
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>6. Leaderboards & Prizes</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How do leaderboards work?</div>
+					<div class="divFaqAnswer">Leaderboards rank all participants by their total points. The Global Pool leaderboard covers the entire tournament.<br/>If the tournament has multiple rounds, there may also be separate round leaderboards where you compete for that round's prizes.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How do I improve my leaderboard ranking?</div>
+					<div class="divFaqAnswer">Submit predictions for as many matches as possible and aim for exact predictions.<br/>Correct scores earn the most points. If the tournament uses Margin Points, getting close to the actual result also helps.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Are there prizes for round leaderboards?</div>
+					<div class="divFaqAnswer">Some tournaments offer prizes for each round leaderboard. Where round prizes are available, they will be displayed on the platform.<br/>Not all tournaments have round prizes. Smaller tournaments may only have an overall prize pool.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can I win more than one prize?</div>
+					<div class="divFaqAnswer">Yes. You can win prizes across different rounds and on the overall leaderboard.<br/>However, you are not allowed to use multiple accounts.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">When are leaderboard winners decided?</div>
+					<div class="divFaqAnswer">Winners are decided after all matches in the relevant round or tournament have been completed and the leaderboard has been concluded.</div>
+				</div>
+			</div>
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>7. Prize Terms & Wagering</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Do I need to deposit to play?</div>
+					<div class="divFaqAnswer">No. The Sport Predictor is free to play. You do not need to deposit to make predictions or compete on leaderboards.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Do cash prizes have wagering requirements?</div>
+					<div class="divFaqAnswer">If you have deposited at least R100 in total, you will have 0x wagering on your cash prizes.<br/>If you have deposited less than R100, your cash prize will be subject to a 20x wagering requirement.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What does 20x wagering mean?</div>
+					<div class="divFaqAnswer">A 20x wagering requirement means you must wager the prize amount 20 times before the prize or eligible winnings can be withdrawn.<br/><br/>Example:<br/>You win a R1 000 cash prize and have not deposited R100.<br/>R1 000 x 20 = R20 000.<br/>You must wager R20 000 before the prize or eligible winnings can be withdrawn.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What counts as a lifetime deposit?</div>
+					<div class="divFaqAnswer">Successful real-money deposits made into your play.co.za account.<br/>Bonus funds, Free Bets, promotional credits, cancelled deposits, reversed deposits, or refunded deposits do not count toward the R100 minimum.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Do I need to be verified before receiving a prize?</div>
+					<div class="divFaqAnswer">Yes. You need to be fully verified through KYC/FICA before receiving any prize.<br/>If you cannot complete the required verification, you may not be able to receive your prize.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">When are prizes paid?</div>
+					<div class="divFaqAnswer">Prizes will be paid within 30 days after the relevant leaderboard has been concluded, but payment will be made as soon as possible.</div>
+				</div>
+			</div>
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>8. Free Bets</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What is a Free Bet?</div>
+					<div class="divFaqAnswer">A Free Bet is a promotional betting credit that may be awarded as a prize.<br/>Different Free Bets may have different rules, so you should always read the Free Bet terms before using it.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How does a Free Bet work?</div>
+					<div class="divFaqAnswer">A Free Bet must be used to place a bet.<br/>Some Free Bets may require minimum odds before they can be used.<br/><br/>Example:<br/>You receive a R100 Free Bet. You place it on a selection with odds of 2.00. If the bet wins, the total return is R200.<br/>However, you only keep the winnings. The original R100 Free Bet stake is not returned.<br/>In this example, your cashable winning amount would be R100, not R200.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Do I keep the Free Bet stake if I win?</div>
+					<div class="divFaqAnswer">No. You only keep the winnings from the Free Bet.<br/>The original Free Bet amount is not returned.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can a Free Bet be withdrawn as cash?</div>
+					<div class="divFaqAnswer">No. A Free Bet cannot be withdrawn as cash.<br/>Only qualifying winnings from a successful Free Bet may be withdrawable, depending on the Free Bet rules.</div>
+				</div>
+			</div>
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>9. Tie-Breakers</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Why are tie-breakers needed?</div>
+					<div class="divFaqAnswer">Tie-breakers are used when two or more players finish with the same number of total points on a leaderboard.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How are ties resolved?</div>
+					<div class="divFaqAnswer">The following tie-breaker order is used:<br/><br/>1. Total Points (highest first)<br/>2. Total Margin Difference (lowest first, meaning closer predictions rank higher)<br/>3. Most Correct Scores<br/>4. Earliest participation (first to join ranks higher)<br/><br/>If a tournament does not use Margin Points, the Total Margin Difference step is skipped.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">If I tie for a prize, do I share it?</div>
+					<div class="divFaqAnswer">If a shared prize rule applies, tied users may share the prize.<br/>If tie-breakers apply, the final positions will be decided using the tie-breaker rules above.</div>
+				</div>
+			</div>
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>10. My Progress</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What is My Progress?</div>
+					<div class="divFaqAnswer">My Progress is your personal dashboard for tracking your prediction performance throughout the tournament.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">What can I see in My Progress?</div>
+					<div class="divFaqAnswer">Your My Progress page shows:<br/>Total points, Correct scores, Correct results, Current round ranking (if applicable), and Overall ranking.<br/>If the tournament has a Grand Prize, you will also see your progress toward the required number of correct scores.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How often is My Progress updated?</div>
+					<div class="divFaqAnswer">My Progress updates after match results have been confirmed and points have been calculated.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Why did my ranking change?</div>
+					<div class="divFaqAnswer">Your ranking can change as more match results are confirmed and other users earn points.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can my points change after they are awarded?</div>
+					<div class="divFaqAnswer">Yes. Points may change if an official result is corrected or if there is a scoring adjustment.</div>
+				</div>
+			</div>
+			<div class="divFaqItem">
+				<div class="divFaqButton">
+					<span>11. Prize Payments & Verification</span>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">How do I know if I have won a prize?</div>
+					<div class="divFaqAnswer">Winners will appear on the relevant leaderboard once the leaderboard has been concluded.<br/>Some prizes may be claimed directly through the app, while others may be allocated manually. Prize winners may also be contacted through their registered contact details.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Do I need to verify my account to receive a prize?</div>
+					<div class="divFaqAnswer">Yes. You need to be fully verified through KYC/FICA before receiving a prize.<br/>If you cannot complete the required verification, you may not be able to receive your prize.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">When are prizes paid?</div>
+					<div class="divFaqAnswer">Prizes will be paid within 30 days after the relevant leaderboard has been concluded, but payment will be made as soon as possible.</div>
+				</div>
+				<div class="divFaqContent">
+					<div class="divFaqQuestion">Can I win more than one prize?</div>
+					<div class="divFaqAnswer">Yes. You can win prizes across different rounds and on the overall leaderboard.<br/>However, you are not allowed to use multiple accounts.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="divClaimPrizePopup">
+		<div class="divPopupHeadingImage"></div>
+		<div id="btnCloseClaimPrize"></div>
+		<div id="divPrizeMessage"></div>
+		<div id="divPrizeOptions">
+			<div id="divCashPrize" class="divPrizeOption">
+				<div class="divPrizeBall"></div>
+				<div class="divPrizeLabel"></div>
+			</div>
+			<div id="divBonusPrize" class="divPrizeOption">
+				<div class="divPrizeBall"></div>
+				<div class="divPrizeLabel"></div>
+			</div>
+		</div>
+		<div id="divPrizeResult"></div>
+	</div>
+	<div id="divSportPredictorAlertPopup">
+		<div class="divAlertPopup">
+			<div id="divAlertHeading">
+				<div id="divAlertHeadingText"></div>
+			</div>
+			<div id="divAlertContent"></div>
+			<div id="divAlertButtons"></div>
+		</div>
+	</div>
+</div>
+		<div id="divAppSportMvp">
+	<div id="divSportMvpPopup">
+		<div id="btnSportMvpPromotionDetails" class="fa fa-info-circle"></div>
+		<div id="btnCloseSportMvp"></div>
+		<div class="divPopupHeadingImage"></div>
+		<div id="divSportMvpHeading"></div>
+		<div id="divSportMvpEmpty">There is no Pick Your MVP competition running right now.<br>Check back closer to the next big match.</div>
+		<div id="divSportMvpBody">
+			<div id="divSportMvpPrizeSummary"></div>
+			<div id="divSportMvpCountdown"></div>
+			<div id="divSportMvpTeamTabs">
+				<div id="btnSportMvpHomeTeam"></div>
+				<div id="btnSportMvpAwayTeam"></div>
+			</div>
+			<div id="divSportMvpLineups">
+				<div id="divSportMvpHomeLineup" class="divSportMvpLineup"></div>
+				<div id="divSportMvpAwayLineup" class="divSportMvpLineup"></div>
+			</div>
+			<div id="divSportMvpSelectedPlayer"></div>
+			<button id="btnSportMvpSubmit">SUBMIT PICK</button>
+			<button id="btnSportMvpClaim">CLAIM MY PRIZE</button>
+		</div>
+	</div>
+	<div id="divPromotionDetailsPopup">
+		<div class="divPromotionDetailsHeading">PROMOTION DETAILS</div>
+		<div id="btnClosePromotionDetails"></div>
+		<div id="divPromotionDetails"></div>
+	</div>
+	<div id="divSportMvpAlertPopup">
+		<div class="divAlertPopup">
+			<div id="divAlertContent"></div>
+			<div id="divAlertButtons"></div>
+		</div>
+	</div>
+</div>        <div id="divAppLoyaltyRewards">
+    <div id="divLoyaltyRewardsPopup">
+        <div class="divBackgroundBase"></div>
+        <div id="divHollowGlitter"></div>
+        <div id="divConfetti"></div>
+        <div class="divHeading">Loyalty Wheel</div>
+        <div id="btnInfo" class="fa fa-info-circle"></div>
+        <div id="btnClosePopup"></div>
+        <div class="divLoyaltyTiers">
+            <div id="btnBronzeTier">
+                <img class="imgTierIcon" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/bronze.png" alt="Bronze"/>
+            </div>
+            <div id="btnSilverTier">
+                <img class="imgTierIcon" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/silver.png" alt="Silver"/>
+            </div>
+            <div id="btnGoldTier">
+                <img class="imgTierIcon" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/gold.png" alt="Gold"/>
+            </div>
+            <div id="btnPlatinumTier">
+                <img class="imgTierIcon" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/platinum.png" alt="Platinum"/>
+            </div>
+            <div id="btnDiamondTier">
+                <img class="imgTierIcon" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loyaltyRewards/diamond.png" alt="Diamond"/>
+            </div>
+            <div class="divSelectedTier">
+                <div id="divTierSpinCount"></div>
+                <div id="divTierName"></div>
+                <div class="divTierProgressBar">
+                    <div id="divTierProgress"></div>
+                    <div id="divTierPercentage"></div>
+                </div>
+            </div>
+        </div>
+        <div id="divMultiplier"></div>
+        <div id="divLoyaltyWheel"></div>
+        <div id="divAvailableSpins"></div>
+        <div class="divTierInfo">
+            <img id="imgCurrentTier" alt="Current Tier">
+            <div id="divCurrentTier"></div>
+        </div>
+        <div id="divLoyaltyInfo">
+            <div class="divLoyaltyInfoPopup">
+                <div class="divYouWon">YOU WON</div>
+                <div id="divInfoPrize"></div>
+                <div id="divInfoMessage"></div>
+                <div id="divInfoButtons"></div>
+            </div>
+        </div>
+    </div>
+</div>        <div id="divAppGamblePrize">
+    <div id="divGamblePrizePopup">
+        <div id="btnClosePopup"></div>
+        <div class="divHeading">Double or Nothing</div>
+        <div class="divGambleInfo">Guess what the colour of the upside down card is, <span class="spnBlack">BLACK</span> or <span class="spnRed">RED</span>? If you get it right your loyalty reward prize money will double up. But get it wrong and you will loose your loyalty reward prize money. All Spade and Clover suit cards count as <span class="spnBlack">BLACK</span>. All Diamond and Heart suit cards count as <span class="spnRed">RED</span>. Good luck!</div>
+        <div class="divGuessTheCard">GUESS THE CARD COLOUR</div>
+        <div id="divFlipCard">
+            <div class="divCardInner">
+                <div class="divCardBack"></div>
+                <div id="divGableCard"></div>
+            </div>
+        </div>
+        <div id="btnRed">
+            <svg class='svgBorder'>
+                <circle class='crlOuter' cx='50%' cy='50%' r='50%' stroke-dasharray='115 10 90 10 15 10'></circle>
+            </svg>
+        </div>
+        <div id="btnBlack">
+            <svg class='svgBorder'>
+                <circle class='crlOuter' cx='50%' cy='50%' r='50%' stroke-dasharray='80 10 15 10 95 10 20 10'></circle>
+            </svg>
+        </div>
+        <div id="divGambleResult">
+            <div class="divGambleResultPopup">
+                <div id="divGambleResultHeading"></div>
+                <div id="divGambleResultPrize"></div>
+                <div id="divGambleResultMessage"></div>
+                <div id="divGambleResultButtons"></div>
+            </div>
+        </div>
+    </div>
+</div>		<div id="divAppPushNotificationIntroduction">
+    <div id="divPushNotificationIntroductionPopup">
+		<video id="vidPopupBackground" poster="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/videos/push_notification_introduction_thumbnail.webp" muted="true">
+            <source src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/videos/push_notification_introduction.webm" type="video/webm"/>
+        </video>
+		<div id="btnClosePopup"></div>
+        <img class="imgHeading" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/pushNotifications/introductionHeading.webp" alt="Unlock the Magic"/>
+        <div class="divSubscribeText">
+			<img class="imgPushNotificationsIntroductionLogo" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/icon.png" alt="Play.co.za"/><span class="spnPlayText">Play.co.za</span>
+			<span class="spnNow">Now</span>
+			<div>Get access to <b>exclusive</b> bonuses, free spins, and limited-time promotions - only available via <b>Push Notifications</b>.</div>
+		</div>
+        <button id="btnEnablePushNotifications" class="rainbow">ACTIVATE NOW</button>
+    </div>
+</div>
+        <div id="divAppVipClaimedPromotions">
+    <div id="divVipClaimedPromotions">
+		<div id="btnClosePopup"></div>
+		<div id="btnInfo" class="fa fa-info-circle"></div>
+		<div id="btnMuteMusic" class="fa fa-volume-up"></div>
+		<div class="divPrizeHeading">Pick a chest to reveal your prize.</div>
+		<div id="divSelectionContainer">
+			<div class="divSelectionItem"></div>
+			<div class="divSelectionItem"></div>
+			<div class="divSelectionItem"></div>
+		</div>
+		<button id="btnPlayNow">ACTIVATE NOW</button>
+    </div>
+</div>        <div id="divAppVipSignUpWheel">
+    <div id="divVipSignUpWheelPopup">
+        <div id="divHollowGlitter"></div>
+        <div id="divConfetti"></div>
+        <div id="btnClosePopup"></div>
+        <div id="divVipSignUpWheel"></div>
+        <div class="divSpinProgress">
+            <div id="divAvailableSpins"></div>
+            <div class="divSpinProgressLabel">Spin Progress</div>
+            <div class="divProgressBar">
+                <div id="divProgressFill"></div>
+                <div id="divProgressText"></div>
+            </div>
+            <div class="divTotalValueLabel">Total</div>
+            <div id="divTotalValue"></div>
+        </div>
+        <div id="divWinnings">
+            <div class="divWinningsPopup">
+                <div id="divWinningsHeading"></div>
+                <div id="divWinningsMessage"></div>
+                <div id="divWinningsButtons"></div>
+            </div>
+        </div>
+		<div id="divContactNumberPrompt">
+            <div class="divContactNumberPromptPopup">
+                <div class="divContactNumberPromptHeading">Enter your phone number to unlock your exclusive welcome reward.</div>
+                <div id="txtContactNumber"></div>
+				<div id="btnSubmit">UNLOCK MY VIP SPINS</div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div id="divAppWelcomePackage">
+    <div id="divWelcomePackagePopup">
+        <div id="btnClosePopup"></div>
+        <div id="divExpirationTimer"></div>
+        <div class="divWelcomeText">Welcome to PLAY.co.za Casino. Select a bonus welcome package to get started.</div>
+        <div class="divAvailableTo">AVAILABLE TO NEW PLAYERS ONLY!</div>
+        <div class="divBonusTabScroller">
+            <div class="divBonusOptionTabs">
+                <div id="divCasinoTab">
+                    <div class="divBonusTabIcon"></div>
+                    <div class="divBonusTabName">Casino</div>
+                </div>
+                <div id="divSportTab">
+                    <div class="divBonusTabIcon"></div>
+                    <div class="divBonusTabName">Sport</div>
+                </div>
+            </div>
+        </div>
+        <div class="divBonusListContainer">
+            <div id="divBonusList"></div>
+        </div>
+        <div class="divActionButtons">
+            <button id="btnRedeemCode" class="blueLarge">Redeem Code</button>
+            <div class="divButtonVr"></div>
+            <button id="btnMaybeLater" class="purpleLarge">Maybe Later</button>
+        </div>
+    </div>
+</div>
+        <div id="divAppWinATripScratcher">
+	<div id="divWinATripScratcherPopup">
+		<div id="btnClosePopup"></div>
+		<div class="divScratcherContainer">
+			<div id="divScratchCard">
+				<div id="divScratchImage">/( . )( . )\<br/>) . (<br/>(&nbsp;&nbsp;v&nbsp;&nbsp;)</div>
+				<div id="divScratchResult"></div>
+				<canvas id="cnvScratchSurface"></canvas>
+			</div>
+			<div class="divScratcherFrame"></div>
+		</div>
+		<div id="divScratchPercentage"></div>
+	</div>
+</div>
+		<div id="divAppLogin">
+    <div id="divLoginPopup">
+        <h3 id="h3PopupHeading"></h3>
+        <div id="btnClosePopup"></div>
+        <div class="divLogin">
+            <div id="divPasskeyLogin" class="divPasskeyLogin" style="display:none;">
+                <button id="btnPasskeyLogin" class="large quickLogin">SIGN IN WITH PASSKEY</button>
+                <div class="divider"><span>or sign in with password</span></div>
+            </div>
+            <div id="txtUsernameEmail"></div>
+            <div id="txtLoginPassword"></div>
+            <div id="divQuickSignIn" class="divQuickSignIn" style="display:none;">
+                <label id="lblQuickSignIn">
+                    <input type="checkbox" id="chkQuickSignIn" />
+                    <span>Enable quick passkey sign-in (fingerprint/face)</span>
+                </label>
+            </div>
+            <div id="agreeTerms">By signing in you agree with the <a href="/terms-and-conditions" target="_blank">T&C's</a>.</div>
+            <button id="btnSignIn" class="large">SIGN IN</button>
+            <button id="divForgotPassword" type="button">FORGOT PASSWORD</button>
+        </div>
+        
+        <div class="divMobileOtp">
+            
+            <div id="divMobileOtpInfo" class="divOtpInfo">If those details are correct, we have sent a One Time Pin (OTP) by SMS to the mobile number registered on the account. It is not emailed. Enter it below to continue signing in.</div>
+            <div id="divMobileOtpTimer" class="otp-timer"></div>
+            <div id="txtMobileLoginOtp"></div>
+            <button id="btnResendMobileOtp" class="blueLarge">Resend OTP</button>
+        </div>
+        <div class="divResetPassword1">
+            <div id="txtResetUsername"></div>
+            
+            <div class="divOtpInfo">We will SMS a One Time Pin (OTP) to the mobile number registered on your account. The OTP is not emailed.</div>
+            <button id="btnSmsResetLink" class="large">RESET PASSWORD</button>
+            <button id="btnPasskeyReset" class="blueLarge" type="button" style="display:none">USE PASSKEY INSTEAD</button>
+        </div>
+        <div class="divNewPassword">
+            
+            <div id="divSmsOtpInfo" class="divOtpInfo">We have sent an OTP (One Time Pin) by SMS to the mobile number registered on your account. It was not emailed. Enter it below with your new password.</div>
+            <div id="divSmsOtpTimer" class="otp-timer"></div>
+            <div id="txtNewPasswordOtp"></div>
+            <button id="btnResendSmsOtp" class="blueLarge">Resend OTP</button>
+            <div id="txtNewPassword"></div>
+            <button id="btnUpdatePassword" class="large">UPDATE PASSWORD</button>
+        </div>
+        
+        <div class="divReactivateOtp">
+            <div id="divReactivateOtpInfo" class="divOtpInfo">We have sent an OTP (One Time Pin) by SMS to the mobile number registered on your account. It was not emailed. Enter it below to reactivate your account.</div>
+            <div id="divReactivateOtpTimer" class="otp-timer"></div>
+            <div id="txtReactivateOtp"></div>
+            <button id="btnResendReactivateOtp" class="blueLarge">Resend OTP</button>
+            <button id="btnConfirmReactivate" class="large">REACTIVATE MY ACCOUNT</button>
+            <button id="btnCancelReactivate" type="button">CANCEL</button>
+        </div>
+        <div id="divLoginRegister">Register</div>
+        <div id="divNeedHelp">Contact Support</div>
+    </div>
+</div>
+		<div id="divAppRegister">
+    <div id="divRegisterPopup">
+        <h3 id="h3RegisterHeading"></h3>
+        <div id="btnCloseRegisterPopup"></div>
+
+        <!-- Registration Form (7 fields) -->
+        <div class="divRegister">
+            <div id="txtRegFirstName"></div>
+            <div id="errorRegFirstName" class="field-error"></div>
+            <div id="txtRegLastName"></div>
+            <div id="errorRegLastName" class="field-error"></div>
+            <div id="txtRegMobileNumber"></div>
+            <div id="errorRegMobileNumber" class="field-error"></div>
+            <div id="txtRegEmail"></div>
+            <div id="errorRegEmail" class="field-error"></div>
+            <div id="txtRegIdNumber"></div>
+            <div id="errorRegIdNumber" class="field-error"></div>
+            <div id="txtRegUsername"></div>
+            <div id="errorRegUsername" class="field-error"></div>
+            <div id="txtRegPassword"></div>
+            <div id="errorRegPassword" class="field-error"></div>
+            <div class="divOtpInfo1">We will SMS an OTP (One Time Pin) to this mobile number to confirm it on the next step. The OTP is not emailed.</div>
+            <button id="btnRegisterNext" class="large">NEXT</button>
+        </div>
+
+        <!-- OTP Verification Step -->
+        <div class="divOtpVerification">
+            <div class="divOtpInfo2">Please enter the OTP (One Time Pin) we sent by SMS to your mobile number. The OTP is not emailed.</div>
+            <div id="divOtpTimer" class="otp-timer"></div>
+            <div id="txtRegEnterOtp"></div>
+            <button id="btnResendRegOtp" class="blueLarge">Resend OTP</button>
+            
+            <div id="chkRegAgreeTerms" class="checkbox">I confirm that I am over 18 years of age and agree to the Terms & Conditions and Privacy Policy.</div>
+            <button id="btnRegBack" class="large">BACK</button>
+            <button id="btnRegSignUp" class="large">SIGN UP</button>
+        </div>
+
+        <div id="divRegisterLogin">Sign In</div>
+        <div id="divRegNeedHelp">Contact Support</div>
+    </div>
+</div>
+        <div id="divAppBalanceHistory">
+    <div id="divBalanceHistoryPopup">
+        <h3 class="h3PopupHeading">Transaction History</h3>
+        <div id="btnClosePopup"></div>
+        <div class="divBalanceSection">
+            <div class="divBalanceLabel">Balance:</div>
+            <div id="divNormalBalance"></div>
+            <div class="divBalanceLabel">Bonus:</div>
+            <div id="divBonusBalance"></div>
+            <div id="btnBalanceInfo" class="fa fa-info-circle"></div>
+        </div>
+        <div id="divBalanceTabs"></div>
+        <div id="dpkFromDate"></div>
+        <div id="dpkToDate"></div>
+        <div id="divBalanceHistoryHeader" class="divHistoryHeader">
+            <div class="divHistoryHeaderLeft">Transaction / Amount</div><div class="divHistoryHeaderRight">Balance</div>
+        </div>
+        <div id="divBetHistoryHeader" class="divHistoryHeader">
+            <div class="divHistoryHeaderLeft">Bet / Odds</div><div class="divHistoryHeaderRight">Stake / Payout</div>
+        </div>
+        <div id="divBalanceHistory"></div>
+        <div id="divBetHistory"></div>
+    </div>
+</div>
+		<div id="divAppAlert">
+    <div class="divAlertPopup">
+        <div id="divAlertMessage"></div>
+        <div id="divAlertButtons"></div>
+    </div>
+</div>		<div id="divAppLoader" tabindex="0">
+    <img class="imgLoaderLogo" src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/images/loader.webp" alt="Play.co.za">
+    <div class="divLoading">Loading...</div>
+</div>		<div id="divAppUserAlerts">
+    <div id="divUserAlertsPopup">
+        <h3 id="divHeading" class="h3PopupHeading"></h3>
+        <div id="btnClosePopup"></div>
+        <div id="divContent"></div>
+        <button id="btnUserAlert" class="large"></button>
+    </div>
+</div>
+		<input type="hidden" name="_token" value="LG6upCt2MBaPpvLwCjq44m9IXUosq2YAzm7c4Nod" autocomplete="off">        <script>
+			window.__ASSET_URL__ = 'https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/';
+			window.__OTP_LENGTH__ = 6;
+			window.__LOGIN_OTP__ = true;
+			
+			window.__LOGIN_IDENTIFIERS__ = ["username","email","mobile","id_number"];
+            window.__STORAGE_URL__ = 'https://bo-play.s3.af-south-1.amazonaws.com/public/';
+            window.__APP_ENV__ = 'production';
+            window.__APP_VERSION__ = '2.5.24';
+            window.__PLAY_HOME_URL__ = 'https://play.co.za';
+            window.__PLAYSERVICES_GAME_ORIGIN__ = 'https://games.playfans.com';
+            window.__APP_NAV_SLUGS__ = ["my-games","popular","top-rated","seasonal-games","new-games","games-of-the-week","highest-paying","drops-and-wins","buy-feature","game-shows","blackjack","roulette","baccarat","sic-bo","poker","craps","spinoleague","seasonal","exclusive-games","crash-games","live-lobbies","provider-week","pragmatic-x-madness","halloween","golden-safari","october-heat","lobby","slots","live-dealer","NoLimitsHalloween","recent","favourites","all-games","casino","tv-games","crashgames","providerweek","x-madness","octoberheat"];
+            window.__SPORT_MENU_EVENTS__ = [{"label":"English Premier League","route":"\/match\/Soccer\/England\/538","iconUrl":"images\/icons\/soccer.svg","iconColor":"#0000ff"},{"label":"UEFA Champions League","route":"\/match\/Soccer\/Europe\/566","iconUrl":"images\/icons\/soccer.svg","iconColor":"#b600ff"},{"label":"United Rugby Championship","route":"\/match\/RugbyUnion\/30379243","iconUrl":"images\/icons\/rugby.svg","iconColor":"#2bff00"},{"label":"Nations Championship","route":"\/match\/RugbyUnion\/30016323","iconUrl":"images\/icons\/rugby.svg","iconColor":"#287d1c"}];
+		</script>
+		<script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/js/appConfig.js?v=2.5.24"></script>
+		<script src="https://play.co.za/js/app-settings.js?v=2.5.24-1"></script>
+        <script src="https://cdn.ably.io/lib/ably.min-1.js" defer></script>
+        <script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/js/lib/checkout.js?v=2.5.24" defer></script>
+        <script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/js/lib/apple-pay.js?v=2.5.24" defer></script>
+        <script>
+        (function() {
+            var interval = setInterval(function() {
+                if (window.google && google.payments && google.payments.api) {
+                    clearInterval(interval);
+                    var Orig = google.payments.api.PaymentsClient;
+                    google.payments.api.PaymentsClient = function(cfg) {
+                        if (!cfg.merchantInfo) cfg.merchantInfo = {};
+                        cfg.merchantInfo.merchantId = 'BCR2DN4T4OFYTEQO';
+                        return new Orig(cfg);
+                    };
+                }
+            }, 50);
+        })();
+        </script>
+        <script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/js/lib/google-pay.js?v=2.5.24" defer></script>
+		<script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/js/lib/fuse.js?v=2.5.24" defer></script>
+        
+                        <script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/build/js-app.06953dde.js?v=2.5.24" defer></script>
+                
+                    <script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/js/walletVault.js?v=2.5.24" defer></script>
+            
+            <script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/components/quickVault/quickVault.js?v=2.5.24" defer></script>
+                
+        <script>
+    // Request Origin authentication covers deployed domains. Localhost cannot match that origin,
+    // so local development may deliberately expose a restricted browser key instead.
+    window.__IPGEOLOCATION_LOCAL_API_KEY__ = null;
+</script>
+        <script>
+    // Strictly false unless the server-side kill switch is explicitly enabled.
+    window.__ACCOUNT_REACTIVATION_ENABLED__ = true;
+</script>
+                <script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/build/js-runB.04174bf5.js?v=2.5.24" defer></script>
+                <script src="https://cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs@1.10.1/dist/thumbmark.umd.js" integrity="sha384-Umbpval+v+wd6vXc2VkW+59NKNo44pYTtiOWnKizdO6K7S3uW+mcTauRDwupPUaG" crossorigin="anonymous" defer></script>
+                <script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/build/js-runC.6439edda.js?v=2.5.24" defer></script>
+                
+                <script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/build/js-runD.22178509.js?v=2.5.24"></script>
+        		        <!-- GOOGLE TAG MANAGER -->
+<script>
+    window.dataLayer = window.dataLayer || [];
+</script>
+<!-- END GOOGLE TAG MANAGER -->
+
+<!-- RIVE SCRIPT — deferred: only signUpBonusSlotsV3 uses it, and never at first paint -->
+<script src="https://unpkg.com/@rive-app/canvas@2.9.1" defer></script>
+<!-- END RIVE SCRIPT -->
+
+
+	<!-- SENTRY -->
+	<script>
+		// Configure sentryOnLoad before adding the Loader Script
+		window.sentryOnLoad = function () {
+			Sentry.init({
+				release: '2.5.24',
+				environment: 'production',
+				dsn: "https://6b5c2753b3a016ea866fb7ccbcf6e656@o4508256826949632.ingest.de.sentry.io/4508715457249360",
+				debug: false,
+				sampleRate: 0.1,
+				tracesSampleRate: 0.1,
+				profilesSampleRate: 0.1,
+				replaysSessionSampleRate: 0,
+				replaysOnErrorSampleRate: 0,
+				ignoreErrors: [
+					// Ignore Google Tag Manager HTML response syntax errors
+					"Unexpected token '<'",
+					"SyntaxError: Unexpected token '<'",
+					"Unexpected token '<' SyntaxError"
+				]
+			});
+		};
+	</script>
+	<script src='https://js-de.sentry-cdn.com/6b5c2753b3a016ea866fb7ccbcf6e656.min.js' crossorigin="anonymous" defer></script>
+
+    <!-- LIVE CHAT -->
+    <script>
+        window.__lc = window.__lc || {};
+        window.__lc.license = 13242561;
+        window.__lc.asyncInit = true; // perf: suppress the snippet's immediate init; we init on idle below
+        ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+
+        // Perf: defer LiveChat's tracking.js until the browser is idle (after first paint) to reclaim
+        // ~600ms of main-thread work during load. The widget still auto-appears, just a beat later.
+        // ?lcdefer=0 forces the original immediate load for A/B testing.
+        // Leading ";" terminates the vendor snippet above, which has no trailing semicolon.
+        ;(function () {
+            function startLiveChat() { try { window.LiveChatWidget && window.LiveChatWidget.init(); } catch (e) {} }
+            var immediate = false;
+            try { immediate = new URLSearchParams(window.location.search).get('lcdefer') === '0'; } catch (e) {}
+            if (immediate) { startLiveChat(); return; }
+            if ('requestIdleCallback' in window) {
+                requestIdleCallback(startLiveChat, { timeout: 5000 });
+            } else if (document.readyState === 'complete') {
+                setTimeout(startLiveChat, 3000);
+            } else {
+                window.addEventListener('load', function () { setTimeout(startLiveChat, 3000); });
+            }
+        })();
+    </script>
+    <noscript><a href="https://www.livechat.com/chat-with/13242561/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+    <!-- END LIVE CHAT -->
+
+        <script src="https://d33gnw6p8p2s9o.cloudfront.net/07a23ec9-0af9-4f83-9769-98d5882cde2f/js/app.js?v=2.5.24" defer></script>
+	</body>
+</html>
