@@ -1,0 +1,15 @@
+# Chrome browser profiles
+scripts/serp_chrome_profile_*/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Temporary files
+*.log
+*.tmp
