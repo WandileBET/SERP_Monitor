@@ -8,6 +8,7 @@ from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 from openpyxl import load_workbook
 from sqlalchemy import create_engine, select
+from sqlalchemy.engine import make_url
 from sqlalchemy.orm import Session
 ROOT=Path(__file__).resolve().parents[1]
 BACKEND=ROOT/'backend'
@@ -80,7 +81,13 @@ def import_workbook(db,path):
             cap=Capture(keyword_id=kw.id,captured_at=captured_at,source='excel'); db.add(cap); db.flush(); ins+=1
         else: upd+=1
         existing={r.rank:r for r in db.scalars(select(SerpResult).where(SerpResult.capture_id==cap.id))}
-        for row_no,rank,name,date_str in rows:
+        # The workbook can contain multiple URLs at the same rank for one
+        # keyword/hour, while the database permits one result per rank. Keep
+        # the first row in workbook order for each rank in this capture.
+        unique_rows={}
+        for workbook_row in rows:
+            unique_rows.setdefault(workbook_row[1],workbook_row)
+        for row_no,rank,name,date_str in unique_rows.values():
             meta=state.get((date_str,kw_text,row_no),{}); result_name=meta.get('name') or name; url=meta.get('url') or None; title=meta.get('title') or None
             domain=urlparse(url).netloc.lower() if url else None
             if domain and domain.startswith('www.'): domain=domain[4:]
@@ -94,7 +101,12 @@ def import_workbook(db,path):
 def main():
     settings=get_settings(); paths=discover_workbooks()
     if not paths: print('No keyword ranking workbooks found; nothing to import.'); return 0
-    engine=create_engine(settings.database_url,pool_pre_ping=True,future=True); total_i=total_u=0
+    database_url=make_url(settings.database_url)
+    # This importer runs on the Windows host, not inside Docker. Resolve the
+    # Docker-only host alias to the host-local PostgreSQL address for this script.
+    if database_url.host == 'host.docker.internal':
+        database_url=database_url.set(host='localhost')
+    engine=create_engine(database_url,pool_pre_ping=True,future=True); total_i=total_u=0
     with Session(engine) as db:
         for path in paths:
             try:

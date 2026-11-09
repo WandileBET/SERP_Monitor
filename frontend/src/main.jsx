@@ -287,7 +287,7 @@ function App() {
             </div>
           </div>
           <div className="header-tools">
-            <div className="live-status"><i></i><span>Live dataset</span></div>
+            <div className="live-status"><i></i><span></span></div>
             <label className="keyword-control"><span>Keyword</span><select value={selected} onChange={(e) => setSelected(e.target.value)} disabled={!keywords.length}><option value="">No keyword</option>{keywords.map((item) => <option value={item.keyword} key={item.id}>{item.keyword}</option>)}</select></label>
             <button className="ghost-button" onClick={() => refresh()} disabled={loading}><span className={loading ? 'spin' : ''}>↻</span> Refresh</button>
             <button className="primary-button" onClick={printReport} disabled={!dashboard || loading}>Export PDF</button>

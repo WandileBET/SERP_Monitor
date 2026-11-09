@@ -114,7 +114,7 @@ class Browser:
 
         os.makedirs(PROFILE_DIR, exist_ok=True)
         logger.info(
-            "Starting Playwright with dedicated SERP Chrome profile: %s",
+            "Starting Playwright with supplied Chrome profile: %s",
             PROFILE_DIR,
         )
         logger.info("Headless mode: %s", HEADLESS)
