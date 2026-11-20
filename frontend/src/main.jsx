@@ -69,6 +69,24 @@ function insightTrendText(movement) {
   return 'There was no net change between the first and latest observations.'
 }
 
+function getReportInsights(report) {
+  const trend = report?.trend || []
+  const hbSeries = trend
+    .filter((point) => isHollywoodbets(point.domain, point.name))
+    .sort((a, b) => new Date(a.captured_at) - new Date(b.captured_at))
+  const first = hbSeries[0]?.rank ?? null
+  const last = report?.hollywoodbets_current_rank ?? hbSeries.at(-1)?.rank ?? null
+  const movement = first != null && last != null ? first - last : 0
+  const best = report?.hollywoodbets_best_rank ?? (hbSeries.length ? Math.min(...hbSeries.map((point) => point.rank)) : null)
+  const top3 = report?.top3_capture_count ?? 0
+  const captureCount = report?.capture_count ?? hbSeries.length
+  const summary = !hbSeries.length
+    ? 'Hollywoodbets was not found in the captured organic results during this reporting period.'
+    : `Hollywoodbets ${first === last ? `opened and closed at position #${first}` : `moved from position #${first} to #${last}`} across ${hbSeries.length} observed capture${hbSeries.length === 1 ? '' : 's'}. ${insightTrendText(movement)} It reached a best position of #${best} and appeared in the top three in ${top3} capture${top3 === 1 ? '' : 's'}.`
+
+  return { last, best, worst: report?.hollywoodbets_worst_rank ?? null, top3, captureCount, summary }
+}
+
 function MovementIcon({ direction }) {
   if (direction === 'up') return <span className="movement up">↑</span>
   if (direction === 'down') return <span className="movement down">↓</span>
@@ -93,6 +111,11 @@ function App() {
   const [trendResultLimit, setTrendResultLimit] = useState('all')
   const [rangeInitialized, setRangeInitialized] = useState(false)
   const [monitorStatus, setMonitorStatus] = useState({ items: [], bot_detected: [] })
+  const [exportDialogOpen, setExportDialogOpen] = useState(false)
+  const [exportSelection, setExportSelection] = useState([])
+  const [exportLoading, setExportLoading] = useState(false)
+  const [exportError, setExportError] = useState('')
+  const [exportReports, setExportReports] = useState([])
 
   const loadKeywords = useCallback(async () => {
     const rows = await getKeywords()
@@ -188,6 +211,12 @@ function App() {
     return () => clearInterval(timer)
   }, [])
 
+  useEffect(() => {
+    if (!exportReports.length) return undefined
+    const timer = setTimeout(() => window.print(), 250)
+    return () => clearTimeout(timer)
+  }, [exportReports])
+
   function applyPreset(preset) {
     if (!dashboard?.report_end) return
     const end = dashboard.report_end
@@ -266,9 +295,34 @@ function App() {
     }
   }, [dashboard, latestResults, trend])
 
-  function printReport() {
-    if (!dashboard) return
-    window.print()
+  function openExportDialog() {
+    setExportError('')
+    setExportSelection(selected ? [selected] : keywords.map((item) => item.keyword))
+    setExportDialogOpen(true)
+  }
+
+  async function printReport() {
+    if (!exportSelection.length) {
+      setExportError('Select at least one keyword to export.')
+      return
+    }
+    setExportLoading(true)
+    setExportError('')
+    const queryStartDate = chartView === 'hourly-day' ? (hourlyDate || endDate) : startDate
+    const queryEndDate = chartView === 'hourly-day' ? queryStartDate : endDate
+    const queryResolution = chartView === 'hourly-day' ? 'hourly' : resolution
+    try {
+      const reports = await Promise.all(exportSelection.map(async (keyword) => ({
+        keyword,
+        data: await getDashboard(keyword, queryStartDate, queryEndDate, queryResolution, null),
+      })))
+      setExportReports(reports)
+      setExportDialogOpen(false)
+    } catch (err) {
+      setExportError(`Could not prepare the PDF: ${err.message}`)
+    } finally {
+      setExportLoading(false)
+    }
   }
 
   const reportPeriod = periodTitle(dashboard?.report_start || (chartView === 'hourly-day' ? hourlyDate : startDate), dashboard?.report_end || (chartView === 'hourly-day' ? hourlyDate : endDate), dashboard?.hour_filter, chartView)
@@ -290,9 +344,39 @@ function App() {
             <div className="live-status"><i></i><span></span></div>
             <label className="keyword-control"><span>Keyword</span><select value={selected} onChange={(e) => setSelected(e.target.value)} disabled={!keywords.length}><option value="">No keyword</option>{keywords.map((item) => <option value={item.keyword} key={item.id}>{item.keyword}</option>)}</select></label>
             <button className="ghost-button" onClick={() => refresh()} disabled={loading}><span className={loading ? 'spin' : ''}>↻</span> Refresh</button>
-            <button className="primary-button" onClick={printReport} disabled={!dashboard || loading}>Export PDF</button>
+            <button className="primary-button" onClick={openExportDialog} disabled={!dashboard || loading}>Export PDF</button>
           </div>
         </header>
+
+        {exportDialogOpen && (
+          <div className="export-modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget && !exportLoading) setExportDialogOpen(false) }}>
+            <section className="export-modal" role="dialog" aria-modal="true" aria-labelledby="export-modal-title">
+              <div className="export-modal-heading">
+                <div><div className="eyebrow">PDF REPORT</div><h2 id="export-modal-title">Choose keywords</h2><p>Each selected keyword will get its own report for {reportPeriod}.</p></div>
+                <button type="button" className="export-modal-close" aria-label="Close" onClick={() => setExportDialogOpen(false)} disabled={exportLoading}>×</button>
+              </div>
+              <div className="export-selection-actions">
+                <span>{exportSelection.length} of {keywords.length} selected</span>
+                <button type="button" className="text-button" onClick={() => setExportSelection(exportSelection.length === keywords.length ? [] : keywords.map((item) => item.keyword))} disabled={exportLoading}>
+                  {exportSelection.length === keywords.length ? 'Clear selection' : 'Select all'}
+                </button>
+              </div>
+              <div className="export-keyword-list">
+                {keywords.map((item) => (
+                  <label className="export-keyword-option" key={item.id || item.keyword}>
+                    <input type="checkbox" checked={exportSelection.includes(item.keyword)} disabled={exportLoading} onChange={(event) => setExportSelection((current) => event.target.checked ? [...current, item.keyword] : current.filter((keyword) => keyword !== item.keyword))} />
+                    <span>{item.keyword}</span>
+                  </label>
+                ))}
+              </div>
+              {exportError && <p className="export-modal-error" role="alert">{exportError}</p>}
+              <div className="export-modal-footer">
+                <button type="button" className="ghost-button" onClick={() => setExportDialogOpen(false)} disabled={exportLoading}>Cancel</button>
+                <button type="button" className="primary-button" onClick={printReport} disabled={exportLoading || !exportSelection.length}>{exportLoading ? 'Preparing reports…' : `Export PDF · ${exportSelection.length} keyword${exportSelection.length === 1 ? '' : 's'}`}</button>
+              </div>
+            </section>
+          </div>
+        )}
 
         <main className="main">
           {error && <div className="error-banner">{error}</div>}
@@ -353,45 +437,53 @@ function App() {
       </div>
 
       <div className="print-report" aria-hidden="true">
-        <article className="pdf-report">
-          <header className="pdf-header">
-            <div>
-              <div className="pdf-brand">HOLLYWOODBETS <span>SEARCH PERFORMANCE</span></div>
-              <h1>Organic ranking report</h1>
-              <p className="pdf-keyword">{selected}</p>
-            </div>
-            <div className="pdf-period">
-              <span>REPORTING PERIOD</span>
-              <strong>{reportPeriod}</strong>
-              <small>Prepared {formatDateTime(lastRefresh)}</small>
-            </div>
-          </header>
+        {exportReports.map(({ keyword, data }) => {
+          const reportInsights = getReportInsights(data)
+          const reportTrend = data.trend || []
+          const reportResolution = data.resolution || resolution
+          const reportPeriodTitle = periodTitle(data.report_start || startDate, data.report_end || endDate, data.hour_filter, chartView)
+          return (
+            <article className="pdf-report" key={keyword}>
+              <header className="pdf-header">
+                <div>
+                  <div className="pdf-brand">HOLLYWOODBETS <span>SEARCH PERFORMANCE</span></div>
+                  <h1>Organic ranking report</h1>
+                  <p className="pdf-keyword">{keyword}</p>
+                </div>
+                <div className="pdf-period">
+                  <span>REPORTING PERIOD</span>
+                  <strong>{reportPeriodTitle}</strong>
+                  <small>Prepared {formatDateTime(lastRefresh)}</small>
+                </div>
+              </header>
 
-          <section className="pdf-metrics" aria-label="Period performance metrics">
-            <div><span>Latest position</span><strong>{insights.last != null ? `#${insights.last}` : 'Not observed'}</strong><small>Most recent capture</small></div>
-            <div><span>Best position</span><strong>{insights.best != null ? `#${insights.best}` : '—'}</strong><small>Strongest observed rank</small></div>
-            <div><span>Average position</span><strong>{dashboard?.hollywoodbets_average_rank != null ? `#${dashboard.hollywoodbets_average_rank}` : '—'}</strong><small>Across selected captures</small></div>
-            <div><span>Top three appearances</span><strong>{insights.top3} / {insights.captureCount}</strong><small>{insights.captureCount ? Math.round((insights.top3 / insights.captureCount) * 100) : 0}% of captures</small></div>
-          </section>
+              <section className="pdf-metrics" aria-label="Period performance metrics">
+                <div><span>Latest position</span><strong>{reportInsights.last != null ? `#${reportInsights.last}` : 'Not observed'}</strong><small>Most recent capture</small></div>
+                <div><span>Best position</span><strong>{reportInsights.best != null ? `#${reportInsights.best}` : '—'}</strong><small>Strongest observed rank</small></div>
+                <div><span>Average position</span><strong>{data.hollywoodbets_average_rank != null ? `#${data.hollywoodbets_average_rank}` : '—'}</strong><small>Across selected captures</small></div>
+                <div><span>Top three appearances</span><strong>{reportInsights.top3} / {reportInsights.captureCount}</strong><small>{reportInsights.captureCount ? Math.round((reportInsights.top3 / reportInsights.captureCount) * 100) : 0}% of captures</small></div>
+              </section>
 
-          <section className="pdf-summary">
-            <span>PERIOD SUMMARY</span>
-            <p>{insights.summary}</p>
-          </section>
+              <section className="pdf-summary">
+                <span>PERIOD SUMMARY</span>
+                <p>{reportInsights.summary}</p>
+              </section>
 
-          <section className="pdf-chart-section">
-            <div className="pdf-chart-heading">
-              <div><h2>Search ranking trend</h2><p>Hollywoodbets and leading competitors · rank at each observed capture</p></div>
-              <span>{effectiveResolution} view</span>
-            </div>
-            <div className="pdf-chart"><TrendChart data={trend} resolution={effectiveResolution} resultLimit={6} pdf /></div>
-          </section>
+              <section className="pdf-chart-section">
+                <div className="pdf-chart-heading">
+                  <div><h2>Search ranking trend</h2><p>Hollywoodbets and leading competitors · rank at each observed capture</p></div>
+                  <span>{reportResolution} view</span>
+                </div>
+                <div className="pdf-chart"><TrendChart data={reportTrend} resolution={reportResolution} resultLimit={6} pdf /></div>
+              </section>
 
-          <footer className="pdf-footer">
-            <span>Source: SERP Monitor capture history · Lower rank numbers indicate stronger positions.</span>
-            <span>Graph includes Hollywoodbets and up to five leading competitors. Rankings are point-in-time captures.</span>
-          </footer>
-        </article>
+              <footer className="pdf-footer">
+                <span>Source: SERP Monitor capture history · Lower rank numbers indicate stronger positions.</span>
+                <span>Graph includes Hollywoodbets and up to five leading competitors. Rankings are point-in-time captures.</span>
+              </footer>
+            </article>
+          )
+        })}
       </div>
     </div>
   )
