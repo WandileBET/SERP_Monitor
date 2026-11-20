@@ -1,7 +1,10 @@
 from functools import lru_cache
+from pathlib import Path
 
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 
 class Settings(BaseSettings):
@@ -12,7 +15,13 @@ class Settings(BaseSettings):
     excel_path: str = Field(default="", validation_alias="SERP_EXCEL_PATH")
     serp_scripts_dir: str = Field(default="", validation_alias="SERP_SCRIPTS_DIR")
 
-    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+    # Resolve the ignored, machine-specific project .env regardless of the
+    # directory used to launch uvicorn (project root or backend/).
+    model_config = SettingsConfigDict(
+        # Keep the old backend/.env location as a fallback for existing clones.
+        env_file=(PROJECT_ROOT / ".env", PROJECT_ROOT / "backend" / ".env"),
+        extra="ignore",
+    )
 
     @property
     def cors_origin_list(self) -> list[str]:

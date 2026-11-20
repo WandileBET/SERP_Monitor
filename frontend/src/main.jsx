@@ -353,7 +353,45 @@ function App() {
       </div>
 
       <div className="print-report" aria-hidden="true">
-        <section className="print-page executive-report"><header className="report-header"><div className="print-brand">HOLLYWOODBETS <span>SEO PERFORMANCE</span></div><div className="report-label">EXECUTIVE REPORT</div><h1>Search performance</h1><p className="report-keyword">{selected}</p><p className="report-period">{reportPeriod} <span>·</span> Prepared {formatDateTime(lastRefresh)}</p></header><section className="report-summary"><h2>Executive summary</h2><p>{insights.summary}</p><small>Based on observed SERP captures during the selected period.</small></section><section className="report-metrics"><div><span>Latest rank</span><strong>{insights.last != null ? `#${insights.last}` : 'Not observed'}</strong></div><div><span>Best rank</span><strong>{insights.best != null ? `#${insights.best}` : '—'}</strong></div><div><span>Average rank</span><strong>{dashboard?.hollywoodbets_average_rank != null ? `#${dashboard.hollywoodbets_average_rank}` : '—'}</strong></div><div><span>Top 3 captures</span><strong>{insights.top3} / {insights.captureCount}</strong></div></section><section className="report-section"><h2>Period performance</h2><p className="report-opening">Hollywoodbets was first observed at <b>{insights.first != null ? `#${insights.first} on ${formatDateTime(insights.firstAt)}` : 'no recorded position'}.</b> The latest capture shows <b>{insights.last != null ? `#${insights.last} on ${formatDateTime(insights.lastAt)}` : 'no recorded position'}.</b> The observed range was <b>{insights.best != null ? `#${insights.best} to #${insights.worst}` : 'not available'}.</b></p><p>{insights.mode ? `The most frequently observed position was #${insights.mode[0]} (${insights.mode[1]} of ${insights.trendObservationCount} trend observations).` : 'There are not enough observations to identify a typical position.'} {insights.top3} of {insights.captureCount} SERP captures placed Hollywoodbets in the top three.</p></section><section className="report-section"><h2>Movement during the period</h2>{insights.rankChanges.length ? <table className="executive-movement-table"><thead><tr><th>Date and time observed</th><th>From</th><th>To</th><th>Movement</th></tr></thead><tbody>{insights.rankChanges.slice(0, 8).map((move, index) => <tr key={`${move.at}-${index}`}><td>{formatDateTime(move.at)}</td><td>#{move.from}</td><td>#{move.to}</td><td>{move.to < move.from ? `Improved ${move.from - move.to}` : `Declined ${move.to - move.from}`}</td></tr>)}</tbody></table> : <p>No position changes were recorded in the observed trend points; Hollywoodbets held the same rank whenever it appeared in captured results.</p>}{insights.rankChanges.length > 8 && <small>Showing 8 of {insights.rankChanges.length} observed position changes.</small>}</section><section className="report-section report-competitor"><h2>Market context</h2><p>{insights.competitorMoves ? `${insights.competitorMoves.name} had the largest observed competitor movement, changing ${Math.abs(insights.competitorMoves.change)} position${Math.abs(insights.competitorMoves.change) === 1 ? '' : 's'} over this period.` : 'Competitor movement could not be compared from the available ranking history.'}</p></section><footer className="report-footer">Source: SERP Monitor capture history <span>·</span> Rankings are point-in-time observations; gaps between captures are not monitored continuously.</footer></section>
+        <article className="pdf-report">
+          <header className="pdf-header">
+            <div>
+              <div className="pdf-brand">HOLLYWOODBETS <span>SEARCH PERFORMANCE</span></div>
+              <h1>Organic ranking report</h1>
+              <p className="pdf-keyword">{selected}</p>
+            </div>
+            <div className="pdf-period">
+              <span>REPORTING PERIOD</span>
+              <strong>{reportPeriod}</strong>
+              <small>Prepared {formatDateTime(lastRefresh)}</small>
+            </div>
+          </header>
+
+          <section className="pdf-metrics" aria-label="Period performance metrics">
+            <div><span>Latest position</span><strong>{insights.last != null ? `#${insights.last}` : 'Not observed'}</strong><small>Most recent capture</small></div>
+            <div><span>Best position</span><strong>{insights.best != null ? `#${insights.best}` : '—'}</strong><small>Strongest observed rank</small></div>
+            <div><span>Average position</span><strong>{dashboard?.hollywoodbets_average_rank != null ? `#${dashboard.hollywoodbets_average_rank}` : '—'}</strong><small>Across selected captures</small></div>
+            <div><span>Top three appearances</span><strong>{insights.top3} / {insights.captureCount}</strong><small>{insights.captureCount ? Math.round((insights.top3 / insights.captureCount) * 100) : 0}% of captures</small></div>
+          </section>
+
+          <section className="pdf-summary">
+            <span>PERIOD SUMMARY</span>
+            <p>{insights.summary}</p>
+          </section>
+
+          <section className="pdf-chart-section">
+            <div className="pdf-chart-heading">
+              <div><h2>Search ranking trend</h2><p>Hollywoodbets and leading competitors · rank at each observed capture</p></div>
+              <span>{effectiveResolution} view</span>
+            </div>
+            <div className="pdf-chart"><TrendChart data={trend} resolution={effectiveResolution} resultLimit={6} pdf /></div>
+          </section>
+
+          <footer className="pdf-footer">
+            <span>Source: SERP Monitor capture history · Lower rank numbers indicate stronger positions.</span>
+            <span>Graph includes Hollywoodbets and up to five leading competitors. Rankings are point-in-time captures.</span>
+          </footer>
+        </article>
       </div>
     </div>
   )

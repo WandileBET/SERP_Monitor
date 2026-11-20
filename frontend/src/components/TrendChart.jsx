@@ -10,6 +10,7 @@ import {
 } from 'recharts'
 
 const HB_DOMAIN = 'hollywoodbets.net'
+const RANK_TICKS = Array.from({ length: 10 }, (_, index) => index + 1)
 
 // Deliberately high-contrast, non-repeating palette for competitor series.
 const PALETTE = [
@@ -17,6 +18,7 @@ const PALETTE = [
   '#FFD740', '#8D6E63', '#00BFA5', '#76FF03', '#B0BEC5', '#FF5252',
   '#40C4FF', '#A1887F', '#D4E157', '#78909C',
 ]
+const PRINT_PALETTE = ['#168A52', '#D13B47', '#2862BE', '#C6781A', '#008A9A', '#A33F77']
 
 const DOMAIN_COLORS = {
   'hollywoodbets.net': '#5C2D91',
@@ -29,23 +31,57 @@ const DOMAIN_COLORS = {
   'livescore.com': '#FF6D00',
 }
 
+const BRAND_COLORS = {
+  betway: '#00E676',
+  '10bet': '#FF1744',
+  spribe: '#2979FF',
+  livescore: '#FF6D00',
+}
+
 function isHollywoodbets(value, name = '') {
   const values = [value, name].map((item) => (item || '').toLowerCase().replace(/^www\./, ''))
   return values.some((domain) => domain === HB_DOMAIN || domain.endsWith(`.${HB_DOMAIN}`) || domain.includes('hollywoodbets'))
-}
-
-function identityFor(point) {
-  return (point.domain || point.name || '').toLowerCase()
 }
 
 function labelFor(point) {
   return isHollywoodbets(point.domain) || isHollywoodbets(point.name) ? 'Hollywoodbets' : point.name || point.domain || 'Unknown'
 }
 
-export function buildColorMap(items = []) {
+function normalizeSeriesLabel(value) {
+  return String(value || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+}
+
+const BRAND_ALIASES = [
+  { match: /hollywoodbets/, identity: 'hollywoodbets', name: 'Hollywoodbets' },
+  { match: /betway/, identity: 'betway', name: 'Betway' },
+  { match: /google play|play google com/, identity: 'google play', name: 'Google Play' },
+  { match: /10bet/, identity: '10bet', name: '10bet' },
+  { match: /spribe/, identity: 'spribe', name: 'SPRIBE' },
+  { match: /livescore/, identity: 'livescore', name: 'LiveScore' },
+]
+
+function seriesFor(point) {
+  const originalName = labelFor(point)
+  const normalizedName = normalizeSeriesLabel(originalName)
+  const source = normalizeSeriesLabel(`${originalName} ${point.domain || ''}`)
+  const knownBrand = BRAND_ALIASES.find((brand) => brand.match.test(source))
+  const fallback = normalizedName || normalizeSeriesLabel(point.domain) || 'unknown'
+  return knownBrand
+    ? { identity: knownBrand.identity, name: knownBrand.name }
+    : { identity: fallback, name: originalName || 'Unknown' }
+}
+
+
+export function buildColorMap(items = [], printFriendly = false) {
   const map = new Map()
   const used = new Set()
-  const unique = [...new Set(items.map((item) => (item?.domain || item?.identity || item?.name || '').toLowerCase()).filter(Boolean))]
+  const unique = [...new Set(items.map((item) => (item?.identity || item?.domain || item?.name || '').toLowerCase()).filter(Boolean))]
 
   for (const identity of unique) {
     if (identity === HB_DOMAIN || identity.endsWith(`.${HB_DOMAIN}`) || identity.includes('hollywoodbets')) {
@@ -56,18 +92,19 @@ export function buildColorMap(items = []) {
 
   for (const identity of unique) {
     if (map.has(identity)) continue
-    const fixed = DOMAIN_COLORS[identity]
-    if (fixed && !used.has(fixed)) {
+    const fixed = DOMAIN_COLORS[identity] || BRAND_COLORS[identity]
+    if (!printFriendly && fixed && !used.has(fixed)) {
       map.set(identity, fixed)
       used.add(fixed)
     }
   }
 
+  const palette = printFriendly ? PRINT_PALETTE : PALETTE
   let cursor = 0
   for (const identity of unique) {
     if (map.has(identity)) continue
-    while (cursor < PALETTE.length && used.has(PALETTE[cursor])) cursor += 1
-    if (cursor >= PALETTE.length) {
+    while (cursor < palette.length && used.has(palette[cursor])) cursor += 1
+    if (cursor >= palette.length) {
       let fallback = null
       for (let step = 0; step < 36 && !fallback; step += 1) {
         const hue = (17 + step * 53) % 360
@@ -78,8 +115,8 @@ export function buildColorMap(items = []) {
       used.add(fallback || '#B0BEC5')
       continue
     }
-    map.set(identity, PALETTE[cursor])
-    used.add(PALETTE[cursor])
+    map.set(identity, palette[cursor])
+    used.add(palette[cursor])
     cursor += 1
   }
   return map
@@ -119,7 +156,7 @@ function RankedTooltip({ active, label, payload = [] }) {
   )
 }
 
-export default function TrendChart({ data = [], resolution = 'hourly', resultLimit = 5 }) {
+export default function TrendChart({ data = [], resolution = 'hourly', resultLimit = 5, pdf = false }) {
   const scrollRef = useRef(null)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
   const [canScrollRight, setCanScrollRight] = useState(false)
@@ -130,7 +167,8 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
     const identities = new Map()
 
     for (const point of data) {
-      const identity = identityFor(point)
+      const series = seriesFor(point)
+      const identity = series.identity
       if (!identity) continue
       const timestamp = new Date(point.captured_at).toISOString()
       if (!grouped.has(timestamp)) grouped.set(timestamp, { captured_at: point.captured_at })
@@ -143,7 +181,7 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
       if (!identities.has(identity)) {
         identities.set(identity, {
           identity,
-          name: labelFor(point),
+          name: series.name,
           domain: point.domain || '',
         })
       }
@@ -166,12 +204,12 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
     const visible = resultLimit === 'all'
       ? orderedPlotted
       : [hollywoodbets, ...competitors.slice(0, Math.max(0, Number(resultLimit) - 1))].filter(Boolean)
-    const colorMap = buildColorMap(visible)
+    const colorMap = buildColorMap(visible, pdf)
     return {
       rows,
       plotted: visible.map((item) => ({ ...item, color: colorMap.get(item.identity) })),
     }
-  }, [data, resultLimit])
+  }, [data, resultLimit, pdf])
 
   const chartWidth = useMemo(() => {
     const points = model.rows.length
@@ -242,8 +280,13 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
   }
 
   return (
-    <div className="trend-chart-inner">
+    <div className={`trend-chart-inner${pdf ? ' pdf-trend-chart' : ''}`}>
       <div className="trend-chart-scroll-wrap">
+        {!pdf && (
+          <div className="trend-rank-axis" aria-hidden="true">
+            {RANK_TICKS.map((rank) => <span key={rank}>{rank}</span>)}
+          </div>
+        )}
         <button
           type="button"
           className="trend-scroll-button left"
@@ -260,9 +303,9 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
           ref={scrollRef}
           onScroll={updateScrollState}
         >
-          <div className="trend-chart-canvas" style={{ width: `${chartWidth}px` }}>
+          <div className={`trend-chart-canvas${pdf ? ' pdf-trend-chart-canvas' : ''}`} style={{ width: pdf ? '100%' : `${chartWidth}px` }}>
             <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={model.rows} margin={{ top: 12, right: 20, bottom: 16, left: 0 }}>
+              <AreaChart data={model.rows} margin={pdf ? { top: 14, right: 22, bottom: 16, left: 2 } : { top: 12, right: 20, bottom: 16, left: 0 }}>
                 <defs>
                   <linearGradient id="hbRankGlow" x1="0" y1="0" x2="0" y2="1">
                     <stop offset="0%" stopColor="#5C2D91" stopOpacity={0.25} />
@@ -275,24 +318,22 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
                   stroke="#51445A"
                   tickLine={false}
                   axisLine={false}
-                  tick={{ fill: '#51445A', fontSize: 10 }}
+                  tick={{ fill: '#51445A', fontSize: pdf ? 11 : 10 }}
                   tickFormatter={(value) => formatTick(value, resolution)}
-                  minTickGap={resolution === 'hourly' ? 8 : 34}
-                  interval={resolution === 'hourly' ? 0 : 'preserveStartEnd'}
+                  minTickGap={pdf ? 42 : resolution === 'hourly' ? 8 : 34}
+                  interval={pdf ? 'preserveStartEnd' : resolution === 'hourly' ? 0 : 'preserveStartEnd'}
                 />
                 <YAxis
                   reversed
                   domain={[1, 10]}
-                  ticks={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+                  ticks={RANK_TICKS}
                   stroke="#51445A"
                   tickLine={false}
                   axisLine={false}
-                  tick={{ fill: '#51445A', fontSize: 10 }}
+                  tick={pdf ? { fill: '#51445A', fontSize: 11 } : false}
                   width={34}
                 />
-                <Tooltip
-                  content={<RankedTooltip />}
-                />
+                {!pdf && <Tooltip content={<RankedTooltip />} />}
                 {model.plotted.map((item) => {
       const hb = isHollywoodbets(item.domain, item.name)
                   const stroke = hb ? '#5C2D91' : item.color
@@ -301,13 +342,14 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
                       key={item.identity}
                       type="monotone"
                       dataKey={item.identity}
+                      name={item.name}
                       stroke={stroke}
-                      strokeWidth={hb ? 3.5 : 1.8}
-                      fill={hb ? 'url(#hbRankGlow)' : 'transparent'}
+                      strokeWidth={hb ? 3.5 : pdf ? 2.4 : 1.8}
+                      fill={hb && !pdf ? 'url(#hbRankGlow)' : 'transparent'}
                       fillOpacity={1}
                       dot={hb ? { r: 4, strokeWidth: 1.5, fill: '#000000', stroke: '#5C2D91' } : false}
                       activeDot={{ r: hb ? 5 : 4, strokeWidth: 1.5 }}
-                      isAnimationActive
+                      isAnimationActive={!pdf}
                       animationDuration={700}
                     />
                   )
@@ -327,6 +369,17 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
         >
           ›
         </button>
+      </div>
+      <div className="chart-legend" aria-label="Graph series">
+        {model.plotted.map((item) => {
+          const hb = isHollywoodbets(item.domain, item.name)
+          return (
+            <div className={`chart-legend-item${hb ? ' hb' : ''}`} key={item.identity}>
+              <i style={{ background: hb ? '#5C2D91' : item.color }} />
+              <span>{item.name}</span>
+            </div>
+          )
+        })}
       </div>
 
     </div>

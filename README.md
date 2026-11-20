@@ -33,17 +33,38 @@ url = "https://www.google.com/search" f"?q={quote_plus(keyword)}"
 ## Dashboard
 The React dashboard supports keyword selection, date ranges, trend resolution, hourly-day analysis, horizontal trend scrolling, date-based heatmap selection, PDF export, and a visible bot-detection alert based on each keyword workbook's real Capture Status.
 
-## Backend
-Create `.env` in the project root with `DATABASE_URL=...` and optionally `SERP_SCRIPTS_DIR=...`. Start FastAPI from `backend` with `python -m uvicorn app.main:app --reload --port 8000`.
+## Run locally on Windows
+The app needs a PostgreSQL database. Create the local environment file once from the project root and set `DATABASE_URL` to a reachable database:
 
-## Frontend
-From `frontend`: `npm install` then `npm run dev`.
+```powershell
+Copy-Item .env.example .env
+```
+
+Install and start the backend from the project root (the API reads this root `.env` even when launched from another directory):
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r backend\requirements.txt
+python -m uvicorn app.main:app --app-dir backend --reload --port 8000
+```
+
+In a second PowerShell window, start the frontend:
+
+```powershell
+cd frontend
+npm ci
+npm run dev
+```
+
+Open the local URL printed by Vite, usually `http://localhost:5173`. Keep both terminals running. If PowerShell blocks virtual environment activation, use `py -m pip install -r backend\requirements.txt` and `py -m uvicorn app.main:app --app-dir backend --reload --port 8000` without activating it.
 
 
 ## Run with Docker
-From the project root:
+The compose file reads `.env` from the project root. Create it from `.env.docker.example` once and set its `DATABASE_URL` to your reachable PostgreSQL database. Then run from the project root:
 
 ```powershell
+Copy-Item .env.docker.example .env
 docker compose build
 docker compose up -d
 docker compose ps

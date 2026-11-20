@@ -191,11 +191,11 @@ button:disabled { opacity:.55; cursor:not-allowed; }
 .trend-scroll-button { position:absolute; top:50%; z-index:6; transform:translateY(-50%); width:36px; height:72px; display:grid; place-items:center; border:1px solid rgba(255,255,255,.12); border-radius:10px; color:#fff; background:rgba(18,18,18,.86); box-shadow:0 8px 24px rgba(0,0,0,.28); font-size:30px; line-height:1; backdrop-filter:blur(8px); opacity:.92; transition:opacity .18s ease, border-color .18s ease, background .18s ease; }
 .trend-scroll-button:hover:not(:disabled) { border-color:rgba(122,66,183,.75); background:rgba(92,45,145,.28); }
 .trend-scroll-button:disabled { opacity:.15; pointer-events:none; }
-.trend-scroll-button.left { left:8px; }
+.trend-scroll-button.left { left:38px; }
 .trend-scroll-button.right { right:8px; }
 @media(max-width:760px){
   .trend-scroll-button { width:30px; height:58px; font-size:25px; }
-  .trend-scroll-button.left { left:5px; }
+  .trend-scroll-button.left { left:35px; }
   .trend-scroll-button.right { right:5px; }
 }
 
@@ -956,3 +956,64 @@ input {
   }
   .print-page, .executive-report { padding:0 !important; overflow:visible !important; page-break-after:auto !important; }
 }
+
+/* Focused, graph-led PDF report. The on-screen dashboard styles remain unchanged. */
+.pdf-report {
+  box-sizing: border-box; width: 1120px; min-height: 770px; padding: 24px 32px 16px;
+  display: grid; grid-template-rows: auto auto auto minmax(0, 1fr) auto; gap: 12px;
+  background: #fff; color: #211a27; font-family: Arial, Helvetica, sans-serif;
+}
+.pdf-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; padding-bottom: 10px; border-bottom: 2px solid #5c2d91; }
+.pdf-brand { color: #5c2d91; font-size: 9px; font-weight: 800; letter-spacing: .14em; }
+.pdf-brand span { margin-left: 6px; color: #756d7b; font-weight: 600; }
+.pdf-header h1 { margin: 5px 0 2px; color: #211a27; font-size: 24px; line-height: 1.1; }
+.pdf-keyword { color: #5c2d91; font-size: 13px; font-weight: 700; }
+.pdf-period { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; text-align: right; }
+.pdf-period span { color: #756d7b; font-size: 8px; font-weight: 800; letter-spacing: .1em; }
+.pdf-period strong { color: #211a27; font-size: 12px; }
+.pdf-period small { color: #756d7b; font-size: 9px; }
+.pdf-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 9px; }
+.pdf-metrics > div { display: flex; flex-direction: column; justify-content: center; gap: 3px; min-width: 0; padding: 9px 12px; border: 1px solid #e5deea; border-radius: 8px; background: #faf8fc; }
+.pdf-metrics span { color: #71687a; font-size: 8px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; }
+.pdf-metrics strong { color: #211a27; font-size: 17px; line-height: 1.1; }
+.pdf-metrics small { color: #79717e; font-size: 8px; }
+.pdf-summary { display: grid; grid-template-columns: 125px minmax(0, 1fr); align-items: center; gap: 14px; padding: 9px 13px; border-left: 3px solid #5c2d91; border-radius: 4px; background: #f5f1f8; }
+.pdf-summary span { color: #5c2d91; font-size: 8px; font-weight: 900; letter-spacing: .1em; }
+.pdf-summary p { color: #332b39; font-size: 10px; line-height: 1.4; }
+.pdf-chart-section { display: flex; min-height: 0; flex-direction: column; padding: 10px 13px 7px; border: 1px solid #e5deea; border-radius: 9px; }
+.pdf-chart-heading { display: flex; flex: 0 0 auto; justify-content: space-between; align-items: flex-start; gap: 14px; padding-bottom: 5px; }
+.pdf-chart-heading h2 { color: #211a27; font-size: 12px; font-weight: 800; }
+.pdf-chart-heading p, .pdf-chart-heading > span { margin-top: 3px; color: #756d7b; font-size: 8px; }
+.pdf-chart-heading > span { padding: 4px 7px; border-radius: 20px; background: #f5f1f8; color: #5c2d91; font-weight: 700; text-transform: capitalize; }
+.pdf-chart { flex: 1 1 auto; min-height: 0; height: 100%; }
+.pdf-chart .trend-chart-inner { display: flex; width: 100%; height: 100%; min-height: 0; flex-direction: column; }
+.pdf-chart .trend-chart-scroll-wrap { position: relative; flex: 1 1 auto; min-height: 0; overflow: hidden; }
+.pdf-chart .trend-chart-scroll { width: 100%; height: 100%; overflow: hidden; }
+.pdf-chart .pdf-trend-chart-canvas { width: 100% !important; height: 100%; min-height: 0; }
+.pdf-chart .trend-scroll-button { display: none !important; }
+.pdf-chart .chart-legend { flex: 0 0 auto; justify-content: center; gap: 5px 15px; margin-top: 2px; padding: 6px 2px 0; border-top: 1px solid #e5deea; }
+.pdf-chart .chart-legend-item { color: #382e40; font-size: 9px; font-weight: 700; }
+.pdf-chart .chart-legend-item.hb { color: #5c2d91; }
+.pdf-footer { display: flex; justify-content: space-between; gap: 16px; padding-top: 5px; border-top: 1px solid #e5deea; color: #756d7b; font-size: 7.5px; line-height: 1.3; }
+
+@media print {
+  @page { size: A4 landscape; margin: 10mm; }
+  html, body, #root, .shell { background: #fff !important; color: #211a27 !important; }
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .screen-app { display: none !important; }
+  .print-report { position: static !important; inset: auto !important; display: block !important; width: 100% !important; height: auto !important; opacity: 1 !important; pointer-events: auto !important; }
+  .pdf-report { width: 100%; height: 188mm; min-height: 0; padding: 0; gap: 5px; page-break-after: avoid; break-after: avoid-page; }
+  .pdf-header, .pdf-metrics, .pdf-summary, .pdf-chart-section, .pdf-footer { break-inside: avoid; }
+  .pdf-chart-section { min-height: 0; }
+  .pdf-chart .trend-chart-scroll { overflow: hidden !important; scrollbar-width: none; }
+  .pdf-chart .chart-legend { flex-wrap: wrap; }
+}
+
+
+/* Keep the rank scale stationary while the timeline canvas scrolls horizontally. */
+.trend-rank-axis {
+  position: absolute; top: 14px; bottom: 39px; left: 0; z-index: 7; width: 34px;
+  display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between;
+  padding-right: 8px; background: #FBF9FC; pointer-events: none;
+}
+.trend-rank-axis span { color: #2E2533; font-size: 10px; font-weight: 700; line-height: 1; }
