@@ -318,9 +318,9 @@ export default function TrendChart({ data = [], resolution = 'hourly', resultLim
                   stroke="#51445A"
                   tickLine={false}
                   axisLine={false}
-                  tick={{ fill: '#51445A', fontSize: pdf ? 11 : 10 }}
+                  tick={{ fill: '#51445A', fontSize: pdf ? 9 : 10 }}
                   tickFormatter={(value) => formatTick(value, resolution)}
-                  minTickGap={pdf ? 42 : resolution === 'hourly' ? 8 : 34}
+                  minTickGap={pdf ? 62 : resolution === 'hourly' ? 8 : 34}
                   interval={pdf ? 'preserveStartEnd' : resolution === 'hourly' ? 0 : 'preserveStartEnd'}
                 />
                 <YAxis
